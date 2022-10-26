@@ -1,0 +1,40 @@
+project:
+  type: book
+
+book:
+  title: "Introduction to Digital History"
+  author: <a href="https://orcid.org/0000-0003-2419-4252">Ina Serif</a>
+  search: true
+  repo-url: https://github.com/wissen-ist-acht/digital_history_intro/
+  repo-actions: [edit]
+  downloads: [pdf, epub]
+  page-footer:
+    left: |
+      This work is licensed under <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC-NC-SA 4.0</a>.
+    right: |
+      This book was built with <a href="https://quarto.org/">Quarto</a>.
+  chapters:
+    - index.qmd
+    - 01_intro.qmd
+    #- 02_Lehre_Forschung.qmd
+    #- 03_digital_literacy_criticism.qmd
+    #- 04_FAIR_CARE
+    #- 05_Datenerhebung_Analyse
+    - Shell.qmd
+  appendices:
+    - terms.qmd
+    - further_ressources.qmd
+
+bibliography:
+  - references.bib
+csl: infoclio-de.csl
+format:
+  html:
+      theme:
+        - cosmo
+  pdf:
+    documentclass: book
+
+
+
+
