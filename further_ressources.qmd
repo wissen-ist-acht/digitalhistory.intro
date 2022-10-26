@@ -1,0 +1,17 @@
+---
+title: "Further Ressources"
+format: html
+editor: visual
+---
+
+## Terminal
+
+-   MIT Computer Science Department: [1-hour-lecture on the Shell](https://missing.csail.mit.edu/2020/course-shell/) (video)
+
+-   Programming Historian: [Introduction to the Bash Command Line](https://programminghistorian.org/en/lessons/intro-to-bash) (self-learning lesson)
+
+-   Programming Historian: [Introduction to the PowerShell](https://programminghistorian.org/en/lessons/intro-to-powershell) (self-learning lesson)
+
+-   datacamp course:[ Introduction to Shell](https://app.datacamp.com/learn/courses/introduction-to-shell) (interactive self-learning lesson)
+
+-   Jeroen Janssens: [Data Science at the command line](https://datascienceatthecommandline.com/) (book)
