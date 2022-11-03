@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020) (preloaded format=xelatex 2020.6.10)  2 NOV 2022 14:31
+This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020) (preloaded format=xelatex 2020.6.10)  3 NOV 2022 16:27
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1194,13 +1194,13 @@ LaTeX Warning: Reference `sec-projects' on page 3 undefined on input line 275.
 Chapter 2.
 
 LaTeX Warning: File `https://imgs.xkcd.com/comics/history_department.png' not f
-ound on input line 295.
+ound on input line 298.
 
 ! Unable to load picture or PDF file 'https://imgs.xkcd.com/comics/history_depa
 rtment.png'.
 <to be read again> 
                    }
-l.295 ....xkcd.com/comics/history_department.png}}
+l.298 ....xkcd.com/comics/history_department.png}}
                                                    
 Here is how much of TeX's memory you used:
  33018 strings out of 479418
