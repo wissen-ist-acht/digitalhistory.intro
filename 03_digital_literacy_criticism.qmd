@@ -1,0 +1,8 @@
+---
+title: Digital literacy, digital Critisicm
+suppress-bibliography: true
+editor: 
+  markdown: 
+    wrap: sentence
+---
+

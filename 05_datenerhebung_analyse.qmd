@@ -1,0 +1,8 @@
+---
+title: Datenerhebung und -analyse
+suppress-bibliography: true
+editor: 
+  markdown: 
+    wrap: sentence
+---
+

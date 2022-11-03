@@ -1,0 +1,8 @@
+---
+title: FAIR und CARE
+suppress-bibliography: true
+editor: 
+  markdown: 
+    wrap: sentence
+---
+
