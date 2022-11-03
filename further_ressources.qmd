@@ -4,14 +4,34 @@ format: html
 editor: visual
 ---
 
-## Terminal
+## Was ist digital history? {#sec-digitalhistory-paper}
+
+- Brennan, Sheila A.: Digital History, in: The Inclusive Historian’s Handbook, <https://inclusivehistorian.com/digital-history/>, 04.06.2019.
+
+
+- Cohen, Daniel J.; Rosenzweig, Roy: Digital History. A Guide to Gathering, Preserving, and Presenting the Past on the Web, Philadelphia 2006. Online: https://chnm.gmu.edu/digitalhistory/.
+
+
+-  Hohls, Rüdiger: Digital Humanities und digitale Geschichtswissenschaften, in: Busse, Laura u. a. (Hg.): Clio-Guide. Ein Handbuch zu digitalen Ressourcen für die Geschichtswissenschaften, Berlin 2018, S. A.1-1--B.1-34. Online: <https://doi.org/10.18452/19244>.
+
+- Winters, Jane: Digital history, in: Tamm, Marek; Burke, Peter (Hg.): Debating New Approaches to History, London 2019, S. 277–300.
+
+- Digital history, in: Wikipedia, 07.09.2022. Online: <https://en.wikipedia.org/w/index.php?title=Digital_history&oldid=1109027465>, Stand: 02.11.2022.
+
+## Terminal/Command Line
+
+- Dawson, Ted: Introduction to the Windows Command Line with PowerShell, Programming Historian 5 (2016), [https://doi.org/10.46430/phen0054](https://doi.org/10.46430/phen0054). (self-learning lesson)
 
 -   MIT Computer Science Department: [1-hour-lecture on the Shell](https://missing.csail.mit.edu/2020/course-shell/) (video)
 
--   Programming Historian: [Introduction to the Bash Command Line](https://programminghistorian.org/en/lessons/intro-to-bash) (self-learning lesson)
+-   Milligan, Ian; Baker, James: Introduction to the Bash Command Line, Programming Historian 3 (2014), [https://doi.org/10.46430/phen0037](https://doi.org/10.46430/phen0037). (self-learning lesson)
 
--   Programming Historian: [Introduction to the PowerShell](https://programminghistorian.org/en/lessons/intro-to-powershell) (self-learning lesson)
-
--   datacamp course:[ Introduction to Shell](https://app.datacamp.com/learn/courses/introduction-to-shell) (interactive self-learning lesson)
+-   datacamp course:[Introduction to Shell](https://app.datacamp.com/learn/courses/introduction-to-shell) (interactive self-learning lesson)
 
 -   Jeroen Janssens: [Data Science at the command line](https://datascienceatthecommandline.com/) (book)
+
+## Regular Expressions
+
+- Knox, Doug: Understanding Regular Expressions, Programming Historian 2 (2013), [https://doi.org/10.46430/phen0033](https://doi.org/10.46430/phen0033). (self-learning lesson)
+
+- RegexOne: [Learn Regular Expressions with simple, interactive exercises.](https://regexone.com/) (interactive self-learning tutorial)
