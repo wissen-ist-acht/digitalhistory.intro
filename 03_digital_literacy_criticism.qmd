@@ -1,5 +1,5 @@
 ---
-title: Digital literacy, digital Critisicm 
+title: Digital Literacy, Digital Critisicm 
 suppress-bibliography: true
 editor: 
   markdown: 
@@ -12,14 +12,14 @@ Bei analogen Quellen, die auch in digitaler Form zur Verfügung stehen, besteht 
 Wenn Sie sich beispielsweise für die Schweizer Historikerin und Frauenrechtlerin [Meta von Salis](https://de.wikipedia.org/wiki/Meta_von_Salis) (1855--1929) und deren briefliche Korrespondenz -- Friedrich Nietzsche war einer ihrer Brieffreunde -- interessieren und über die Suchplattform für historische Schweizer Bestände, [swisscollections](https://swisscollections.ch/Search/Advanced), in nationalen Bibliotheken und Archiven nach entsprechenden Dokumenten suchen, erhalten Sie 361 Treffer:
 
 ::: {layout="[49,-2,49]"}
-[![Erweiterte Suchmaske von swisscollections](_book/images/suche_meta_von_salis.png)](_book)
+[![Erweiterte Suchmaske von swisscollections](images/suche_meta_von_salis.png)](_book)
 
-![Suchergebnisse für "Meta von Salis" + "Brief"](_book/images/suchergebnisse_1.png)
+![Suchergebnisse für "Meta von Salis" + "Brief"](images/suchergebnisse_1.png)
 :::
 
 Digital verfügbar waren hiervon im Oktober 2022 lediglich 3 Einträge, wobei der erste ein Brief von Nietzsche an Meta von Salis ist, der zweite Eintrag umfasst sieben Briefe von Caroline Farner, der dritte Eintrag ist weder an noch von Meta von Salis, sondern hat sie nur zum Thema:
 
-![Suchergebnisse für "Meta von Salis" + "Brief" + "Digitalisat verfügbar"](_book/images/suchergebnisse_2.png)
+![Suchergebnisse für "Meta von Salis" + "Brief" + "Digitalisat verfügbar"](images/suchergebnisse_2.png)
 
 Ihnen würde bei einer Korpuserstellung vom Schreibtisch aus also der Großteil der Überlieferung fehlen, und Ihre Untersuchungsergebnisse wären wohl sehr verzerrt, würden Sie statistische Aussagen treffen wollen: Meta von Salis unterhielt brieflichen Kontakt zu einem Mann und einer Frau, das Geschlechterverhältnis wäre also ausgeglichen; und Frauen schreiben im Schnitt mehr Briefe an Meta von Salis als Männer.
 Beim Blick auf alle Suchergebnisse würden sich Ihre Aussagen aber sehr ändern, und es würde sich lohnen, diese Verzerrung, diesen Bias aus Ihrer Datengrundlage zu entfernen.
@@ -39,7 +39,7 @@ Wüsste ich nichts über Geschichtswissenschaftler:innen, würde ich aufgrund de
 Aber auch die Ergebnisse von Suchmaschinen, die für ihr Funktionieren Algorithmen anwenden, sind biased: Sie beruhen auf vorangegangenen Suchen, Vorlieben, geographischem Standort -- und auf von Menschen eingegebenen Metadaten.
 Ein Bewusstsein hierfür und das Hinterfragen von Datensätzen gehören also mit zur Arbeit in einer digitalisierten Welt.
 
-Zur Tatsache, dass Daten eben nicht gegeben sind (lat. dare, datum: gebene, gegeben), sondern gemacht und daher entsprechend interpretiert werden müssen, finden Sie ein gutes Interview von Roopika Risam;[@risam_its_2020]; zur Zementierung von Klischees durch Übersetzungsalgorithmen gibt es einen Artikel in der Republik von Marie-José Kolly und Simon Schmid;[@kolly_sie_2021] und über die Macht von Data Science und dem Änderungspotential von Data Feminism haben Cathherine D'Ignazio und Lauren F. Klein ein ganzes Buch veröffentlich.\[dignazio_data_2020\]
+Zur Tatsache, dass Daten eben nicht gegeben sind (lat. dare, datum: gebene, gegeben), sondern gemacht und daher entsprechend interpretiert werden müssen, finden Sie ein gutes Interview von Roopika Risam;[@risam_its_2020] zur Zementierung von Klischees durch Übersetzungsalgorithmen gibt es einen Artikel in der Republik von Marie-José Kolly und Simon Schmid;[@kolly_sie_2021] und über die Macht von Data Science und dem Änderungspotential von Data Feminism haben Cathherine D'Ignazio und Lauren F. Klein ein ganzes Buch veröffentlich.[@dignazio_data_2020]
 
 Zur Frage, wie sich die digitale Wende, der digital turn, auf die Quellenkritik auswirkt, sehen Sie sich dieses kurze Video des Projekts [Ranke.2 -- Quellenkritik im digitalen Zeitalter](https://ranke2.uni.lu) an[^1]:
 
@@ -49,4 +49,4 @@ Zur Frage, wie sich die digitale Wende, der digital turn, auf die Quellenkritik 
 
 </iframe>
 
-Eine Handreichung zum Umgang mit digitalisierten und digitalen Daten, das im selben Projekt erarbeitet wurde, finden Sie [hier](_book/documents/Ranke_visual-aid.pdf).
+Eine Handreichung zum Umgang mit digitalisierten und digitalen Daten, das im selben Projekt erarbeitet wurde, finden Sie [hier](documents/Ranke_visual-aid.pdf).
