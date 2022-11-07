@@ -11,7 +11,7 @@ den Umgang mit Quellen, hinsichtlich des Einsatzes digitaler Methoden nicht nur 
 
 ![Randall Munroe, History Department, xkcd.com (17.12.2018).](images/history_department.png){fig-align="left"}
 
-## Digitale Quellen, digitalisierte Quellen
+## Digitalisierte Quellen, digitale Quellen
 
 Als Historiker:innen steht die Arbeit mit Quellen im Mittelpunkt unserer Analysen.
 Das bedeutet gleichzeitig, dass der Zugang bzw.
@@ -24,10 +24,10 @@ Gerade auch für wertvolle historische Bestände -- antike Papyri, Handschriften
 Für mittelalterliche und frühneuzeitliche Handschriften und Drucke beispielsweise existieren mittlerweile mehrere (meist nationale) Portale, die eine zentrale Suche über alle Bestände ermöglichen; eine Auswahl findet sich unter [Projekte und Ressourcen](02_forschung_lehre.qmd##Mittelalter und Frühe Neuzeit).
 
 Neben der Digitalisierung vorhandener Quellen (Retrodigitalisierung) steht die unaufhörliche Entstehung neuer Quellen in rein digitaler Form (born digital data).
-Die relative Knappheit von Quellen -- und damit Daten --, die die Vormodernehistorikerin oftmals zu beklagen hat, steht einer Überfülle an zeitgenössischem Material gegenüber, und beide Situationen -- zu wenig/zu unvollständige und zu viele/zu unübersichtliche Datenmengen -- bergen methodische Probleme: Wie stellt man ein Korpus zusammen, das ausreichend Quellen beinhaltet, um Fragestellungen zu beantworten, Thesen zu stützen, neue Erkenntnisse zu erhalten, das aber gleichzeitig in einem Forscherinnenleben bewältigbar bleibt?
+Die relative Knappheit von Quellen -- und damit Daten --, die Vormodernehistoriker:innen oftmals zu beklagen haben, steht einer Überfülle an zeitgenössischem Material gegenüber, und beide Situationen -- zu wenig/zu unvollständige und zu viele/zu unübersichtliche Datenmengen -- bergen methodische Probleme: Wie stellt man ein Korpus zusammen, das ausreichend Quellen beinhaltet, um Fragestellungen zu beantworten, Thesen zu stützen, neue Erkenntnisse zu erhalten, das aber gleichzeitig in einem Forscher:innenleben bewältigbar bleibt?
 Historiker:innen müssen neue Kompetenzen erwerben, um mit solchen Fragen reflektiert umzugehen.
 Zur klassischen Quellenkritik kommt die digitale Quellenkritik, zur Fähigkeit, analoge Quellen zu lesen und zu verstehen, ein Äquivalent für den digitalen Bereich. 
-Mehr zu data criticism und data literacy findet sich in [Kapitel 3](03_digital_literacy_criticism.qmd).
+Etwas ausführlicher geht es in [Kapitel 3](03_digital_literacy_criticism.qmd) um Digital Literacy und Digital Criticism.
 
 ## Digitale Tools zur Kommunikation
 
@@ -49,6 +49,8 @@ Projekte:
 
 Ressourcen/Portale:
 
+- [dMGH: Monumenta Germaniae Historica online (Beta-Version)](https://www.dmgh.de/index.htm)
+
 -   [e-codices: Virtuelle Handschriftenbibliothek der Schweiz](https://www.e-codices.unifr.ch/de)
 
 -   [Fragmentarium: Laboratory for Medieval Manuscript Fragments](https://fragmentarium.ms/)
@@ -59,11 +61,27 @@ Ressourcen/Portale:
 
 -   [e-rara: Plattform für digitalisierte Drucke aus Schweizer Institutionen](https://www.e-rara.ch/?lang=de)
 
+- [Gallica: Digitalisierte Quellen aus französischen Biblioteken](https://gallica.bnf.fr/)
+
 ### Moderne und Zeitgeschichte
 
 Projekte:
 
+- [Refugee History: Wissenschaftliches Blog und interaktives Netzwerk zu aktuellen Debatten um das Thema "Flüchtlinge"](http://refugeehistory.org/)
+
 Ressourcen/Portale:
+
+- [Datenbank Bild + Ton zur Geschichte (Schweizer) sozialer Bewegungen](https://www.bild-video-ton.ch/)
+
+- [Dodis: Wissenschaftliche Edition von Dokumenten zur Schweizer Außenpolitik](https://www.dodis.ch/de)
+
+- [e-newspaperarchives.ch: Schweizer Zeitungen online](https://www.e-newspaperarchives.ch/)
+
+- [e-periodica: Schweizer Zeitschriften online](e-periodica.ch)
+
+- [Historische Statistik der Schweiz (HSSO)](https://hsso.ch/)
+
+- [histat: Zeitreihen zur Historischen Statistik](https://histat.gesis.org/histat/)
 
 ### Jüdische Geschichte
 
@@ -79,7 +97,11 @@ Ressourcen/Portale:
 
 Projekte:
 
+- [Emandulo: A digital archive wich convenes and re-assembles archival/museal collections and presentations on southern African history before colonialism (the last 500 years)](http://emandulo.apc.uct.ac.za/index.html)
+
 Ressourcen/Portale:
+
+- [FHYA: Experimental digital research platform on southern African history before colonialism (the last 500 years)](https://fhya.org/)
 
 ### Osteuropäische Geschichte
 
