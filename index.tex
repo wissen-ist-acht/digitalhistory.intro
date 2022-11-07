@@ -167,7 +167,7 @@
 \begin{document}
 \frontmatter
 \maketitle
-\ifdefined\Shaded\renewenvironment{Shaded}{\begin{tcolorbox}[breakable, boxrule=0pt, borderline west={3pt}{0pt}{shadecolor}, enhanced, sharp corners, frame hidden, interior hidden]}{\end{tcolorbox}}\fi
+\ifdefined\Shaded\renewenvironment{Shaded}{\begin{tcolorbox}[sharp corners, enhanced, interior hidden, borderline west={3pt}{0pt}{shadecolor}, boxrule=0pt, frame hidden, breakable]}{\end{tcolorbox}}\fi
 
 \renewcommand*\contentsname{Table of contents}
 {
@@ -344,185 +344,6 @@ lesen und zu verstehen, ein Äquivalent für den digitalen Bereich. Mehr
 zu data criticism und data literacy findet sich in
 \protect\hyperlink{digital-literacy-digital-critisicm}{Kapitel 3}.
 
-Bei beiden Quellenarten, den retrodigitalisierten wie den rein
-digitalen, stellt sich also die Frage der Korpusbildung, die mit einer
-Quellenkritik einhergeht: Woher kommt eine Quelle, wer hat sie unter
-welchen Umständen und zu welchem Zweck erstellt? Welche Tendenzen können
-darin verborgen sein, und welche Verzerrungen können sich durch sie
-ergeben? Bei analogen Quellen, die auch in digitaler Form zur Verfügung
-stehen, besteht die Gefahr, dass ein Thema, ein Bereich, ein Aspekt
-vernachlässigt wird, wenn nur die unmittelbar verfügbaren,
-digitalisierten Bestände zur Korpusbidlung genutzt werden. Wenn Sie sich
-beispielsweise für die Schweizer Historikerin und Frauenrechtlerin
-\href{https://de.wikipedia.org/wiki/Meta_von_Salis}{Meta von Salis}
-(1855--1929) und deren briefliche Korrespondenz -- Friedrich Nietzsche
-war einer ihrer Brieffreunde -- interessieren und über die Suchplattform
-für historische Schweizer Bestände,
-\href{https://swisscollections.ch/Search/Advanced}{swisscollections}, in
-nationalen Bibliotheken und Archiven nach entsprechenden Dokumenten
-suchen, erhalten Sie 361 Treffer:
-
-\begin{figure}
-
-\begin{minipage}[t]{0.49\linewidth}
-
-{\centering 
-
-\raisebox{-\height}{
-
-\href{_book}{\includegraphics{./_book/images/suche_meta_von_salis.png}}
-
-}
-
-\caption{Erweiterte Suchmaske von swisscollections}
-
-}
-
-\end{minipage}%
-%
-\begin{minipage}[t]{0.02\linewidth}
-
-{\centering 
-
-~
-
-}
-
-\end{minipage}%
-%
-\begin{minipage}[t]{0.49\linewidth}
-
-{\centering 
-
-\raisebox{-\height}{
-
-\includegraphics{./_book/images/suchergebnisse_1.png}
-
-}
-
-\caption{Suchergebnisse für ``Meta von Salis'' + ``Brief''}
-
-}
-
-\end{minipage}%
-
-\end{figure}
-
-Digital verfügbar waren hiervon im Oktober 2022 lediglich 3 Einträge,
-wobei der erste ein Brief von Nietzsche an Meta von Salis ist, der
-zweite Eintrag umfasst sieben Briefe von Caroline Farner, der dritte
-Eintrag ist weder an noch von Meta von Salis, sondern hat sie nur zum
-Thema:
-
-\begin{figure}
-
-{\centering \includegraphics{./_book/images/suchergebnisse_2.png}
-
-}
-
-\caption{Suchergebnisse für ``Meta von Salis'' + ``Brief'' +
-``Digitalisat verfügbar''}
-
-\end{figure}
-
-Ihnen würde bei einer Korpuserstellung vom Schreibtisch aus also der
-Großteil der Überlieferung fehlen, und Ihre Untersuchungsergebnisse
-wären wohl sehr verzerrt, würden Sie statistische Aussagen treffen
-wollen: Meta von Salis unterhielt brieflichen Kontakt zu einem Mann und
-einer Frau, das Geschlechterverhältnis wäre also ausgeglichen; und
-Frauen schreiben im Schnitt mehr Briefe an Meta von Salis als Männer.
-Beim Blick auf alle Suchergebnisse würden sich Ihre Aussagen aber sehr
-ändern, und es würde sich lohnen, diese Verzerrung, diesen Bias aus
-Ihrer Datengrundlage zu entfernen.
-
-\begin{quote}
-Hinzu kommt natürlich immer das grundlegende Problem bei der Suche nach
-Quellen: swisscollections und ähnliche Portale können nur anzeigen, was
-die Kooperationspartner:innen zur Verfügung stellen. Hat eine Bibliothek
-Briefe von Meta von Salis in ihrem Bestand, diese aber noch nicht als
-Datensatz erfasst, wissen Sie im Gegensatz zum obigen Beispiel nicht
-einmal, dass Ihnen etwas entgehen würde, dass in Ihrem Korpus überhaupt
-ein Bias vorhanden ist.
-\end{quote}
-
-Ähnliche Vorsicht zur Vermeidung von Verzerrungen in der Datengrundlage
-gilt bei der Arbeit mit rein digitalen Daten, beispielweise bei der
-Auswertung von Datensätzen aus Befragungen. Wenn Sie sich am 27.10.2022
-vor die Universitätsbibliothek in Basel stellen und einen Tag lang
-mithilfe eines kurzen Fragebogens und einer Tabellendatei erfassen, wie
-zufrieden die befragten Personen mit dem Essen in der Unimensa sind,
-werden Sie am Ende einen Datensatz erhalten, in dem sich vermutlich über
-80\% der Befragten für besseres und nahezu 100\% für günstigeres Essen
-in der Mensa aussprechen -- eine gute Schlagzeile für die BZ, die sich
-auf die neuesten Ergebnisse einer wissenschaftlichen Studie berufen
-kann. Führen Sie die gleiche Umfrage eine Woche später, mitten während
-der Herbstmesse durch, werden die Ergebnisse wohl erheblich anders
-aussehen. Die Wahrscheinlichkeit, dass die Mensa infolge der
-BZ-Schlagzeile innerhalb weniger Tage den Menüplan überarbeitet und die
-Preise herabgesetzt hat, ist dabei wohl geringer als diejenige, dass
-sich Ihr Sample, die Auswahl an Datenpunkten, also befragten Personen,
-durch die Messe stark verändert hat: Im Umkreis der Bibliothek treffen
-Sie nun nicht mehr vor allem Studierende und andere Uni-Angehörige an,
-sondern auch Messebesucher:innen vom Petersplatz. Auch hier sind
-Verzerrungen entstanden, ähnlich wie beim vorherigen Beispiel mit den
-Briefen: Wenn aus einer Gesamtheit nur eine spezifische Untermenge
-beobachtet wird, die sich durch ein gemeinsames Merkmal von der
-Gesamtheit unterscheidet -- digitalisierte Quelle oder Besucher:in der
-Universitätsbibliothek --, ist die Datengrundlage und damit die
-Untersuchungsergebnisse biased.
-
-Bias finden Sie überall, und er wird sich nie ganz vermeiden lassen,
-aber ein reflektierter Umgang damit ist eine wichtige Voraussetzung für
-die Analyse von Daten und die Interpretation von Resultaten: Gehen Sie
-auf die \href{https://images.google.com/}{Bilder-Suche von Google} und
-suchen Sie nach ``historian''.
-
-Wüsste ich nichts über Geschichtswissenschaftler:innen, würde ich
-aufgrund der Ergebnisse meiner Suche davon ausgehen, ``a historian''
-wäre meist ein alter, weißer Mann mit Brille, Bart und einem großen
-Bücherregal; wenn Sie sich am Departement Geschichte der Uni Basel
-umsehen, dürfte ein etwas anderer Eindruck entstehen. Aber auch die
-Ergebnisse von Suchmaschinen, die für ihr Funktionieren Algorithmen
-anwenden, sind biased: Sie beruhen auf vorangegangenen Suchen,
-Vorlieben, geographischem Standort -- und auf von Menschen eingegebenen
-Metadaten. Ein Bewusstsein hierfür und das Hinterfragen von Datensätzen
-gehören also mit zur Arbeit in einer digitalisierten Welt.
-
-Zur Tatsache, dass Daten eben nicht gegeben sind (lat. dare, datum:
-gebene, gegeben), sondern gemacht und daher entsprechend interpretiert
-werden müssen, finden Sie ein gutes Interview von Roopika
-Risam;\footnote{Risam, Roopika: {``}{It}{'}s {Data}, {Not}
-  {Reality}{''}: {On} {Situated} {Data} {With} {Jill} {Walker}
-  {Rettberg}, 06.2020. Online:
-  \textless{}\url{https://medium.com/nightingale/its-data-not-reality-on-situated-data-with-jill-walker-rettberg-d27c71b0b451}\textgreater,
-  Stand: 16.08.2022.}; zur Zementierung von Klischees durch
-Übersetzungsalgorithmen gibt es einen Artikel in der Republik von
-Marie-José Kolly und Simon Schmid;\footnote{Kolly, Marie-José; Schmid,
-  Simon: Sie ist h{ü}bsch. {Er} ist stark. {Er} ist {Lehrer}. {Sie} ist
-  {Kinderg{ä}rtnerin}, in: Republik, 04.2021. Online:
-  \textless{}\url{https://www.republik.ch/2021/04/19/sie-ist-huebsch-er-ist-stark-er-ist-lehrer-sie-ist-kindergaertnerin}\textgreater,
-  Stand: 23.08.2022.} und über die Macht von Data Science und dem
-Änderungspotential von Data Feminism haben Cathherine D'Ignazio und
-Lauren F. Klein ein ganzes Buch veröffentlich.{[}dignazio\_data\_2020{]}
-
-Zur Frage, wie sich die digitale Wende, der digital turn, auf die
-Quellenkritik auswirkt, sehen Sie sich dieses kurze Video des Projekts
-\href{https://ranke2.uni.lu}{Ranke.2 -- Quellenkritik im digitalen
-Zeitalter} an\footnote{Kommandozeile/command line, bash, shell, prompt
-  finden sich oft als synonym genutzte Begriffe für Command Line
-  Interfaces. Auf UNIX-basierten Betriebssystemen wie Mac OS und Linux
-  ist das Terminal als Interface weit verbreitet; für Details:
-  https://en.wikipedia.org/wiki/Command-line\_interface\#History.
-  Windowsnutzer:innen kommen mit der Powershell ganz gut zurecht, es
-  empfiehlt sich eventuell die Installation von
-  \href{https://en.wikipedia.org/wiki/Cygwin}{Cygwin} oder
-  \href{https://en.wikipedia.org/wiki/MinGW}{MinGW}, um mit einem
-  UNIX-basierten Interface arbeiten zu können.}:
-
-Eine Handreichung zum Umgang mit digitalisierten und digitalen Daten,
-das im selben Projekt erarbeitet wurde, finden Sie
-\href{_book/documents/Ranke_visual-aid.pdf}{hier}.
-
 \hypertarget{digitale-tools-zur-kommunikation}{%
 \section{Digitale Tools zur
 Kommunikation}\label{digitale-tools-zur-kommunikation}}
@@ -638,16 +459,86 @@ Ressourcen/Portale:
 \chapter{Digital Literacy, Digital
 Critisicm}\label{digital-literacy-digital-critisicm}}
 
-Bei beiden Quellenarten, den retrodigitalisierten wie den rein
-digitalen, stellt sich also die Frage der Korpusbildung, die mit einer
-Quellenkritik einhergeht: Woher kommt eine Quelle, wer hat sie unter
-welchen Umständen und zu welchem Zweck erstellt? Welche Tendenzen können
-darin verborgen sein, und welche Verzerrungen können sich durch sie
-ergeben? Bei analogen Quellen, die auch in digitaler Form zur Verfügung
-stehen, besteht die Gefahr, dass ein Thema, ein Bereich, ein Aspekt
-vernachlässigt wird, wenn nur die unmittelbar verfügbaren,
-digitalisierten Bestände zur Korpusbidlung genutzt werden. Wenn Sie sich
-beispielsweise für die Schweizer Historikerin und Frauenrechtlerin
+Unter Data Literacy wird die Kompetenz verstanden, Daten zu sammeln, zu
+managen, zu evaluieren und zu nutzen,\footnote{Ridsdale, Chantel;
+  Rothwell, James; Smit, Mike u.~a.: Strategies and {Best} {Practices}
+  for {Data} {Literacy} {Education} {Knowledge} {Synthesis} {Report},
+  2015, S.~8. Online:
+  \textless{}\url{https://doi.org/10.13140/RG.2.1.1922.5044}\textgreater.}
+eine Kompetenz, die jede:r für den mittlerweile unvermeidlichen Umgang
+mit Daten verschiedenster Art im eigenen Alltag entwickeln sollte. Je
+nach Forschungsdisziplin ergeben sich weiter gewisse Spezifika, wobei
+Studierenden der Geisteswissenschaften ein Thema wie Algorithmenkritik
+nicht als erstes in den Sinn kommt, wenn es um die im Studium zu
+erwerbenden Kompetenzen geht.\footnote{Kommandozeile/command line, bash,
+  shell, prompt finden sich oft als synonym genutzte Begriffe für
+  Command Line Interfaces. Auf UNIX-basierten Betriebssystemen wie Mac
+  OS und Linux ist das Terminal als Interface weit verbreitet; für
+  Details:
+  https://en.wikipedia.org/wiki/Command-line\_interface\#History.
+  Windowsnutzer:innen kommen mit der Powershell ganz gut zurecht, es
+  empfiehlt sich eventuell die Installation von
+  \href{https://en.wikipedia.org/wiki/Cygwin}{Cygwin} oder
+  \href{https://en.wikipedia.org/wiki/MinGW}{MinGW}, um mit einem
+  UNIX-basierten Interface arbeiten zu können.} Aber auch ohne den
+Quellcode vonmachine-learning-Software im Detail zu verstehen,
+ermöglicht ein grundlegendes Verständnis von und ein Wissen über die
+Funktionsweisen solcher Anwendungen einen reflektierten Umgang mit
+diesen; eine solche Art von digital bzw. data literay ist vor allem dann
+relevant, wenn es um die Interpretation von Ergebnissen geht, die
+scheinbar objektiv sind, bzw. objektiv entstanden. Ein gutes Beispiel
+hierfür sind die Ergebnislisten bei Suchanfragen in einer Suchmaschine.
+Je nachdem, welchen Anbieter Sie nutzen, spielen verschiedene Umstände
+in die Generierung von Trefferlisten hinein, beispielsweise Ihre
+Suchhistorie, sodass
+\href{https://en.wikipedia.org/wiki/Search_neutrality}{search
+neutrality} nicht mehr gewährleistet ist.\footnote{Alternative
+  Suchmaschinen sind zum Beispiel
+  {[}Startpage{]}(https://www.startpage.com/) oder
+  {[}DuckDuckGo{]}(https://duckduckgo.com/).}\\
+Gehen Sie auf die \href{https://images.google.com/}{Bilder-Suche von
+Google} und suchen Sie nach ``historian''. Was sehen Sie?
+
+Wüsste ich nichts über Geschichtswissenschaftler:innen, würde ich
+aufgrund der Ergebnisse meiner Suche davon ausgehen, ``a historian''
+wäre meist ein alter, weißer Mann mit Brille, Bart und einem großen
+Bücherregal; wenn Sie sich am Departement Geschichte der Uni Basel
+umsehen, dürfte ein etwas anderer Eindruck entstehen. Die Ergebnisse von
+Suchmaschinen, die für ihr Funktionieren Algorithmen anwenden, sind
+biased: Sie beruhen auf vorangegangenen Suchen, Vorlieben,
+geographischem Standort -- und auf von Menschen eingegebenen Metadaten.
+Ein Bewusstsein hierfür und das Hinterfragen von Datensätzen gehören
+also mit zur Arbeit in einer digitalisierten Welt.
+
+\hypertarget{digital-criticism-data-criticism}{%
+\section{Digital Criticism, Data
+Criticism}\label{digital-criticism-data-criticism}}
+
+Digitalisierte Quellen ebenso wie rein digitale erfordern eine
+erweiterte Art von Quellenkritik -- im Einführungskurs an der
+Universität Basel lernen Sie die Grundlagen:\\
+Woher kommt eine Quelle, wer hat sie unter welchen Umständen und zu
+welchem Zweck erstellt? Welche Absichten können darin verborgen sein,
+und welche Verzerrungen können sich durch sie ergeben?\\
+Welche Tendenzen könnten sich in hochmittelalterlichen
+Herrscherchroniken verstecken, wenn der Verfasser in direkter
+Abhängigkeit des Auftraggebers stand? Wie sind Zeug:innenaussagen in
+Hexenprozessen zu bewerten, die unter Anwendung körperlicher Strafe
+entstanden sind? Mit wie viel Vorsicht sind die Inhalte eines Tagebuchs
+zu berwerten, das allem Anschein nach mit Blick auf eine spätere
+Veröffentlichung verfasst wurde?
+
+Neben der inneren Kritik geht es bei der Arbeit mit Quellen immer auch
+um Fragen der Korpusbildung: Wie kann eine Quellengrundlage erstellt
+werden, die für Beantwortung einer spezifischen historischen
+Fragestellung belastbar und aussagekräftig genug ist und gleichzeitig in
+angemessener Zeit bearbeitet werden kann? Hinzu kommen Spezifika bei der
+Arbeit mit unterschiedlichen Quellenformen bzw. -formaten: Bei analogen
+Quellen, die auch in digitaler Form zur Verfügung stehen, besteht die
+Gefahr, dass ein Thema, ein Bereich, ein Aspekt vernachlässigt wird,
+wenn nur die unmittelbar verfügbaren, digitalisierten Bestände zur
+Korpusbidlung genutzt werden. Wenn Sie sich beispielsweise für die
+Schweizer Historikerin und Frauenrechtlerin
 \href{https://de.wikipedia.org/wiki/Meta_von_Salis}{Meta von Salis}
 (1855--1929) und deren briefliche Korrespondenz -- Friedrich Nietzsche
 war einer ihrer Brieffreunde -- interessieren und über die Suchplattform
@@ -704,7 +595,7 @@ suchen, erhalten Sie 361 Treffer:
 
 Digital verfügbar waren hiervon im Oktober 2022 lediglich 3 Einträge,
 wobei der erste ein Brief von Nietzsche an Meta von Salis ist, der
-zweite Eintrag umfasst sieben Briefe von Caroline Farner, der dritte
+zweite Eintrag umfasst sieben Briefe von Caroline Farner, und der dritte
 Eintrag ist weder an noch von Meta von Salis, sondern hat sie nur zum
 Thema:
 
@@ -763,52 +654,34 @@ Briefen: Wenn aus einer Gesamtheit nur eine spezifische Untermenge
 beobachtet wird, die sich durch ein gemeinsames Merkmal von der
 Gesamtheit unterscheidet -- digitalisierte Quelle oder Besucher:in der
 Universitätsbibliothek --, ist die Datengrundlage und damit die
-Untersuchungsergebnisse biased.
-
-Bias finden Sie überall, und er wird sich nie ganz vermeiden lassen,
-aber ein reflektierter Umgang damit ist eine wichtige Voraussetzung für
-die Analyse von Daten und die Interpretation von Resultaten: Gehen Sie
-auf die \href{https://images.google.com/}{Bilder-Suche von Google} und
-suchen Sie nach ``historian''.
-
-Wüsste ich nichts über Geschichtswissenschaftler:innen, würde ich
-aufgrund der Ergebnisse meiner Suche davon ausgehen, ``a historian''
-wäre meist ein alter, weißer Mann mit Brille, Bart und einem großen
-Bücherregal; wenn Sie sich am Departement Geschichte der Uni Basel
-umsehen, dürfte ein etwas anderer Eindruck entstehen. Aber auch die
-Ergebnisse von Suchmaschinen, die für ihr Funktionieren Algorithmen
-anwenden, sind biased: Sie beruhen auf vorangegangenen Suchen,
-Vorlieben, geographischem Standort -- und auf von Menschen eingegebenen
-Metadaten. Ein Bewusstsein hierfür und das Hinterfragen von Datensätzen
-gehören also mit zur Arbeit in einer digitalisierten Welt.
+Untersuchungsergebnisse biased. Um bei Daten, die Sie nachnutzen,
+eventuell vorhandene Verzerrungen nicht weiterzutransportieren, ist das
+Üben von Datenkritik eine essentielle Kompetenz.
 
 Zur Tatsache, dass Daten eben nicht gegeben sind (lat. dare, datum:
 gebene, gegeben), sondern gemacht und daher entsprechend interpretiert
 werden müssen, finden Sie ein gutes Interview von Roopika
-Risam;\footnote{Risam: {``}{It}{'}s {Data}, {Not} {Reality}{''}, 2020.}
-zur Zementierung von Klischees durch Übersetzungsalgorithmen gibt es
-einen Artikel in der Republik von Marie-José Kolly und Simon
-Schmid;\footnote{Kolly; Schmid: Sie ist h{ü}bsch. {Er} ist stark. {Er}
-  ist {Lehrer}. {Sie} ist {Kinderg{ä}rtnerin}, 2021.} und über die Macht
-von Data Science und dem Änderungspotential von Data Feminism haben
-Cathherine D'Ignazio und Lauren F. Klein ein ganzes Buch
-veröffentlich.\footnote{D'Ignazio, Catherine; Klein, Lauren F.: Data
-  feminism, 2020. Online:
+Risam;\footnote{Risam, Roopika: {``}{It}{'}s {Data}, {Not}
+  {Reality}{''}: {On} {Situated} {Data} {With} {Jill} {Walker}
+  {Rettberg}, 06.2020. Online:
+  \textless{}\url{https://medium.com/nightingale/its-data-not-reality-on-situated-data-with-jill-walker-rettberg-d27c71b0b451}\textgreater,
+  Stand: 16.08.2022.} zur Zementierung von Klischees durch
+Übersetzungsalgorithmen gibt es einen Artikel in der Republik von
+Marie-José Kolly und Simon Schmid;\footnote{Kolly, Marie-José; Schmid,
+  Simon: Sie ist h{ü}bsch. {Er} ist stark. {Er} ist {Lehrer}. {Sie} ist
+  {Kinderg{ä}rtnerin}, in: Republik, 04.2021. Online:
+  \textless{}\url{https://www.republik.ch/2021/04/19/sie-ist-huebsch-er-ist-stark-er-ist-lehrer-sie-ist-kindergaertnerin}\textgreater,
+  Stand: 23.08.2022.} und über die Macht von Data Science und dem
+Änderungspotential von Data Feminism haben Cathherine D'Ignazio und
+Lauren F. Klein ein ganzes Buch veröffentlich.\footnote{D'Ignazio,
+  Catherine; Klein, Lauren F.: Data feminism, 2020. Online:
   \textless{}\url{https://direct.mit.edu/books/book/4660/Data-Feminism}\textgreater.}
 
 Zur Frage, wie sich die digitale Wende, der digital turn, auf die
 Quellenkritik auswirkt, sehen Sie sich dieses kurze Video des Projekts
 \href{https://ranke2.uni.lu}{Ranke.2 -- Quellenkritik im digitalen
-Zeitalter} an\footnote{Kommandozeile/command line, bash, shell, prompt
-  finden sich oft als synonym genutzte Begriffe für Command Line
-  Interfaces. Auf UNIX-basierten Betriebssystemen wie Mac OS und Linux
-  ist das Terminal als Interface weit verbreitet; für Details:
-  https://en.wikipedia.org/wiki/Command-line\_interface\#History.
-  Windowsnutzer:innen kommen mit der Powershell ganz gut zurecht, es
-  empfiehlt sich eventuell die Installation von
-  \href{https://en.wikipedia.org/wiki/Cygwin}{Cygwin} oder
-  \href{https://en.wikipedia.org/wiki/MinGW}{MinGW}, um mit einem
-  UNIX-basierten Interface arbeiten zu können.}:
+Zeitalter} an\footnote{Eine Selbstlerneinheit zum Thema finden Sie hier:
+  https://ranke2.uni.lu/u/archival-digital-turn/.}:
 
 Eine Handreichung zum Umgang mit digitalisierten und digitalen Daten,
 das im selben Projekt erarbeitet wurde, finden Sie
@@ -1025,6 +898,27 @@ terminal & See \textbf{CLI} \\
   Stand: 02.11.2022.
 \end{itemize}
 
+\hypertarget{digital-literacy-digital-criticism}{%
+\section{Digital Literacy, Digital
+Criticism}\label{digital-literacy-digital-criticism}}
+
+\begin{itemize}
+\item
+  Ekström, Andreas: The Moral Bias behind your Search Results, TED talk
+  7.12.2015 (9:18), Online:
+  \url{https://www.youtube.com/watch?v=_vBggxCNNno}.
+\item
+  Gibbs, Frederick W.: New Forms of History: Critiquing Data and Its
+  Representations, in: The American Historian, February 2016. Online:
+  http://tah.oah.org/february-2016/new-forms-of-history-critiquing-data-and-its-representations/.
+\item
+  Tavani, Herman; Zimmer, Michael Zimmer: Search Engines and Ethics, in:
+  Edward N. Zalta (Hg.): The Stanford Encyclopedia of Philosophy (Fall
+  2020 Edition), Online:
+  \textless https://plato.stanford.edu/archives/fall2020/entries/ethics-search/,
+  Kap. 3.1.
+\end{itemize}
+
 \hypertarget{terminalcommand-line}{%
 \section{Terminal/Command Line}\label{terminalcommand-line}}
 
@@ -1084,6 +978,12 @@ Stand: 23.08.2022.
 \leavevmode\vadjust pre{\hypertarget{ref-le_roy_ladurie_fin_1968}{}}%
 Le Roy Ladurie, Emmanuel: La fin des {é}rudits, in: Le Nouvel
 Observateur, 08.1968.
+
+\leavevmode\vadjust pre{\hypertarget{ref-ridsdale_strategies_2015}{}}%
+Ridsdale, Chantel; Rothwell, James; Smit, Mike u.~a.: Strategies and
+{Best} {Practices} for {Data} {Literacy} {Education} {Knowledge}
+{Synthesis} {Report}, 2015. Online:
+\textless{}\url{https://doi.org/10.13140/RG.2.1.1922.5044}\textgreater.
 
 \leavevmode\vadjust pre{\hypertarget{ref-risam_its_2020}{}}%
 Risam, Roopika: {``}{It}{'}s {Data}, {Not} {Reality}{''}: {On}
