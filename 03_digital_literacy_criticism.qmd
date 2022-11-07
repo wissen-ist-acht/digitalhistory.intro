@@ -1,8 +1,52 @@
 ---
-title: Digital literacy, digital Critisicm
+title: Digital literacy, digital Critisicm 
 suppress-bibliography: true
 editor: 
   markdown: 
     wrap: sentence
 ---
 
+Bei beiden Quellenarten, den retrodigitalisierten wie den rein digitalen, stellt sich also die Frage der Korpusbildung, die mit einer Quellenkritik einhergeht: Woher kommt eine Quelle, wer hat sie unter welchen Umständen und zu welchem Zweck erstellt?
+Welche Tendenzen können darin verborgen sein, und welche Verzerrungen können sich durch sie ergeben?
+Bei analogen Quellen, die auch in digitaler Form zur Verfügung stehen, besteht die Gefahr, dass ein Thema, ein Bereich, ein Aspekt vernachlässigt wird, wenn nur die unmittelbar verfügbaren, digitalisierten Bestände zur Korpusbidlung genutzt werden.
+Wenn Sie sich beispielsweise für die Schweizer Historikerin und Frauenrechtlerin [Meta von Salis](https://de.wikipedia.org/wiki/Meta_von_Salis) (1855--1929) und deren briefliche Korrespondenz -- Friedrich Nietzsche war einer ihrer Brieffreunde -- interessieren und über die Suchplattform für historische Schweizer Bestände, [swisscollections](https://swisscollections.ch/Search/Advanced), in nationalen Bibliotheken und Archiven nach entsprechenden Dokumenten suchen, erhalten Sie 361 Treffer:
+
+::: {layout="[49,-2,49]"}
+[![Erweiterte Suchmaske von swisscollections](_book/images/suche_meta_von_salis.png)](_book)
+
+![Suchergebnisse für "Meta von Salis" + "Brief"](_book/images/suchergebnisse_1.png)
+:::
+
+Digital verfügbar waren hiervon im Oktober 2022 lediglich 3 Einträge, wobei der erste ein Brief von Nietzsche an Meta von Salis ist, der zweite Eintrag umfasst sieben Briefe von Caroline Farner, der dritte Eintrag ist weder an noch von Meta von Salis, sondern hat sie nur zum Thema:
+
+![Suchergebnisse für "Meta von Salis" + "Brief" + "Digitalisat verfügbar"](_book/images/suchergebnisse_2.png)
+
+Ihnen würde bei einer Korpuserstellung vom Schreibtisch aus also der Großteil der Überlieferung fehlen, und Ihre Untersuchungsergebnisse wären wohl sehr verzerrt, würden Sie statistische Aussagen treffen wollen: Meta von Salis unterhielt brieflichen Kontakt zu einem Mann und einer Frau, das Geschlechterverhältnis wäre also ausgeglichen; und Frauen schreiben im Schnitt mehr Briefe an Meta von Salis als Männer.
+Beim Blick auf alle Suchergebnisse würden sich Ihre Aussagen aber sehr ändern, und es würde sich lohnen, diese Verzerrung, diesen Bias aus Ihrer Datengrundlage zu entfernen.
+
+> Hinzu kommt natürlich immer das grundlegende Problem bei der Suche nach Quellen: swisscollections und ähnliche Portale können nur anzeigen, was die Kooperationspartner:innen zur Verfügung stellen.
+> Hat eine Bibliothek Briefe von Meta von Salis in ihrem Bestand, diese aber noch nicht als Datensatz erfasst, wissen Sie im Gegensatz zum obigen Beispiel nicht einmal, dass Ihnen etwas entgehen würde, dass in Ihrem Korpus überhaupt ein Bias vorhanden ist.
+
+Ähnliche Vorsicht zur Vermeidung von Verzerrungen in der Datengrundlage gilt bei der Arbeit mit rein digitalen Daten, beispielweise bei der Auswertung von Datensätzen aus Befragungen.
+Wenn Sie sich am 27.10.2022 vor die Universitätsbibliothek in Basel stellen und einen Tag lang mithilfe eines kurzen Fragebogens und einer Tabellendatei erfassen, wie zufrieden die befragten Personen mit dem Essen in der Unimensa sind, werden Sie am Ende einen Datensatz erhalten, in dem sich vermutlich über 80% der Befragten für besseres und nahezu 100% für günstigeres Essen in der Mensa aussprechen -- eine gute Schlagzeile für die BZ, die sich auf die neuesten Ergebnisse einer wissenschaftlichen Studie berufen kann.
+Führen Sie die gleiche Umfrage eine Woche später, mitten während der Herbstmesse durch, werden die Ergebnisse wohl erheblich anders aussehen.
+Die Wahrscheinlichkeit, dass die Mensa infolge der BZ-Schlagzeile innerhalb weniger Tage den Menüplan überarbeitet und die Preise herabgesetzt hat, ist dabei wohl geringer als diejenige, dass sich Ihr Sample, die Auswahl an Datenpunkten, also befragten Personen, durch die Messe stark verändert hat: Im Umkreis der Bibliothek treffen Sie nun nicht mehr vor allem Studierende und andere Uni-Angehörige an, sondern auch Messebesucher:innen vom Petersplatz.
+Auch hier sind Verzerrungen entstanden, ähnlich wie beim vorherigen Beispiel mit den Briefen: Wenn aus einer Gesamtheit nur eine spezifische Untermenge beobachtet wird, die sich durch ein gemeinsames Merkmal von der Gesamtheit unterscheidet -- digitalisierte Quelle oder Besucher:in der Universitätsbibliothek --, ist die Datengrundlage und damit die Untersuchungsergebnisse biased.
+
+Bias finden Sie überall, und er wird sich nie ganz vermeiden lassen, aber ein reflektierter Umgang damit ist eine wichtige Voraussetzung für die Analyse von Daten und die Interpretation von Resultaten: Gehen Sie auf die [Bilder-Suche von Google](https://images.google.com/) und suchen Sie nach "historian".
+
+Wüsste ich nichts über Geschichtswissenschaftler:innen, würde ich aufgrund der Ergebnisse meiner Suche davon ausgehen, "a historian" wäre meist ein alter, weißer Mann mit Brille, Bart und einem großen Bücherregal; wenn Sie sich am Departement Geschichte der Uni Basel umsehen, dürfte ein etwas anderer Eindruck entstehen.
+Aber auch die Ergebnisse von Suchmaschinen, die für ihr Funktionieren Algorithmen anwenden, sind biased: Sie beruhen auf vorangegangenen Suchen, Vorlieben, geographischem Standort -- und auf von Menschen eingegebenen Metadaten.
+Ein Bewusstsein hierfür und das Hinterfragen von Datensätzen gehören also mit zur Arbeit in einer digitalisierten Welt.
+
+Zur Tatsache, dass Daten eben nicht gegeben sind (lat. dare, datum: gebene, gegeben), sondern gemacht und daher entsprechend interpretiert werden müssen, finden Sie ein gutes Interview von Roopika Risam;[@risam_its_2020]; zur Zementierung von Klischees durch Übersetzungsalgorithmen gibt es einen Artikel in der Republik von Marie-José Kolly und Simon Schmid;[@kolly_sie_2021] und über die Macht von Data Science und dem Änderungspotential von Data Feminism haben Cathherine D'Ignazio und Lauren F. Klein ein ganzes Buch veröffentlich.\[dignazio_data_2020\]
+
+Zur Frage, wie sich die digitale Wende, der digital turn, auf die Quellenkritik auswirkt, sehen Sie sich dieses kurze Video des Projekts [Ranke.2 -- Quellenkritik im digitalen Zeitalter](https://ranke2.uni.lu) an[^1]:
+
+[^1]: Eine Selbstlerneinheit zum Thema finden Sie hier: https://ranke2.uni.lu/u/archival-digital-turn/.
+
+<iframe title="vimeo-player" src="https://player.vimeo.com/video/303237473?h=efca80c2ca" width="640" height="360" frameborder="0" allowfullscreen>
+
+</iframe>
+
+Eine Handreichung zum Umgang mit digitalisierten und digitalen Daten, das im selben Projekt erarbeitet wurde, finden Sie [hier](_book/documents/Ranke_visual-aid.pdf).

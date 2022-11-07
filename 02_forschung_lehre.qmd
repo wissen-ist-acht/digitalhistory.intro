@@ -25,6 +25,9 @@ Für mittelalterliche und frühneuzeitliche Handschriften und Drucke beispielswe
 
 Neben der Digitalisierung vorhandener Quellen (Retrodigitalisierung) steht die unaufhörliche Entstehung neuer Quellen in rein digitaler Form (born digital data).
 Die relative Knappheit von Quellen -- und damit Daten --, die die Vormodernehistorikerin oftmals zu beklagen hat, steht einer Überfülle an zeitgenössischem Material gegenüber, und beide Situationen -- zu wenig/zu unvollständige und zu viele/zu unübersichtliche Datenmengen -- bergen methodische Probleme: Wie stellt man ein Korpus zusammen, das ausreichend Quellen beinhaltet, um Fragestellungen zu beantworten, Thesen zu stützen, neue Erkenntnisse zu erhalten, das aber gleichzeitig in einem Forscherinnenleben bewältigbar bleibt?
+Historiker:innen müssen neue Kompetenzen erwerben, um mit solchen Fragen reflektiert umzugehen.
+Zur klassischen Quellenkritik kommt die digitale Quellenkritik, zur Fähigkeit, analoge Quellen zu lesen und zu verstehen, ein Äquivalent für den digitalen Bereich. 
+Mehr zu data criticism und data literacy findet sich in [Kapitel 3](03_digital_literacy_criticism.qmd).
 
 Bei beiden Quellenarten, den retrodigitalisierten wie den rein digitalen, stellt sich also die Frage der Korpusbildung, die mit einer Quellenkritik einhergeht: Woher kommt eine Quelle, wer hat sie unter welchen Umständen und zu welchem Zweck erstellt?
 Welche Tendenzen können darin verborgen sein, und welche Verzerrungen können sich durch sie ergeben?

@@ -16,7 +16,7 @@ book:
   chapters:
     - index.qmd
     - 01_intro.qmd
-    - 02_forschung_lehre.qmd
+    - 02_forschung_lehre.qmd 
     - 03_digital_literacy_criticism.qmd
     - 04_FAIR_CARE.qmd
     - 05_datenerhebung_analyse.qmd
