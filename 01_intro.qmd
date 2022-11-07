@@ -18,8 +18,8 @@ Wir können uns aber zudem dafür entscheiden, für ein Forschungsprojekt Method
 Ob wir hierbei auf vorhandene Software zurückgreifen oder selbst Programme schreiben, um uns nicht nur als Historiker:innen im digitalen Zeitalter, sondern auch als digitale Historiker:innen zu verstehen, mögen manche als Glaubensfrage auffassen; eine inkludierende Haltung zu dieser Frage scheint mir dabei nur Vorteile zu haben.[Entgegen einer häufig zitierten Aussage von Emmanuel Le Roy Ladurie (\*1929), der Historiker von morgen werde Programmierer sein, oder er werde nicht sein: "L'historien de demain sera programmeur ou il ne sera pas." @le_roy_ladurie_fin_1968]
 
 Für eine erste Idee dafür, wie man historische Fragestellungen mithilfe digitaler Methoden beantworten kann und wie unterschiedlich digital unterstützte Forschungsprojekte aussehen können, bietet sich unter anderem der Übersichtsartikel "[State of the Field: Digital History](https://onlinelibrary.wiley.com/doi/10.1111/1468-229X.12969)" von Romein et al. (2020) an.[@romein_state_2020] Eine anwachsende Liste an Beispielprojekten aus unterschiedlichen Epochen bzw.
-Themenbereichen findet sich in @sec-projects.
+Themenbereichen findet sich unter [Projekte und Ressourcen](02_forschung_lehre.qmd##Projekte und Ressourcen) in Kapitel 2..
 
 Um eine Annäherung an die aktive, kritische und reflektierte Nutzung digitaler Methoden in Forschung und Lehre mit einem Fokus auf deren Anwendung in den Geschichtswissenschaften geht es im vorliegenden Guide.
 Weiterführende Texte zur Frage, was digital history ist bzw.
-umfasst, finden sich in @sec-digitalhistory-paper.
+umfasst, finden sich unter [Further Ressources](further_ressources.qmd##Was ist digital history?)
