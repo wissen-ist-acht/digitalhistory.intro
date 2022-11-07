@@ -9,7 +9,7 @@ editor:
 Die fortschreitende Digitalisierung in ganz unterschiedlichen Lebensbereichen zieht Veränderungen und Entwicklungen auch für die historische Arbeit mit sich, und dies auf mehreren Ebenen: in Bezug auf die Arbeit bzw.
 den Umgang mit Quellen, hinsichtlich des Einsatzes digitaler Methoden nicht nur zur Kommunikation von Forschungsergebnissen, sondern auch für deren Analyse, und schließlich für die Hochschullehre.
 
-[![Randall Munroe, History Department, xkcd.com (17.12.2018).](images/history_department.png){fig-align="left"}]
+![Randall Munroe, History Department, xkcd.com (17.12.2018).](images/history_department.png){fig-align="left"}
 
 ## Digitale Quellen, digitalisierte Quellen
 
