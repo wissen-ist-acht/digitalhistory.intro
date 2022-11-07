@@ -18,6 +18,14 @@ editor: visual
 
 - Digital history, in: Wikipedia, 07.09.2022. Online: <https://en.wikipedia.org/w/index.php?title=Digital_history&oldid=1109027465>, Stand: 02.11.2022.
 
+## Digital Literacy, Digital Criticism
+
+- Ekström, Andreas: The Moral Bias behind your Search Results, TED talk 7.12.2015 (9:18), Online: <https://www.youtube.com/watch?v=_vBggxCNNno>.
+
+- Gibbs, Frederick W.: New Forms of History: Critiquing Data and Its Representations, in: The American Historian, February 2016. Online: http://tah.oah.org/february-2016/new-forms-of-history-critiquing-data-and-its-representations/.
+
+- Tavani, Herman; Zimmer, Michael Zimmer: Search Engines and Ethics, in: Edward N. Zalta (Hg.): The Stanford Encyclopedia of Philosophy (Fall 2020 Edition), Online: <https://plato.stanford.edu/archives/fall2020/entries/ethics-search/, Kap. 3.1.
+
 ## Terminal/Command Line
 
 - Dawson, Ted: Introduction to the Windows Command Line with PowerShell, Programming Historian 5 (2016), [https://doi.org/10.46430/phen0054](https://doi.org/10.46430/phen0054). (self-learning lesson)
