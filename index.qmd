@@ -12,7 +12,7 @@ Die Kapitel 1--5 sollen eine erste Übersicht über "digital history" bieten und
 Der anschließende Praxisteil zeigt an einem konkreten Beispiel die Anwendung verschiedener Techniken auf, die sich (nicht nur) für Historiker:innen bei der Arbeit mit Quellenmaterial anbieten. 
 Der Praxisteil verfolgt dabei zwei Ziele: 
 Zum einen sollen Hemmungen bei der Arbeit mit dem Computer, die über die Nutzung als elektronische Schreibmaschine hinausgeht, abgebaut werden.
-Zum zweiten sollen ein grundlegendes Verständnis dafür hergestellt werden, welche Möglichkeiten computergestützte Analysen bieten und wie diese in der historischen Arbeit eingesetzt werden können. 
+Zum zweiten soll ein grundlegendes Verständnis dafür hergestellt werden, welche Möglichkeiten computergestützte Analysen bieten und wie diese in der historischen Arbeit eingesetzt werden können. 
 
 Die Übersicht soll möglichst knapp gehalten werden -- es gibt zahlreiche ausführliche Grundlagenwerke, weswegen viele Themen nur kurz angeschnitten, dafür aber mit weiterführenden Verweisen versehen werden.
 Dasselbe gilt für den Praxisteil: 

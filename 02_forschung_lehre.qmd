@@ -7,7 +7,7 @@ editor:
 ---
 
 Die fortschreitende Digitalisierung in ganz unterschiedlichen Lebensbereichen zieht Veränderungen und Entwicklungen auch für die historische Arbeit mit sich, und dies auf mehreren Ebenen: in Bezug auf die Arbeit bzw.
-den Umgang mit Quellen, hinsichtlich des Einsatzes digitaler Methoden nicht nur zur Kommunikation von Forschungsergebnissen, sondern auch für deren Analyse, und schließlich für die Hochschullehre.
+den Umgang mit Quellen, hinsichtlich des Einsatzes digitaler Methoden nicht nur zur Analyse von Forschungsergebnissen, sondern auch für deren Kommunikation, und schließlich für die Hochschullehre.
 
 ![Randall Munroe, History Department, xkcd.com (17.12.2018).](images/history_department.png){fig-align="left"}
 
@@ -24,14 +24,45 @@ Gerade auch für wertvolle historische Bestände -- antike Papyri, Handschriften
 Für mittelalterliche und frühneuzeitliche Handschriften und Drucke beispielsweise existieren mittlerweile mehrere (meist nationale) Portale, die eine zentrale Suche über alle Bestände ermöglichen; eine Auswahl findet sich unter [Projekte und Ressourcen](02_forschung_lehre.qmd##Mittelalter und Frühe Neuzeit).
 
 Neben der Digitalisierung vorhandener Quellen (Retrodigitalisierung) steht die unaufhörliche Entstehung neuer Quellen in rein digitaler Form (born digital data).
-Die relative Knappheit von Quellen -- und damit Daten --, die Vormodernehistoriker:innen oftmals zu beklagen haben, steht einer Überfülle an zeitgenössischem Material gegenüber, und beide Situationen -- zu wenig/zu unvollständige und zu viele/zu unübersichtliche Datenmengen -- bergen methodische Probleme: Wie stellt man ein Korpus zusammen, das ausreichend Quellen beinhaltet, um Fragestellungen zu beantworten, Thesen zu stützen, neue Erkenntnisse zu erhalten, das aber gleichzeitig in einem Forscher:innenleben bewältigbar bleibt?
+Der relativen Knappheit von Quellen -- und damit Daten --, die Vormodernehistoriker:innen oftmals zu beklagen haben, steht eine Überfülle an zeitgenössischem Material gegenüber, und beide Situationen -- zu wenig/zu unvollständige und zu viele/zu unübersichtliche Datenmengen -- bergen methodische Probleme: Wie stellt man ein Korpus zusammen, das ausreichend Quellen beinhaltet, um Fragestellungen zu beantworten, Thesen zu stützen, neue Erkenntnisse zu erhalten, das aber gleichzeitig in einem Forscher:innenleben bewältigbar bleibt?
 Historiker:innen müssen neue Kompetenzen erwerben, um mit solchen Fragen reflektiert umzugehen.
 Zur klassischen Quellenkritik kommt die digitale Quellenkritik, zur Fähigkeit, analoge Quellen zu lesen und zu verstehen, ein Äquivalent für den digitalen Bereich. 
 Etwas ausführlicher geht es in [Kapitel 3](03_digital_literacy_criticism.qmd) um Digital Literacy und Digital Criticism.
 
+## Digitale Tools zur Analyse
+
+Die [hier](01_intro.qmd) bereits zitierte Definition, die aktive und kritische Nutzung digitaler Werkzeuge in Forschung, Lehre oder Studium sei es, was digital humanities ausmachten, wirft die Frage auf, was genau unter "digital tools" zu verstehen ist, und zu welchem Zweck man sie einsetzt.
+Allein schon das Lesen dieses Guides ist ohne digitale Hilfsmittel nicht möglich -- es existiert kein gedrucktes Exemplar davon. 
+Lesen am Bildschirm allein macht noch keinen digital humanist, aber man muss nicht erst eine Programmiersprache lernen, um den Computer für die eigene Arbeit zu nutzen und zu Ergebnissen zu kommen, die mit klassischen Methoden -- im Bereich der Geschichtswissenschaften etwa papierbasiertes *close reading* von Quellen und Forschungsliteratur -- nicht im selben Ausmaß erzielt werden könnten. 
+
+Untersuchungen, die digitale Methoden einsetzen, sind im Normalfall skalierbar -- wenn man eine Software benutzt, die die Häufigkeit von Begriffen in einem Dokument zählt, sollte es keinen Unterschied in der Anwendung machen, ob man eines oder einhundert Dokumente auswerten will.
+Würde man dasselbe per Hand tun, wäre man analog zum Anwachsen des Untersuchungskorpus mit der Auszählung beschäftigt.
+Digitale Werkzeuge ermöglichen es also unter anderem, Untersuchungen auf größere Mengen von Daten auszuweiten. 
+Sie ermöglichen es auch, an einen solchen erweiterten Datensatz andere Fragen zu stellen, als dies bei einer kleineren Quellen-/Datengrundlage möglich wäre.
+Die vorherrschende Überlieferung historischer Quellen besteht aus Text, handgeschrieben, gemeißelt oder gedruckt -- und durch die Möglichkeit, diesen mittels Texterkennung in computerlesbare Daten umzuwandeln, ergeben sich neue Perspektiven für die Arbeit von Historiker:innen:
+Wenn Texte als Daten verstanden werden, lassen sich aus Textquellen Datenbestände erstellen, die mithilfe quantitativer Methoden untersucht und ausgewertet werden können. 
+Für die Literaturwissenschaften beispielsweise ist ein wichtiges Anwendungsfeld die Überprüfung von Autor:innenschaft:
+Ob ein anonym überliefertes Werk einem:r namentlich bekannten Autor:in zugeschrieben werden kann, lässt sich entweder durch *close reading* von Literaturwissenschaftler:innen überprüfen, oder durch die Suche nach Mustern, nach quantifizierbare Eigenschaften eines Textes, wie beispielsweise die Häufigkeit von Funktionswörtern, Partikeln, Satzzeichen usw.
+Der unter dem Pseudonym Robert Galbraith veröffentlichte Kriminalromaen *The Cuckoo’s Calling* konnte mit enttprechender Software Joanne K. Rowling zugeschrieben werden -- mit dieser dauerte das dreißig Minuten, was etwa dem Lesen von zwanzig Romanseiten entspricht.
+Zu einem Artikel, der diesen Fall thematisiert und in das Feld der linguistischen Forensik einbettet, die Straftäter:innen mithilfe quantitativer Textanalyse ermittelt, geht es [hier](https://www.smithsonianmag.com/science-nature/how-did-computers-uncover-jk-rowlings-pseudonym-180949824/). 
+Ein Video zur Entwicklung und Anwendung von Software zur Zuschreibung von Autor:innenschaft finden Sie [hier](https://cmu-lib.github.io/dhlg/project-videos/juola/).
+Die genutzte Software, [JGGAP](http://evllabs.github.io/JGAAP/) (Java Graphical Authorship Attribution Program), lässt sich offensichtlich auch für historische Analysen nutzen -- man denke nur an Herrschaftssysteme, in denen Zensurpolitik herrscht(e) und viele Autor:innen daher nicht unter ihrem Klarnamen publizier(t)en.
+Durch eine Identifikation anonymer Schreiber:innen lassen sich weitere Aspekte rund um die Thematik Zensur untersuchen -- welche Akteur:innen waren öffentlich bekannt, wer publizierten gleichzeitig anonym und unter Klarnamen, welche Autor:innen schrieben aus dem Exil, welche Netzwerke lassen sich rekonstruieren, usw.
+Dadurch, dass ein Programm durch quantitative Auswertungen die Kärrnerarbeit der Identifikation abnehmen *kann* -- um einen  reflektierten Umgang mit Daten und Algorithmen geht es in Kapitel 3](03_digital_literacy_criticism.qmd) --, bleibt mehr Zeit für die qualitative Arbeit; 
+gleichzeitig fußt die Analyse auf einem aussagekräftigen Datensatz, anstatt nur Einzelbeispiele beleuchten zu können.
+
+Quantitative und qualitative Methoden sollen hier keinesfalls gegeneinander ausgespielt werden; 
+vielmehr soll verdeutlicht werden, dass beide Herangehensweisen Vor- und Nachteile haben, und dass sie im besten Fall gewinnbringend miteinander kombiniert werden können -- quantitative Auswertungen nur um ihrer selbst willen und ohne eine spezifische historische Fragestellung generieren kaum je einen Mehrwert.
+
+Das Aufzeigen von Mustern bzw. das Abweichen einzelner Datenpunkte ist eines der Kennzeichen quantitativer Analysen: 
+Ein Korrespondenznetzwerk, in dem die empfangenen und geschriebenen Briefe einer oder mehrerer Personen und die jeweiligen Briefpartner:innen abgebildet sind, zeigt einerseits generelle Entwicklungen und Tendenzen auf, andererseits vielleicht auch Ausreißer oder Unterbrüche, die näher untersucht werden könnten.
+Ist ein Rückgang der Schreibaktivität auf interne Faktoren zurückzuführen -- Krankheit, Alter, Interessensverlagerung, Konflikte --, oder gibt es äußere Faktoren wie politische Krisen, Kriege, Papiermangel usw., die einen Einfluss hatten?
+[Muster](https://www.chbeck.de/nassehi-muster/product/27704288) lassen sich überall finden; deuten müssen wir sie als Geisteswissenschaftler:innen.
+
+
+
 ## Digitale Tools zur Kommunikation
 
-## Digitale Tools zur Analyse
 
 ## Digitale Elemente in der Hochschullehre
 

@@ -6,3 +6,22 @@ editor:
     wrap: sentence
 ---
 
+1. Daten aufbereiten und sichern
+    digitalisieren
+    übersetzen und transkribieren
+    aufarbeiten
+    anonymisieren
+
+2. dokumentieren
+
+    Wie wurden die Daten erhoben?
+    Wie wurden die Daten annotiert?
+    In welchem Format sind die Daten vorhanden?
+    Welche Software wurde benutzt?
+    In welchem Zusammenhang stehen diese Daten zu anderen Daten?
+    Was stellen die Daten dar?
+    Hintergrundgeschichte der Daten (Zweck, Methode, etc.)?
+
+3. Daten auswerten
+
+Sie interpretieren und visualisieren die Daten, halten Ihre Forschungsergebnisse fest und zitieren die Datenquellen. Zudem bereiten Sie die Daten auf ihre Archivierung vo

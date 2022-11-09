@@ -43,3 +43,7 @@ editor: visual
 - Knox, Doug: Understanding Regular Expressions, Programming Historian 2 (2013), [https://doi.org/10.46430/phen0033](https://doi.org/10.46430/phen0033). (self-learning lesson)
 
 - RegexOne: [Learn Regular Expressions with simple, interactive exercises.](https://regexone.com/) (interactive self-learning tutorial)
+
+## Visualisierung
+
+- FID Romanistik: [Sammlung von Tools zur Datenvisualisierung](https://fid-romanistik.de/forschungsdaten/suche-nach-forschungsdaten/fid-internetressourcen/tools/werkzeuge-fuer-die-visualisierung-von-daten)
