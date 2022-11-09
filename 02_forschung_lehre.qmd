@@ -54,17 +54,34 @@ gleichzeitig fußt die Analyse auf einem aussagekräftigen Datensatz, anstatt nu
 Quantitative und qualitative Methoden sollen hier keinesfalls gegeneinander ausgespielt werden; 
 vielmehr soll verdeutlicht werden, dass beide Herangehensweisen Vor- und Nachteile haben, und dass sie im besten Fall gewinnbringend miteinander kombiniert werden können -- quantitative Auswertungen nur um ihrer selbst willen und ohne eine spezifische historische Fragestellung generieren kaum je einen Mehrwert.
 
-Das Aufzeigen von Mustern bzw. das Abweichen einzelner Datenpunkte ist eines der Kennzeichen quantitativer Analysen: 
-Ein Korrespondenznetzwerk, in dem die empfangenen und geschriebenen Briefe einer oder mehrerer Personen und die jeweiligen Briefpartner:innen abgebildet sind, zeigt einerseits generelle Entwicklungen und Tendenzen auf, andererseits vielleicht auch Ausreißer oder Unterbrüche, die näher untersucht werden könnten.
-Ist ein Rückgang der Schreibaktivität auf interne Faktoren zurückzuführen -- Krankheit, Alter, Interessensverlagerung, Konflikte --, oder gibt es äußere Faktoren wie politische Krisen, Kriege, Papiermangel usw., die einen Einfluss hatten?
-[Muster](https://www.chbeck.de/nassehi-muster/product/27704288) lassen sich überall finden; deuten müssen wir sie als Geisteswissenschaftler:innen.
+Je nach Datengrundlage, Analysezweck und Forschungsfrage bieten sich unterschiedliche Tools zur Nutzung an; 
+für die meisten Forschungsvorhaben bis zum Ende des Studiums dürfte existierende Software ausreichen, sei es für die Akquise  und Aufbereitung von Daten(-sätzen), für verschiedene Arten von Textanalyse, statistische Auswertungen, Netzwerkanalysen, Geomapping oder Visualisierungen. 
+Eine Auswahl an Tools -- alle free/open source -- für spezifische Analysen findet sich unter [Further Ressources](further_ressources.qmd##Tools für digital history). 
+Für gewisse Analysen bietet es sich an, Programmierkenntnisse zu erwerben -- das Erstellen eigener Skripts beinhaltet die umfassende Kontrolle darüber, wie Daten eingelesen, aufbereitet, angereichert, analysiert und visualisiert werden;
+bei wiederkehrenden Prozessen, die händisch einige Arbeitszeit in Anspruch nehmen würden, lässt sich so zusätzlich Zeit sparen.
+Für geisteswissenschafliche Projekte werden zurzeit vor allem zwei Programmiersprachen genutzt, R und Python. 
+Da sich beide großer Beliebtheit in den Humanities erfreuen, existieren mittlerweile zahlreiche Packages, die Data und Text Mining sehr einfach machen. 
+Solche Packages für Programmiersprachen kann man sich wie Plug-Ins für Programme vorstellen, beispielsweise ein AdBlocker für den Browser.
+So etwas ist nativ von den Entwickler:innen nichht vorgesehen, aber jemand hatte Bedarf, Anzeigen zu blockieren, hat hierzu ein Programm geschrieben und es der Community zur Verfügung gestellt.
+Der Unterschied zu einem Package ist, dass dieses verschiedenen Funktionen zur Verfügung stellt - auswählen und ausführen müssen die Anwender:innen.
+Wer in Schule und Studium keine Berührungspunkte mit Programmieren hatte, wird zu Beginn vielleicht größere Berührungsängste haben -- und nochmal: Sie müssen nicht programmieren können, um quantitativ zu arbeiten.
+Speziell für Historiker:innen ohne Programmier-Vorkenntnisse ist das Projekt [The Programming Historian](https://programminghistorian.org/), das seit 2008 zahlreiche Tutorials veröffentlicht, um verschiedene Tools, Techniken und Workflows für Forschung und Lehre vorzustellen.
+
+
+<!-- Das Aufzeigen von Mustern bzw. das Abweichen einzelner Datenpunkte ist eines der Kennzeichen quantitativer Analysen:  -->
+<!-- Ein Korrespondenznetzwerk, in dem die empfangenen und geschriebenen Briefe einer oder mehrerer Personen und die jeweiligen Briefpartner:innen abgebildet sind, zeigt einerseits generelle Entwicklungen und Tendenzen auf, andererseits vielleicht auch Ausreißer oder Unterbrüche, die näher untersucht werden könnten. -->
+<!-- Ist ein Rückgang der Schreibaktivität auf interne Faktoren zurückzuführen -- Krankheit, Alter, Interessensverlagerung, Konflikte --, oder gibt es äußere Faktoren wie politische Krisen, Kriege, Papiermangel usw., die einen Einfluss hatten? -->
+<!-- [Muster](https://www.chbeck.de/nassehi-muster/product/27704288) lassen sich überall finden; deuten müssen wir sie als Geisteswissenschaftler:innen. -->
 
 
 
 ## Digitale Tools zur Kommunikation
 
+tbd
 
 ## Digitale Elemente in der Hochschullehre
+
+tbd
 
 ## Projekte und Ressourcen {#sec-projects}
 

@@ -26,6 +26,22 @@ editor: visual
 
 - Tavani, Herman; Zimmer, Michael Zimmer: Search Engines and Ethics, in: Edward N. Zalta (Hg.): The Stanford Encyclopedia of Philosophy (Fall 2020 Edition), Online: <https://plato.stanford.edu/archives/fall2020/entries/ethics-search/>, Kap. 3.1.
 
+## Tools für digital history (n.b.: free/open source)
+
+### Allgemein
+
+- Programming Historian: [Tutorials zu verschiedenen Tools und Methoden für historische Forschung und Lehre](https://programminghistorian.org/)
+
+### Text-/Korpusanalyse
+
+- AntConc: [Korpusanalyse-Toolkit](http://laurenceanthony.net/software.html)
+
+- Voyant-Tools: [Sammlung von Tools zur Textanalyse, browserbasiert oder standalone](https://voyant-tools.org) 
+
+### Visualisierung
+
+- FID Romanistik: [Sammlung von Tools zur Datenvisualisierung](https://fid-romanistik.de/forschungsdaten/suche-nach-forschungsdaten/fid-internetressourcen/tools/werkzeuge-fuer-die-visualisierung-von-daten)
+
 ## Terminal/Command Line
 
 - Dawson, Ted: Introduction to the Windows Command Line with PowerShell, Programming Historian 5 (2016), [https://doi.org/10.46430/phen0054](https://doi.org/10.46430/phen0054). (self-learning lesson)
@@ -44,6 +60,4 @@ editor: visual
 
 - RegexOne: [Learn Regular Expressions with simple, interactive exercises.](https://regexone.com/) (interactive self-learning tutorial)
 
-## Visualisierung
 
-- FID Romanistik: [Sammlung von Tools zur Datenvisualisierung](https://fid-romanistik.de/forschungsdaten/suche-nach-forschungsdaten/fid-internetressourcen/tools/werkzeuge-fuer-die-visualisierung-von-daten)
