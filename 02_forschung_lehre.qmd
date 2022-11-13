@@ -50,10 +50,12 @@ Ob ein anonym überliefertes Werk einem:r namentlich bekannten Autor:in zugeschr
 Der unter dem Pseudonym Robert Galbraith veröffentlichte Kriminalromaen *The Cuckoo’s Calling* konnte mit enttprechender Software Joanne K. Rowling zugeschrieben werden -- mit dieser dauerte das dreißig Minuten, was etwa dem Lesen von zwanzig Romanseiten entspricht.
 Zu einem Artikel, der diesen Fall thematisiert und in das Feld der linguistischen Forensik einbettet, die Straftäter:innen mithilfe quantitativer Textanalyse ermittelt, geht es [hier](https://www.smithsonianmag.com/science-nature/how-did-computers-uncover-jk-rowlings-pseudonym-180949824/). 
 Ein Video zur Entwicklung und Anwendung von Software zur Zuschreibung von Autor:innenschaft finden Sie [hier](https://cmu-lib.github.io/dhlg/project-videos/juola/).
-Die genutzte Software, [JGGAP](http://evllabs.github.io/JGAAP/) (Java Graphical Authorship Attribution Program), lässt sich offensichtlich auch für historische Analysen nutzen -- man denke nur an Herrschaftssysteme, in denen Zensurpolitik herrscht(e) und viele Autor:innen daher nicht unter ihrem Klarnamen publizier(t)en.
+Die genutzte Software, JGGAP,[^2] lässt sich offensichtlich auch für historische Analysen nutzen -- man denke nur an Herrschaftssysteme, in denen Zensurpolitik herrscht(e) und viele Autor:innen daher nicht unter ihrem Klarnamen publizier(t)en.
 Durch eine Identifikation anonymer Schreiber:innen lassen sich weitere Aspekte rund um die Thematik Zensur untersuchen -- welche Akteur:innen waren öffentlich bekannt, wer publizierten gleichzeitig anonym und unter Klarnamen, welche Autor:innen schrieben aus dem Exil, welche Netzwerke lassen sich rekonstruieren, usw.
-Dadurch, dass ein Programm durch quantitative Auswertungen die Kärrnerarbeit der Identifikation abnehmen *kann* -- um einen  reflektierten Umgang mit Daten und Algorithmen geht es in Kapitel 3](03_digital_literacy_criticism.qmd) --, bleibt mehr Zeit für die qualitative Arbeit; 
+Dadurch, dass ein Programm durch quantitative Auswertungen die Kärrnerarbeit der Identifikation abnehmen *kann* -- um einen  reflektierten Umgang mit Daten und Algorithmen geht es in [Kapitel 3](03_digital_literacy_criticism.qmd) --, bleibt mehr Zeit für die qualitative Arbeit; 
 gleichzeitig fußt die Analyse auf einem aussagekräftigen Datensatz, anstatt nur Einzelbeispiele beleuchten zu können.
+
+[^2]: Java Graphical Authorship Attribution Program, [http://evllabs.github.io/JGAAP/](http://evllabs.github.io/JGAAP/).
 
 Quantitative und qualitative Methoden sollen hier keinesfalls gegeneinander ausgespielt werden; 
 vielmehr soll verdeutlicht werden, dass beide Herangehensweisen Vor- und Nachteile haben, und dass sie im besten Fall gewinnbringend miteinander kombiniert werden können -- quantitative Auswertungen nur um ihrer selbst willen und ohne eine spezifische historische Fragestellung generieren kaum je einen Mehrwert.
@@ -101,39 +103,39 @@ Projekte:
 
 Ressourcen/Portale:
 
-- [dMGH: Monumenta Germaniae Historica online (Beta-Version)](https://www.dmgh.de/index.htm)
+- [dMGH](https://www.dmgh.de/index.htm): Monumenta Germaniae Historica online (Beta-Version)
 
--   [e-codices: Virtuelle Handschriftenbibliothek der Schweiz](https://www.e-codices.unifr.ch/de)
+-   [e-codices](https://www.e-codices.unifr.ch/de): Virtuelle Handschriftenbibliothek der Schweiz
 
--   [Fragmentarium: Laboratory for Medieval Manuscript Fragments](https://fragmentarium.ms/)
+-   [Fragmentarium](https://fragmentarium.ms/): Laboratory for Medieval Manuscript Fragments
 
--   [Handschriftenportal: Zentraler nationaler Nachweis für Buchhandschriften in deutschen Bibliotheken und in deutscher Sprache (Entwicklungsstadium)](https://handschriftenportal.de/)
+-   [Handschriftenportal](https://handschriftenportal.de/): Zentraler nationaler Nachweis für Buchhandschriften in deutschen Bibliotheken und in deutscher Sprache (Entwicklungsstadium)
 
--   [e-manuscripta: Digitalisierte handschriftliche Quellen aus Schweizer Bibliotheken und Archiven](https://www.e-manuscripta.ch/?lang=de)
+-   [e-manuscripta](https://www.e-manuscripta.ch/?lang=de): Digitalisierte handschriftliche Quellen aus Schweizer Bibliotheken und Archiven
 
--   [e-rara: Plattform für digitalisierte Drucke aus Schweizer Institutionen](https://www.e-rara.ch/?lang=de)
+-   [e-rara](https://www.e-rara.ch/?lang=de): Plattform für digitalisierte Drucke aus Schweizer Institutionen
 
-- [Gallica: Digitalisierte Quellen aus französischen Biblioteken](https://gallica.bnf.fr/)
+- [Gallica](https://gallica.bnf.fr/): Digitalisierte Quellen aus französischen Biblioteken
 
 ### Moderne und Zeitgeschichte
 
 Projekte:
 
-- [Refugee History: Wissenschaftliches Blog und interaktives Netzwerk zu aktuellen Debatten um das Thema "Flüchtlinge"](http://refugeehistory.org/)
+- [Refugee History](http://refugeehistory.org/): Wissenschaftliches Blog und interaktives Netzwerk zu aktuellen Debatten um das Thema "Flüchtlinge"
 
 Ressourcen/Portale:
 
-- [Datenbank Bild + Ton zur Geschichte (Schweizer) sozialer Bewegungen](https://www.bild-video-ton.ch/)
+- [Datenbank Bild + Ton](https://www.bild-video-ton.ch/) zur Geschichte (Schweizer) sozialer Bewegungen
 
-- [Dodis: Wissenschaftliche Edition von Dokumenten zur Schweizer Außenpolitik](https://www.dodis.ch/de)
+- [Dodis](https://www.dodis.ch/de): Wissenschaftliche Edition von Dokumenten zur Schweizer Außenpolitik
 
-- [e-newspaperarchives.ch: Schweizer Zeitungen online](https://www.e-newspaperarchives.ch/)
+- [e-newspaperarchives.ch](https://www.e-newspaperarchives.ch/): Schweizer Zeitungen online
 
-- [e-periodica: Schweizer Zeitschriften online](e-periodica.ch)
+- [e-periodica](e-periodica.ch): Schweizer Zeitschriften online
 
-- [Historische Statistik der Schweiz (HSSO)](https://hsso.ch/)
+- [Historische Statistik der Schweiz](https://hsso.ch/) (HSSO)
 
-- [histat: Zeitreihen zur Historischen Statistik](https://histat.gesis.org/histat/)
+- [histat](https://histat.gesis.org/histat/): Zeitreihen zur Historischen Statistik
 
 ### Jüdische Geschichte
 
@@ -149,11 +151,11 @@ Ressourcen/Portale:
 
 Projekte:
 
-- [Emandulo: A digital archive wich convenes and re-assembles archival/museal collections and presentations on southern African history before colonialism (the last 500 years)](http://emandulo.apc.uct.ac.za/index.html)
+- [Emandulo](http://emandulo.apc.uct.ac.za/index.html): A digital archive wich convenes and re-assembles archival/museal collections and presentations on southern African history before colonialism (the last 500 years)
 
 Ressourcen/Portale:
 
-- [FHYA: Experimental digital research platform on southern African history before colonialism (the last 500 years)](https://fhya.org/)
+- [FHYA](https://fhya.org/): Experimental digital research platform on southern African history before colonialism (the last 500 years)
 
 ### Osteuropäische Geschichte
 
