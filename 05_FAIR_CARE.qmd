@@ -1,6 +1,7 @@
 ---
 title: FAIR und CARE
 suppress-bibliography: true
+lang: de
 editor: 
   markdown: 
     wrap: sentence
@@ -11,7 +12,7 @@ Denn oftmals enden Projekte, ohne dass erstellte Daten für anschließende Forsc
 
 Zu Beginn des Studiums stehen solche Fragen weniger im Fokus; 
 dennoch sollen diese hier kurz thematisiert werden, um dafür zu sensibilisieren;
-auch, weil sie den Prozess der [Datenerhebung](05_datenerhebung_analyse.qmd) beeinflussen.
+auch, weil sie den Prozess der [Datenerhebung](04_datenerhebung_analyse.qmd) beeinflussen.
 
 ## FAIRe Daten
 

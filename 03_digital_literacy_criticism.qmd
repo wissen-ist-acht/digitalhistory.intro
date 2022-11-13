@@ -1,6 +1,7 @@
 ---
 title: Digital Literacy, Digital Critisicm 
 suppress-bibliography: true
+lang: de
 editor: 
   markdown: 
     wrap: sentence

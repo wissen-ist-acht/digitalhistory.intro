@@ -1,5 +1,6 @@
 ---
 title: Forschung und Lehre
+lang: de
 suppress-bibliography: true
 editor: 
   markdown: 
@@ -38,9 +39,12 @@ Lesen am Bildschirm allein macht noch keinen digital humanist, aber man muss nic
 Untersuchungen, die digitale Methoden einsetzen, sind im Normalfall skalierbar -- wenn man eine Software benutzt, die die Häufigkeit von Begriffen in einem Dokument zählt, sollte es keinen Unterschied in der Anwendung machen, ob man eines oder einhundert Dokumente auswerten will.
 Würde man dasselbe per Hand tun, wäre man analog zum Anwachsen des Untersuchungskorpus mit der Auszählung beschäftigt.
 Digitale Werkzeuge ermöglichen es also unter anderem, Untersuchungen auf größere Mengen von Daten auszuweiten. 
-Sie ermöglichen es auch, an einen solchen erweiterten Datensatz andere Fragen zu stellen, als dies bei einer kleineren Quellen-/Datengrundlage möglich wäre.
+Sie ermöglichen es auch, an einen solchen erweiterten Datensatz andere Fragen zu stellen, als dies mit einer kleineren Quellen-/Datengrundlage möglich wäre.
 Die vorherrschende Überlieferung historischer Quellen besteht aus Text, handgeschrieben, gemeißelt oder gedruckt -- und durch die Möglichkeit, diesen mittels Texterkennung in computerlesbare Daten umzuwandeln, ergeben sich neue Perspektiven für die Arbeit von Historiker:innen:
-Wenn Texte als Daten verstanden werden, lassen sich aus Textquellen Datenbestände erstellen, die mithilfe quantitativer Methoden untersucht und ausgewertet werden können. 
+Wenn Texte als Daten verstanden werden, lassen sich aus Textquellen Datenbestände erstellen, die mithilfe quantitativer Methoden untersucht und ausgewertet werden können.[^1] 
+
+[^1]: In der Zeitgeschichte ist dies einfacher möglich, weil viele Texte hier schon digital vorliegen; für Epochen bzw. Forschungsbereiche, die eher eine Quellenarmut zu beklagen haben, ist eine Generierung von Daten aus Texten umso interessanter.
+
 Für die Literaturwissenschaften beispielsweise ist ein wichtiges Anwendungsfeld die Überprüfung von Autor:innenschaft:
 Ob ein anonym überliefertes Werk einem:r namentlich bekannten Autor:in zugeschrieben werden kann, lässt sich entweder durch *close reading* von Literaturwissenschaftler:innen überprüfen, oder durch die Suche nach Mustern, nach quantifizierbare Eigenschaften eines Textes, wie beispielsweise die Häufigkeit von Funktionswörtern, Partikeln, Satzzeichen usw.
 Der unter dem Pseudonym Robert Galbraith veröffentlichte Kriminalromaen *The Cuckoo’s Calling* konnte mit enttprechender Software Joanne K. Rowling zugeschrieben werden -- mit dieser dauerte das dreißig Minuten, was etwa dem Lesen von zwanzig Romanseiten entspricht.
