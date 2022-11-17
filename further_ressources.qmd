@@ -26,7 +26,7 @@ editor: visual
 
 - Tavani, Herman; Zimmer, Michael Zimmer: Search Engines and Ethics, in: Edward N. Zalta (Hg.): The Stanford Encyclopedia of Philosophy (Fall 2020 Edition), Online: <https://plato.stanford.edu/archives/fall2020/entries/ethics-search/>, Kap. 3.1.
 
-## Tools für digital history (n.b.: free/open source)
+## Tools für digital history (n.b.: free/open source) {#sec-digitaltools}
 
 ### Allgemein
 
