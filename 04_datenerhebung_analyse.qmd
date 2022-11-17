@@ -127,12 +127,12 @@ Eine Auflistung häufig genutzter Tools für die historische Arbeit findet sich 
 
 ## Datensicherung
 
-dokumentieren
+In [Kapitel 5](05_FAIR_CARE.qmd) wird es um Fragen zur nachhaltigen Speicherung von Forschungsdaten gehen; 
+an dieser Stelle sei darauf hingewiesen, dass die Sicherung von Daten am besten auch mit einer Versionierung und mit einer Dokumentation einhergeht.
+**Datenversionierung** hat den Vorteil, dass Schritte wieder rückgängig gemacht werden können, Datensätze in unterschiedlichen Stadien gespeichert und für eine spätere Weiterarbeit genutzt werden können und einzelne Schritte einzelnen Projektmitarbeiter:innen zugeschrieben werden können.
+Zusätzliche Versionierung geht dabei über die Funktionalitäten von Backup-Programmen oder Cloudspeichern wie Dropbox oder Switchdrive hinaus, und für Einzelprojekte wie auch für kollaboratives Arbeiten hat sich [git](https://de.wikipedia.org/wiki/Git) etabliert, häufig in Kombination mit Daten-/Coderepositorien auf [GitHub](https://de.wikipedia.org/wiki/GitHub).
+Die meisten von Ihnen werden vermutlich keine eigenen GitHub-Repositorien anlegen, aber das System dennoch irgendwann nutzen, am ehesten durch den Download von dort zur Verfügung gestellten Daten -- die Textdaten für diesen Guide liegen auch in einem GitHub-Repositorium. 
+Die **Dokumentation** von gespeicherten Daten schließlichh beinhaltet Informationen zur Entstehung des Datensatzes: Wie und von wem wurden die Daten erhoben? Wie wurden sie annotiert? In welchem Format sind die Daten vorhanden? Welche Software wurde an welcher Stelle benutzt? Was stellen die Daten dar?
+Die Sicherung von Daten an mehreren Orten, bspw. auf der lokalen Festplatte, in einem Cloudspeicher und einem USB-Stick, hilft sicher vor Datenverlust.
+Eine Dokumentation und die Sicherung in einem Repositorium, einem Langzeitspeicher für Daten, sorgt zusätzlich für Sichtbarkeit und die Möglichkeit zur Nachnutzung von Ergebnissen. Als Fachrepositorien für die Geschichtswissenschaften existieren beispielsweise [AMAD](https://www.amad.org/) (Mittelalter), oder ganz generell [Zenodo](https://zenodo.org/) (fächerübergreifend, betrieben durch das CERN) -- Sie können Ihre Forschungsdaten dort  kostenfrei ablegen, Ihre Urheberschaft nachweisen und die Daten/Publikation mit einem DOI (Digital Object Identifier) zitierbar machen.
 
-    Wie wurden die Daten erhoben?
-    Wie wurden die Daten annotiert?
-    In welchem Format sind die Daten vorhanden?
-    Welche Software wurde benutzt?
-    Was stellen die Daten dar?
-
-Siehe auch [Kapitel 5](05_FAIR_CARE.qmd) zu Fragen von nachhaltiger Speicherung.
