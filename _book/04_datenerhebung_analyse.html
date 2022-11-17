@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Introduction to Digital History - 4&nbsp; Datenerhebung und -analyse</title>
+<title>Introduction to Digital History - 4&nbsp; Datenerhebung und -aufbereitung</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -70,7 +70,7 @@ ul.task-list li input[type="checkbox"] {
   <header id="quarto-header" class="headroom fixed-top">
   <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
     <div class="container-fluid d-flex justify-content-between">
-      <h1 class="quarto-secondary-nav-title"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Datenerhebung und -analyse</span></h1>
+      <h1 class="quarto-secondary-nav-title"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Datenerhebung und -aufbereitung</span></h1>
       <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
         <i class="bi bi-chevron-right"></i>
       </button>
@@ -133,7 +133,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./04_datenerhebung_analyse.html" class="sidebar-item-text sidebar-link active"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Datenerhebung und -analyse</span></a>
+  <a href="./04_datenerhebung_analyse.html" class="sidebar-item-text sidebar-link active"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Datenerhebung und -aufbereitung</span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -171,14 +171,23 @@ ul.task-list li input[type="checkbox"] {
 </nav>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Inhaltsverzeichnis</h2>
+   
+  <ul>
+  <li><a href="#datenerhebung" id="toc-datenerhebung" class="nav-link active" data-scroll-target="#datenerhebung"><span class="toc-section-number">4.1</span>  Datenerhebung</a></li>
+  <li><a href="#datenaufbereitung" id="toc-datenaufbereitung" class="nav-link" data-scroll-target="#datenaufbereitung"><span class="toc-section-number">4.2</span>  Datenaufbereitung</a></li>
+  <li><a href="#datenanalyse" id="toc-datenanalyse" class="nav-link" data-scroll-target="#datenanalyse"><span class="toc-section-number">4.3</span>  Datenanalyse</a></li>
+  <li><a href="#datensicherung" id="toc-datensicherung" class="nav-link" data-scroll-target="#datensicherung"><span class="toc-section-number">4.4</span>  Datensicherung</a></li>
+  </ul>
+<div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/wissen-ist-acht/digital_history_intro/edit/main/04_datenerhebung_analyse.qmd" class="toc-action">Seite editieren</a></p></div></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title d-none d-lg-block"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Datenerhebung und -analyse</span></h1>
+<h1 class="title d-none d-lg-block"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Datenerhebung und -aufbereitung</span></h1>
 </div>
 
 
@@ -193,6 +202,37 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
+<p>Jede Art von Forschung ist auf Daten angewiesen, seien sie mittels Personenbefragungen, medizinischer Messungen, Webscraping oder interpretierender Analysen von Texten erhoben. Auf Grundlage von Daten können Forschungsfragen beantwortet, Thesen aufgestellt, Behauptungen widerlegt, Narrative untermauert werden. Analysen, die sich mit einem kleinen Set von Quellen bzw. Daten befassen, präsentieren Ergebnisse dabei oft in Form von Synthesen, die sich aus einer vorangehenden Interpretation der zugrundeliegenden Dokumente ergeben. Über das Quellenverzeichnis und entsprechende Anmerkungen im Text wird die Grundlage nachvollziehbar; dass ein bestimmter Abschnitt, ein Satz oder ein Wort auf eine gewisse Weise ausgelegt werden, wird aber auch durch die jeweiligen Forscher:innen selbst beeinflusst – eine Literaturwissenschaftlerin beispielsweise, die über Männerfiguren bei Joanne K. Rowling promoviert hat, wird bei der Diskussion um deren mögliche Autorschaft von <em>The Cuckoo’s Calling</em> (siehe <a href="02_forschung_lehre.html#sec-digitaletools"><span>Kapitel&nbsp;2.2</span></a>) diesen Text anders lesen und andere Argumente dafür oder dagegen aufwerfen als ein langjähriger Harry-Potter-Fan mit viel Leseerfahrung, aber anderer bzw. weniger formaler Ausbildung. Beide werden fundierte Aussagen treffen und Begründungen geben können, ob und wieso <em>The Cuckoo’s Calling</em> von Rowling verfasst wurde oder nicht; beide werden auf ihre Erfahrung und gründliche Auseinandersetzung mit Rowlings Werk verweisen; und beide werden mit einzelnen Sätzen oder Passagen für eine Sichtweise argumentieren, die von einer dritten Person genau gegenteilig genutzt würde. Die Datengrundlage ist also dieselbe und nachvollziehbar, die Auswertung bzw. die Auswertungsstrategien hingegen sind es nicht mehr, und somit auch nicht die daraus gewonnenen Ergebnisse, die ja auch wieder Forschungsdaten darstellen.</p>
+<p>Computergestützte Analysen haben den Anspruch, in allen Schritten nachvollziehbar zu sein und dadurch auch nachnutzbare Daten zu produzieren: Nicht nur die Quellengrundlage, also die Erhebung von Daten und die Erstellung eines Datensatzes, sondern auch alle Schritte von der Datenanreicherung und -verfeinerung über die genutzten Methoden bzw. Programme für die Auswertung bis hin zur Sicherung und Aufbewahrung sollen transparent, gut dokumentiert und nachvollziebar sein. Zum einen, um die Resultate und die darauf fußenden Aussagen belastbar zu machen; zum anderen, um die gewonnenen Daten zur weiteren Nutzung kostenfrei und offen verfügbar zu machen. Zu den Prinzipien, die bei der Arbeit mit Daten berücksichtigt werden sollten, geht es nochmals in <a href="./05_FAIR_CARE.html">Kapitel 5</a>. An dieser Stelle geht es um die konkreten Arbeitsschritte bei der Datenerhebung und Datenaufbereitung, die in dh-Projekten häufig vorkommen.</p>
+<section id="datenerhebung" class="level2" data-number="4.1">
+<h2 data-number="4.1" class="anchored" data-anchor-id="datenerhebung"><span class="header-section-number">4.1</span> Datenerhebung</h2>
+<p>Es gibt verschiedene Möglichkeiten, Daten für die historische Forschung zu erheben bzw. zu erstellen, von denen einige im Folgenden kurz angesprochen werden.</p>
+<p>Für Zeiträume, in denen Quellen vergleichsweise knapp sind und keine seriellen Daten existieren, bietet sich die <strong>Digitalisierung von Texten</strong> und deren anschließende Analyse an. Digitalisierung beinhaltet dabei nicht nur die Transformation von einer physischen Quelle in ein digitales Bild, sondern auch die Anreicherung des Bilds mit Layout und Text: Erst durch eine Markierung von Bereichen, in denen Text vorkommt, ist es in einem zweiten Schritt möglich, diesen als solchen zu erkennen und damit maschinenlesbar und auswertbar zu machen. Eine solche Umwandlung vom Bild zum Text ist dabei sowohl für moderne Texte, die als Typoskript vorliegen, als auch für vormoderne Handschriften und Drucke möglich, in lateinischer ebenso wie in arabischer, chinesischer oder japanischer Schrift. Es gibt kostenpflichtige Programme wie den <a href="https://pdf.abbyy.com/">Abbyy FineReader</a>, aber auch Open-Source-Tools mit und ohne Graphical User Interface (GUI). Weit verbreitet ist <a href="https://transkribus.eu">Transkribus</a>, das viele Funktionalitäten bündelt; die Texterkennung ist ab einer gewissen Menge Seiten allerdings kostenpflichtig, wobei studentische Projekte auf Anfrage unterstützt werden können. Programme, die über die Kommandozeile laufenm gänzlich kostenfrei sind und ebenfalls zahlreiche Funktionalitäten bieten, sind beispielsweise <a href="https://kraken.re/master/index.html">Kraken</a>, <a href="https://www.ocr4all.org/">OCR4all</a>, <a href="https://github.com/ocropus/ocropy/wiki">OCRopus</a> oder <a href="https://github.com/Calamari-OCR/calamari">Calamari</a>.</p>
+<p>Zur <strong>Extraktion von Daten</strong> aus digitalen/digitalisierten Texten existieren verschiedene Möglichkeiten mithilfe kleiner Kommandozeilenprogramme (eher mühsam und schwierig zu lesen) oder mit Packages für Programmiersprachen, für die Geisteswissenschaften vor allem R oder Python (siehe dazu auch <a href="02_forschung_lehre.html#sec-digitaletools"><span>Kapitel&nbsp;2.2</span></a>). So können besipielsweise aus digitalisierten Telefonbüchern Entitäten wie Personen, Straßennamen oder Berufe oder aus alten Theaterprogrammheften gespielte Stücke, beteiligte Schauspieler:innen und verantwortliche Regisseurinnen extrahiert und als Datensätze weitergenutzt werden.<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a></p>
+<p>Der anfängliche Aufwand, der einer automatisierten Datenextraktion vorangeht und die steile Lernkurve mancher Programme können abschreckend wirken. Und wenn Sie nur ein Theaterprogramm detaillierter auswerten wollen, sind Sie sicher schneller, wenn Sie die entsprechenden Daten in eine Tabellensoftware abtippen. Wenn Sie aber einen größeren Quellenbestand zur Verfügung haben, der in sich ähnlich strukturiert ist, wie das bei Telefonbüchern oder Theaterprogrammheften der Fall sein dürfte, macht es kaum einen Unterschied mehr, ob Sie 10 oder 1000 Theaterprogramme analysieren möchten. Zudem können Sie Ihr erstelltes Skript, Ihr kleines Computerprogramm, anderen zur Verfügung stellen oder für ähnlich strukturierte Quellen in einem anderen Projekt nachnutzen.</p>
+<p>Wenn Sie mit bereits digitalisierten Beständen aus öffentlichen Institutionen wie Galerien, Bibliotheken, Museen oder Archiven arbeiten wollen (sog. <a href="https://de.wikipedia.org/wiki/GLAM">GLAM</a>s: <strong>G</strong>alleries, <strong>L</strong>ibraries, <strong>A</strong>rchives, <strong>M</strong>useums), besteht oft die Möglichkeit, Daten über <strong>Schnittstellen</strong> herunterzuladen.<a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a> Solche <a href="https://en.wikipedia.org/wiki/API">API</a>s (<strong>A</strong>pplication <strong>p</strong>rogramming <strong>i</strong>nterface) ermöglichen eine Kommunikation zwischen zwei Computern, ohne dass hierfür der Umweg über ein egraphische Oberfläche nötig ist. Anstatt also beispielsweise über die Suchmaske der <a href="https://smb.museum-digital.de/home?navlang=de">Staatlichen Museen zu Berlin</a> nach Objekten oder Dokumenten mithilfe verschiedener Schlagwörter zu suchen und die Ergebnisse dann einzeln herunterzuladen, kann Ihr Computer mit der Schnittstelle des Museums direkt kommunizieren und mit einfachen Befehlen ganze Ergebnislisten zur Weiterarbeit herunterladen. Für solche Abfragen können ein Kommandozeilenprogramm oder Programmiersprachen genutzt werden, die Abfrage besteht dabei im Wesentlichen aus einer Zeile, wie hier in der Programmiersprache R:</p>
+<p><code>library(jsonlite)</code></p>
+<p><code>cats &lt;- fromJSON("https://smb.museum-digital.de/json/objects?&amp;s=katze")</code></p>
+<p>Das Ergebnis der Suchanfrage nach “katze” wird in der Variable <code>cats</code> gespeichert, und diese kann zur Weiterarbeit in ein Tabellenformat exportiert werden:</p>
+<p><code>write.csv(cats, "docs/cats_smb.csv")</code></p>
+<p>Die Funktion <code>write.csv</code> speichert den Inhalt der Variable <code>cats</code> als csv-Datei<a href="#fn3" class="footnote-ref" id="fnref3" role="doc-noteref"><sup>3</sup></a> unter dem Dateipfad “docs/cats_smb.csv” auf der Festplatte.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/cats_smb.png" class="img-fluid figure-img"></p>
+<p></p><figcaption class="figure-caption">Beginn der Trefferliste für “katze” ¨über die API der Staatlichen Museen zu Berlin</figcaption><p></p>
+</figure>
+</div>
+<p>Wenn Webseiten keine Schnittstellen zur Verfügung stellen, besteht die Möglichkeit, mit <strong>Web Scraping</strong> an gewünschte Daten zu kommen. Je nach Webseite bzw. Inhalten ist die Rechtslage nicht ganz klar; zum Download von Webseiten mit der Programmiersprache Python von William J. Turkel und Adam Crymble gibt es <a href="https://programminghistorian.org/en/lessons/working-with-web-pages">eine Lektion im Programming Historian</a>. Ein weiteres Tutorial zur Datenakquise, von Zach Coble, Liz Rodrigues, Erin Pappas, Chelcie Rowell, und Yasmeen Shorish, findet sich <a href="https://dlfteach.pubpub.org/pub/collecting-data-web-scraping/release/1">hier</a>.</p>
+</section>
+<section id="datenaufbereitung" class="level2" data-number="4.2">
+<h2 data-number="4.2" class="anchored" data-anchor-id="datenaufbereitung"><span class="header-section-number">4.2</span> Datenaufbereitung</h2>
+<p>OpenRefine</p>
+</section>
+<section id="datenanalyse" class="level2" data-number="4.3">
+<h2 data-number="4.3" class="anchored" data-anchor-id="datenanalyse"><span class="header-section-number">4.3</span> Datenanalyse</h2>
+</section>
+<section id="datensicherung" class="level2" data-number="4.4">
+<h2 data-number="4.4" class="anchored" data-anchor-id="datensicherung"><span class="header-section-number">4.4</span> Datensicherung</h2>
 <ol type="1">
 <li><p>Daten aufbereiten und sichern digitalisieren übersetzen und transkribieren aufarbeiten anonymisieren</p></li>
 <li><p>dokumentieren</p>
@@ -202,6 +242,15 @@ ul.task-list li input[type="checkbox"] {
 <p>Sie interpretieren und visualisieren die Daten, halten Ihre Forschungsergebnisse fest und zitieren die Datenquellen. Zudem bereiten Sie die Daten auf ihre Archivierung vo</p>
 
 
+</section>
+<section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn1"><p>Ein gut nachvollziehbares Tutorial zur Extraktion von Daten aus Telefonbüchern hat <a href="https://lindseywieck.com/">Lindsey Wieck</a> für einen dh-Kurs an der St.&nbsp;Mary’s University in San Antonio erstellt: <a href="https://lindseywieck.com/fall_2016_sf/gatheringdatatutorial.html">https://lindseywieck.com/fall_2016_sf/gatheringdatatutorial.html</a>. <a href="http://derek.visualizingbroadway.com/about.html">Derek Miller</a> arbeitet zu Broadway-Vorstellungen, <a href="https://visualizingbroadway.com/index.html">Visualizing Broadway</a>, ein Projekt, das <a href="https://digitalhumanities.fas.harvard.edu/100-years-of-broadway-shows-at-once/">hier</a> beschrieben wird; <a href="https://www.youtube.com/watch?v=KUTPX2Ohcqs">hier</a> gibt es dazu ein Video in Vorlesungslänge.<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn2"><p>Unter <a href="openglam.ch">openglam.ch</a> finden sich Informationen zu Schweizer GLAM-Einrichtungen, die offene Daten anbieten.<a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn3"><p><strong>c</strong>omma <strong>s</strong>eparated <strong>v</strong>alue ist ein Format, in dem einzelne Werte, values, über spezifische Trenner, meist Kommas, eindeutig abgrenzbar sind und somit in einem Tabellenformat angezeigt werden können, wobei jeder Wert in einer separaten Zelle steht.<a href="#fnref3" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+</ol>
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
