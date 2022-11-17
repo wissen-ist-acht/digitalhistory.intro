@@ -30,7 +30,7 @@ Historiker:innen müssen neue Kompetenzen erwerben, um mit solchen Fragen reflek
 Zur klassischen Quellenkritik kommt die digitale Quellenkritik, zur Fähigkeit, analoge Quellen zu lesen und zu verstehen, ein Äquivalent für den digitalen Bereich. 
 Etwas ausführlicher geht es in [Kapitel 3](03_digital_literacy_criticism.qmd) um Digital Literacy und Digital Criticism.
 
-## Digitale Tools zur Analyse
+## Digitale Tools zur Analyse{#sec-digitaletools}
 
 Die [hier](01_intro.qmd) bereits zitierte Definition, die aktive und kritische Nutzung digitaler Werkzeuge in Forschung, Lehre oder Studium sei es, was digital humanities ausmachten, wirft die Frage auf, was genau unter "digital tools" zu verstehen ist, und zu welchem Zweck man sie einsetzt.
 Allein schon das Lesen dieses Guides ist ohne digitale Hilfsmittel nicht möglich -- es existiert kein gedrucktes Exemplar davon. 
@@ -47,7 +47,7 @@ Wenn Texte als Daten verstanden werden, lassen sich aus Textquellen Datenbestän
 
 Für die Literaturwissenschaften beispielsweise ist ein wichtiges Anwendungsfeld die Überprüfung von Autor:innenschaft:
 Ob ein anonym überliefertes Werk einem:r namentlich bekannten Autor:in zugeschrieben werden kann, lässt sich entweder durch *close reading* von Literaturwissenschaftler:innen überprüfen, oder durch die Suche nach Mustern, nach quantifizierbare Eigenschaften eines Textes, wie beispielsweise die Häufigkeit von Funktionswörtern, Partikeln, Satzzeichen usw.
-Der unter dem Pseudonym Robert Galbraith veröffentlichte Kriminalromaen *The Cuckoo’s Calling* konnte mit enttprechender Software Joanne K. Rowling zugeschrieben werden -- mit dieser dauerte das dreißig Minuten, was etwa dem Lesen von zwanzig Romanseiten entspricht.
+Der unter dem Pseudonym Robert Galbraith veröffentlichte Kriminalroman *The Cuckoo’s Calling* konnte mit entsprechender Software Joanne K. Rowling zugeschrieben werden -- mit dieser dauerte das dreißig Minuten, was etwa dem Lesen von zwanzig Romanseiten entspricht.
 Zu einem Artikel, der diesen Fall thematisiert und in das Feld der linguistischen Forensik einbettet, die Straftäter:innen mithilfe quantitativer Textanalyse ermittelt, geht es [hier](https://www.smithsonianmag.com/science-nature/how-did-computers-uncover-jk-rowlings-pseudonym-180949824/). 
 Ein Video zur Entwicklung und Anwendung von Software zur Zuschreibung von Autor:innenschaft finden Sie [hier](https://cmu-lib.github.io/dhlg/project-videos/juola/).
 Die genutzte Software, JGGAP,[^2] lässt sich offensichtlich auch für historische Analysen nutzen -- man denke nur an Herrschaftssysteme, in denen Zensurpolitik herrscht(e) und viele Autor:innen daher nicht unter ihrem Klarnamen publizier(t)en.
