@@ -77,16 +77,31 @@ Die Funktion `write.csv` speichert den Inhalt der Variable `cats` als csv-Datei[
 
 [^3]: **c**omma **s**eparated **v**alue ist ein Format, in dem einzelne Werte, values, über spezifische Trenner, meist Kommas, eindeutig abgrenzbar sind und somit in einem Tabellenformat angezeigt werden können, wobei jeder Wert in einer separaten Zelle steht.
 
-Wenn Webseiten keine Schnittstellen zur Verfügung stellen, besteht die Möglichkeit, mit **Web Scraping** an gewünschte Daten zu kommen. 
-Je nach Webseite bzw. Inhalten ist die Rechtslage nicht ganz klar;
-zum Download von Webseiten mit der Programmiersprache Python von William J. Turkel und Adam Crymble gibt es [eine Lektion im Programming Historian](https://programminghistorian.org/en/lessons/working-with-web-pages).
+Wenn Webseiten keine Schnittstellen zur Verfügung stellen, besteht die Möglichkeit, mit **Web Scraping** an gewünschte Daten zu kommen. Je nach Webseite bzw. Inhalten ist die Rechtslage allerdings nicht ganz klar.
+Zum Download von Webseiten mit der Programmiersprache Python von William J. Turkel und Adam Crymble gibt es [eine Lektion im Programming Historian](https://programminghistorian.org/en/lessons/working-with-web-pages).
 Ein weiteres Tutorial zur Datenakquise, von Zach Coble, Liz Rodrigues, Erin Pappas, Chelcie Rowell, und Yasmeen Shorish, findet sich [hier](https://dlfteach.pubpub.org/pub/collecting-data-web-scraping/release/1).
 
 ## Datenaufbereitung[^4]
 
-OpenRefine
+Bei der Arbeit mit Datensätzen, seien sie selbst erhoben oder von Dritten übernommen, ist es häufig der Fall, dass Informationen fehlen oder uneinheitlich erhoben wurden, was eine spätere Analyse erschwert.
+
+Wenn in einer Umfrage unter Studierenden das Studienfach mit aufgenommen wurde, ohne zuvor Werte für diese Kategorie zu definieren, finden sich für "Geschichte" und "Deutsch" vielleicht auch folgende Varianten:
+"Gesch.", "Geschichtswissenschaft", "Geschichtswissenschaften", "Geschihcte", "Germanistik", "Dt.", "Germ.". 
+Anstatt zwei Werten für zwei Studienfächer gibt es neun -- ohne, dass sich das Fächerspektrum erweitert hätte. 
+Im besten Fall werden solche Varianten schon bei der Erhebung der Daten vermieden, indem eine feste Liste an Werten erstellt wird.
+Erhält man jedoch einen Datensatz mit verschiedenen Varianten für ein und denselben Wert, muss man diese zusammenführen, um eine saubere Datengrundlage zu erhalten.
+Sie können entweder mit `Strg-R` versuchen, verschiedene Schreibweisen zu finden und zu ersetzen; 
+in Tabellenprogrammen wie Excel, Open Office oder Google Sheets können Sie sich einzigartige Werte einzelner Spalten anzeigen lassen und zusammengehörende Varianten zu einem Grundwert zusammenführen;
+am hilfreichsten und recht voraussetzungslos zu bedienen und dabei auch für große Datensätze nutzbar ist die Software [OpenRefine](https://openrefine.org/),  mit der Sie Daten extrahieren,[^5] säubern/vereinheitlichen[^6] und anreichern[^7] können. 
+
 
 [^4]: Eine häufige Aussage ist, zur Datenvorbereitung/Preprocessing würde 80% der Arbeitszeit verwendet, zur Analyse und Interpretation blieben nur 20%. In einem [Blogartikel](https://blog.ldodds.com/2020/01/31/do-data-scientists-spend-80-of-their-time-cleaning-data-turns-out-no/) von 2020 geht Leigh Dodds diesen Zahlen nach.
+
+[^5]: Evan Peter Williamson: Fetching and Parsing Data from the Web with OpenRefine, Programming Historian 6 (2017), [https://doi.org/10.46430/phen0065]((https://doi.org/10.46430/phen0065.https://programminghistorian.org/en/lessons/fetch-and-parse-data-with-openrefine)). 
+
+[^6]: Seth van Hooland, Ruben Verborgh, Max De Wilde: Cleaning Data with OpenRefine, Programming Historian 2 (2013), [https://doi.org/10.46430/phen0023](https://programminghistorian.org/en/lessons/cleaning-data-with-openrefine).
+
+[^7]: Karen Li-Lun Hwang: Enriching Reconciled Data with OpenRefine, The Bytegeist Blog 2018, [https://medium.com/the-bytegeist-blog/enriching-reconciled-data-with-openrefine-89b885dcadbb](https://medium.com/the-bytegeist-blog/enriching-reconciled-data-with-openrefine-89b885dcadbb)
 
 
 ## Datenanalyse
@@ -106,10 +121,6 @@ Ob Sie für Topic Modelling ein eigenes Skript schreiben oder vorhandene Softwar
 oftmals ist das Nutzen vorhandener Webangebote für erste kurze Analysen sinnvoll, um zu überlegen, ob die vorgesehene Methode sinnvolle Ergebnisse zu liefern verspricht.
 Für größere Projekte, in denen komplexere Analysen über einen längeren Zeitraum durchgeführt werden sollen, bietet sich die Arbeit mit Programmiersprachen schon allein deswegen an, weil so ein sehr hohes Maß an Anpassungen von vorhandenen Funktionen für die eigenen Zwecke und die völlige Kontrolle über die eigenen Daten ermöglicht wird.
 Eine Auflistung häufig genutzter Tools für die historische Arbeit findet sich in @sec-digitaltools.
-
-
-
-
 
 
 [^5]: Ein Großprojekt an der Universität Stanford, [Mapping the Republic of Letters](http://republicofletters.stanford.edu/), hat für das 18. Jahrhundert das Briefnetzwerk europäischer Gelehrter modelliert. Ein Fallbeispiel ist das Netzwerk Voltaires, in verschiedenen Visualisierungen: [http://republicofletters.stanford.edu/publications/voltaire/letters/](http://republicofletters.stanford.edu/publications/voltaire/letters/). Dan Edelstein. Interactive Visualization for Voltaire’s Correspondence Network. Letters in Voltaire’s Network [Created using Palladio, http://hdlab.stanford.edu/palladio].
