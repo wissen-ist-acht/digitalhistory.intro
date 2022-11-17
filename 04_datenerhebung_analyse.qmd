@@ -92,8 +92,26 @@ Im besten Fall werden solche Varianten schon bei der Erhebung der Daten vermiede
 Erhält man jedoch einen Datensatz mit verschiedenen Varianten für ein und denselben Wert, muss man diese zusammenführen, um eine saubere Datengrundlage zu erhalten.
 Sie können entweder mit `Strg-R` versuchen, verschiedene Schreibweisen zu finden und zu ersetzen; 
 in Tabellenprogrammen wie Excel, Open Office oder Google Sheets können Sie sich einzigartige Werte einzelner Spalten anzeigen lassen und zusammengehörende Varianten zu einem Grundwert zusammenführen;
-am hilfreichsten und recht voraussetzungslos zu bedienen und dabei auch für große Datensätze nutzbar ist die Software [OpenRefine](https://openrefine.org/),  mit der Sie Daten extrahieren,[^5] säubern/vereinheitlichen[^6] und anreichern[^7] können. 
+am hilfreichsten und recht voraussetzungslos zu bedienen und dabei auch für große Datensätze nutzbar ist die Software [OpenRefine](https://openrefine.org/),  mit der Sie Daten extrahieren,[^5] säubern/vereinheitlichen[^6] und anreichern[^7] können, um eine für Ihre Forschungsfrage und dafür notwendige Analysen sinnvolle Datengrundlage zu erhalten.
 
+Für Textdaten sind verschiedene Schritte zur Aufbereitung notwendig, je nachdem, welche Methode bzw. Software Sie nutzen möchten. 
+Für die meisten Analysen ist es sinnvoll, mit sogenannten Stopword-Listen zu arbeiten.
+[Stopwords](https://en.wikipedia.org/wiki/Stop_word) sind Wörter, die vor einer Analyse aus einem Korpus entfernt werden, um aussagekräftigere Ergebnisse zu erhalten, gerade, wenn es um rein quantitative Methoden zur inhaltlichen Erschließung geht.
+Stopwords sind Wörter mit grammatikalischen Funktionen, die in großer Zahl in Dokumenten vorkommen, jedoch wenig Bedeutung tragen.
+Wenn man den unbearbeiteten Text dieses Guides nach Worthäufigkeiten auswertet, hier mit [Voyant-Tools](https://voyant-tools.org/) lässt sich nur schwerlich erahnen, worum es geht -- "digital" steht auf Platz 12, viel häufiger sind Artikel und Präpositionen.
+Mit Hilfe einer Stopword-Liste, die die häufigsten nicht-sinntragenden Wörter aus dem Text entfernt, wird der Inhalt klarer: 
+
+::: {layout="[46,-8,46]"}
+![Worthäufigkeiten roher Text](images/word_frequencies_raw.png)
+
+![Worthäufigkeiten ohne Stopwords](images/word_frequencies_stopwords.png)
+:::
+
+Weitere Schritte beinhalten oft eine [Tokenisierung](https://de.wikipedia.org/wiki/Tokenisierung), also die Segmentierung in Einheiten der Wortebene, und eine [Lemmatisierung](https://de.wikipedia.org/wiki/Lemma_(Lexikographie)#Lemmatisierung), also die Rückführung von verschiedenene Formen eines Worts auf eine Grundform -- aus "ist", "war" und "sind" wird "sein.
+Wie bei den Schreibvarianten der Studienfächer haben die verschiedenen Flexionsformen für die meisten Forschungsfragen keinen Mehrwert und können zur weiteren Analyse zusammengeführt werden.
+Für solche vorbereitenden Schritte gibt es existierende Software und Packages für Programmiersprachen, sodass hier das Rad nicht neu erfunden werden muss, vor allem für moderne, weit verbreitete Sprachen, siehe auch @sec-digitaltools.
+Schwieriger wird es für nicht-standardisierte Sprachen bzw. Sprachformen, also dialektal geprägte oder vormoderne Texte. 
+Zwar gibt es auch hier Programme, die tatsächlich erreichte Präzision muss dabei je nach Quelle beurteilt werden.
 
 [^4]: Eine häufige Aussage ist, zur Datenvorbereitung/Preprocessing würde 80% der Arbeitszeit verwendet, zur Analyse und Interpretation blieben nur 20%. In einem [Blogartikel](https://blog.ldodds.com/2020/01/31/do-data-scientists-spend-80-of-their-time-cleaning-data-turns-out-no/) von 2020 geht Leigh Dodds diesen Zahlen nach.
 
