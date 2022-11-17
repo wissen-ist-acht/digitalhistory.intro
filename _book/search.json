@@ -151,13 +151,27 @@
     "href": "04_datenerhebung_analyse.html#datenanalyse",
     "title": "4  Datenerhebung und -aufbereitung",
     "section": "4.3 Datenanalyse",
-    "text": "4.3 Datenanalyse"
+    "text": "4.3 Datenanalyse\nWenn Sie einen Datensatz zur Analyse zur Verfügung haben, aus selbst erhobenen Daten oder durch Nachnutzung eines vorhandenen, und für Ihre Zwecke aufbereitet haben, folgt (endlich) auch die Analyse. Welche Software oder Methoden Sie verwenden, hängt dabei nicht nur von der Art und Menge der Daten, sondern auch dem Datenformat und vor allem auch Ihrer Forschungsfrage ab. Wenn Sie eine Personendatenbank haben, in der Briefschreiber:innen und Empfänger:innen aufgenommen sind und der Wohnort der Personen bekannt ist, Sie es jedoch versäumt haben, die Daten der Einzelbriefe zu verzeichnen, können Sie nur eine räumliche Verteilung, keine raum-zeitliche Entwicklung eines Briefschreiber:innennetzwerks darstellen.5 Wenn Sie aber nur an der örtlichen Verteilung weiblicher und männlicher Verfasser:innen interessiert sind und die zeitliche Komponente für Sie keine Rolle spielt, erübrigt sich auch ein raum-zeitliche Analyse. Bevor Sie sich also für eine Methode entscheiden, sollten Sie sich fragen, zu welchem Zweck Sie Ihren Datensatz nutzen wollen und welche Frage(n) er beantworten soll.\nIn einem nächsten Schritt sollte über die konkrete Art der Analyse nachgedacht werden, die mit den vorhandenen Daten möglich ist. Unter den zahlreichen Möglichkeiten für die Arbeit mit strukturellen Daten sind für die Geschichtswissenschaften u.a. die Netzwerkanalyse oder die Regressionsanalyse häufig genutzte Methoden. Für textuelle Daten bieten sich ebenfalls verschiedene Arten der Analyse an, darunter beispielsweise Auszählungen von Worthäufigkeiten als Teil der Stylometrie/Zuschreibung von Autor:innenschaft (siehe Kapitel 2.2), Topic Modelling als statistische Methode zur Identifizierung wiederkehrender Themen in größeren Textbeständen, oder Sentiment Analyse, um Stimmungen, Gefühle, Bewertungen aus Textpassagen zu extrahieren. Wenn Sie über georeferenzierte Daten verfügen, können Sie verschiedene Analysen mithilfe von GIS (Geographic Information System) durchführen und visualisieren.\nOb Sie für Topic Modelling ein eigenes Skript schreiben oder vorhandene Software nutzen, ob Sie Regressionsanalysen selbst durchführen oder auf Webseiten durchführen lassen, ist dabei Ihre Entscheidung; oftmals ist das Nutzen vorhandener Webangebote für erste kurze Analysen sinnvoll, um zu überlegen, ob die vorgesehene Methode sinnvolle Ergebnisse zu liefern verspricht. Für größere Projekte, in denen komplexere Analysen über einen längeren Zeitraum durchgeführt werden sollen, bietet sich die Arbeit mit Programmiersprachen schon allein deswegen an, weil so ein sehr hohes Maß an Anpassungen von vorhandenen Funktionen für die eigenen Zwecke und die völlige Kontrolle über die eigenen Daten ermöglicht wird. Eine Auflistung häufig genutzter Tools für die historische Arbeit findet sich unter Kapitel B.3."
   },
   {
     "objectID": "04_datenerhebung_analyse.html#datensicherung",
     "href": "04_datenerhebung_analyse.html#datensicherung",
     "title": "4  Datenerhebung und -aufbereitung",
     "section": "4.4 Datensicherung",
-    "text": "4.4 Datensicherung\n\nDaten aufbereiten und sichern digitalisieren übersetzen und transkribieren aufarbeiten anonymisieren\ndokumentieren\nWie wurden die Daten erhoben? Wie wurden die Daten annotiert? In welchem Format sind die Daten vorhanden? Welche Software wurde benutzt? In welchem Zusammenhang stehen diese Daten zu anderen Daten? Was stellen die Daten dar? Hintergrundgeschichte der Daten (Zweck, Methode, etc.)?\nDaten auswerten\n\nSie interpretieren und visualisieren die Daten, halten Ihre Forschungsergebnisse fest und zitieren die Datenquellen. Zudem bereiten Sie die Daten auf ihre Archivierung vo"
+    "text": "4.4 Datensicherung\ndokumentieren\nWie wurden die Daten erhoben?\nWie wurden die Daten annotiert?\nIn welchem Format sind die Daten vorhanden?\nWelche Software wurde benutzt?\nWas stellen die Daten dar?\nSiehe auch Kapitel 5 zu Fragen von nachhaltiger Speicherung."
+  },
+  {
+    "objectID": "04_datenerhebung_analyse.html#datenaufbereitung4",
+    "href": "04_datenerhebung_analyse.html#datenaufbereitung4",
+    "title": "4  Datenerhebung und -aufbereitung",
+    "section": "4.2 Datenaufbereitung4",
+    "text": "4.2 Datenaufbereitung4\nOpenRefine"
+  },
+  {
+    "objectID": "further_ressources.html#sec-digitaltools",
+    "href": "further_ressources.html#sec-digitaltools",
+    "title": "Appendix B — Further Ressources",
+    "section": "B.3 Tools für digital history (n.b.: free/open source)",
+    "text": "B.3 Tools für digital history (n.b.: free/open source)\n\nB.3.1 Allgemein\n\nProgramming Historian: Tutorials zu verschiedenen Tools und Methoden für historische Forschung und Lehre\n\n\n\nB.3.2 Text-/Korpusanalyse\n\nAntConc: Korpusanalyse-Toolkit\nVoyant-Tools: Sammlung von Tools zur Textanalyse, browserbasiert oder standalone\n\n\n\nB.3.3 Visualisierung\n\nFID Romanistik: Sammlung von Tools zur Datenvisualisierung"
   }
 ]
