@@ -78,14 +78,37 @@ Je nach Webseite bzw. Inhalten ist die Rechtslage nicht ganz klar;
 zum Download von Webseiten mit der Programmiersprache Python von William J. Turkel und Adam Crymble gibt es [eine Lektion im Programming Historian](https://programminghistorian.org/en/lessons/working-with-web-pages).
 Ein weiteres Tutorial zur Datenakquise, von Zach Coble, Liz Rodrigues, Erin Pappas, Chelcie Rowell, und Yasmeen Shorish, findet sich [hier](https://dlfteach.pubpub.org/pub/collecting-data-web-scraping/release/1).
 
-## Datenaufbereitung
+## Datenaufbereitung[^4]
 
 OpenRefine
+
+[^4]: Eine häufige Aussage ist, zur Datenvorbereitung/Preprocessing würde 80% der Arbeitszeit verwendet, zur Analyse und Interpretation blieben nur 20%. In einem [Blogartikel](https://blog.ldodds.com/2020/01/31/do-data-scientists-spend-80-of-their-time-cleaning-data-turns-out-no/) von 2020 geht Leigh Dodds diesen Zahlen nach.
 
 
 ## Datenanalyse
 
+Wenn Sie einen Datensatz zur Analyse zur Verfügung haben, aus selbst erhobenen Daten oder durch Nachnutzung eines vorhandenen, und für Ihre Zwecke aufbereitet haben, folgt (endlich) auch die Analyse.
+Welche Software oder Methoden Sie verwenden, hängt dabei nicht nur von der Art und Menge der Daten, sondern auch dem Datenformat und vor allem auch Ihrer Forschungsfrage ab.
+Wenn Sie eine Personendatenbank haben, in der Briefschreiber:innen und Empfänger:innen aufgenommen sind und der Wohnort der Personen bekannt ist, Sie es jedoch versäumt haben, die Daten der Einzelbriefe zu verzeichnen, können Sie nur eine räumliche Verteilung, keine raum-zeitliche Entwicklung eines Briefschreiber:innennetzwerks darstellen.[^5] 
+Wenn Sie aber nur an der örtlichen Verteilung weiblicher und männlicher Verfasser:innen interessiert sind und die zeitliche Komponente für Sie keine Rolle spielt, erübrigt sich auch ein raum-zeitliche Analyse.
+Bevor Sie sich also für eine Methode entscheiden, sollten Sie sich fragen, zu welchem Zweck Sie Ihren Datensatz nutzen wollen und  welche Frage(n) er beantworten soll. 
 
+In einem nächsten Schritt sollte über die konkrete Art der Analyse nachgedacht werden, die mit den vorhandenen Daten möglich ist.
+Unter den zahlreichen Möglichkeiten für die Arbeit mit **strukturellen Daten** sind für die Geschichtswissenschaften u.a. die [Netzwerkanalyse](https://de.wikipedia.org/wiki/Soziale_Netzwerkanalyse) oder die [Regressionsanalyse](https://de.wikipedia.org/wiki/Regressionsanalyse) häufig genutzte Methoden. 
+Für **textuelle Daten** bieten sich ebenfalls verschiedene Arten der Analyse an, darunter beispielsweise Auszählungen von Worthäufigkeiten als Teil der [Stylometrie](https://de.wikipedia.org/wiki/Stilometrie)/Zuschreibung von Autor:innenschaft (siehe @sec-digitaletools), [Topic Modelling](https://en.wikipedia.org/wiki/Topic_model) als statistische Methode zur Identifizierung wiederkehrender Themen in größeren Textbeständen, oder [Sentiment Analyse](https://en.wikipedia.org/wiki/Sentiment_analysis), um Stimmungen, Gefühle, Bewertungen aus Textpassagen zu extrahieren.
+Wenn Sie über **georeferenzierte Daten** verfügen, können Sie verschiedene Analysen mithilfe von [GIS](https://guides.temple.edu/gisfords) (Geographic Information System) durchführen und visualisieren.
+
+Ob Sie für Topic Modelling ein eigenes Skript schreiben oder vorhandene Software nutzen, ob Sie Regressionsanalysen selbst durchführen oder auf Webseiten durchführen lassen, ist dabei Ihre Entscheidung;
+oftmals ist das Nutzen vorhandener Webangebote für erste kurze Analysen sinnvoll, um zu überlegen, ob die vorgesehene Methode sinnvolle Ergebnisse zu liefern verspricht.
+Für größere Projekte, in denen komplexere Analysen über einen längeren Zeitraum durchgeführt werden sollen, bietet sich die Arbeit mit Programmiersprachen schon allein deswegen an, weil so ein sehr hohes Maß an Anpassungen von vorhandenen Funktionen für die eigenen Zwecke und die völlige Kontrolle über die eigenen Daten ermöglicht wird.
+Eine Auflistung häufig genutzter Tools für die historische Arbeit findet sich in @sec-digitaltools.
+
+
+
+
+
+
+[^5]: Ein Großprojekt an der Universität Stanford, [Mapping the Republic of Letters](http://republicofletters.stanford.edu/), hat für das 18. Jahrhundert das Briefnetzwerk europäischer Gelehrter modelliert. Ein Fallbeispiel ist das Netzwerk Voltaires, in verschiedenen Visualisierungen: [http://republicofletters.stanford.edu/publications/voltaire/letters/](http://republicofletters.stanford.edu/publications/voltaire/letters/). Dan Edelstein. Interactive Visualization for Voltaire’s Correspondence Network. Letters in Voltaire’s Network [Created using Palladio, http://hdlab.stanford.edu/palladio].
 
 ## Datensicherung
 
