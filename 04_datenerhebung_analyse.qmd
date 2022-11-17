@@ -108,7 +108,7 @@ am hilfreichsten und recht voraussetzungslos zu bedienen und dabei auch für gro
 
 Wenn Sie einen Datensatz zur Analyse zur Verfügung haben, aus selbst erhobenen Daten oder durch Nachnutzung eines vorhandenen, und für Ihre Zwecke aufbereitet haben, folgt (endlich) auch die Analyse.
 Welche Software oder Methoden Sie verwenden, hängt dabei nicht nur von der Art und Menge der Daten, sondern auch dem Datenformat und vor allem auch Ihrer Forschungsfrage ab.
-Wenn Sie eine Personendatenbank haben, in der Briefschreiber:innen und Empfänger:innen aufgenommen sind und der Wohnort der Personen bekannt ist, Sie es jedoch versäumt haben, die Daten der Einzelbriefe zu verzeichnen, können Sie nur eine räumliche Verteilung, keine raum-zeitliche Entwicklung eines Briefschreiber:innennetzwerks darstellen.[^5] 
+Wenn Sie eine Personendatenbank haben, in der Briefschreiber:innen und Empfänger:innen aufgenommen sind und der Wohnort der Personen bekannt ist, Sie es jedoch versäumt haben, die Daten der Einzelbriefe zu verzeichnen, können Sie nur eine räumliche Verteilung, keine raum-zeitliche Entwicklung eines Briefschreiber:innennetzwerks darstellen.[^8] 
 Wenn Sie aber nur an der örtlichen Verteilung weiblicher und männlicher Verfasser:innen interessiert sind und die zeitliche Komponente für Sie keine Rolle spielt, erübrigt sich auch ein raum-zeitliche Analyse.
 Bevor Sie sich also für eine Methode entscheiden, sollten Sie sich fragen, zu welchem Zweck Sie Ihren Datensatz nutzen wollen und  welche Frage(n) er beantworten soll. 
 
@@ -123,7 +123,7 @@ Für größere Projekte, in denen komplexere Analysen über einen längeren Zeit
 Eine Auflistung häufig genutzter Tools für die historische Arbeit findet sich in @sec-digitaltools.
 
 
-[^5]: Ein Großprojekt an der Universität Stanford, [Mapping the Republic of Letters](http://republicofletters.stanford.edu/), hat für das 18. Jahrhundert das Briefnetzwerk europäischer Gelehrter modelliert. Ein Fallbeispiel ist das Netzwerk Voltaires, in verschiedenen Visualisierungen: [http://republicofletters.stanford.edu/publications/voltaire/letters/](http://republicofletters.stanford.edu/publications/voltaire/letters/). Dan Edelstein. Interactive Visualization for Voltaire’s Correspondence Network. Letters in Voltaire’s Network [Created using Palladio, http://hdlab.stanford.edu/palladio].
+[^8]: Ein Großprojekt an der Universität Stanford, [Mapping the Republic of Letters](http://republicofletters.stanford.edu/), hat für das 18. Jahrhundert das Briefnetzwerk europäischer Gelehrter modelliert. Ein Fallbeispiel ist das Netzwerk Voltaires, in verschiedenen Visualisierungen: [http://republicofletters.stanford.edu/publications/voltaire/letters/](http://republicofletters.stanford.edu/publications/voltaire/letters/). Dan Edelstein. Interactive Visualization for Voltaire’s Correspondence Network. Letters in Voltaire’s Network [Created using Palladio, http://hdlab.stanford.edu/palladio].
 
 ## Datensicherung
 
