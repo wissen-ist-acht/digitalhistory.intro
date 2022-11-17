@@ -59,6 +59,10 @@ Für solche Abfragen können ein Kommandozeilenprogramm oder Programmiersprachen
 
 `cats <- fromJSON("https://smb.museum-digital.de/json/objects?&s=katze")`
 
+> Sie können R [hier](https://www.r-project.org/) herunterladen. Wenn Sie das Programm öffnen, müssen Sie dort zuerst das Paket `jsonlite` installieren:
+>`install.packages("jsonlite")`
+Mit "Enter" wird das Paket installiert. Dann können Sie die zwei Zeilen oben eintippen und ebenfalls mit "Enter" ausführen. Die Ergebnisse Ihrer Suche können Sie sich mit `cats` + "Enter" anzeigen lassen
+
 Das Ergebnis der Suchanfrage nach "katze" wird in der Variable `cats` gespeichert, und diese kann zur Weiterarbeit in ein Tabellenformat exportiert werden:
 
 `write.csv(cats, "docs/cats_smb.csv")`
