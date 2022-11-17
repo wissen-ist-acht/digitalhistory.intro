@@ -20,7 +20,7 @@ Gehen Sie auf die [Bilder-Suche von Google](https://images.google.com/) und such
 
 [^1]: Verschiedene Organisationen und Interessensverbände machen sich hierzu Gedanken; die deutsche "Gesellschaft für Informatik" hat ein Grundlagenpapier erstellt, in dem es um Data Literacy und Data Science Education als digitale Kompetenzen in der Hochschulausbildung geht: <https://gi.de/fileadmin/GI/Hauptseite/Aktuelles/Aktionen/Data_Literacy/GI_DataScience_2018-04-20_FINAL.pdf>.
 
-[^2]: Alternative Suchmaschinen sind zum Beispiel \[Startpage\](https://www.startpage.com/) oder \[DuckDuckGo\](https://duckduckgo.com/).
+[^2]: Alternative Suchmaschinen sind zum Beispiel [Startpage](https://www.startpage.com/) oder [DuckDuckGo](https://duckduckgo.com/).
 
 Wüsste ich nichts über Geschichtswissenschaftler:innen, würde ich aufgrund der Ergebnisse meiner Suche davon ausgehen, "a historian" wäre meist ein alter, weißer Mann mit Brille, Bart und einem großen Bücherregal; wenn Sie sich am Departement Geschichte der Uni Basel umsehen, dürfte ein etwas anderer Eindruck entstehen.
 Die Ergebnisse von Suchmaschinen, die für ihr Funktionieren Algorithmen anwenden, sind biased: Sie beruhen auf vorangegangenen Suchen, Vorlieben, geographischem Standort -- und auf von Menschen eingegebenen Metadaten.
@@ -64,11 +64,11 @@ Die Wahrscheinlichkeit, dass die Mensa infolge der BZ-Schlagzeile innerhalb weni
 Auch hier sind Verzerrungen entstanden, ähnlich wie beim vorherigen Beispiel mit den Briefen: Wenn aus einer Gesamtheit nur eine spezifische Untermenge beobachtet wird, die sich durch ein gemeinsames Merkmal von der Gesamtheit unterscheidet -- digitalisierte Quelle oder Besucher:in der Universitätsbibliothek --, ist die Datengrundlage und damit die Untersuchungsergebnisse biased. 
 Um bei Daten, die Sie nachnutzen, eventuell vorhandene Verzerrungen nicht weiterzutransportieren, ist das Üben von Datenkritik eine essentielle Kompetenz.
 
-Zur Tatsache, dass Daten eben nicht gegeben sind (lat. dare, datum: gebene, gegeben), sondern gemacht und daher entsprechend interpretiert werden müssen, finden Sie ein gutes Interview von Roopika Risam;[@risam_its_2020] zur Zementierung von Klischees durch Übersetzungsalgorithmen gibt es einen Artikel in der Republik von Marie-José Kolly und Simon Schmid;[@kolly_sie_2021] und über die Macht von Data Science und dem Änderungspotential von Data Feminism haben Cathherine D'Ignazio und Lauren F. Klein ein ganzes Buch veröffentlich.[@dignazio_data_2020]
+Zur Tatsache, dass Daten eben nicht gegeben sind (lat. dare, datum: gebene, gegeben), sondern gemacht und daher entsprechend interpretiert werden müssen, finden Sie ein gutes Interview von Roopika Risam;[@risam_its_2020] zur Zementierung von Klischees durch Übersetzungsalgorithmen gibt es einen Artikel in der Republik von Marie-José Kolly und Simon Schmid;[@kolly_sie_2021] und über die Macht von Data Science und dem Änderungspotential von Data Feminism haben Catherine D'Ignazio und Lauren F. Klein ein ganzes Buch veröffentlich.[@dignazio_data_2020]
 
-Zur Frage, wie sich die digitale Wende, der digital turn, auf die Quellenkritik auswirkt, sehen Sie sich dieses kurze Video des Projekts [Ranke.2 -- Quellenkritik im digitalen Zeitalter](https://ranke2.uni.lu) an[^3]:
+Zur Frage, wie sich die digitale Wende, der digital turn, auf die Quellenkritik auswirkt, sehen Sie sich dieses kurze Video des Projekts [Ranke.2 -- Quellenkritik im digitalen Zeitalter](https://ranke2.uni.lu) an:[^3]
 
-[^3]: Eine Selbstlerneinheit zum Thema finden Sie hier: https://ranke2.uni.lu/u/archival-digital-turn/.
+[^3]: Eine Selbstlerneinheit zum Thema finden Sie hier: [https://ranke2.uni.lu/u/archival-digital-turn/](https://ranke2.uni.lu/u/archival-digital-turn/).
 
 <iframe title="vimeo-player" src="https://player.vimeo.com/video/303237473?h=efca80c2ca" width="640" height="360" frameborder="0" allowfullscreen>
 
