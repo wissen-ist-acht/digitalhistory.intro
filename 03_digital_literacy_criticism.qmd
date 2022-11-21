@@ -1,5 +1,5 @@
 ---
-title: Digital Literacy, Digital Critisicm 
+title: Digital Literacy, Digital Criticism 
 suppress-bibliography: true
 lang: de
 editor: 
@@ -11,29 +11,28 @@ editor:
 
 Unter Data Literacy wird die Kompetenz verstanden, Daten zu sammeln, zu managen, zu evaluieren und zu nutzen,[@ridsdale_strategies_2015, S. 8] eine Kompetenz, die jede:r für den mittlerweile unvermeidlichen Umgang mit Daten verschiedenster Art im eigenen Alltag entwickeln sollte.
 Je nach Forschungsdisziplin ergeben sich weiter gewisse Spezifika, wobei Studierenden der Geisteswissenschaften ein Thema wie Algorithmenkritik nicht als erstes in den Sinn kommt, wenn es um die im Studium zu erwerbenden Kompetenzen geht.[^1]
-Aber auch ohne den Quellcode vonmachine-learning-Software im Detail zu verstehen, ermöglicht ein grundlegendes Verständnis von und ein Wissen über die Funktionsweisen solcher Anwendungen einen reflektierten Umgang mit diesen; eine solche Art von digital bzw.
-data literay ist vor allem dann relevant, wenn es um die Interpretation von Ergebnissen geht, die scheinbar objektiv sind, bzw.
-objektiv entstanden.
+Aber auch ohne den Quellcode von *machine-learning*-Software im Detail zu verstehen, ermöglicht ein grundlegendes Verständnis von und ein Wissen über die Funktionsweisen solcher Anwendungen einen reflektierten Umgang mit diesen. 
+Eine solche Art von Digital bzw. Data Literacy ist vor allem dann relevant, wenn es um die Interpretation von Ergebnissen geht, die scheinbar objektiv sind, bzw. scheinbar objektiv entstanden.
 Ein gutes Beispiel hierfür sind die Ergebnislisten bei Suchanfragen in einer Suchmaschine.
-Je nachdem, welchen Anbieter Sie nutzen, spielen verschiedene Umstände in die Generierung von Trefferlisten hinein, beispielsweise Ihre Suchhistorie, sodass [search neutrality](https://en.wikipedia.org/wiki/Search_neutrality) nicht mehr gewährleistet ist.[^2]\
+Je nachdem, welchen Anbieter Sie nutzen, spielen verschiedene Umstände in die Generierung von Trefferlisten hinein, beispielsweise Ihre Suchhistorie, sodass [*search neutrality*](https://en.wikipedia.org/wiki/Search_neutrality) nicht mehr gewährleistet ist.[^2]\
 Gehen Sie auf die [Bilder-Suche von Google](https://images.google.com/) und suchen Sie nach "historian". Was sehen Sie?
 
 [^1]: Verschiedene Organisationen und Interessensverbände machen sich hierzu Gedanken; die deutsche "Gesellschaft für Informatik" hat ein Grundlagenpapier erstellt, in dem es um Data Literacy und Data Science Education als digitale Kompetenzen in der Hochschulausbildung geht: <https://gi.de/fileadmin/GI/Hauptseite/Aktuelles/Aktionen/Data_Literacy/GI_DataScience_2018-04-20_FINAL.pdf>.
 
 [^2]: Alternative Suchmaschinen sind zum Beispiel [Startpage](https://www.startpage.com/) oder [DuckDuckGo](https://duckduckgo.com/).
 
-Wüsste ich nichts über Geschichtswissenschaftler:innen, würde ich aufgrund der Ergebnisse meiner Suche davon ausgehen, "a historian" wäre meist ein alter, weißer Mann mit Brille, Bart und einem großen Bücherregal; wenn Sie sich am Departement Geschichte der Uni Basel umsehen, dürfte ein etwas anderer Eindruck entstehen.
-Die Ergebnisse von Suchmaschinen, die für ihr Funktionieren Algorithmen anwenden, sind biased: Sie beruhen auf vorangegangenen Suchen, Vorlieben, geographischem Standort -- und auf von Menschen eingegebenen Metadaten.
+Wüssten ich nichts über Geschichtswissenschaftler:innen, würde ich aufgrund der Ergebnisse meiner Suche davon ausgehen, "a historian" wäre meist ein alter, weißer Mann mit Brille, Bart und einem großen Bücherregal; wenn Sie sich am Departement Geschichte der Uni Basel umsehen, dürfte ein etwas anderer Eindruck entstehen.
+Die Ergebnisse von Suchmaschinen, die für ihr Funktionieren Algorithmen anwenden, sind *biased*, verzerrt: Sie beruhen auf vorangegangenen Suchen, Vorlieben, geographischem Standort -- und auf von Menschen eingegebenen Metadaten, also Daten mit Informationen über andere Daten.
 Ein Bewusstsein hierfür und das Hinterfragen von Datensätzen gehören also mit zur Arbeit in einer digitalisierten Welt.
 
 ## Digital Criticism, Data Criticism
 
-Digitalisierte Quellen ebenso wie rein digitale erfordern eine erweiterte Art von Quellenkritik -- im Einführungskurs an der Universität Basel lernen Sie die Grundlagen:\
+Digitalisierte Quellen ebenso wie rein digitale erfordern eine erweiterte Art von Quellenkritik -- im Einführungskurs an der Universität Basel lernen Sie die Grundlagen klassischer Quellenkritik:\
 Woher kommt eine Quelle, wer hat sie unter welchen Umständen und zu welchem Zweck erstellt?
 Welche Absichten können darin verborgen sein, und welche Verzerrungen können sich durch sie ergeben?\
 Welche Tendenzen könnten sich in hochmittelalterlichen Herrscherchroniken verstecken, wenn der Verfasser in direkter Abhängigkeit des Auftraggebers stand?
 Wie sind Zeug:innenaussagen in Hexenprozessen zu bewerten, die unter Anwendung körperlicher Strafe entstanden sind?
-Mit wie viel Vorsicht sind die Inhalte eines Tagebuchs zu berwerten, das allem Anschein nach mit Blick auf eine spätere Veröffentlichung verfasst wurde?
+Mit wie viel Vorsicht sind die Inhalte eines Tagebuchs zu bewerten, das allem Anschein nach mit Blick auf eine spätere Veröffentlichung verfasst wurde?
 
 Neben der inneren Kritik geht es bei der Arbeit mit Quellen immer auch um Fragen der Korpusbildung: 
 Wie kann eine Quellengrundlage erstellt werden, die für Beantwortung einer spezifischen historischen Fragestellung belastbar und aussagekräftig genug ist und gleichzeitig in angemessener Zeit bearbeitet werden kann?
@@ -47,11 +46,11 @@ Wenn Sie sich beispielsweise für die Schweizer Historikerin und Frauenrechtleri
 ![Suchergebnisse für "Meta von Salis" + "Brief"](images/suchergebnisse_1.png)
 :::
 
-Digital verfügbar waren hiervon im Oktober 2022 lediglich 3 Einträge, wobei der erste ein Brief von Nietzsche an Meta von Salis ist, der zweite Eintrag umfasst sieben Briefe von Caroline Farner, und der dritte Eintrag ist weder an noch von Meta von Salis, sondern hat sie nur zum Thema:
+Digital verfügbar waren hiervon im Oktober 2022 lediglich drei Einträge, wobei der erste ein Brief von Nietzsche an Meta von Salis ist, der zweite Eintrag umfasst sieben Briefe von Caroline Farner, und der dritte Eintrag ist weder an noch von Meta von Salis, sondern hat sie nur zum Thema:
 
 ![Suchergebnisse für "Meta von Salis" + "Brief" + "Digitalisat verfügbar"](images/suchergebnisse_2.png)
 
-Ihnen würde bei einer Korpuserstellung vom Schreibtisch aus also der Großteil der Überlieferung fehlen, und Ihre Untersuchungsergebnisse wären wohl sehr verzerrt, würden Sie statistische Aussagen treffen wollen: Meta von Salis unterhielt brieflichen Kontakt zu einem Mann und einer Frau, das Geschlechterverhältnis wäre also ausgeglichen; und Frauen schreiben im Schnitt mehr Briefe an Meta von Salis als Männer.
+Ihnen würde bei einer Korpuserstellung vom Schreibtisch aus, also nur mit den angezeigten Digitalisaten, also der Großteil der Überlieferung fehlen, und Ihre Untersuchungsergebnisse wären wohl sehr verzerrt, würden Sie statistische Aussagen treffen wollen: Meta von Salis unterhielt brieflichen Kontakt zu einem Mann und einer Frau, das Geschlechterverhältnis wäre also ausgeglichen; und Frauen schreiben im Schnitt mehr Briefe an Meta von Salis als Männer.
 Beim Blick auf alle Suchergebnisse würden sich Ihre Aussagen aber sehr ändern, und es würde sich lohnen, diese Verzerrung, diesen Bias aus Ihrer Datengrundlage zu entfernen.
 
 > Hinzu kommt natürlich immer das grundlegende Problem bei der Suche nach Quellen: swisscollections und ähnliche Portale können nur anzeigen, was die Kooperationspartner:innen zur Verfügung stellen.
@@ -64,9 +63,9 @@ Die Wahrscheinlichkeit, dass die Mensa infolge der BZ-Schlagzeile innerhalb weni
 Auch hier sind Verzerrungen entstanden, ähnlich wie beim vorherigen Beispiel mit den Briefen: Wenn aus einer Gesamtheit nur eine spezifische Untermenge beobachtet wird, die sich durch ein gemeinsames Merkmal von der Gesamtheit unterscheidet -- digitalisierte Quelle oder Besucher:in der Universitätsbibliothek --, ist die Datengrundlage und damit die Untersuchungsergebnisse biased. 
 Um bei Daten, die Sie nachnutzen, eventuell vorhandene Verzerrungen nicht weiterzutransportieren, ist das Üben von Datenkritik eine essentielle Kompetenz.
 
-Zur Tatsache, dass Daten eben nicht gegeben sind (lat. dare, datum: gebene, gegeben), sondern gemacht und daher entsprechend interpretiert werden müssen, finden Sie ein gutes Interview von Roopika Risam;[@risam_its_2020] zur Zementierung von Klischees durch Übersetzungsalgorithmen gibt es einen Artikel in der Republik von Marie-José Kolly und Simon Schmid;[@kolly_sie_2021] und über die Macht von Data Science und dem Änderungspotential von Data Feminism haben Catherine D'Ignazio und Lauren F. Klein ein ganzes Buch veröffentlich.[@dignazio_data_2020]
+Zur Tatsache, dass Daten eben nicht "gegeben" sind (lat. dare, datum: geben, gegeben), sondern gemacht, und daher entsprechend interpretiert werden müssen, finden Sie ein gutes Interview von Roopika Risam (2020);[@risam_its_2020] zur Zementierung von Klischees durch Übersetzungsalgorithmen gibt es einen Artikel in der Republik von Marie-José Kolly und Simon Schmid (2021);[@kolly_sie_2021] und über die Macht von Data Science und dem Änderungspotential von Data Feminism haben Catherine D'Ignazio und Lauren F. Klein 2020 ein ganzes Buch veröffentlich.[@dignazio_data_2020]
 
-Zur Frage, wie sich die digitale Wende, der digital turn, auf die Quellenkritik auswirkt, sehen Sie sich dieses kurze Video des Projekts [Ranke.2 -- Quellenkritik im digitalen Zeitalter](https://ranke2.uni.lu) an:[^3]
+Zur Frage, wie sich die digitale Wende, der *digital turn*, auf die Quellenkritik auswirkt, sehen Sie sich dieses kurze Video des Projekts [Ranke.2 -- Quellenkritik im digitalen Zeitalter](https://ranke2.uni.lu) an:[^3]
 
 [^3]: Eine Selbstlerneinheit zum Thema finden Sie hier: [https://ranke2.uni.lu/u/archival-digital-turn/](https://ranke2.uni.lu/u/archival-digital-turn/).
 
