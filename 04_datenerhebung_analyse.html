@@ -357,7 +357,7 @@ Und die Maximaltreffer auf 10:<br>
 <code>breite &lt;- 10</code><br>
 Die letzte Iteration muss dabei nicht die nächsten 10 Treffer abfragen, sondern nur noch 4 (die letzten 4 nach 130):<br>
 <code>endsize &lt;- cats$total[1]-(iterations-1) * 10</code><br>
-Dann erstellen wir eine leere Tabelle, die wir mit unseren Anfragen nach und nach befüllen:<br>
+Dann erstellen wir eine leere Tabelle, einen data frame, die wir mit unseren Anfragen nach und nach befüllen. (Bei kleinen Datenmengen kann die Funktion <code>rbind</code> zur Verbindung von Einzeltabellen genutzt werden; bei größeren Datenmengen ist das iterative Verlängern von data frames nicht empfohlen):<br>
 <code>cat_list &lt;- data.frame()</code><br>
 Wenn wir diese Variablen festgelegt haben, können wir einen Loop, eine Schlaufe bauen, die unter bestimmten Bedingungen verschiedene Aktionen ausführt:<br>
 <code>for (i in 1:iterations){</code><br>
