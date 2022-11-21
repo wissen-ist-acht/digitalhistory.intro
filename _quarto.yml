@@ -7,7 +7,7 @@ book:
   search: true
   repo-url: https://github.com/wissen-ist-acht/digital_history_intro/
   repo-actions: [edit]
-  downloads: [pdf, epub]
+  #downloads: [pdf]
   page-footer:
     left: |
       This work is licensed under <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC-NC-SA 4.0</a>.
@@ -20,7 +20,7 @@ book:
     - 03_digital_literacy_criticism.qmd
     - 04_datenerhebung_analyse.qmd
     - 05_FAIR_CARE.qmd
-    - Shell.qmd
+    #- Shell.qmd
   appendices:
     - terms.qmd
     - further_ressources.qmd
