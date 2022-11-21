@@ -102,6 +102,8 @@ Ressourcen/Portale:
 
 Projekte:
 
+- [Repertorium Academicum](https://repac.ch/): Projekt zur Erfassung europäischer Gelehrter zwischen 1250 und 1550
+
 Ressourcen/Portale:
 
 - [dMGH](https://www.dmgh.de/index.htm): Monumenta Germaniae Historica online (Beta-Version)
