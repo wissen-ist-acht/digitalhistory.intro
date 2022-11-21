@@ -1,0 +1,10 @@
+---
+title: "Praxis"
+lang: de
+suppress-bibliography: true
+editor: 
+  markdown: 
+    wrap: sentence
+---
+
+Im Praxisteil sollen verschiedene Schritte der **Datenerhebung** -- wie komme ich von Quellen zu (strukturierten) Daten, und was ist das überhaupt? -- und der **Datenanalyse** -- wozu sind die strukturierten Daten da, und was mache ich damit? -- an einem kleinen Beispiel ausprobiert werden
