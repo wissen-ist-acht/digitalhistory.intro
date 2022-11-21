@@ -20,6 +20,69 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1.6em;
   vertical-align: middle;
 }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+    color: #aaaaaa;
+  }
+pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+code span.at { color: #7d9029; } /* Attribute */
+code span.bn { color: #40a070; } /* BaseN */
+code span.bu { color: #008000; } /* BuiltIn */
+code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+code span.ch { color: #4070a0; } /* Char */
+code span.cn { color: #880000; } /* Constant */
+code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+code span.dt { color: #902000; } /* DataType */
+code span.dv { color: #40a070; } /* DecVal */
+code span.er { color: #ff0000; font-weight: bold; } /* Error */
+code span.ex { } /* Extension */
+code span.fl { color: #40a070; } /* Float */
+code span.fu { color: #06287e; } /* Function */
+code span.im { color: #008000; font-weight: bold; } /* Import */
+code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+code span.op { color: #666666; } /* Operator */
+code span.ot { color: #007020; } /* Other */
+code span.pp { color: #bc7a00; } /* Preprocessor */
+code span.sc { color: #4070a0; } /* SpecialChar */
+code span.ss { color: #bb6688; } /* SpecialString */
+code span.st { color: #4070a0; } /* String */
+code span.va { color: #19177c; } /* Variable */
+code span.vs { color: #4070a0; } /* VerbatimString */
+code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
 </style>
 
 
@@ -156,7 +219,7 @@ ul.task-list li input[type="checkbox"] {
    
   <ul>
   <li><a href="#datenerhebung" id="toc-datenerhebung" class="nav-link active" data-scroll-target="#datenerhebung"><span class="toc-section-number">4.1</span>  Datenerhebung</a></li>
-  <li><a href="#datenaufbereitung4" id="toc-datenaufbereitung4" class="nav-link" data-scroll-target="#datenaufbereitung4"><span class="toc-section-number">4.2</span>  Datenaufbereitung</a></li>
+  <li><a href="#datenaufbereitung5" id="toc-datenaufbereitung5" class="nav-link" data-scroll-target="#datenaufbereitung5"><span class="toc-section-number">4.2</span>  Datenaufbereitung</a></li>
   <li><a href="#datenanalyse" id="toc-datenanalyse" class="nav-link" data-scroll-target="#datenanalyse"><span class="toc-section-number">4.3</span>  Datenanalyse</a></li>
   <li><a href="#datensicherung" id="toc-datensicherung" class="nav-link" data-scroll-target="#datensicherung"><span class="toc-section-number">4.4</span>  Datensicherung</a></li>
   </ul>
@@ -208,15 +271,15 @@ anzeigen lassen.</p>
 <p></p><figcaption class="figure-caption">Beginn der Trefferliste für “katze” über die API der Staatlichen Museen zu Berlin</figcaption><p></p>
 </figure>
 </div>
-<!-- Um Abfragen zu vermeiden, die die Server überlasten, haben die meisten APIs entweder eine Authentifizierung oder eine maximale Trefferanzahl eingebaut.  -->
-<!-- Beim obigen Beispiel erhalten Sie dadurch nicht die gesamte Trefferanzahl (134, aus dem Feld "total" ersichtlich), sondern nur die ersten 24 -- diese Einstellungen haben die Entwickler:innen der Schnittstelle gemacht.  -->
-<!-- Um dennoch alle Treffer mit einer Abfrage zu erhalten, müssten Sie sie etwas modifizieren: -->
+<blockquote class="blockquote">
+<p>Um Abfragen zu vermeiden, die die Server überlasten, haben die meisten APIs entweder eine Authentifizierung oder eine maximale Trefferanzahl pro Abfrage eingebaut. Beim obigen Beispiel erhalten Sie dadurch nicht die gesamte Trefferanzahl (134, aus der Spalte “total” ersichtlich), sondern nur die ersten 24 – diese Einstellungen haben die Entwickler:innen der Schnittstelle gemacht. Um dennoch alle Treffer mit einer Abfrage zu erhalten, müssten Sie die Dokumentation der API lesen und die Abfrage etwas modifizieren. Wenn Sie das interessiert, finden Sie Details in der Fußnote.<a href="#fn4" class="footnote-ref" id="fnref4" role="doc-noteref"><sup>4</sup></a></p>
+</blockquote>
 <p>Wenn Webseiten keine Schnittstellen zur Verfügung stellen, besteht die Möglichkeit, mit <strong>Web Scraping</strong> an gewünschte Daten zu kommen. Je nach Webseite bzw. Inhalten ist die Rechtslage allerdings nicht ganz klar. Zum Download von Webseiten mit der Programmiersprache Python gibt es <a href="https://programminghistorian.org/en/lessons/working-with-web-pages">eine Lektion im Programming Historian</a> von William J. Turkel und Adam Crymble. Ein weiteres Tutorial zur Datenakquise, von Zach Coble, Liz Rodrigues, Erin Pappas, Chelcie Rowell, und Yasmeen Shorish, findet sich <a href="https://dlfteach.pubpub.org/pub/collecting-data-web-scraping/release/1">hier</a>.</p>
 </section>
-<section id="datenaufbereitung4" class="level2" data-number="4.2">
-<h2 data-number="4.2" class="anchored" data-anchor-id="datenaufbereitung4"><span class="header-section-number">4.2</span> Datenaufbereitung<a href="#fn4" class="footnote-ref" id="fnref4" role="doc-noteref"><sup>4</sup></a></h2>
+<section id="datenaufbereitung5" class="level2" data-number="4.2">
+<h2 data-number="4.2" class="anchored" data-anchor-id="datenaufbereitung5"><span class="header-section-number">4.2</span> Datenaufbereitung<a href="#fn5" class="footnote-ref" id="fnref5" role="doc-noteref"><sup>5</sup></a></h2>
 <p>Bei der Arbeit mit Datensätzen, seien sie selbst erhoben oder von Dritten übernommen, ist es häufig der Fall, dass Informationen fehlen oder uneinheitlich erhoben wurden, was eine spätere Analyse erschwert.</p>
-<p>Wenn in einer Umfrage unter Studierenden das Studienfach mit in eine Tabelle aufgenommen wurde, ohne zuvor Werte für diese Kategorie zu definieren, finden sich für “Geschichte” und “Deutsch” vielleicht auch folgende Varianten: “Gesch.”, “Geschichtswissenschaft”, “Geschichtswissenschaften”, “Geschihcte”, “Germanistik”, “Dt.”, “Germ.”. Anstatt zwei Werten für zwei Studienfächer gibt es neun – ohne, dass sich das Fächerspektrum erweitert hätte. Im besten Fall werden solche Varianten schon bei der Erhebung der Daten vermieden, indem eine feste Liste an Werten erstellt wird. Erhält man jedoch einen Datensatz mit verschiedenen Varianten für ein und denselben Wert, muss man diese zusammenführen, um eine saubere Datengrundlage zu erhalten. Sie können entweder mit <code>Strg-R</code> versuchen, verschiedene Schreibweisen zu finden und zu ersetzen; in Tabellenprogrammen wie Excel, Open Office oder Google Sheets können Sie sich einzigartige Werte einzelner Spalten anzeigen lassen und zusammengehörende Varianten zu einem Grundwert zusammenführen; am hilfreichsten, recht voraussetzungslos zu bedienen und dabei auch für große Datensätze nutzbar ist die Software <a href="https://openrefine.org/">OpenRefine</a>, mit der Sie Daten extrahieren,<a href="#fn5" class="footnote-ref" id="fnref5" role="doc-noteref"><sup>5</sup></a> säubern/vereinheitlichen<a href="#fn6" class="footnote-ref" id="fnref6" role="doc-noteref"><sup>6</sup></a> und anreichern<a href="#fn7" class="footnote-ref" id="fnref7" role="doc-noteref"><sup>7</sup></a> können, um eine für Ihre Forschungsfrage und dafür notwendige Analysen sinnvolle Datengrundlage zu erhalten.</p>
+<p>Wenn in einer Umfrage unter Studierenden das Studienfach mit in eine Tabelle aufgenommen wurde, ohne zuvor Werte für diese Kategorie zu definieren, finden sich für “Geschichte” und “Deutsch” vielleicht auch folgende Varianten: “Gesch.”, “Geschichtswissenschaft”, “Geschichtswissenschaften”, “Geschihcte”, “Germanistik”, “Dt.”, “Germ.”. Anstatt zwei Werten für zwei Studienfächer gibt es neun – ohne, dass sich das Fächerspektrum erweitert hätte. Im besten Fall werden solche Varianten schon bei der Erhebung der Daten vermieden, indem eine feste Liste an Werten erstellt wird. Erhält man jedoch einen Datensatz mit verschiedenen Varianten für ein und denselben Wert, muss man diese zusammenführen, um eine saubere Datengrundlage zu erhalten. Sie können entweder mit <code>Strg-R</code> versuchen, verschiedene Schreibweisen zu finden und zu ersetzen; in Tabellenprogrammen wie Excel, Open Office oder Google Sheets können Sie sich einzigartige Werte einzelner Spalten anzeigen lassen und zusammengehörende Varianten zu einem Grundwert zusammenführen; am hilfreichsten, recht voraussetzungslos zu bedienen und dabei auch für große Datensätze nutzbar ist die Software <a href="https://openrefine.org/">OpenRefine</a>, mit der Sie Daten extrahieren,<a href="#fn6" class="footnote-ref" id="fnref6" role="doc-noteref"><sup>6</sup></a> säubern/vereinheitlichen<a href="#fn7" class="footnote-ref" id="fnref7" role="doc-noteref"><sup>7</sup></a> und anreichern<a href="#fn8" class="footnote-ref" id="fnref8" role="doc-noteref"><sup>8</sup></a> können, um eine für Ihre Forschungsfrage und dafür notwendige Analysen sinnvolle Datengrundlage zu erhalten.</p>
 <p>Für Textdaten sind verschiedene Schritte zur Aufbereitung notwendig, je nachdem, welche Methode bzw. Software Sie nutzen möchten. Für die meisten Analysen ist es sinnvoll, mit sogenannten Stopword-Listen zu arbeiten. <a href="https://en.wikipedia.org/wiki/Stop_word">Stopwords</a> sind Wörter, die vor einer Analyse aus einem Korpus entfernt werden, um aussagekräftigere Ergebnisse zu erhalten, gerade, wenn es um rein quantitative Methoden zur inhaltlichen Erschließung geht. Stopwords sind Wörter mit grammatikalischen Funktionen, die in großer Zahl in Dokumenten vorkommen, jedoch wenig Bedeutung tragen. Wenn man den unbearbeiteten Text dieses Guides nach Worthäufigkeiten auswertet, hier mit <a href="https://voyant-tools.org/">Voyant-Tools</a> lässt sich nur schwerlich erahnen, worum es geht – “digital” steht auf Platz 12, viel häufiger sind Artikel und Präpositionen. Mit Hilfe einer Stopword-Liste, die die häufigsten nicht-sinntragenden Wörter aus dem Text entfernt, wird der Inhalt klarer:</p>
 <div class="quarto-layout-panel">
 <div class="quarto-layout-row quarto-layout-valign-top">
@@ -245,7 +308,7 @@ anzeigen lassen.</p>
 </section>
 <section id="datenanalyse" class="level2" data-number="4.3">
 <h2 data-number="4.3" class="anchored" data-anchor-id="datenanalyse"><span class="header-section-number">4.3</span> Datenanalyse</h2>
-<p>Wenn Sie einen Datensatz zur Analyse zur Verfügung haben, aus selbst erhobenen Daten oder durch Nachnutzung eines vorhandenen, und für Ihre Zwecke aufbereitet haben, folgt (endlich) auch die Analyse. Welche Software oder Methoden Sie verwenden, hängt dabei nicht nur von der Art und Menge der Daten, sondern auch dem Datenformat und vor allem auch Ihrer Forschungsfrage ab. Wenn Sie eine Personendatenbank haben, in der Briefschreiber:innen und Empfänger:innen aufgenommen sind und der Wohnort der Personen bekannt ist, Sie es jedoch versäumt haben, die Datierungen der Einzelbriefe zu verzeichnen, können Sie nur eine räumliche Verteilung, keine raum-zeitliche Entwicklung eines Briefschreiber:innennetzwerks darstellen.<a href="#fn8" class="footnote-ref" id="fnref8" role="doc-noteref"><sup>8</sup></a> Wenn Sie aber nur an der örtlichen Verteilung weiblicher und männlicher Verfasser:innen interessiert sind und die zeitliche Komponente für Sie keine Rolle spielt, erübrigt sich auch ein raum-zeitliche Analyse. Bevor Sie sich also für eine Methode entscheiden, sollten Sie sich fragen, zu welchem Zweck Sie Ihren Datensatz nutzen wollen und welche Frage(n) er beantworten soll.</p>
+<p>Wenn Sie einen Datensatz zur Analyse zur Verfügung haben, aus selbst erhobenen Daten oder durch Nachnutzung eines vorhandenen, und für Ihre Zwecke aufbereitet haben, folgt (endlich) auch die Analyse. Welche Software oder Methoden Sie verwenden, hängt dabei nicht nur von der Art und Menge der Daten, sondern auch dem Datenformat und vor allem auch Ihrer Forschungsfrage ab. Wenn Sie eine Personendatenbank haben, in der Briefschreiber:innen und Empfänger:innen aufgenommen sind und der Wohnort der Personen bekannt ist, Sie es jedoch versäumt haben, die Datierungen der Einzelbriefe zu verzeichnen, können Sie nur eine räumliche Verteilung, keine raum-zeitliche Entwicklung eines Briefschreiber:innennetzwerks darstellen.<a href="#fn9" class="footnote-ref" id="fnref9" role="doc-noteref"><sup>9</sup></a> Wenn Sie aber nur an der örtlichen Verteilung weiblicher und männlicher Verfasser:innen interessiert sind und die zeitliche Komponente für Sie keine Rolle spielt, erübrigt sich auch ein raum-zeitliche Analyse. Bevor Sie sich also für eine Methode entscheiden, sollten Sie sich fragen, zu welchem Zweck Sie Ihren Datensatz nutzen wollen und welche Frage(n) er beantworten soll.</p>
 <p>In einem nächsten Schritt sollte über die konkrete Art der Analyse nachgedacht werden, die mit den vorhandenen Daten möglich ist. Unter den zahlreichen Möglichkeiten für die Arbeit mit <strong>strukturellen Daten</strong> sind für die Geschichtswissenschaften u.a. die <a href="https://de.wikipedia.org/wiki/Soziale_Netzwerkanalyse">Netzwerkanalyse</a> oder die <a href="https://de.wikipedia.org/wiki/Regressionsanalyse">Regressionsanalyse</a> häufig genutzte Methoden. Für <strong>textuelle Daten</strong> bieten sich ebenfalls verschiedene Arten der Analyse an, darunter beispielsweise Auszählungen von Worthäufigkeiten als Teil der <a href="https://de.wikipedia.org/wiki/Stilometrie">Stylometrie</a>/Zuschreibung von Autor:innenschaft (siehe <a href="02_forschung_lehre.html#sec-digitaletools"><span>Kapitel&nbsp;2.2</span></a>), <a href="https://en.wikipedia.org/wiki/Topic_model">Topic Modelling</a> als statistische Methode zur Identifizierung wiederkehrender Themen in größeren Textbeständen, oder <a href="https://en.wikipedia.org/wiki/Sentiment_analysis">Sentimentanalyse</a>, um Stimmungen, Gefühle, Bewertungen aus Textpassagen zu extrahieren. Wenn Sie über <strong>georeferenzierte Daten</strong> verfügen, können Sie verschiedene Analysen mithilfe von <a href="https://guides.temple.edu/gisfords">GIS</a> (Geographic Information System) durchführen und visualisieren.</p>
 <p>Ob Sie für Topic Modelling ein eigenes Skript schreiben oder vorhandene Software nutzen, ob Sie Regressionsanalysen selbst durchführen oder auf Webseiten durchführen lassen, ist dabei Ihre Entscheidung; oftmals ist das Nutzen vorhandener Webangebote für erste kurze Analysen sinnvoll, um zu überlegen, ob die vorgesehene Methode überhaupt sinnvolle Ergebnisse liefern kann. Für größere Projekte, in denen komplexere Analysen über einen längeren Zeitraum durchgeführt werden sollen, bietet sich die Arbeit mit Programmiersprachen schon allein deswegen an, weil so ein sehr hohes Maß an Anpassungen von vorhandenen Funktionen für die eigenen Zwecke und die völlige Kontrolle über die eigenen Daten ermöglicht wird. Eine Auflistung häufig genutzter Tools für die historische Arbeit findet sich in <a href="further_resources.html#sec-digitaltools"><span>Kapitel&nbsp;B.3</span></a>.</p>
 </section>
@@ -261,11 +324,59 @@ anzeigen lassen.</p>
 <li id="fn1"><p>Ein gut nachvollziehbares Tutorial zur Extraktion von Daten aus Telefonbüchern hat <a href="https://lindseywieck.com/">Lindsey Wieck</a> für einen DH-Kurs an der St.&nbsp;Mary’s University in San Antonio erstellt: <a href="https://lindseywieck.com/fall_2016_sf/gatheringdatatutorial.html">https://lindseywieck.com/fall_2016_sf/gatheringdatatutorial.html</a>. <a href="http://derek.visualizingbroadway.com/about.html">Derek Miller</a> arbeitet zu Broadway-Vorstellungen, <a href="https://visualizingbroadway.com/index.html">Visualizing Broadway</a>, ein Projekt, das <a href="https://digitalhumanities.fas.harvard.edu/100-years-of-broadway-shows-at-once/">hier</a> beschrieben wird; <a href="https://www.youtube.com/watch?v=KUTPX2Ohcqs">hier</a> gibt es dazu ein Video in Vorlesungslänge.<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
 <li id="fn2"><p>Unter <a href="openglam.ch">openglam.ch</a> finden sich Informationen zu Schweizer GLAM-Einrichtungen, die offene Daten anbieten.<a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
 <li id="fn3"><p><strong>c</strong>omma <strong>s</strong>eparated <strong>v</strong>alue ist ein Format, in dem einzelne Werte, <em>values</em>, über spezifische Trenner, meist <em>commas</em>, eindeutig abgrenzbar sind und somit in einem Tabellenformat angezeigt werden können, wobei jeder Wert in einer separaten Zelle steht. Tabellensoftware wie Excel, Google Sheets oder Numbers kann csv-Dateien öffnen.<a href="#fnref3" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn4"><p>Eine häufige Aussage ist, zur Datenvorbereitung/Preprocessing würde 80% der Arbeitszeit verwendet, zur Analyse und Interpretation blieben nur 20%. In einem <a href="https://blog.ldodds.com/2020/01/31/do-data-scientists-spend-80-of-their-time-cleaning-data-turns-out-no/">Blogartikel</a> von 2020 geht Leigh Dodds diesen Zahlen nach – ganz so dramatisch ist das Verhältnis in Wahrheit wohl nicht.<a href="#fnref4" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn5"><p>Evan Peter Williamson: Fetching and Parsing Data from the Web with OpenRefine, Programming Historian 6 (2017), <a href="(https://doi.org/10.46430/phen0065.https://programminghistorian.org/en/lessons/fetch-and-parse-data-with-openrefine)">https://doi.org/10.46430/phen0065</a>.<a href="#fnref5" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn6"><p>Seth van Hooland, Ruben Verborgh, Max De Wilde: Cleaning Data with OpenRefine, Programming Historian 2 (2013), <a href="https://programminghistorian.org/en/lessons/cleaning-data-with-openrefine">https://doi.org/10.46430/phen0023</a>.<a href="#fnref6" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn7"><p>Karen Li-Lun Hwang: Enriching Reconciled Data with OpenRefine, The Bytegeist Blog 2018, <a href="https://medium.com/the-bytegeist-blog/enriching-reconciled-data-with-openrefine-89b885dcadbb">https://medium.com/the-bytegeist-blog/enriching-reconciled-data-with-openrefine-89b885dcadbb</a><a href="#fnref7" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn8"><p>Ein Großprojekt an der Universität Stanford, <a href="http://republicofletters.stanford.edu/">“Mapping the Republic of Letters”</a>, hat für das 18. Jahrhundert das Briefnetzwerk europäischer Gelehrter modelliert. Ein Fallbeispiel ist das Netzwerk Voltaires, in verschiedenen Visualisierungen: <a href="http://republicofletters.stanford.edu/publications/voltaire/letters/">http://republicofletters.stanford.edu/publications/voltaire/letters/</a>. Dan Edelstein. Interactive Visualization for Voltaire’s Correspondence Network. Letters in Voltaire’s Network [Created using Palladio, http://hdlab.stanford.edu/palladio].<a href="#fnref8" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn4"><p>Die API aus dem Beispiel ist so konfiguriert, dass bei Abfragen mit Ergebnissen über 24 Treffern nur die ersten 24 ausgegeben werden; das ist etwas ungewöhnlich, aber wir können damit umgehen, indem wir die maximale Trefferausgabe pro Anfrage auf 10 setzen – diese Zahl ist nicht zu hoch, und wir können gut damit rechnen. Der Parameter für die maximale Trefferzahl kann mit <code>&amp;breitenat=10</code> eingestellt werden. Den Startpunkt der Ausgabe kann man mit dem Parameter <code>&amp;startwert=</code> ändern. Um also alle Treffer für eine Abfrage zu erhalten, können wir die Ergebnisse in 10er-Schritten abfragen und anschließend zusammenfügen. Damit das nicht zu einer copy-paste-Aktion wird, müssen wir etwas ausführlicher formulieren bzw. mehrere Variablen verwenden. Das hat aber den Vorteil, dass man auf diese Art dann nach jedem Begriff suchen kann.<br>
+</p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>base_URL <span class="ot">&lt;-</span> <span class="st">"https://smb.museum-digital.de/json/objects?&amp;s=katze"</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>cats <span class="ot">&lt;-</span> <span class="fu">fromJSON</span>(base_URL)</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>start <span class="ot">&lt;-</span>  <span class="dv">0</span></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>breite <span class="ot">&lt;-</span> <span class="dv">10</span></span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>iterations <span class="ot">&lt;-</span> cats<span class="sc">$</span>total[<span class="dv">1</span>]<span class="sc">%/%</span><span class="dv">10</span> <span class="sc">+</span> <span class="dv">1</span></span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>endsize <span class="ot">&lt;-</span> cats<span class="sc">$</span>total[<span class="dv">1</span>]<span class="sc">-</span>(iterations<span class="dv">-1</span>) <span class="sc">*</span> <span class="dv">10</span></span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>cat_list <span class="ot">&lt;-</span> <span class="fu">data.frame</span>()</span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> (i <span class="cf">in</span> <span class="dv">1</span><span class="sc">:</span>iterations){</span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>  <span class="cf">if</span>(i <span class="sc">&lt;</span> iterations){</span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a>cat_list <span class="ot">&lt;-</span> <span class="fu">rbind</span>(cat_list, <span class="fu">fromJSON</span>(<span class="fu">paste</span>(base_URL, <span class="st">"&amp;gbreitenat=10&amp;startwert="</span>, start , <span class="at">sep=</span><span class="st">""</span>)))</span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a>  } <span class="cf">else</span> {</span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a>cat_list <span class="ot">&lt;-</span> <span class="fu">rbind</span>(cat_list,<span class="fu">fromJSON</span>(<span class="fu">paste</span>(base_URL, <span class="st">"&amp;gbreitenat="</span>, </span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a>                                              endsize, <span class="st">"&amp;startwert="</span>, start, <span class="at">sep=</span><span class="st">""</span>)))</span>
+<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a>  }</span>
+<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a>  start <span class="ot">&lt;-</span> start <span class="sc">+</span> <span class="dv">10</span></span>
+<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a>  <span class="fu">write.csv</span>(cat_list, <span class="st">"Desktop/cat_list.csv"</span>)</span>
+<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a>}</span></code><button title="In die Zwischenablage kopieren" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>Zuerst machen wir den Code übersichtlicher und speichern den Großteil der URL in <code>base_URL</code>:<br>
+<code>base_URL &lt;- "https://smb.museum-digital.de/json/objects?&amp;s=katze"</code><br>
+Die Ergebnisse der Suchanfrage werden wieder im Objekt <code>cats</code> gespeichert:<br>
+<code>cats &lt;- fromJSON(base_URL)</code><br>
+Die Anzahl Durchgänge für eine Abfrage ergibt sich aus der <code>Anzahl der totalen Treffer/10 + 1</code>; die Anzahl der Treffer lässt sich aus der Spalte “total” im Objekt <code>cats</code> entnehmen. In R formuliert man das so:<br>
+<code>cats$total[1]</code><br>
+Im Katzenbeispiel sind es 134 Gesamttreffer, also <code>(134/10 ohne Rest)+1</code>, also <code>2</code> Durchgänge:<br>
+<code>iterations &lt;- cats$total[1]%/%10 + 1</code><br>
+Dann setzt man den Startwert auf 0:<br>
+<code>start &lt;-  0</code><br>
+Und die Maximaltreffer auf 10:<br>
+<code>breite &lt;- 10</code><br>
+Die letzte Iteration muss dabei nicht die nächsten 10 Treffer abfragen, sondern nur noch 4 (die letzten 4 nach 130):<br>
+<code>endsize &lt;- cats$total[1]-(iterations-1) * 10</code><br>
+Dann erstellen wir eine leere Tabelle, die wir mit unseren Anfragen nach und nach befüllen:<br>
+<code>cat_list &lt;- data.frame()</code><br>
+Wenn wir diese Variablen festgelegt haben, können wir einen Loop, eine Schlaufe bauen, die unter bestimmten Bedingungen verschiedene Aktionen ausführt:<br>
+<code>for (i in 1:iterations){</code><br>
+Falls die letzte Iteration noch nicht erreicht ist, wird die Abfrage in 10er-Schritten durchgeführt, wobei der Startwert bei jedem Durchgang um 10 verschoben wird und die Ergebnisse hintereinander in <code>cat_list</code> geschrieben werden.<br>
+<code>if(i &lt; iterations){</code><br>
+<code>cat_list &lt;- rbind(cat_list, fromJSON(paste(base_URL, "&amp;gbreitenat=10&amp;startwert=", start , sep="")))</code><br>
+<code>} else {</code><br>
+Sobald die letzte Iteration erreicht ist, werden nicht mehr die nächsten 10, sondern so viel Treffer, wie in <code>endsize</code> gespeichert, abgefragt, in unserem Beispiel 4:<br>
+<code>cat_list &lt;- rbind(cat_list,fromJSON(paste(base_URL, "&amp;gbreitenat=",</code>&nbsp; <code>endsize, "&amp;startwert=", start, sep="")))</code><br>
+<code>}</code><br>
+<code>start &lt;- start + 10</code><br>
+Zum Schluss, in diesem Fall nach 14 Iterationen, wird die Tabelle in eine Datei geschrieben:<br>
+<code>write.csv(cat_list, "Desktop/cat_list.csv")</code><br>
+<code>}</code><a href="#fnref4" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn5"><p>Eine häufige Aussage ist, zur Datenvorbereitung/Preprocessing würde 80% der Arbeitszeit verwendet, zur Analyse und Interpretation blieben nur 20%. In einem <a href="https://blog.ldodds.com/2020/01/31/do-data-scientists-spend-80-of-their-time-cleaning-data-turns-out-no/">Blogartikel</a> von 2020 geht Leigh Dodds diesen Zahlen nach – ganz so dramatisch ist das Verhältnis in Wahrheit wohl nicht.<a href="#fnref5" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn6"><p>Evan Peter Williamson: Fetching and Parsing Data from the Web with OpenRefine, Programming Historian 6 (2017), <a href="(https://doi.org/10.46430/phen0065.https://programminghistorian.org/en/lessons/fetch-and-parse-data-with-openrefine)">https://doi.org/10.46430/phen0065</a>.<a href="#fnref6" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn7"><p>Seth van Hooland, Ruben Verborgh, Max De Wilde: Cleaning Data with OpenRefine, Programming Historian 2 (2013), <a href="https://programminghistorian.org/en/lessons/cleaning-data-with-openrefine">https://doi.org/10.46430/phen0023</a>.<a href="#fnref7" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn8"><p>Karen Li-Lun Hwang: Enriching Reconciled Data with OpenRefine, The Bytegeist Blog 2018, <a href="https://medium.com/the-bytegeist-blog/enriching-reconciled-data-with-openrefine-89b885dcadbb">https://medium.com/the-bytegeist-blog/enriching-reconciled-data-with-openrefine-89b885dcadbb</a><a href="#fnref8" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn9"><p>Ein Großprojekt an der Universität Stanford, <a href="http://republicofletters.stanford.edu/">“Mapping the Republic of Letters”</a>, hat für das 18. Jahrhundert das Briefnetzwerk europäischer Gelehrter modelliert. Ein Fallbeispiel ist das Netzwerk Voltaires, in verschiedenen Visualisierungen: <a href="http://republicofletters.stanford.edu/publications/voltaire/letters/">http://republicofletters.stanford.edu/publications/voltaire/letters/</a>. Dan Edelstein. Interactive Visualization for Voltaire’s Correspondence Network. Letters in Voltaire’s Network [Created using Palladio, http://hdlab.stanford.edu/palladio].<a href="#fnref9" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
 </ol>
 </section>
 
