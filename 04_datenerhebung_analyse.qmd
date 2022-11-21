@@ -64,7 +64,7 @@ Für solche Abfragen können ein Kommandozeilenprogramm oder Programmiersprachen
 Mit "Enter" wird das Paket installiert.\ 
 Dann können Sie die zwei Zeilen oben eintippen und ebenfalls mit "Enter" ausführen. Die Ergebnisse Ihrer Suche können Sie sich mit\
 `cats` + "Enter" \
-anzeigen lassen
+anzeigen lassen.
 
 Das Ergebnis der Suchanfrage nach "katze" wird in der Variable `cats` gespeichert, und diese kann zur Weiterarbeit in ein Tabellenformat exportiert werden:
 
@@ -72,19 +72,81 @@ Das Ergebnis der Suchanfrage nach "katze" wird in der Variable `cats` gespeicher
 
 Die Funktion `write.csv` speichert den Inhalt der Variable `cats` als csv-Datei[^3] unter dem Dateipfad "docs/cats_smb.csv" auf der Festplatte.
 
-![Beginn der Trefferliste für "katze" ¨über die API der Staatlichen Museen zu Berlin](images/cats_smb.png)
+![Beginn der Trefferliste für "katze" über die API der Staatlichen Museen zu Berlin](images/cats_smb.png)
 
 
 
 [^2]: Unter [openglam.ch](openglam.ch) finden sich Informationen zu Schweizer GLAM-Einrichtungen, die offene Daten anbieten.
 
-[^3]: **c**omma **s**eparated **v**alue ist ein Format, in dem einzelne Werte, *values*, über spezifische Trenner, meist *commas*, eindeutig abgrenzbar sind und somit in einem Tabellenformat angezeigt werden können, wobei jeder Wert in einer separaten Zelle steht.
+[^3]: **c**omma **s**eparated **v**alue ist ein Format, in dem einzelne Werte, *values*, über spezifische Trenner, meist *commas*, eindeutig abgrenzbar sind und somit in einem Tabellenformat angezeigt werden können, wobei jeder Wert in einer separaten Zelle steht. Tabellensoftware wie Excel, Google Sheets oder Numbers kann csv-Dateien öffnen.
+
+>Um Abfragen zu vermeiden, die die Server überlasten, haben die meisten APIs entweder eine Authentifizierung oder eine maximale Trefferanzahl pro Abfrage eingebaut.
+Beim obigen Beispiel erhalten Sie dadurch nicht die gesamte Trefferanzahl (134, aus der Spalte "total" ersichtlich), sondern nur die ersten 24 -- diese Einstellungen haben die Entwickler:innen der Schnittstelle gemacht.
+Um dennoch alle Treffer mit einer Abfrage zu erhalten, müssten Sie die Dokumentation der API lesen und die Abfrage etwas modifizieren. 
+Wenn Sie das interessiert, finden Sie Details in der Fußnote.[^4]
+
+[^4]: Die API aus dem Beispiel ist so konfiguriert, dass bei Abfragen mit Ergebnissen über 24 Treffern nur die ersten 24 ausgegeben werden; 
+das ist etwas ungewöhnlich, aber wir können damit umgehen, indem wir die maximale Trefferausgabe pro Anfrage auf 10 setzen -- diese Zahl ist nicht zu hoch, und wir können gut damit rechnen. 
+Der Parameter für die maximale Trefferzahl kann mit `&breitenat=10` eingestellt werden.
+Den Startpunkt der Ausgabe kann man mit dem Parameter `&startwert=` ändern. 
+Um also alle Treffer für eine Abfrage zu erhalten, können wir die Ergebnisse in 10er-Schritten abfragen und anschließend zusammenfügen.
+Damit das nicht zu einer copy-paste-Aktion wird, müssen wir etwas ausführlicher formulieren bzw. mehrere Variablen verwenden.
+Das hat aber den Vorteil, dass man auf diese Art dann nach jedem Begriff suchen kann.\
+``` R
+base_URL <- "https://smb.museum-digital.de/json/objects?&s=katze"
+cats <- fromJSON(base_URL)
+start <-  0
+breite <- 10
+iterations <- cats$total[1]%/%10 + 1
+endsize <- cats$total[1]-(iterations-1) * 10
+cat_list <- data.frame()
+for (i in 1:iterations){
+  if(i < iterations){
+    cat_list <- rbind(cat_list, fromJSON(paste(base_URL, "&gbreitenat=10&startwert=", start , sep="")))
+  } else {
+    cat_list <- rbind(cat_list,fromJSON(paste(base_URL, "&gbreitenat=", 
+                                                  endsize, "&startwert=", start, sep="")))
+  }
+  start <- start + 10
+  write.csv(cat_list, "Desktop/cat_list.csv")
+}
+````
+Zuerst machen wir den Code übersichtlicher und speichern den Großteil der URL in `base_URL`:\
+`base_URL <- "https://smb.museum-digital.de/json/objects?&s=katze"`\
+Die Ergebnisse der Suchanfrage werden wieder im Objekt `cats` gespeichert:\
+`cats <- fromJSON(base_URL)`\
+Die Anzahl Durchgänge für eine Abfrage ergibt sich aus der `Anzahl der totalen Treffer/10 + 1`; die Anzahl der Treffer lässt sich aus der Spalte "total" im Objekt `cats` entnehmen. In R formuliert man das so:\
+`cats$total[1]`\
+Im Katzenbeispiel sind es 134 Gesamttreffer, also `(134/10 ohne Rest)+1`, also `2` Durchgänge:\
+`iterations <- cats$total[1]%/%10 + 1`\
+Dann setzt man den Startwert auf 0:\
+`start <-  0`\
+Und die Maximaltreffer auf 10:\
+`breite <- 10`\
+Die letzte Iteration muss dabei nicht die nächsten 10 Treffer abfragen, sondern nur noch 4 (die letzten 4 nach 130):\
+`endsize <- cats$total[1]-(iterations-1) * 10`\
+Dann erstellen wir eine leere Tabelle, einen data frame, die wir mit unseren Anfragen nach und nach befüllen. (Bei kleinen Datenmengen kann die Funktion `rbind` zur Verbindung von Einzeltabellen genutzt werden; bei größeren Datenmengen ist das iterative Verlängern von data frames nicht empfohlen):\
+`cat_list <- data.frame()`\
+Wenn wir diese Variablen festgelegt haben, können wir einen Loop, eine Schlaufe bauen, die unter bestimmten Bedingungen verschiedene Aktionen ausführt:\
+`for (i in 1:iterations){`\
+Falls die letzte Iteration noch nicht erreicht ist, wird die Abfrage in 10er-Schritten durchgeführt, wobei der Startwert bei jedem Durchgang um 10 verschoben wird und die Ergebnisse hintereinander in `cat_list` geschrieben werden.\
+  `if(i < iterations){`\
+    `cat_list <- rbind(cat_list, fromJSON(paste(base_URL, "&gbreitenat=10&startwert=", start , sep="")))`\
+  ` } else {`\
+  Sobald die letzte Iteration erreicht ist, werden nicht mehr die nächsten 10, sondern so viel Treffer, wie in `endsize` gespeichert, abgefragt, in unserem Beispiel 4:\
+  `cat_list <- rbind(cat_list,fromJSON(paste(base_URL, "&gbreitenat=",`\ 
+                                                  `endsize, "&startwert=", start, sep="")))`\
+  `}`\
+  `start <- start + 10`\
+  Zum Schluss, in diesem Fall nach 14 Iterationen, wird die Tabelle in eine Datei geschrieben:\
+  `write.csv(cat_list, "Desktop/cat_list.csv")`\
+`}`
 
 Wenn Webseiten keine Schnittstellen zur Verfügung stellen, besteht die Möglichkeit, mit **Web Scraping** an gewünschte Daten zu kommen. Je nach Webseite bzw. Inhalten ist die Rechtslage allerdings nicht ganz klar.
 Zum Download von Webseiten mit der Programmiersprache Python gibt es [eine Lektion im Programming Historian](https://programminghistorian.org/en/lessons/working-with-web-pages) von William J. Turkel und Adam Crymble.
 Ein weiteres Tutorial zur Datenakquise, von Zach Coble, Liz Rodrigues, Erin Pappas, Chelcie Rowell, und Yasmeen Shorish, findet sich [hier](https://dlfteach.pubpub.org/pub/collecting-data-web-scraping/release/1).
 
-## Datenaufbereitung[^4]
+## Datenaufbereitung[^5]
 
 Bei der Arbeit mit Datensätzen, seien sie selbst erhoben oder von Dritten übernommen, ist es häufig der Fall, dass Informationen fehlen oder uneinheitlich erhoben wurden, was eine spätere Analyse erschwert.
 
@@ -95,7 +157,7 @@ Im besten Fall werden solche Varianten schon bei der Erhebung der Daten vermiede
 Erhält man jedoch einen Datensatz mit verschiedenen Varianten für ein und denselben Wert, muss man diese zusammenführen, um eine saubere Datengrundlage zu erhalten.
 Sie können entweder mit `Strg-R` versuchen, verschiedene Schreibweisen zu finden und zu ersetzen; 
 in Tabellenprogrammen wie Excel, Open Office oder Google Sheets können Sie sich einzigartige Werte einzelner Spalten anzeigen lassen und zusammengehörende Varianten zu einem Grundwert zusammenführen;
-am hilfreichsten, recht voraussetzungslos zu bedienen und dabei auch für große Datensätze nutzbar ist die Software [OpenRefine](https://openrefine.org/),  mit der Sie Daten extrahieren,[^5] säubern/vereinheitlichen[^6] und anreichern[^7] können, um eine für Ihre Forschungsfrage und dafür notwendige Analysen sinnvolle Datengrundlage zu erhalten.
+am hilfreichsten, recht voraussetzungslos zu bedienen und dabei auch für große Datensätze nutzbar ist die Software [OpenRefine](https://openrefine.org/),  mit der Sie Daten extrahieren,[^6] säubern/vereinheitlichen[^7] und anreichern[^8] können, um eine für Ihre Forschungsfrage und dafür notwendige Analysen sinnvolle Datengrundlage zu erhalten.
 
 Für Textdaten sind verschiedene Schritte zur Aufbereitung notwendig, je nachdem, welche Methode bzw. Software Sie nutzen möchten. 
 Für die meisten Analysen ist es sinnvoll, mit sogenannten Stopword-Listen zu arbeiten.
@@ -116,20 +178,20 @@ Für solche vorbereitenden Schritte gibt es existierende Software und Packages f
 Schwieriger wird es für nicht-standardisierte Sprachen bzw. Sprachformen, also dialektal geprägte oder vormoderne Texte. 
 Zwar gibt es auch hierfür Programme, die tatsächlich erreichte Präzision muss dabei jedoch je nach Quelle beurteilt werden.
 
-[^4]: Eine häufige Aussage ist, zur Datenvorbereitung/Preprocessing würde 80% der Arbeitszeit verwendet, zur Analyse und Interpretation blieben nur 20%. In einem [Blogartikel](https://blog.ldodds.com/2020/01/31/do-data-scientists-spend-80-of-their-time-cleaning-data-turns-out-no/) von 2020 geht Leigh Dodds diesen Zahlen nach -- ganz so dramatisch ist das Verhältnis in Wahrheit wohl nicht.
+[^5]: Eine häufige Aussage ist, zur Datenvorbereitung/Preprocessing würde 80% der Arbeitszeit verwendet, zur Analyse und Interpretation blieben nur 20%. In einem [Blogartikel](https://blog.ldodds.com/2020/01/31/do-data-scientists-spend-80-of-their-time-cleaning-data-turns-out-no/) von 2020 geht Leigh Dodds diesen Zahlen nach -- ganz so dramatisch ist das Verhältnis in Wahrheit wohl nicht.
 
-[^5]: Evan Peter Williamson: Fetching and Parsing Data from the Web with OpenRefine, Programming Historian 6 (2017), [https://doi.org/10.46430/phen0065]((https://doi.org/10.46430/phen0065.https://programminghistorian.org/en/lessons/fetch-and-parse-data-with-openrefine)). 
+[^6]: Evan Peter Williamson: Fetching and Parsing Data from the Web with OpenRefine, Programming Historian 6 (2017), [https://doi.org/10.46430/phen0065]((https://doi.org/10.46430/phen0065.https://programminghistorian.org/en/lessons/fetch-and-parse-data-with-openrefine)). 
 
-[^6]: Seth van Hooland, Ruben Verborgh, Max De Wilde: Cleaning Data with OpenRefine, Programming Historian 2 (2013), [https://doi.org/10.46430/phen0023](https://programminghistorian.org/en/lessons/cleaning-data-with-openrefine).
+[^7]: Seth van Hooland, Ruben Verborgh, Max De Wilde: Cleaning Data with OpenRefine, Programming Historian 2 (2013), [https://doi.org/10.46430/phen0023](https://programminghistorian.org/en/lessons/cleaning-data-with-openrefine).
 
-[^7]: Karen Li-Lun Hwang: Enriching Reconciled Data with OpenRefine, The Bytegeist Blog 2018, [https://medium.com/the-bytegeist-blog/enriching-reconciled-data-with-openrefine-89b885dcadbb](https://medium.com/the-bytegeist-blog/enriching-reconciled-data-with-openrefine-89b885dcadbb)
+[^8]: Karen Li-Lun Hwang: Enriching Reconciled Data with OpenRefine, The Bytegeist Blog 2018, [https://medium.com/the-bytegeist-blog/enriching-reconciled-data-with-openrefine-89b885dcadbb](https://medium.com/the-bytegeist-blog/enriching-reconciled-data-with-openrefine-89b885dcadbb)
 
 
 ## Datenanalyse
 
 Wenn Sie einen Datensatz zur Analyse zur Verfügung haben, aus selbst erhobenen Daten oder durch Nachnutzung eines vorhandenen, und für Ihre Zwecke aufbereitet haben, folgt (endlich) auch die Analyse.
 Welche Software oder Methoden Sie verwenden, hängt dabei nicht nur von der Art und Menge der Daten, sondern auch dem Datenformat und vor allem auch Ihrer Forschungsfrage ab.
-Wenn Sie eine Personendatenbank haben, in der Briefschreiber:innen und Empfänger:innen aufgenommen sind und der Wohnort der Personen bekannt ist, Sie es jedoch versäumt haben, die Datierungen der Einzelbriefe zu verzeichnen, können Sie nur eine räumliche Verteilung, keine raum-zeitliche Entwicklung eines Briefschreiber:innennetzwerks darstellen.[^8] 
+Wenn Sie eine Personendatenbank haben, in der Briefschreiber:innen und Empfänger:innen aufgenommen sind und der Wohnort der Personen bekannt ist, Sie es jedoch versäumt haben, die Datierungen der Einzelbriefe zu verzeichnen, können Sie nur eine räumliche Verteilung, keine raum-zeitliche Entwicklung eines Briefschreiber:innennetzwerks darstellen.[^9] 
 Wenn Sie aber nur an der örtlichen Verteilung weiblicher und männlicher Verfasser:innen interessiert sind und die zeitliche Komponente für Sie keine Rolle spielt, erübrigt sich auch ein raum-zeitliche Analyse.
 Bevor Sie sich also für eine Methode entscheiden, sollten Sie sich fragen, zu welchem Zweck Sie Ihren Datensatz nutzen wollen und  welche Frage(n) er beantworten soll. 
 
@@ -144,7 +206,7 @@ Für größere Projekte, in denen komplexere Analysen über einen längeren Zeit
 Eine Auflistung häufig genutzter Tools für die historische Arbeit findet sich in @sec-digitaltools.
 
 
-[^8]: Ein Großprojekt an der Universität Stanford, ["Mapping the Republic of Letters"](http://republicofletters.stanford.edu/), hat für das 18. Jahrhundert das Briefnetzwerk europäischer Gelehrter modelliert. Ein Fallbeispiel ist das Netzwerk Voltaires, in verschiedenen Visualisierungen: [http://republicofletters.stanford.edu/publications/voltaire/letters/](http://republicofletters.stanford.edu/publications/voltaire/letters/). Dan Edelstein. Interactive Visualization for Voltaire’s Correspondence Network. Letters in Voltaire’s Network [Created using Palladio, http://hdlab.stanford.edu/palladio].
+[^9]: Ein Großprojekt an der Universität Stanford, ["Mapping the Republic of Letters"](http://republicofletters.stanford.edu/), hat für das 18. Jahrhundert das Briefnetzwerk europäischer Gelehrter modelliert. Ein Fallbeispiel ist das Netzwerk Voltaires, in verschiedenen Visualisierungen: [http://republicofletters.stanford.edu/publications/voltaire/letters/](http://republicofletters.stanford.edu/publications/voltaire/letters/). Dan Edelstein. Interactive Visualization for Voltaire’s Correspondence Network. Letters in Voltaire’s Network [Created using Palladio, http://hdlab.stanford.edu/palladio].
 
 ## Datensicherung
 
