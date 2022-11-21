@@ -1,5 +1,5 @@
 ---
-title: Was ist digital history?
+title: Was ist Digital History?
 lang: de
 suppress-bibliography: true
 editor: 
@@ -7,7 +7,8 @@ editor:
     wrap: sentence
 ---
 
-Über die Antwort zur Frage, was digital history ist oder umfasst, kann man ausgiebig diskutieren; als Teilgebiet der digital humanities, der digitalen Geisteswissenschaften, kann die folgende aktuelle und pragmatische Definition von Blaney et al. hilfreich sein:
+Über die Antwort zur Frage, was Digital History ist oder umfasst, kann man ausgiebig diskutieren. 
+Als Teilgebiet der Digital Humanities, der digitalen Geisteswissenschaften, kann die folgende aktuelle und pragmatische Definition von Blaney et al. (2021) hilfreich sein:
 
 > Digital humanities, in our view, is a question of approach: if you are actively and critically using digital tools to aid your work in researching, teaching or learning, you are probably doing digital humanities.
 > We would encourage anyone to learn to program if they are interested in doing so, but we do not see it as a defining characteristic of work in digital humanities.
@@ -22,5 +23,5 @@ Für eine erste Idee dafür, wie man historische Fragestellungen mithilfe digita
 Themenbereichen findet sich unter [Projekte und Ressourcen](02_forschung_lehre.qmd##Projekte und Ressourcen) in Kapitel 2.
 
 Um eine Annäherung an die aktive, kritische und reflektierte Nutzung digitaler Methoden in Forschung und Lehre mit einem Fokus auf deren Anwendung in den Geschichtswissenschaften geht es im vorliegenden Guide.
-Weiterführende Texte zur Frage, was digital history ist bzw.
-umfasst, finden sich unter [Further Ressources](further_ressources.qmd##Was ist digital history?)
+Weiterführende Texte zur Frage, was Digital History ist bzw.
+umfasst, finden sich unter [Literatur, Tools, Tutorials](further_ressources.qmd##Was ist digital history?)
