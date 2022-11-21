@@ -1,5 +1,5 @@
 ---
-title: Datenerhebung und -aufbereitung
+title: Datenerhebung, -aufbereitung und -analyse
 suppress-bibliography: true
 lang: de
 editor: 
@@ -7,7 +7,7 @@ editor:
     wrap: sentence
 ---
 
-Jede Art von Forschung ist auf Daten angewiesen, seien sie mittels Personenbefragungen, medizinischer Messungen, Webscraping oder interpretierender Analysen von Texten erhoben. 
+Jede Art von Forschung ist auf Daten angewiesen, seien sie mittels Personenbefragungen, medizinischer Messungen, Web Scraping oder interpretierender Analysen von Texten erhoben. 
 Auf Grundlage von Daten können Forschungsfragen beantwortet, Thesen aufgestellt, Behauptungen widerlegt, Narrative untermauert werden.
 Analysen, die sich mit einem kleinen Set von Quellen bzw. Daten befassen, präsentieren Ergebnisse dabei oft in Form von Synthesen, die sich aus einer vorangehenden Interpretation der zugrundeliegenden Dokumente ergeben.
 Über das Quellenverzeichnis und entsprechende Anmerkungen im Text wird die Grundlage nachvollziehbar;
@@ -19,11 +19,11 @@ und beide werden mit einzelnen Sätzen oder Passagen für eine Sichtweise argume
 Die Datengrundlage ist also dieselbe und nachvollziehbar, die Auswertung bzw. die Auswertungsstrategien hingegen sind es nicht mehr, und somit auch nicht die daraus gewonnenen Ergebnisse, die ja auch wieder Forschungsdaten darstellen.
 
 Computergestützte Analysen haben den Anspruch, in allen Schritten nachvollziehbar zu sein und dadurch auch nachnutzbare Daten zu produzieren:
-Nicht nur die Quellengrundlage, also die Erhebung von Daten und die Erstellung eines Datensatzes, sondern auch alle Schritte von der Datenanreicherung und -verfeinerung über die genutzten Methoden bzw. Programme für die Auswertung bis hin zur Sicherung und Aufbewahrung sollen transparent, gut dokumentiert und nachvollziebar sein.
+Nicht nur die Quellengrundlage, also die Erhebung von Daten und die Erstellung eines Datensatzes, sondern auch alle Schritte von der Datenanreicherung und -verfeinerung über die genutzten Methoden bzw. Programme für die Auswertung bis hin zur Sicherung und Aufbewahrung sollen transparent, gut dokumentiert und nachvollziehbar sein.
 Zum einen, um die Resultate und die darauf fußenden Aussagen belastbar zu machen;
 zum anderen, um die gewonnenen Daten zur weiteren Nutzung kostenfrei und offen verfügbar zu machen.
 Zu den Prinzipien, die bei der Arbeit mit Daten berücksichtigt werden sollten, geht es nochmals in [Kapitel 5](05_FAIR_CARE.qmd). 
-An dieser Stelle geht es um die konkreten Arbeitsschritte bei der Datenerhebung und Datenaufbereitung, die in dh-Projekten häufig vorkommen.
+An dieser Stelle stehen die konkreten Arbeitsschritte bei der Datenerhebung und -aufbereitung, der Datenanalyse und -sicherung im Zentrum, die in Digital-History-Projekten häufig vorkommen.
 
 
 ## Datenerhebung
@@ -37,21 +37,21 @@ Eine solche Umwandlung vom Bild zum Text ist dabei sowohl für moderne Texte, di
 Es gibt kostenpflichtige Programme wie den [Abbyy FineReader](https://pdf.abbyy.com/), aber auch Open-Source-Tools mit und ohne Graphical User Interface (GUI).
 Weit verbreitet ist [Transkribus](https://transkribus.eu), das viele Funktionalitäten bündelt; 
 die Texterkennung ist ab einer gewissen Menge Seiten allerdings kostenpflichtig, wobei studentische Projekte auf Anfrage unterstützt werden können.
-Programme, die über die Kommandozeile laufenm gänzlich kostenfrei sind und ebenfalls zahlreiche Funktionalitäten bieten, sind beispielsweise [Kraken](https://kraken.re/master/index.html), [OCR4all](https://www.ocr4all.org/), [OCRopus](https://github.com/ocropus/ocropy/wiki) oder [Calamari](https://github.com/Calamari-OCR/calamari).
+Programme, die über die Kommandozeile laufen, gänzlich kostenfrei sind und ebenfalls zahlreiche Funktionalitäten bieten, sind beispielsweise [Kraken](https://kraken.re/master/index.html), [OCR4all](https://www.ocr4all.org/), [OCRopus](https://github.com/ocropus/ocropy/wiki) oder [Calamari](https://github.com/Calamari-OCR/calamari).
 
 Zur **Extraktion von Daten** aus digitalen/digitalisierten Texten existieren verschiedene Möglichkeiten mithilfe kleiner Kommandozeilenprogramme (eher mühsam und schwierig zu lesen) oder mit Packages für Programmiersprachen, für die Geisteswissenschaften vor allem R oder Python (siehe dazu auch @sec-digitaletools).
-So können besipielsweise aus digitalisierten Telefonbüchern Entitäten wie Personen, Straßennamen oder Berufe oder aus alten Theaterprogrammheften gespielte Stücke, beteiligte Schauspieler:innen und verantwortliche Regisseurinnen extrahiert und als Datensätze weitergenutzt werden.[^1]
+So können besipielsweise aus digitalisierten Telefonbüchern Entitäten, also Einheiten, wie Personen, Straßennamen oder Berufe oder aus alten Theaterprogrammheften gespielte Stücke, beteiligte Schauspieler:innen und verantwortliche Regisseurinnen extrahiert und als Datensätze weitergenutzt werden.[^1]
 
-[^1]: Ein gut nachvollziehbares Tutorial zur Extraktion von Daten aus Telefonbüchern hat [Lindsey Wieck](https://lindseywieck.com/) für einen dh-Kurs an der St. Mary’s University in San Antonio erstellt: [https://lindseywieck.com/fall_2016_sf/gatheringdatatutorial.html](https://lindseywieck.com/fall_2016_sf/gatheringdatatutorial.html). 
+[^1]: Ein gut nachvollziehbares Tutorial zur Extraktion von Daten aus Telefonbüchern hat [Lindsey Wieck](https://lindseywieck.com/) für einen DH-Kurs an der St. Mary’s University in San Antonio erstellt: [https://lindseywieck.com/fall_2016_sf/gatheringdatatutorial.html](https://lindseywieck.com/fall_2016_sf/gatheringdatatutorial.html). 
 [Derek Miller](http://derek.visualizingbroadway.com/about.html) arbeitet zu Broadway-Vorstellungen, [Visualizing Broadway](https://visualizingbroadway.com/index.html), ein Projekt, das [hier](https://digitalhumanities.fas.harvard.edu/100-years-of-broadway-shows-at-once/) beschrieben wird; [hier](https://www.youtube.com/watch?v=KUTPX2Ohcqs) gibt es dazu ein Video in Vorlesungslänge.
 
-Der anfängliche Aufwand, der einer automatisierten Datenextraktion vorangeht und die steile Lernkurve mancher Programme können abschreckend wirken.
-Und wenn Sie nur ein Theaterprogramm detaillierter auswerten wollen, sind Sie sicher schneller, wenn Sie die entsprechenden Daten in eine Tabellensoftware abtippen.
-Wenn Sie aber einen größeren Quellenbestand zur Verfügung haben, der in sich ähnlich strukturiert ist, wie das bei Telefonbüchern oder Theaterprogrammheften der Fall sein dürfte, macht es kaum einen Unterschied mehr, ob Sie 10 oder 1000 Theaterprogramme analysieren möchten.
+Der anfängliche Aufwand, der einer automatisierten Datenextraktion vorangeht und die steile Lernkurve bei der Bedienung mancher Programme können abschreckend wirken.
+Wenn Sie nur ein Theaterprogramm detaillierter auswerten wollen, sind Sie sicher schneller, wenn Sie die entsprechenden Daten in eine Tabellensoftware abtippen.
+Wenn Sie aber einen größeren Quellenbestand zur Verfügung haben, der in sich ähnlich strukturiert ist, wie das bei Telefonbüchern oder einer Serie von Theaterprogrammheften der Fall sein dürfte, macht es kaum einen Unterschied mehr, ob Sie zehn oder hundert Theaterprogramme analysieren möchten.
 Zudem können Sie Ihr erstelltes Skript, Ihr kleines Computerprogramm, anderen zur Verfügung stellen oder für ähnlich strukturierte Quellen in einem anderen Projekt nachnutzen.
 
 Wenn Sie mit bereits digitalisierten Beständen aus öffentlichen Institutionen wie Galerien, Bibliotheken, Museen oder Archiven arbeiten wollen (sog. [GLAM](https://de.wikipedia.org/wiki/GLAM)s: **G**alleries,  **L**ibraries, **A**rchives, **M**useums), besteht oft die Möglichkeit, Daten über **Schnittstellen** herunterzuladen.[^2]
-Solche [API](https://en.wikipedia.org/wiki/API)s (**A**pplication **P**rogramming **I**nterface) ermöglichen eine Kommunikation zwischen zwei Computern, ohne dass hierfür der Umweg über eine graphische Oberfläche nötig ist.
+Solche Schnittstellen, engl. [API](https://en.wikipedia.org/wiki/API) (**A**pplication **P**rogramming **I**nterface), ermöglichen eine Kommunikation zwischen zwei Computern, ohne dass hierfür der Umweg über eine graphische Oberfläche nötig ist.
 Anstatt also beispielsweise über die Suchmaske der [Staatlichen Museen zu Berlin](https://smb.museum-digital.de/home?navlang=de) nach Objekten oder Dokumenten mithilfe verschiedener Schlagwörter zu suchen und die Ergebnisse dann einzeln herunterzuladen, kann Ihr Computer mit der Schnittstelle des Museums direkt kommunizieren und mit einfachen Befehlen ganze Ergebnislisten zur Weiterarbeit herunterladen. 
 Für solche Abfragen können ein Kommandozeilenprogramm oder Programmiersprachen genutzt werden, die Abfrage besteht dabei im Wesentlichen aus einer Zeile, wie hier in der Programmiersprache R:
 
@@ -59,9 +59,12 @@ Für solche Abfragen können ein Kommandozeilenprogramm oder Programmiersprachen
 
 `cats <- fromJSON("https://smb.museum-digital.de/json/objects?&s=katze")`
 
-> Sie können R [hier](https://www.r-project.org/) herunterladen. Wenn Sie das Programm öffnen, müssen Sie dort zuerst das Paket `jsonlite` installieren:
->`install.packages("jsonlite")`
-Mit "Enter" wird das Paket installiert. Dann können Sie die zwei Zeilen oben eintippen und ebenfalls mit "Enter" ausführen. Die Ergebnisse Ihrer Suche können Sie sich mit `cats` + "Enter" anzeigen lassen
+> Wenn Sie die Schritte nachvollziehen möchten, können Sie R [hier](https://www.r-project.org/) herunterladen. Wenn Sie das Programm öffnen, müssen Sie zuerst das Paket `jsonlite` installieren:
+>`install.packages("jsonlite")`\
+Mit "Enter" wird das Paket installiert.\ 
+Dann können Sie die zwei Zeilen oben eintippen und ebenfalls mit "Enter" ausführen. Die Ergebnisse Ihrer Suche können Sie sich mit\
+`cats` + "Enter" \
+anzeigen lassen
 
 Das Ergebnis der Suchanfrage nach "katze" wird in der Variable `cats` gespeichert, und diese kann zur Weiterarbeit in ein Tabellenformat exportiert werden:
 
@@ -75,24 +78,24 @@ Die Funktion `write.csv` speichert den Inhalt der Variable `cats` als csv-Datei[
 
 [^2]: Unter [openglam.ch](openglam.ch) finden sich Informationen zu Schweizer GLAM-Einrichtungen, die offene Daten anbieten.
 
-[^3]: **c**omma **s**eparated **v**alue ist ein Format, in dem einzelne Werte, values, über spezifische Trenner, meist Kommas, eindeutig abgrenzbar sind und somit in einem Tabellenformat angezeigt werden können, wobei jeder Wert in einer separaten Zelle steht.
+[^3]: **c**omma **s**eparated **v**alue ist ein Format, in dem einzelne Werte, *values*, über spezifische Trenner, meist *commas*, eindeutig abgrenzbar sind und somit in einem Tabellenformat angezeigt werden können, wobei jeder Wert in einer separaten Zelle steht.
 
 Wenn Webseiten keine Schnittstellen zur Verfügung stellen, besteht die Möglichkeit, mit **Web Scraping** an gewünschte Daten zu kommen. Je nach Webseite bzw. Inhalten ist die Rechtslage allerdings nicht ganz klar.
-Zum Download von Webseiten mit der Programmiersprache Python von William J. Turkel und Adam Crymble gibt es [eine Lektion im Programming Historian](https://programminghistorian.org/en/lessons/working-with-web-pages).
+Zum Download von Webseiten mit der Programmiersprache Python gibt es [eine Lektion im Programming Historian](https://programminghistorian.org/en/lessons/working-with-web-pages) von William J. Turkel und Adam Crymble.
 Ein weiteres Tutorial zur Datenakquise, von Zach Coble, Liz Rodrigues, Erin Pappas, Chelcie Rowell, und Yasmeen Shorish, findet sich [hier](https://dlfteach.pubpub.org/pub/collecting-data-web-scraping/release/1).
 
 ## Datenaufbereitung[^4]
 
 Bei der Arbeit mit Datensätzen, seien sie selbst erhoben oder von Dritten übernommen, ist es häufig der Fall, dass Informationen fehlen oder uneinheitlich erhoben wurden, was eine spätere Analyse erschwert.
 
-Wenn in einer Umfrage unter Studierenden das Studienfach mit aufgenommen wurde, ohne zuvor Werte für diese Kategorie zu definieren, finden sich für "Geschichte" und "Deutsch" vielleicht auch folgende Varianten:
+Wenn in einer Umfrage unter Studierenden das Studienfach mit in eine Tabelle aufgenommen wurde, ohne zuvor Werte für diese Kategorie zu definieren, finden sich für "Geschichte" und "Deutsch" vielleicht auch folgende Varianten:
 "Gesch.", "Geschichtswissenschaft", "Geschichtswissenschaften", "Geschihcte", "Germanistik", "Dt.", "Germ.". 
 Anstatt zwei Werten für zwei Studienfächer gibt es neun -- ohne, dass sich das Fächerspektrum erweitert hätte. 
 Im besten Fall werden solche Varianten schon bei der Erhebung der Daten vermieden, indem eine feste Liste an Werten erstellt wird.
 Erhält man jedoch einen Datensatz mit verschiedenen Varianten für ein und denselben Wert, muss man diese zusammenführen, um eine saubere Datengrundlage zu erhalten.
 Sie können entweder mit `Strg-R` versuchen, verschiedene Schreibweisen zu finden und zu ersetzen; 
 in Tabellenprogrammen wie Excel, Open Office oder Google Sheets können Sie sich einzigartige Werte einzelner Spalten anzeigen lassen und zusammengehörende Varianten zu einem Grundwert zusammenführen;
-am hilfreichsten und recht voraussetzungslos zu bedienen und dabei auch für große Datensätze nutzbar ist die Software [OpenRefine](https://openrefine.org/),  mit der Sie Daten extrahieren,[^5] säubern/vereinheitlichen[^6] und anreichern[^7] können, um eine für Ihre Forschungsfrage und dafür notwendige Analysen sinnvolle Datengrundlage zu erhalten.
+am hilfreichsten, recht voraussetzungslos zu bedienen und dabei auch für große Datensätze nutzbar ist die Software [OpenRefine](https://openrefine.org/),  mit der Sie Daten extrahieren,[^5] säubern/vereinheitlichen[^6] und anreichern[^7] können, um eine für Ihre Forschungsfrage und dafür notwendige Analysen sinnvolle Datengrundlage zu erhalten.
 
 Für Textdaten sind verschiedene Schritte zur Aufbereitung notwendig, je nachdem, welche Methode bzw. Software Sie nutzen möchten. 
 Für die meisten Analysen ist es sinnvoll, mit sogenannten Stopword-Listen zu arbeiten.
@@ -107,13 +110,13 @@ Mit Hilfe einer Stopword-Liste, die die häufigsten nicht-sinntragenden Wörter 
 ![Worthäufigkeiten ohne Stopwords](images/word_frequencies_stopwords.png)
 :::
 
-Weitere Schritte beinhalten oft eine [Tokenisierung](https://de.wikipedia.org/wiki/Tokenisierung), also die Segmentierung in Einheiten der Wortebene, und eine [Lemmatisierung](https://de.wikipedia.org/wiki/Lemma_(Lexikographie)#Lemmatisierung), also die Rückführung von verschiedenene Formen eines Worts auf eine Grundform -- aus "ist", "war" und "sind" wird "sein.
+Weitere Schritte beinhalten oft eine [Tokenisierung](https://de.wikipedia.org/wiki/Tokenisierung), also die Segmentierung in Einheiten der Wortebene, und eine [Lemmatisierung](https://de.wikipedia.org/wiki/Lemma_(Lexikographie)#Lemmatisierung), also die Rückführung von verschiedenene Formen eines Worts auf eine Grundform -- aus "ist", "war" und "sind" wird "sein".
 Wie bei den Schreibvarianten der Studienfächer haben die verschiedenen Flexionsformen für die meisten Forschungsfragen keinen Mehrwert und können zur weiteren Analyse zusammengeführt werden.
 Für solche vorbereitenden Schritte gibt es existierende Software und Packages für Programmiersprachen, sodass hier das Rad nicht neu erfunden werden muss, vor allem für moderne, weit verbreitete Sprachen, siehe auch @sec-digitaltools.
 Schwieriger wird es für nicht-standardisierte Sprachen bzw. Sprachformen, also dialektal geprägte oder vormoderne Texte. 
-Zwar gibt es auch hier Programme, die tatsächlich erreichte Präzision muss dabei je nach Quelle beurteilt werden.
+Zwar gibt es auch hierfür Programme, die tatsächlich erreichte Präzision muss dabei jedoch je nach Quelle beurteilt werden.
 
-[^4]: Eine häufige Aussage ist, zur Datenvorbereitung/Preprocessing würde 80% der Arbeitszeit verwendet, zur Analyse und Interpretation blieben nur 20%. In einem [Blogartikel](https://blog.ldodds.com/2020/01/31/do-data-scientists-spend-80-of-their-time-cleaning-data-turns-out-no/) von 2020 geht Leigh Dodds diesen Zahlen nach.
+[^4]: Eine häufige Aussage ist, zur Datenvorbereitung/Preprocessing würde 80% der Arbeitszeit verwendet, zur Analyse und Interpretation blieben nur 20%. In einem [Blogartikel](https://blog.ldodds.com/2020/01/31/do-data-scientists-spend-80-of-their-time-cleaning-data-turns-out-no/) von 2020 geht Leigh Dodds diesen Zahlen nach -- ganz so dramatisch ist das Verhältnis in Wahrheit wohl nicht.
 
 [^5]: Evan Peter Williamson: Fetching and Parsing Data from the Web with OpenRefine, Programming Historian 6 (2017), [https://doi.org/10.46430/phen0065]((https://doi.org/10.46430/phen0065.https://programminghistorian.org/en/lessons/fetch-and-parse-data-with-openrefine)). 
 
@@ -126,31 +129,32 @@ Zwar gibt es auch hier Programme, die tatsächlich erreichte Präzision muss dab
 
 Wenn Sie einen Datensatz zur Analyse zur Verfügung haben, aus selbst erhobenen Daten oder durch Nachnutzung eines vorhandenen, und für Ihre Zwecke aufbereitet haben, folgt (endlich) auch die Analyse.
 Welche Software oder Methoden Sie verwenden, hängt dabei nicht nur von der Art und Menge der Daten, sondern auch dem Datenformat und vor allem auch Ihrer Forschungsfrage ab.
-Wenn Sie eine Personendatenbank haben, in der Briefschreiber:innen und Empfänger:innen aufgenommen sind und der Wohnort der Personen bekannt ist, Sie es jedoch versäumt haben, die Daten der Einzelbriefe zu verzeichnen, können Sie nur eine räumliche Verteilung, keine raum-zeitliche Entwicklung eines Briefschreiber:innennetzwerks darstellen.[^8] 
+Wenn Sie eine Personendatenbank haben, in der Briefschreiber:innen und Empfänger:innen aufgenommen sind und der Wohnort der Personen bekannt ist, Sie es jedoch versäumt haben, die Datierungen der Einzelbriefe zu verzeichnen, können Sie nur eine räumliche Verteilung, keine raum-zeitliche Entwicklung eines Briefschreiber:innennetzwerks darstellen.[^8] 
 Wenn Sie aber nur an der örtlichen Verteilung weiblicher und männlicher Verfasser:innen interessiert sind und die zeitliche Komponente für Sie keine Rolle spielt, erübrigt sich auch ein raum-zeitliche Analyse.
 Bevor Sie sich also für eine Methode entscheiden, sollten Sie sich fragen, zu welchem Zweck Sie Ihren Datensatz nutzen wollen und  welche Frage(n) er beantworten soll. 
 
 In einem nächsten Schritt sollte über die konkrete Art der Analyse nachgedacht werden, die mit den vorhandenen Daten möglich ist.
 Unter den zahlreichen Möglichkeiten für die Arbeit mit **strukturellen Daten** sind für die Geschichtswissenschaften u.a. die [Netzwerkanalyse](https://de.wikipedia.org/wiki/Soziale_Netzwerkanalyse) oder die [Regressionsanalyse](https://de.wikipedia.org/wiki/Regressionsanalyse) häufig genutzte Methoden. 
-Für **textuelle Daten** bieten sich ebenfalls verschiedene Arten der Analyse an, darunter beispielsweise Auszählungen von Worthäufigkeiten als Teil der [Stylometrie](https://de.wikipedia.org/wiki/Stilometrie)/Zuschreibung von Autor:innenschaft (siehe @sec-digitaletools), [Topic Modelling](https://en.wikipedia.org/wiki/Topic_model) als statistische Methode zur Identifizierung wiederkehrender Themen in größeren Textbeständen, oder [Sentiment Analyse](https://en.wikipedia.org/wiki/Sentiment_analysis), um Stimmungen, Gefühle, Bewertungen aus Textpassagen zu extrahieren.
+Für **textuelle Daten** bieten sich ebenfalls verschiedene Arten der Analyse an, darunter beispielsweise Auszählungen von Worthäufigkeiten als Teil der [Stylometrie](https://de.wikipedia.org/wiki/Stilometrie)/Zuschreibung von Autor:innenschaft (siehe @sec-digitaletools), [Topic Modelling](https://en.wikipedia.org/wiki/Topic_model) als statistische Methode zur Identifizierung wiederkehrender Themen in größeren Textbeständen, oder [Sentimentanalyse](https://en.wikipedia.org/wiki/Sentiment_analysis), um Stimmungen, Gefühle, Bewertungen aus Textpassagen zu extrahieren.
 Wenn Sie über **georeferenzierte Daten** verfügen, können Sie verschiedene Analysen mithilfe von [GIS](https://guides.temple.edu/gisfords) (Geographic Information System) durchführen und visualisieren.
 
 Ob Sie für Topic Modelling ein eigenes Skript schreiben oder vorhandene Software nutzen, ob Sie Regressionsanalysen selbst durchführen oder auf Webseiten durchführen lassen, ist dabei Ihre Entscheidung;
-oftmals ist das Nutzen vorhandener Webangebote für erste kurze Analysen sinnvoll, um zu überlegen, ob die vorgesehene Methode sinnvolle Ergebnisse zu liefern verspricht.
+oftmals ist das Nutzen vorhandener Webangebote für erste kurze Analysen sinnvoll, um zu überlegen, ob die vorgesehene Methode überhaupt sinnvolle Ergebnisse  liefern kann.
 Für größere Projekte, in denen komplexere Analysen über einen längeren Zeitraum durchgeführt werden sollen, bietet sich die Arbeit mit Programmiersprachen schon allein deswegen an, weil so ein sehr hohes Maß an Anpassungen von vorhandenen Funktionen für die eigenen Zwecke und die völlige Kontrolle über die eigenen Daten ermöglicht wird.
 Eine Auflistung häufig genutzter Tools für die historische Arbeit findet sich in @sec-digitaltools.
 
 
-[^8]: Ein Großprojekt an der Universität Stanford, [Mapping the Republic of Letters](http://republicofletters.stanford.edu/), hat für das 18. Jahrhundert das Briefnetzwerk europäischer Gelehrter modelliert. Ein Fallbeispiel ist das Netzwerk Voltaires, in verschiedenen Visualisierungen: [http://republicofletters.stanford.edu/publications/voltaire/letters/](http://republicofletters.stanford.edu/publications/voltaire/letters/). Dan Edelstein. Interactive Visualization for Voltaire’s Correspondence Network. Letters in Voltaire’s Network [Created using Palladio, http://hdlab.stanford.edu/palladio].
+[^8]: Ein Großprojekt an der Universität Stanford, ["Mapping the Republic of Letters"](http://republicofletters.stanford.edu/), hat für das 18. Jahrhundert das Briefnetzwerk europäischer Gelehrter modelliert. Ein Fallbeispiel ist das Netzwerk Voltaires, in verschiedenen Visualisierungen: [http://republicofletters.stanford.edu/publications/voltaire/letters/](http://republicofletters.stanford.edu/publications/voltaire/letters/). Dan Edelstein. Interactive Visualization for Voltaire’s Correspondence Network. Letters in Voltaire’s Network [Created using Palladio, http://hdlab.stanford.edu/palladio].
 
 ## Datensicherung
 
 In [Kapitel 5](05_FAIR_CARE.qmd) wird es um Fragen zur nachhaltigen Speicherung von Forschungsdaten gehen; 
 an dieser Stelle sei darauf hingewiesen, dass die Sicherung von Daten am besten auch mit einer Versionierung und mit einer Dokumentation einhergeht.
 **Datenversionierung** hat den Vorteil, dass Schritte wieder rückgängig gemacht werden können, Datensätze in unterschiedlichen Stadien gespeichert und für eine spätere Weiterarbeit genutzt werden können und einzelne Schritte einzelnen Projektmitarbeiter:innen zugeschrieben werden können.
-Zusätzliche Versionierung geht dabei über die Funktionalitäten von Backup-Programmen oder Cloudspeichern wie Dropbox oder Switchdrive hinaus, und für Einzelprojekte wie auch für kollaboratives Arbeiten hat sich [git](https://de.wikipedia.org/wiki/Git) etabliert, häufig in Kombination mit Daten-/Coderepositorien auf [GitHub](https://de.wikipedia.org/wiki/GitHub).
-Die meisten von Ihnen werden vermutlich keine eigenen GitHub-Repositorien anlegen, aber das System dennoch irgendwann nutzen, am ehesten durch den Download von dort zur Verfügung gestellten Daten -- die Textdaten für diesen Guide liegen auch in einem GitHub-Repositorium. 
-Die **Dokumentation** von gespeicherten Daten schließlichh beinhaltet Informationen zur Entstehung des Datensatzes: Wie und von wem wurden die Daten erhoben? Wie wurden sie annotiert? In welchem Format sind die Daten vorhanden? Welche Software wurde an welcher Stelle benutzt? Was stellen die Daten dar?
-Die Sicherung von Daten an mehreren Orten, bspw. auf der lokalen Festplatte, in einem Cloudspeicher und einem USB-Stick, hilft sicher vor Datenverlust.
-Eine Dokumentation und die Sicherung in einem Repositorium, einem Langzeitspeicher für Daten, sorgt zusätzlich für Sichtbarkeit und die Möglichkeit zur Nachnutzung von Ergebnissen. Als Fachrepositorien für die Geisteswissenschaften existieren beispielsweise [DARIAH-DE](https://de.dariah.eu/repository) oder das [DaSCH](https://www.dasch.swiss/), es gibt spezialisiertere Repositorien wie [AMAD](https://www.amad.org/) (Mittelalter), oder für alle Disziplinen offene wie [Zenodo](https://zenodo.org/) (fächerübergreifend, betrieben durch das CERN) -- Sie können Ihre Forschungsdaten dort kostenfrei ablegen, Ihre Urheberschaft nachweisen und die Daten/Publikation mit einem DOI (Digital Object Identifier) zitierbar machen.
+Zusätzliche Versionierung geht dabei über die Funktionalitäten von Backup-Programmen oder Cloudspeichern wie Dropbox oder Switchdrive hinaus, und für Einzelprojekte wie auch für kollaboratives Arbeiten hat sich in der Wissenschaft wie in der Wirtschaft [git](https://de.wikipedia.org/wiki/Git) etabliert, häufig in Kombination mit Daten-/Coderepositorien auf [GitHub](https://de.wikipedia.org/wiki/GitHub).
+Die meisten von Ihnen werden vermutlich keine eigenen GitHub-Repositorien anlegen, aber das System dennoch irgendwann nutzen, am ehesten durch den Download von dort zur Verfügung gestellten Daten -- die Textdaten für diesen Guide liegen auch in einem [GitHub-Repositorium](https://github.com/wissen-ist-acht/digitalhistory.intro). 
+Die **Dokumentation** von gespeicherten Daten schließlich beinhaltet Informationen zur Entstehung des Datensatzes: Wie und von wem wurden die Daten erhoben? Wie wurden sie annotiert? In welchem Format sind die Daten vorhanden? Welche Software wurde an welcher Stelle benutzt? Was stellen die Daten dar?
+Die Sicherung von Daten an mehreren Orten, bspw. auf der lokalen Festplatte, in einem Cloudspeicher und auf einem USB-Stick, schützt sicher vor Datenverlust.
+Eine Dokumentation und die Sicherung in einem Repositorium, einem Langzeitspeicher für Daten, sorgt zusätzlich für Sichtbarkeit und die Möglichkeit zur Nachnutzung von Ergebnissen. Als Fachrepositorien für die Geisteswissenschaften existieren beispielsweise [DARIAH-DE](https://de.dariah.eu/repository) oder das [DaSCH](https://www.dasch.swiss/), es gibt spezialisiertere Repositorien wie [AMAD](https://www.amad.org/) (Mittelalter), oder für alle Disziplinen offene wie [Zenodo](https://zenodo.org/) (fächerübergreifend, betrieben durch das CERN). 
+Sie können Ihre Forschungsdaten dort kostenfrei ablegen, Ihre Urheberschaft nachweisen und die Daten/Publikation mit einem Digital Object Identifier (DOI), also einem eindeutigen und dauerhaften digitalen Identifikator, nachhaltig zitierbar machen.
 
