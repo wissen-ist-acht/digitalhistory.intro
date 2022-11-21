@@ -20,10 +20,11 @@ book:
     - 03_digital_literacy_criticism.qmd
     - 04_datenerhebung_analyse.qmd
     - 05_FAIR_CARE.qmd
-    #- Shell.qmd
+   # - part: Praxis.qmd
+   # - Shell.qmd
   appendices:
     - terms.qmd
-    - further_ressources.qmd
+    - further_resources.qmd
 
 bibliography:
   - references.bib
