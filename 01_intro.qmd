@@ -24,4 +24,4 @@ Themenbereichen findet sich unter [Projekte und Ressourcen](02_forschung_lehre.q
 
 Um eine Annäherung an die aktive, kritische und reflektierte Nutzung digitaler Methoden in Forschung und Lehre mit einem Fokus auf deren Anwendung in den Geschichtswissenschaften geht es im vorliegenden Guide.
 Weiterführende Texte zur Frage, was Digital History ist bzw.
-umfasst, finden sich unter [Literatur, Tools, Tutorials](further_ressources.qmd##Was ist digital history?)
+umfasst, finden sich unter [Literatur, Tools, Tutorials](further_resources.qmd##Was ist digital history?)
