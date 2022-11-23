@@ -9,7 +9,5 @@ editor:
 
 Im Praxisteil sollen verschiedene Schritte der **Datenerhebung** -- wie komme ich von Quellen zu (strukturierten) Daten, und was ist das überhaupt?
 --, der **Datenaufbereitung** -- wie kann bzw. muss ich die Daten für meine Zwecke bearbeiten -- und der **Datenanalyse** -- wozu sind die strukturierten Daten da, und was mache ich damit?
--- an einem kleinen Beispiel ausprobiert werden
-
-``` R
-```
+-- an einem kleinen Beispiel ausprobiert werden.
+Auf dem Weg werden verschiedene Praktiken und Konzepte gestreift, die bei Interesse mithilfe weiterführender [Literatur und Tutorials](further_resources.qmd##Tools für digital history) vertieft werden können.
