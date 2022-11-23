@@ -6,76 +6,75 @@ editor: visual
 
 ## Was ist digital history? {#sec-digitalhistory-paper}
 
-- Brennan, Sheila A.: Digital History, in: The Inclusive Historian’s Handbook, <https://inclusivehistorian.com/digital-history/>, 04.06.2019.
+-   Brennan, Sheila A.: Digital History, in: The Inclusive Historian's Handbook, <https://inclusivehistorian.com/digital-history/>, 04.06.2019.
 
--  Hohls, Rüdiger: Digital Humanities und digitale Geschichtswissenschaften, in: Busse, Laura u. a. (Hg.): Clio-Guide. Ein Handbuch zu digitalen Ressourcen für die Geschichtswissenschaften, Berlin 2018, S. A.1-1--B.1-34. Online: <https://doi.org/10.18452/19244>.
+-   Hohls, Rüdiger: Digital Humanities und digitale Geschichtswissenschaften, in: Busse, Laura u. a. (Hg.): Clio-Guide. Ein Handbuch zu digitalen Ressourcen für die Geschichtswissenschaften, Berlin 2018, S. A.1-1--B.1-34. Online: <https://doi.org/10.18452/19244>.
 
-- Romein, C. Annemieke u. a.: State of the Field: Digital History, in: History 105 (365), 04.2020, S. 291–-312. Online: <https://doi.org/10.1111/1468-229X.12969>.
+-   Romein, C. Annemieke u. a.: State of the Field: Digital History, in: History 105 (365), 04.2020, S. 291---312. Online: <https://doi.org/10.1111/1468-229X.12969>.
 
-- Winters, Jane: Digital History, in: Tamm, Marek; Burke, Peter (Hg.): Debating New Approaches to History, London 2019, S. 277–300.
+-   Winters, Jane: Digital History, in: Tamm, Marek; Burke, Peter (Hg.): Debating New Approaches to History, London 2019, S. 277--300.
 
-- Art. "Digital history", in: Wikipedia, 07.09.2022. Online: <https://en.wikipedia.org/w/index.php?title=Digital_history&oldid=1109027465>, Stand: 02.11.2022.
+-   Art. "Digital history", in: Wikipedia, 07.09.2022. Online: <https://en.wikipedia.org/w/index.php?title=Digital_history&oldid=1109027465>, Stand: 02.11.2022.
 
 ## Einführungen und Guides
 
-- Battershill, Claire; Ross, Shawna: Using Digital Humanities in the Classroom. A Practical Introduction for Teachers, Lecturers, and Students, London u.a. 2022.
+-   Battershill, Claire; Ross, Shawna: Using Digital Humanities in the Classroom. A Practical Introduction for Teachers, Lecturers, and Students, London u.a. 2022.
 
-- Blaney, Jonathan u. a.: Doing Digital History. A Beginner’s Guide to Working with Text as Data, Manchester 2021.
+-   Blaney, Jonathan u. a.: Doing Digital History. A Beginner's Guide to Working with Text as Data, Manchester 2021.
 
-- Cohen, Daniel J.; Rosenzweig, Roy: Digital History. A Guide to Gathering, Preserving, and Presenting the Past on the Web, Philadelphia 2006. Online: <https://chnm.gmu.edu/digitalhistory/>.
+-   Cohen, Daniel J.; Rosenzweig, Roy: Digital History. A Guide to Gathering, Preserving, and Presenting the Past on the Web, Philadelphia 2006. Online: <https://chnm.gmu.edu/digitalhistory/>.
 
-- Döring, Karoline u. a. (Hg.): Digital History. Konzepte, Methoden und Kritiken Digitaler Geschichtswissenschaft, Boston 2022, Online: <https://doi.org/10.1515/9783110757101>.
+-   Döring, Karoline u. a. (Hg.): Digital History. Konzepte, Methoden und Kritiken Digitaler Geschichtswissenschaft, Boston 2022, Online: <https://doi.org/10.1515/9783110757101>.
 
-- Dougherty, Jack; Nawrotzki, Kristen (Hg.): Writing History in the Digital Age, 2013. Online: <https://doi.org/10.3998/dh.12230987.0001.001>.
+-   Dougherty, Jack; Nawrotzki, Kristen (Hg.): Writing History in the Digital Age, 2013. Online: <https://doi.org/10.3998/dh.12230987.0001.001>.
 
-- Graham, Shawn u. a.: Exploring Big Historical Data. The Historian’s Macroscope, 2022. Online: <https://doi.org/10.1142/12435>.
+-   Graham, Shawn u. a.: Exploring Big Historical Data. The Historian's Macroscope, 2022. Online: <https://doi.org/10.1142/12435>.
 
-- Lemercier, Claire; Zalc, Claire: Quantitative Methods in the Humanities. An Introduction, Charlottesville 2019.
-
+-   Lemercier, Claire; Zalc, Claire: Quantitative Methods in the Humanities. An Introduction, Charlottesville 2019.
 
 ## Tools für digital history (free/open source) {#sec-digitaltools}
 
 ### Allgemein
 
-- Programming Historian: [Tutorials zu verschiedenen Tools und Methoden für historische Forschung und Lehre](https://programminghistorian.org/)
+-   Programming Historian: [Tutorials zu verschiedenen Tools und Methoden für historische Forschung und Lehre](https://programminghistorian.org/)
 
 ### Text-/Korpusanalyse
 
-- AntConc: [Korpusanalyse-Toolkit](http://laurenceanthony.net/software.html)
+-   AntConc: [Korpusanalyse-Toolkit](http://laurenceanthony.net/software.html)
 
-- Lemmatisierung: [Sammlung der FID Romanistik](https://fid-romanistik.de/forschungsdaten/suche-nach-forschungsdaten/fid-internetressourcen/tools/werkzeuge-fuer-die-lemmatisierung-von-texten)
+-   Lemmatisierung: [Sammlung der FID Romanistik](https://fid-romanistik.de/forschungsdaten/suche-nach-forschungsdaten/fid-internetressourcen/tools/werkzeuge-fuer-die-lemmatisierung-von-texten)
 
-- Natural Language Toolkit, Package für Python zur Tokenisierung, Lemmatisierung usw.: [NLTK](https://www.nltk.org/)
+-   Natural Language Toolkit, Package für Python zur Tokenisierung, Lemmatisierung usw.: [NLTK](https://www.nltk.org/)
 
-- Tokenisierung: [Tutorial von fortext zu NLTK](https://fortext.net/routinen/lerneinheiten/preprocessing-mit-nltk)
+-   Tokenisierung: [Tutorial von fortext zu NLTK](https://fortext.net/routinen/lerneinheiten/preprocessing-mit-nltk)
 
-- Voyant-Tools: [Sammlung von Tools zur Textanalyse, browserbasiert oder standalone](https://voyant-tools.org) 
+-   Voyant-Tools: [Sammlung von Tools zur Textanalyse, browserbasiert oder standalone](https://voyant-tools.org)
 
 ### Visualisierung
 
-- Bostock, Michael; Heer, Jeffrey; Ogievetsky, Vadim: A Tour through the  Visualization Zoo. A Survey of Powerful Visualization Techniques, from the Obvious to the Obscure, in: Queue 8, Nr. 5 (2010). Online: <https://queue.acm.org/detail.cfm?id=1805128>
+-   Bostock, Michael; Heer, Jeffrey; Ogievetsky, Vadim: A Tour through the Visualization Zoo. A Survey of Powerful Visualization Techniques, from the Obvious to the Obscure, in: Queue 8, Nr. 5 (2010). Online: <https://queue.acm.org/detail.cfm?id=1805128>
 
-- [Data Visualisation Catalogue](https://datavizcatalogue.com/search.html): Guide zur Auswahl von Visualisierungsformen
+-   [Data Visualisation Catalogue](https://datavizcatalogue.com/search.html): Guide zur Auswahl von Visualisierungsformen
 
-- FID Romanistik: [Sammlung von Tools zur Datenvisualisierung](https://fid-romanistik.de/forschungsdaten/suche-nach-forschungsdaten/fid-internetressourcen/tools/werkzeuge-fuer-die-visualisierung-von-daten)
+-   FID Romanistik: [Sammlung von Tools zur Datenvisualisierung](https://fid-romanistik.de/forschungsdaten/suche-nach-forschungsdaten/fid-internetressourcen/tools/werkzeuge-fuer-die-visualisierung-von-daten)
 
-- [RAWGraphs](https://www.rawgraphs.io/): Tool zur Datenvisualisierung von tabularen Daten (.tsv-, .csv-, .dsv- oder .json-Dateien) 
+-   [RAWGraphs](https://www.rawgraphs.io/): Tool zur Datenvisualisierung von tabularen Daten (.tsv-, .csv-, .dsv- oder .json-Dateien)
 
 ## Digital Literacy, Digital Criticism
 
-- Ekström, Andreas: The Moral Bias behind your Search Results, TED talk 7.12.2015 (9:18), Online: <https://www.youtube.com/watch?v=_vBggxCNNno>.
+-   Ekström, Andreas: The Moral Bias behind your Search Results, TED talk 7.12.2015 (9:18), Online: <https://www.youtube.com/watch?v=_vBggxCNNno>.
 
-- Gibbs, Frederick W.: New Forms of History: Critiquing Data and Its Representations, in: The American Historian, February 2016. Online: <http://tah.oah.org/february-2016/new-forms-of-history-critiquing-data-and-its-representations/>.
+-   Gibbs, Frederick W.: New Forms of History: Critiquing Data and Its Representations, in: The American Historian, February 2016. Online: <http://tah.oah.org/february-2016/new-forms-of-history-critiquing-data-and-its-representations/>.
 
-- Tavani, Herman; Zimmer, Michael Zimmer: Search Engines and Ethics, in: Edward N. Zalta (Hg.): The Stanford Encyclopedia of Philosophy (Fall 2020 Edition), Online: <https://plato.stanford.edu/archives/fall2020/entries/ethics-search/>, Kap. 3.1.
+-   Tavani, Herman; Zimmer, Michael Zimmer: Search Engines and Ethics, in: Edward N. Zalta (Hg.): The Stanford Encyclopedia of Philosophy (Fall 2020 Edition), Online: <https://plato.stanford.edu/archives/fall2020/entries/ethics-search/>, Kap. 3.1.
 
 ## Terminal/Command Line/Shell
 
-- Dawson, Ted: Introduction to the Windows Command Line with PowerShell, Programming Historian 5 (2016), [https://doi.org/10.46430/phen0054](https://doi.org/10.46430/phen0054). (self-learning lesson)
+-   Dawson, Ted: Introduction to the Windows Command Line with PowerShell, Programming Historian 5 (2016), <https://doi.org/10.46430/phen0054>. (self-learning lesson)
 
 -   MIT Computer Science Department: [1-hour-lecture on the Shell](https://missing.csail.mit.edu/2020/course-shell/) (video)
 
--   Milligan, Ian; Baker, James: Introduction to the Bash Command Line, Programming Historian 3 (2014), [https://doi.org/10.46430/phen0037](https://doi.org/10.46430/phen0037). (self-learning lesson)
+-   Milligan, Ian; Baker, James: Introduction to the Bash Command Line, Programming Historian 3 (2014), <https://doi.org/10.46430/phen0037>. (self-learning lesson)
 
 -   datacamp course:[Introduction to Shell](https://app.datacamp.com/learn/courses/introduction-to-shell) (interactive self-learning lesson)
 
@@ -83,8 +82,6 @@ editor: visual
 
 ## Regular Expressions
 
-- Knox, Doug: Understanding Regular Expressions, Programming Historian 2 (2013), [https://doi.org/10.46430/phen0033](https://doi.org/10.46430/phen0033). (self-learning lesson)
+-   Knox, Doug: Understanding Regular Expressions, Programming Historian 2 (2013), <https://doi.org/10.46430/phen0033>. (self-learning lesson)
 
-- RegexOne: [Learn Regular Expressions with simple, interactive exercises.](https://regexone.com/) (interactive self-learning tutorial)
-
-
+-   RegexOne: [Learn Regular Expressions with simple, interactive exercises.](https://regexone.com/) (interactive self-learning tutorial)
