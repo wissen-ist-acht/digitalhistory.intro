@@ -1,0 +1,10 @@
+---
+title: "Durch den Vordereingang"
+lang: de
+suppress-bibliography: true
+editor: 
+  markdown: 
+    wrap: sentence
+---
+
+
