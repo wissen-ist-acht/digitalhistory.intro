@@ -8,6 +8,15 @@ editor:
 ---
 
 Im Praxisteil sollen verschiedene Schritte der **Datenerhebung** -- wie komme ich von Quellen zu (strukturierten) Daten, und was ist das überhaupt?
---, der **Datenaufbereitung** -- wie kann bzw. muss ich die Daten für meine Zwecke bearbeiten -- und der **Datenanalyse** -- wozu sind die strukturierten Daten da, und was mache ich damit?
--- an einem kleinen Beispiel ausprobiert werden.
-Auf dem Weg werden verschiedene Praktiken und Konzepte gestreift, die bei Interesse mithilfe weiterführender [Literatur und Tutorials](further_resources.qmd##Tools für digital history) vertieft werden können.
+--, der **Datenaufbereitung** -- wie kann bzw.
+muss ich die Daten für meine Zwecke bearbeiten -- und der **Datenanalyse** -- wozu sind die strukturierten Daten da, und was mache ich damit?
+-- an einem kleinen Beispiel durchgeführt werden.
+Auf dem Weg werden verschiedene Praktiken und Konzepte gestreift, die bei Interesse mithilfe weiterführender [Literatur und Tutorials](further_resources.qmd##Tools%20für%20digital%20history) vertieft werden können.
+
+Als Quellenbeispiel dient eine Briefsammlung, die im Rahmen der digitalen Edition "Der Sturm" an der Akademie der Wissenschaften in Mainz erstellt wurde.[^1] Das Projekt, das Briefe von Personen der internationalen Avantgarde rund um die Zeitschrift "Der Sturm" aufbereitet, hatte dabei unterschiedliche Nutzer:innengruppen im Blick und stellt die Quellen bzw. die erstellten Daten auf verschiedene Weise zur Verfügung: 
+Auf der Webseite des Projekts können die [bisher edierten Briefe](https://sturm-edition.de/quellen/briefe.html) am Bildschirm gelesen werden, und es gibt ein Register der in den Texten genannten Entitäten, also Einheiten, hier der [Personen](https://sturm-edition.de/register/personen.html), [Orte](https://sturm-edition.de/register/orte.html) und [Werke](https://sturm-edition.de/register/werke.html);
+darüberhinaus gibt es die Möglichkeit, über eine [Schnittstelle](https://sturm-edition.de/ressourcen/schnittstellen.html) die Quellen oder die Registerdaten herunterzuladen. Wir können uns den Briefen also über den Vordereingang, die Webseite, oder durch die Hintertür, mittels Kommandozeile, nähern, und beide Herangehensweisen vergleichen.
+Auch handelt es sich bei Briefen um eine gängige Quellengattung in den verschiedenen Epochen/Areas, und sie können sowohl für Textanalysen als auch zur Gewinnung von Strukturdaten genutzt werden. 
+Das Beispiel zielt also auch auf eine größtmögliche Nähe zur tatsächlichen historischen Arbeit.
+
+[^1]: DER STURM. Digitale Quellenedition zur Geschichte der internationalen Avantgarde, erarbeitet und herausgegeben von Marjam Trautmann und Torsten Schrade. Mainz, Akademie der Wissenschaften und der Literatur, 2018. Online: <https://sturm-edition.de/>, Lizenz: [CC-BY-4.0](https://creativecommons.org/licenses/by/4.0/).
