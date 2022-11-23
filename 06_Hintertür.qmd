@@ -1,0 +1,62 @@
+---
+title: "Durch die Hintertür"
+lang: de
+suppress-bibliography: true
+editor: 
+  markdown: 
+    wrap: sentence
+---
+
+Bevor wir uns näher mit dem Beispielkorpus der Briefedition befassen, werfen wir einen kurzen Blick auf die Interaktionsmöglichkeiten mit dem Computer und wie wir diese für unsere Arbeit als Historiker:innen nutzen können, sei es für die Erhebung, die Aufbereitung oder die Analyse von Daten.
+
+Es gibt zwei Arten, um mit einem Computer zu interagieren bzw. ihn zu nutzen: über ein **G**raphical **U**ser **I**nterface (GUI), also vor allem mit der Maus und durch das Anklicken von Objekten, oder, etwas direkter, über die [Kommandozeile](https://de.wikipedia.org/wiki/Kommandozeile)[^1]. Um via GUI eine Datei "Brief1.txt" im Ordner "Briefe" zu löschen, öffnet man den Finder (Mac), den Explorer (Windows) oder den Filebrowser der Wahl (Linux), klickt sich zum Ordner "Briefe", macht einen Rechtsklick auf die zu löschende Datei "Brief1.txt", klickt "In den Papierkorb legen" oder zieht die Datei mit der Maus direkt dorthin. Dieselbe Aktion kann man als Kommando schreiben: Man öffnet das Terminal (Linux oder Mac; den Finder öffnen und im Suchfenster "Terminal" eingeben und Programm öffnen) oder eine PowerShell (Windows; mit der rechten Maustaste auf das Startsymbol klicken, dann "Windows PowerShell" auswählen), navigiert im sich öffnenden Fenster mit Texteingabe zum entsprechenden Ordner, bspw. `cd Documents/Briefe` + 'Enter' (Mac und Linux) bzw. `cd ./Documents/Briefe` (Windows) und gibt dort das Kommando `rm "Brief1.txt"` ein, das mit der Entertaste ausgeführt wird.
+
+[^1]: Kommandozeile/Command Line, Bash, Shell oder Prompt finden sich oft als synonym genutzte Begriffe für Command Line Interfaces. Auf UNIX-basierten Betriebssystemen wie Mac OS und Linux ist das Terminal als Interface weit verbreitet; für Details: https://en.wikipedia.org/wiki/Command-line_interface#History. Windowsnutzer:innen kommen mit der PowerShell ganz gut zurecht, es empfiehlt sich eventuell die Installation von [Cygwin](https://en.wikipedia.org/wiki/Cygwin) oder [MinGW](https://en.wikipedia.org/wiki/MinGW), um mit einem UNIX-basierten Interface arbeiten zu können.
+
+``` bash
+(base) serina00@dg-19-mac-02 ~ % cd Documents/Briefe
+```
+``` bash
+(base) serina00@dg-19-mac-02 Bilder % rm "Brief1.txt"
+```
+
+{{< video "images/terminal_file_system.mov" >}}
+
+Die beiden Vorgehensweisen unterscheiden sich dabei in drei Punkten:
+
+1.  Das Kommando `rm` ist endgültig, die Datei ist ohne Übergangszeit im Papierkorb gelöscht.
+2.  Das Kommando lässt sich relativ simpel auf eine Vielzahl von Dokumenten anwenden, wobei ganz unterschiedliche Bedingungen beachtet werden können, und es lässt sich mit anderen Kommandos verbinden.
+3.  Terminal sieht k3wl aus.
+
+Bevor wir den zweiten -- und für unsere Arbeit hilfreichsten -- Unterschied genauer anschauen, kurz zur Kommandozeile. 
+
+## Shell 101
+
+In einem Terminal/einer Shell können Kommandos bzw. Programme ausgeführt werden, die auf der Datenstrukturebene stattfinden -- wie beispielsweise das Löschen einer Datei, `rm Dateiname.xyz` (`rm` für *remove*), oder das Erstellen eines Ordners, `mkdir NeuerOrdner` (`mkdir` für *make directory*). Oder aber Operationen auf Dateninhaltsebene -- wie beispielsweise das Suchen eines bestimmten Begriffs in einer Textdatei, `grep 'Begriff' Textdatei.txt` (Mac und Linux) bzw. `Select-String -Path Textdatei.txt -Pattern 'Begriff'` (Windows), oder das Auszählen mehrerer Begriffe und das Speichern des Ergebnisses in einer neuen Datei, `grep -Ec '(Begriff1|Begriff2)' Textdatei.txt | wc -l > Ergebnisse.txt` (Mac oder Linux) bzw. `(Select-String -Path Textdatei.txt -Pattern '(Begriff1|Begriff2)'.Matches.Count > Ergebnisse.txt` (Windows) -- die Kommandos werden weiter unten nochmals einzeln erklärt.
+
+Woher weiss Ihre Shell aber, was sie ausführen soll, wenn Sie `rm` oder `grep`/`String-Select` eintippen? Es gibt zahlreiche Shell-Programme, die bereits auf Ihrem System vorinstalliert sind, und mit denen Sie vieles tun können -- öffnen Sie Ihre Shell und tippen Sie `date` ein: Das aktuelle Datum mit Uhrzeit erscheint. (Ihre Shell sucht nach dem ersten Argument, dem Befehl `date`, im Filesystem des Computers, und wenn sie fündig wird, führt sie eine Aktion mit den entsprechenden Parametern aus.)
+
+> tmi: Wenn Sie `echo $PATH` im Terminal (Mac/Linux) bzw. `$env:PATH` (Windows) eingeben, sehen Sie eine Auflistung der Orte, an denen nach Befehlen gesucht wird. Tippen Sie `which date` ein und drücken Sie 'Enter', um zu sehen, wo das Programm "date" in Ihrem Computer liegt.
+
+Falls Sie einen Befehl eintippen, den es nicht gibt bzw. für den kein installiertes Programm auf Ihrem Computer existiert, bekommen Sie eine simple Fehlermeldung -- kaputtgehen kann dabei nichts:
+
+``` bash
+(base) serina00@dg-19-mac-02 ~ % nonsense
+```
+``` bash
+command not found: nonsense
+```
+Der Output auf Windows ist etwas ausführlicher:
+
+``` bash
+nonsense: The term 'nonsense' is not recognized as a name of a cmdlet, function, script file, or executable program.
+Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+```
+
+Das aktuelle Datum wird Ihnen wahrscheinlich auch in Ihrer Toolbar angezeigt, und einen neuen Ordner können Sie per Rechtsklick erstellen, dazu brauchen Sie das Terminal nicht unbedingt. Um einen Begriff in einem Textdokument zu finden und alle Vorkommen zu zählen, können Sie das Dokument öffnen, `Strg-F` drücken, den Begriff eingeben und das Ergebnis sehen. Wenn Sie nach mehreren Begriffen suchen wollen, müssen Sie dieselbe Aktion zweimal ausführen: `Strg-F`, Begriff 2. Und wenn Sie mehrere Dateien durchsuchen möchten, beispielsweise um herauszufinden, wie oft die Grußformel "Mit herzlichem Gruß" in einer Briefsammlung vorkommt, müssen Sie die Suche in jeder Datei einzeln ausführen. Wenn Sie dann noch nach der Variante "Mit herzlichen Grüßen" oder gar "Herzl. Gruß" suchen wollen, vervielfacht sich Ihre Arbeit.
+
+Sie können dasselbe auch mit dem Terminal machen und einige der Built-in-Programme nutzen, um sich Zeit und Arbeit zu sparen.
+Wie das geht, schauen wir uns im [übernächsten Kapitel](08_Analyse.qmd) an.
+Zuvor betrachten wir die Briefe durch den Vordereingang.
+
+
