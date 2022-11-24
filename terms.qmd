@@ -13,7 +13,6 @@ editor: visual
 | born digital data  | data which originated in a digital form                                                                                                                                 |
 | CLI                | **C**ommand **L**ine **I**nterface, text interface that allows interaction with the computer; see also **bash**                                                         |
 | close reading      | careful and attentive interpretation of a text
-                                
                                                   |
 | CMS                | **C**ontent **M**anagement **S**ystem                                                                                                                                   |
 | Console            | See **CLI**                                                                                                                                                             |
