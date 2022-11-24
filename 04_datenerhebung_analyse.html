@@ -272,8 +272,9 @@ anzeigen lassen.</p>
 </figure>
 </div>
 <blockquote class="blockquote">
-<p>Um Abfragen zu vermeiden, die die Server überlasten, haben die meisten APIs entweder eine Authentifizierung oder eine maximale Trefferanzahl pro Abfrage eingebaut. Beim obigen Beispiel erhalten Sie dadurch nicht die gesamte Trefferanzahl (134, aus der Spalte “total” ersichtlich), sondern nur die ersten 24 – diese Einstellungen haben die Entwickler:innen der Schnittstelle gemacht. Um dennoch alle Treffer mit einer Abfrage zu erhalten, müssten Sie die Dokumentation der API lesen und die Abfrage etwas modifizieren. Wenn Sie das interessiert, finden Sie Details in der Fußnote.<a href="#fn4" class="footnote-ref" id="fnref4" role="doc-noteref"><sup>4</sup></a></p>
+<p>Um Abfragen zu vermeiden, die die Server überlasten, haben die meisten APIs entweder eine Authentifizierung oder eine maximale Trefferanzahl pro Abfrage eingebaut. Beim obigen Beispiel erhalten Sie dadurch nicht die gesamte Trefferanzahl (134, aus der Spalte “total” ersichtlich), sondern nur die ersten 24 – diese Einstellungen haben die Entwickler:innen der Schnittstelle gemacht. Um dennoch alle Treffer mit einer Abfrage zu erhalten, müssten Sie die Dokumentation der API lesen und die Abfrage etwas modifizieren.</p>
 </blockquote>
+<p>Wenn Sie das interessiert, finden Sie Details in der Fußnote.<a href="#fn4" class="footnote-ref" id="fnref4" role="doc-noteref"><sup>4</sup></a></p>
 <p>Wenn Webseiten keine Schnittstellen zur Verfügung stellen, besteht die Möglichkeit, mit <strong>Web Scraping</strong> an gewünschte Daten zu kommen. Je nach Webseite bzw. Inhalten ist die Rechtslage allerdings nicht ganz klar. Zum Download von Webseiten mit der Programmiersprache Python gibt es <a href="https://programminghistorian.org/en/lessons/working-with-web-pages">eine Lektion im Programming Historian</a> von William J. Turkel und Adam Crymble. Ein weiteres Tutorial zur Datenakquise, von Zach Coble, Liz Rodrigues, Erin Pappas, Chelcie Rowell, und Yasmeen Shorish, findet sich <a href="https://dlfteach.pubpub.org/pub/collecting-data-web-scraping/release/1">hier</a>.</p>
 </section>
 <section id="datenaufbereitung5" class="level2" data-number="4.2">
@@ -349,7 +350,7 @@ Die Ergebnisse der Suchanfrage werden wieder im Objekt <code>cats</code> gespeic
 <code>cats &lt;- fromJSON(base_URL)</code><br>
 Die Anzahl Durchgänge für eine Abfrage ergibt sich aus der <code>Anzahl der totalen Treffer/10 + 1</code>; die Anzahl der Treffer lässt sich aus der Spalte “total” im Objekt <code>cats</code> entnehmen. In R formuliert man das so:<br>
 <code>cats$total[1]</code><br>
-Im Katzenbeispiel sind es 134 Gesamttreffer, also <code>(134/10 ohne Rest)+1</code>, also <code>2</code> Durchgänge:<br>
+Im Katzenbeispiel sind es 134 Gesamttreffer, also <code>(134/10 ohne Rest)+1</code>, also <code>14</code> Durchgänge:<br>
 <code>iterations &lt;- cats$total[1]%/%10 + 1</code><br>
 Dann setzt man den Startwert auf 0:<br>
 <code>start &lt;-  0</code><br>
