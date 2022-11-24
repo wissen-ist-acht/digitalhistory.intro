@@ -7,4 +7,27 @@ editor:
     wrap: sentence
 ---
 
+## Digitale Briefedition "Der Sturm"
 
+Die Webseite [https://sturm-edition.de/](https://sturm-edition.de/) dient als Portal für die Arbeit mit Quellen zum avantgardistischen STURM-Unternehmen, das mit der Gründung der gleichnamigen Zeitschrift 1910 in Berlin durch [Herwarth Walden](https://de.wikipedia.org/wiki/Herwarth_Walden) begann und mit den nachfolgenden Gründungen einer Galerie, einer Bühne und eines Verlags internationale Bedeutung erlangte. 
+Neben Walden waren weitere Akteur:innen an diesem Unternehmen beteiligt, und bisher (Stand November 2022) sind 179 Briefe von drei Künstler:innen an Walden im Portal verfügbar.
+Zudem wurden die Zeitschrift, Ausstellungskataloge, Jahrbücher, Verlagsschrfiten und weitere Materialien wie Plakate, Fotografien oder Einladungskarten digitalisiert.
+
+Gehen Sie auf die [Startseite](https://sturm-edition.de/) und lesen Sie die Kurzbeschreibung zu den Briefen, Personen, Orten und Werken. 
+Klicken Sie die Briefabteilung an und schauen sich Brief Nummer 8 von Franz Marc an Herwarth Walden an.
+
+Wie Sie sehen können, wurde der Brief nicht nur digitalisiert, also in ein digitales Bild umgewandelt, sondern auch historisch-kritisch ediert und nach den Richtlinien der TEI P5 in XML codiert.
+
+Was bedeutet das genau, und wieso ist es wichtig für unsere Arbeit als Historiker:innen?
+Bei einer historisch-kritischen Edition wird keine reine Leseversion eines Textes erstellt, wie man es beispielsweise von der Textdarstellung in einem Roman kennt, sondern zusätzliches Material zum besseren Verständnis des Texts herangezogen und als Information in einem sog. kritischen Apparat zur Verfügung gestellt.
+Beispielsweise werden Quellen, die ein:e Verfasser:in für bestimmte Textpassagen als Vorlage genutzt hat, genannt, oder auf Ereignisse während der Entstehungszeit, die Einfluss auf den Text hatten, verwiesen.
+Entitäten wie Personen, Orte, Werke usw. werden erklärt oder kommentiert.
+Der Text selbst wird so quellengetreu wie möglich dargestellt, ortographische oder grammatikalisch Fehler werden nicht korrigiert, und meist werden auch extratextuelle Elemente wie Durchstreichungen oder Hervorhebungen im Lesetext dargestellt. 
+
+![Brief Nr. 8 von Franz Marc an Herwarth Walden.[^1] Rote Einfärbung kennzeichnet eine Verlinkung, meist auf Entitäten wie Personen oder Orte.](images/letter_8_Franz_Marc.png){fig-align="left"}
+
+[^1]: Online unter [https://sturm-edition.de/quellen/briefe/fma/Q.01.19140414.FMA.01.html](https://sturm-edition.de/quellen/briefe/fma/Q.01.19140414.FMA.01.html)
+
+Wie genau die Editor:innen jeweils vorgegangen sind -- dies unterscheidet sich von Edition zu Edition --, wird in den jeweiligen Editionsrichtlinien vermerkt.
+Für die Quellen des STURM-Projekts gibt es verschiedene Richtlinien, je nach Quellenart.
+Die der Briefedition finden Sie [hier](https://sturm-edition.de/edition/briefe.html).
