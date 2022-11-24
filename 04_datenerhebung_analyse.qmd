@@ -83,6 +83,7 @@ Die Funktion `write.csv` speichert den Inhalt der Variable `cats` als csv-Datei[
 >Um Abfragen zu vermeiden, die die Server überlasten, haben die meisten APIs entweder eine Authentifizierung oder eine maximale Trefferanzahl pro Abfrage eingebaut.
 Beim obigen Beispiel erhalten Sie dadurch nicht die gesamte Trefferanzahl (134, aus der Spalte "total" ersichtlich), sondern nur die ersten 24 -- diese Einstellungen haben die Entwickler:innen der Schnittstelle gemacht.
 Um dennoch alle Treffer mit einer Abfrage zu erhalten, müssten Sie die Dokumentation der API lesen und die Abfrage etwas modifizieren. 
+
 Wenn Sie das interessiert, finden Sie Details in der Fußnote.[^4]
 
 [^4]: Die API aus dem Beispiel ist so konfiguriert, dass bei Abfragen mit Ergebnissen über 24 Treffern nur die ersten 24 ausgegeben werden; 
@@ -117,7 +118,7 @@ Die Ergebnisse der Suchanfrage werden wieder im Objekt `cats` gespeichert:\
 `cats <- fromJSON(base_URL)`\
 Die Anzahl Durchgänge für eine Abfrage ergibt sich aus der `Anzahl der totalen Treffer/10 + 1`; die Anzahl der Treffer lässt sich aus der Spalte "total" im Objekt `cats` entnehmen. In R formuliert man das so:\
 `cats$total[1]`\
-Im Katzenbeispiel sind es 134 Gesamttreffer, also `(134/10 ohne Rest)+1`, also `2` Durchgänge:\
+Im Katzenbeispiel sind es 134 Gesamttreffer, also `(134/10 ohne Rest)+1`, also `14` Durchgänge:\
 `iterations <- cats$total[1]%/%10 + 1`\
 Dann setzt man den Startwert auf 0:\
 `start <-  0`\
