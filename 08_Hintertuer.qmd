@@ -32,7 +32,7 @@ Bevor wir den zweiten -- und für unsere Arbeit hilfreichsten -- Unterschied gen
 
 ## Shell 101
 
-In einem Terminal/einer Shell -- zur Unterscheidung siehe Fußnote 1 -- können Kommandos bzw. Programme ausgeführt werden, die auf der Datenstrukturebene stattfinden -- wie beispielsweise das Löschen einer Datei, `rm Dateiname.xyz` (`rm` für *remove*), oder das Erstellen eines Ordners, `mkdir NeuerOrdner` (`mkdir` für *make directory*). Ebenso möglich sind Operationen auf Dateninhaltsebene -- wie beispielsweise das Suchen eines bestimmten Begriffs in einer Textdatei, `grep 'Begriff' Textdatei.txt` (Mac/Linux) bzw. `Select-String -Path Textdatei.txt -Pattern 'Begriff'` (Windows), oder das Auszählen mehrerer Begriffe und das Speichern des Ergebnisses in einer neuen Datei, `grep -Ec '(Begriff1|Begriff2)' Textdatei.txt | wc -l > Ergebnisse.txt` (Mac/Linux) bzw. `(Select-String -Path Textdatei.txt -Pattern '(Begriff1|Begriff2)'.Matches.Count > Ergebnisse.txt` (Windows) -- die Kommandos werden in [Kapitel 9](09_Analyse.qmd) nochmals einzeln erklärt.
+In einem Terminal/einer Shell -- zur Unterscheidung siehe Fußnote 1 -- können Kommandos bzw. Programme ausgeführt werden, die auf der Datenstrukturebene stattfinden -- wie beispielsweise das Löschen einer Datei, `rm Dateiname.xyz` (`rm` für *remove*), oder das Erstellen eines Ordners, `mkdir NeuerOrdner` (`mkdir` für *make directory*). Ebenso möglich sind Operationen auf Dateninhaltsebene -- wie beispielsweise das Suchen eines bestimmten Begriffs in einer Textdatei, `grep 'Begriff' Textdatei.txt` (Mac/Linux) bzw. `Select-String -Path Textdatei.txt -Pattern 'Begriff'` (Windows), oder das Auszählen mehrerer Begriffe und das Speichern des Ergebnisses in einer neuen Datei, `grep -Ec '(Begriff1|Begriff2)' Textdatei.txt | wc -l > Ergebnisse.txt` (Mac/Linux) bzw. `(Select-String -Path Textdatei.txt -Pattern '(Begriff1|Begriff2)'.Matches.Count > Ergebnisse.txt` (Windows) -- die Kommandos werden weiter unten nochmals einzeln erklärt.
 
 Woher weiss Ihre Shell aber, was sie ausführen soll, wenn Sie `rm` oder `grep`/`String-Select` eintippen? Es gibt zahlreiche Shell-Programme, die bereits auf Ihrem System vorinstalliert sind, und mit denen Sie vieles tun können -- öffnen Sie Ihre Shell und tippen Sie `date` ein: Das aktuelle Datum mit Uhrzeit erscheint. (Ihre Shell sucht nach dem ersten Argument, dem Befehl `date`, im Filesystem des Computers, und wenn sie fündig wird, führt sie eine Aktion mit den entsprechenden Parametern aus.)
 
@@ -255,7 +255,7 @@ Beim Output der Suchanfragen im Terminal sehen Sie, dass alle Grußformeln von e
 (Wenn Sie keinen XML-fähigen Editor auf dem Computer haben, öffnen Sie die Datei einfach mit einem Browser.)
 
 
-![Ausschnitt auf Brief Nr. 1 von Franz Marc an Herwarth Walden](images/letter_1_Franz_Marc.png){fig-align="left"}
+![Ausschnitt aus Brief Nr. 1 von Franz Marc an Herwarth Walden](images/letter_1_Franz_Marc.png){fig-align="left"}
 
 
 Wie Sie sehen, gibt es das Tag-Paar `<salute>-</salute>` zweimal, einmal umrahmt vom Tag-Paar `<opener>-</opener>`, einmal von `<closer>-</closer>`.
