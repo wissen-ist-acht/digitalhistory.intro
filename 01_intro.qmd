@@ -1,6 +1,5 @@
 ---
 title: Was ist Digital History?
-lang: de
 suppress-bibliography: true
 editor: 
   markdown: 
