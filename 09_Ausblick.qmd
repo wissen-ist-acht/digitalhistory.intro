@@ -1,0 +1,10 @@
+---
+title: "Ausblick"
+lang: de
+suppress-bibliography: true
+editor: 
+  markdown: 
+    wrap: sentence
+---
+
+
