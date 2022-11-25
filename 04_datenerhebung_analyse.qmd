@@ -128,7 +128,7 @@ Die letzte Iteration muss dabei nicht die nächsten 10 Treffer abfragen, sondern
 `endsize <- cats$total[1]-(iterations-1) * 10`\
 Dann erstellen wir eine leere Tabelle, einen data frame, die wir mit unseren Anfragen nach und nach befüllen. (Bei kleinen Datenmengen kann die Funktion `rbind` zur Verbindung von Einzeltabellen genutzt werden; bei größeren Datenmengen ist das iterative Verlängern von data frames nicht empfohlen):\
 `cat_list <- data.frame()`\
-Wenn wir diese Variablen festgelegt haben, können wir einen Loop, eine Schlaufe bauen, die unter bestimmten Bedingungen verschiedene Aktionen ausführt:\
+Wenn wir diese Variablen festgelegt haben, können wir einen Loop, eine Schleife bauen, die unter bestimmten Bedingungen verschiedene Aktionen ausführt:\
 `for (i in 1:iterations){`\
 Falls die letzte Iteration noch nicht erreicht ist, wird die Abfrage in 10er-Schritten durchgeführt, wobei der Startwert bei jedem Durchgang um 10 verschoben wird und die Ergebnisse hintereinander in `cat_list` geschrieben werden.\
   `if(i < iterations){`\
