@@ -85,3 +85,7 @@ editor: visual
 -   Knox, Doug: Understanding Regular Expressions, Programming Historian 2 (2013), <https://doi.org/10.46430/phen0033>. (self-learning lesson)
 
 -   RegexOne: [Learn Regular Expressions with simple, interactive exercises.](https://regexone.com/) (interactive self-learning tutorial)
+
+## XML
+
+- Latex Ninja Blog: [A shamelessly short intro to XML for DH beginners (includes TEI)](https://latex-ninja.com/2022/02/02/a-shamelessly-short-intro-to-xml-for-dh-beginners-includes-tei/) (blog post)
