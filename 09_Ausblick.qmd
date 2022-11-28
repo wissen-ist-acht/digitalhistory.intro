@@ -7,9 +7,9 @@ editor:
     wrap: sentence
 ---
 
-Wenn Sie die von Ihnen erstellten Strukturierungen von Brief Nr. 8 bzw. Nr. 9 von Franz Marc an Herwarth Walden und die identifizierten Entitäten mit denjenigen in den XML-Dateien der STURM-Editor:innen vergleichen, ergeben sich sicher einige Unterschiede.
+Wenn Sie die von Ihnen erstellten Strukturierungen von Brief Nr. 8 bzw. Nr. 9 von Franz Marc an Herwarth Walden und die identifizierten Entitäten mit denjenigen in den XML-Dateien der STURM-Editor:innen vergleichen, ergeben sich vermutlich einige Unterschiede.
 Ein zentraler ist sicher,  dass sich die Herausgeber:innen bei ihrer Strukturierung an ein Schema gehalten haben, das im Bereich der Texteditionen Standard ist, [TEI](https://de.wikipedia.org/wiki/Text_Encoding_Initiative) XML, und das kann zahlreiche Vorteile haben.
-So können Sie beispielsweise die im vorherigen Kapitel durchgeführten Abfragen nach der Grußformel durchführen, ohne sich Gedanken darüber machen zu müssen, ob sich die Benennung des Tags auf halber Strecke ändert.
+So können Sie beispielsweise die im vorherigen Kapitel gezeigten Abfragen nach der Grußformel durchführen, ohne sich Gedanken darüber machen zu müssen, ob sich die Benennung des Tags auf halber Strecke ändert.
 Und wenn Sie sich während der Forschungsarbeit dafür entscheiden würden, anstatt Grußformeln besser die Anrede zu untersuchen, oder aber das Korpus auf die Briefe von [Jacoba van Heemskerck](https://de.wikipedia.org/wiki/Jacoba_van_Heemskerck) auszuweiten, könnten wir dies mit wenigen Änderungen in unseren Abfragen machen, weil auch die Anrede mit einem einheitlichen Tag codiert ist; 
 würden wir die Quellen nur über die Webseite lesen und unsere Auszählungen von Hand machen, würde unsere Arbeit mit dem Hinzufügen neuer Dokumente von vorne beginnen.
 
@@ -25,7 +25,7 @@ Für solche Vorgänge reicht ein kurzes (aber nicht unbedingt schnell erstelltes
 Das Erstellen von Datensätzen nach bestimmten Richtlinien, einerseits formal, andererseits auch mit Blick auf die [FAIR-Prinzipien](05_FAIR_CARE.qmd), bietet also viele Vorteile für die eigene Arbeit -- so müssen beispielsweise Schemata zur Klassifizierung nicht von Neuem erfunden werden -- ebenso wie für die Arbeit anderer -- grundlegende Informationen können übernommen werden und es bleibt mehr Zeit für die inhaltliche Forschung. 
 
 Ein anschauliches Beispiel für die Weiternutzung von Daten  ist das von Studierenden erstellte Projekt [quoteSalute](https://correspsearch.net/de/quotesalute/suche-salutes.html), eine Webseite, auf der Sie historische Grußformeln generieren lassen können, falls Ihnen beim Briefeschreiben der Standardgruß zu langweilig geworden ist. 
-Das Projekt hat hierfür mehrere XML-codierte Briefkorpora,  die alle als offen nutzbare Daten online verfügbar sind, genutzt, die Grußformeln extrahiert und angereichert. 
+Das Projekt hat hierfür mehrere XML-codierte Briefkorpora,  die alle als offen nutzbare Daten online verfügbar sind, kombiniert, die Grußformeln extrahiert und angereichert. 
 Die genaue Projektbeschreibung finden Sie [hier](https://correspsearch.net/de/quotesalute/dokumentation.html). 
 
 ![Startseite von quoteSalute](images/screenshot_quotesalute.png){fig-align="left"}
