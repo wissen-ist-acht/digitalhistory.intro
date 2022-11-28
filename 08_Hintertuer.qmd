@@ -166,7 +166,7 @@ Q.01.19140512.FMA.01.xml	Q.01.19150911.FMA.01.xml
 ...
 ```
 
-### Erste Analysen 
+### Erste Schritte
 
 Wenn Sie in den Ordner navigiert sind, in dem die Briefdateien liegen, können Sie mit einem einzeiligen Kommando die Suchvorgänge, die Sie nacheinander mit `Strg-F` mit jeder einzelnen Datei in einem Texteditor ausführen würden, mit dem Programm `grep` (Global Regular Expression Print, Mac/Linux) bzw. `Select.String` (Windows) für alle Briefe in diesem Ordner vornehmen, indem Sie alle Dateien, die auf ".xml" enden, in die Suche aufnehmen.  Die Ergebnisse -- bei dieser Suche nach "Mit herzlichem Gruß" oder "Mit herzlichen Grüßen" ein Treffer in einem Brief -- können Sie sich im Terminal anschauen:
 
@@ -266,7 +266,8 @@ Beim Output der Suchanfragen im Terminal sehen Sie, dass alle Grußformeln von e
 Wie Sie sehen, gibt es das Tag-Paar `<salute>-</salute>` zweimal, einmal umrahmt vom Tag-Paar `<opener>-</opener>`, einmal von `<closer>-</closer>`.
 Die Anrede ist mit dem ersten, die Grußformel mit dem zweiten Tag-Paar markiert.
 Wir können also, wenn wir mit Dokumenten arbeiten, die nach festgelegten Richtlinien ausgezeichnet wurden, nach dem Element Grußformel suchen, ohne erst einen Blick in die Texte werfen zu müssen, um verschiedene Suchabfragen zu formulieren. 
-Wir formulieren unsere Suchabfrage um:
+Wir formulieren unsere Suchabfrage um und suchen nun nach einer Abfolge von Zeichen mit dem Beginn `<closer>`, gefolgt von keinem bis zu beliebig vielen (`.*`) Zeichen der Klasse `cntrl`, also nicht sichtbare Zeichen wie Tabs, Seiten- oder Zeilenumbruch. Danach folgt `<salute>`, wiederum gefolgt von keinem bis zu beliebig vielen (`.*`) Zeichen, keinem bis zu beliebig vielen (`.*`) Zeichen der Klasse `cntrl` und nochmal keinem bis zu beliebig vielen (`.*`) Zeichen, bis der Beginn des Schlusstags zu `</salute>` kommt.
+Damit werden die verschiedenen Fälle in den Briefen abgedeckt, dass zwischen `<closer>` und `<salute>` Text oder ein Zeilenumbruch stehen kann oder auch nicht, und dass zwischen `<salute>` und `</salute>` Text, kein Text oder ein Zeilenumbruch kommen kann.
 
 Mac/Linux:
 ```bash
