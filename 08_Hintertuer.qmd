@@ -20,7 +20,12 @@ Es gibt zwei Arten, um mit einem Computer zu interagieren bzw. ihn zu nutzen: ü
 (base) serina00@dg-19-mac-02 Bilder % rm Brief1.txt
 ```
 
-{{< video "images/terminal_file_system.mov" >}}
+::: {#movie}
+
+<iframe width="560" height="315" src="images/terminal_file_system.mov"></iframe>
+
+Vorgehen in der Kommandozeile bzw. im Terminal auf MacOS
+:::
 
 Die beiden Vorgehensweisen unterscheiden sich dabei in drei Punkten:
 
