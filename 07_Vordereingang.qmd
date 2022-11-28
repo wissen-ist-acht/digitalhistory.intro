@@ -23,7 +23,7 @@ Welches Format -- analog oder digital -- bzw. welchen Dateityp Sie wählen, blei
 2.a) Wenn Ihr Nachname mit einem Buchstaben zwischen A und L beginnt:\
 Nehmen Sie Brief Nr. 8 von Marc an Walden und unterteilen Sie ihn in strukturelle Elemente. \
 2.b) Wenn  Ihr Nachname mit einem Buchstaben zwischen M und Z beginnt:\
-Nehmen Sie Brief Nr. 9 von Marc an Walden und unterteilen Sie ihn in strukturelle Elemente.\<closer>
+Nehmen Sie Brief Nr. 9 von Marc an Walden und unterteilen Sie ihn in strukturelle Elemente.\
 Ob Sie den Brief hierfür ausdrucken und Strukturelemente mit  einem Stift markieren oder ob Sie am Computer arbeiten, können Sie wählen.\
 3. Nehmen Sie denselben Brief wie aus Aufgabe 2a bzw. 2b, je nach Nachname, und markieren Sie Entitäten, also Einheiten wie Personen, Orte, etc. 
 Erstellen Sie hierfür ein Tabellendokument (mit Excel, Google Sheets, Open Office o.Ä.), in das Sie die Entitäten aufnehmen.
