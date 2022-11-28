@@ -209,7 +209,7 @@ Eine Auflistung häufig genutzter Tools für die historische Arbeit findet sich 
 
 [^9]: Ein Großprojekt an der Universität Stanford, ["Mapping the Republic of Letters"](http://republicofletters.stanford.edu/), hat für das 18. Jahrhundert das Briefnetzwerk europäischer Gelehrter modelliert. Ein Fallbeispiel ist das Netzwerk Voltaires, in verschiedenen Visualisierungen: [http://republicofletters.stanford.edu/publications/voltaire/letters/](http://republicofletters.stanford.edu/publications/voltaire/letters/). Dan Edelstein. Interactive Visualization for Voltaire’s Correspondence Network. Letters in Voltaire’s Network [Created using Palladio, http://hdlab.stanford.edu/palladio].
 
-## Datensicherung
+## Datensicherung {#sicherung}
 
 In [Kapitel 5](05_FAIR_CARE.qmd) wird es um Fragen zur nachhaltigen Speicherung von Forschungsdaten gehen; 
 an dieser Stelle sei darauf hingewiesen, dass die Sicherung von Daten am besten auch mit einer Versionierung und mit einer Dokumentation einhergeht.
