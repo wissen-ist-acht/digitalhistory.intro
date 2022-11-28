@@ -30,4 +30,16 @@ Papierkopien sind dabei weder interoperabel noch sind Ihre Daten vernünftig wie
 Wenn Sie Ihre transkribierten Texte und die identifzierten Objekte in Standardformaten und mit offener Lizenz auf einem Repositorium veröffentlichen, machen Sie nicht nur wichtige Teile Ihrer eigenen Arbeit sichtbar, sondern erleichtern so auch anschließende Forschungen.[^1] 
 Zudem kann so vermieden werden, dass geleistete Arbeit wie beispielsweise Transkriptionen nicht doppelt gemacht wird.
 
-[^1]: Zu verschiedenen Repositorien, also digitalen Speicherorten für Daten, vgl. das Unterkapitel @sicherung.
+[^1]: Zu verschiedenen Repositorien, also digitalen Speicherorten für Daten, vgl. das Unterkapitel @sec-sicherung.
+
+## CARE-Prinzipien
+
+Anschließend an die FAIR-Prinzipien wurden 2019 von der Global Indigenous Data Alliance die CARE-Prinzipien für den Umgang mit indigenen Daten formuliert:[@carroll_care_2020]
+**C**ollective Benefit, **A**uthority to Control, **R**esponsibility, **E**thics.
+
+Das Augenmerk liegt dabei darauf, nicht einfach offene Daten und Datenaustausch zu propagieren, sondern auch die Menschen und den Zweck zu berücksichtigen, um bestehende Machtunterschiede zwischen verschiedenen Akteur:innen nicht zu verstärken.
+Inidgene Daten sollen dem **kollektiven Nutzen** dienen, ein **Recht auf Kontrolle** soll gegeben sein, **Verantwortung** für die Datennutzung übernommmen und **Ethische Prinzipien** beachtet werden.[^2]
+Auch wenn diese Richtlinien speziell für die Arbeit mit indigenen Daten ausgearbeitet wurden, ergänzen sie den datenzentrierten Ansatz der FAIR-Prinzipien um eine Dimension, die den Entstehungskontext der Daten mitberücksichtigt und zur Reflexion über Die (Weiter-)Arbeit mit Daten anregt. 
+
+[^2]: Eine auf deutsch übersetzte Fassung der CARE-Prinzipien findet sich [hier](https://static1.squarespace.com/static/5d3799de845604000199cd24/t/637acb53881a0973324d18bf/1668991830292/Die+CARE-Prinzipien+für+indigene+Data+Governance.pdf-).
+
