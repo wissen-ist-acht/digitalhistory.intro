@@ -187,5 +187,12 @@
     "title": "Appendix B — Literatur, Tools, Tutorials",
     "section": "B.6 Regular Expressions",
     "text": "B.6 Regular Expressions\n\nKnox, Doug: Understanding Regular Expressions, Programming Historian 2 (2013), https://doi.org/10.46430/phen0033. (self-learning lesson)\nRegexOne: Learn Regular Expressions with simple, interactive exercises. (interactive self-learning tutorial)"
+  },
+  {
+    "objectID": "further_resources.html#xml",
+    "href": "further_resources.html#xml",
+    "title": "Appendix B — Literatur, Tools, Tutorials",
+    "section": "B.7 XML",
+    "text": "B.7 XML\n\nLatex Ninja Blog: A shamelessly short intro to XML for DH beginners (includes TEI) (blog post)"
   }
 ]
