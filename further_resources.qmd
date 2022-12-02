@@ -52,6 +52,10 @@ editor: visual
 
 - Editoren: [Anaconda](https://www.anaconda.com/); [Sublime Text](https://www.sublimetext.com/); [Visual Studio Code](https://code.visualstudio.com/)
 
+### Datenanalyse
+
+- [Datasette](https://datasette.io/): interaktives Tool zur Datenexploration und -visualisierung
+
 ### Text-/Korpusanalyse
 
 -   AntConc: [Korpusanalyse-Toolkit](http://laurenceanthony.net/software.html)
@@ -69,6 +73,8 @@ editor: visual
 -   Bostock, Michael; Heer, Jeffrey; Ogievetsky, Vadim: A Tour through the Visualization Zoo. A Survey of Powerful Visualization Techniques, from the Obvious to the Obscure, in: Queue 8, Nr. 5 (2010). Online: <https://queue.acm.org/detail.cfm?id=1805128>
 
 -   [Data Visualisation Catalogue](https://datavizcatalogue.com/search.html): Guide zur Auswahl von Visualisierungsformen
+
+- [Datasette](https://datasette.io/): interaktives Tool zur Datenexploration und -visualisierung
 
 -   FID Romanistik: [Sammlung von Tools zur Datenvisualisierung](https://fid-romanistik.de/forschungsdaten/suche-nach-forschungsdaten/fid-internetressourcen/tools/werkzeuge-fuer-die-visualisierung-von-daten)
 
