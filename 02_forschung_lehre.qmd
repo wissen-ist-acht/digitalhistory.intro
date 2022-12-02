@@ -84,7 +84,33 @@ Speziell an Historiker:innen ohne Programmier-Vorkenntnisse richtet sich das Pro
 
 ## Digitale Tools zur Kommunikation
 
-tbd
+Auch ohne quantitative/computergestützte Analysen bei der historischen Arbeit selbst bieten sich mithilfe digitaler Unterstützung verschiedene Möglichkeiten an, um Forschungsergebnisse zu kommunizieren.
+Dies betrifft zum einen unterschiedliche Formen der digitalen Publikation, zum anderen die Nutzung digitaler Tools zur Visualisierung von Ergebnissen.
+Gedruckte wissenschaftliche Zeitschriften und Buchverlage haben gewisse Kriterien bei der Annahme eines Textes zur Publikation -- inhaltliche Qualität ist bei jeder wissenschaftlichen Arbeit wichtig; 
+aber Formalia wie Länge/Umfang/Bebilderung sind für Onlineformat weniger zentral.
+So können erste Resultate aus einem neuen Forschungsprojekt oder auch Ergebnisse aus einer Seminararbeit einem interessierten Publikum in Form eines Blogbeitrags ohne viel organisatoriscchen Vorlauf und Rücksicht auf die Auslastung von Druckerpressen  präsentiert werden.\
+Die Zahl der wissenschaftlichen Blogs ist im letzten Jahrzehnt kontinuierlich gestiegen, sodass für verschiedenste Fächer und Themengebiete eine Auswahl an passenden Publikationsorten besteht.
+Sie verfügen über eine Redaktion, also verantworlich zeichnende Wissenschaftler:innen, die eine Qualitätssicherung der Beiträge leisten.
+Auch viele Promotionsprojekte werden von Blogs begleitet -- das liefert Sichtbarkeit für die Forschung der Doktorand:innen und bietet eine Plattform für Themen, die in der Dissertation keinen Platz finden, aber doch erwähnenswert sind.\
+[Hypothèses](https://hypotheses.org/about-hypotheses) hat sich als eine wichtige Plattform etabliert, die zahlreiche Wissenschaftsblogs hostet; 
+ein Katalog aller Blogs, filterbar nach Themen und Epochen, findet sich [hier](https://www.openedition.org/catalogue-notebooks?page=catalogue&pubtype=carnet&lang=en). \
+Aus Lehrveranstaltungen und Forschungsprojekten am Departement Geschichte der Universität Basel sind u.a. folgende Blogs hervorgegangen:
+
+  - [Exilland Schweiz](https://exilschweiz.hypotheses.org/). Kulturschaffende und Intellektuelle im Schweizer Exil, 2021--\
+  - [Global Health Africa](https://www.globalhealthafrica.ch/). Circulating Knowledge and Innovations, 2019--\
+  - [Materialized Histories](mhistories.hypotheses.org/). Materielle Kultur und digitale Forschung, 2021--\
+  - [Materialized Identities](https://www.materializedidentities.com/blog). Objects, Affects and Effects in Early Modern Culture (1450--1750), 2016--2021.\
+  - [Stadt.Geschichte.Basel](https://www.stadtgeschichtebasel.ch/index/geschichten.html). Blog zum Forschungsprojekt, 2019--\
+  - [The Color Line](https://colorline.hypotheses.org). Race Relations in Schlüsseltexten amerikanischer Autor:innen (1881--1953), 2022--
+
+Als relativ junges Format haben sich Data Stories etabliert -- Narrative, die auf der Basis von (quantitativen oder qualitativen) Daten und Analysen einen Sachverhalt darstellen.
+Diese Art von (Daten-)Publikation wird u.a. im journalistischen Bereich genutzt, auch, um Interaktivität und Aktualität von Daten zu gewährleisten.
+Es gibt verschiedene Tools, um solche Stories zu erstellen, zum Teil bereits mit integrierter Publikationsmöglichkeit;
+eine Auswahl findet sich unter [Literatur, Tools, Tutorials](further_resources.qmd##Tools für digital history).\
+Ein Beispiel, das auch Input durch die Nutzer:innen ermöglicht, ist [Darüber spricht der Bundestag](https://www.zeit.de/politik/deutschland/2019-09/bundestag-jubilaeum-70-jahre-parlament-reden-woerter-sprache-wandel#s=kohleausstieg%2Batomausstieg), eine Data Story der "ZEIT", die alle Reden im deutschen Bundestag seit 1949 analysierbar macht.
+Ein Beispiel für eine kartenzentrierte Darstellung mit Einbettung verschiedener Medien ist die [Reise von Arya](https://storymap.knightlab.com/examples/aryas-journey/) aus *Game of Thrones*.
+Ein Beispiel für die Nutzung von Volkszählungsdaten stammt vom Schweizer Bundesamt für Statistik, [Die Schweiz (er)zählen](https://www.census1850.bfs.admin.ch/de/).
+
 
 ## Digitale Tools in der Hochschullehre
 
