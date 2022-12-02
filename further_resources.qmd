@@ -32,6 +32,8 @@ editor: visual
 
 -   Lemercier, Claire; Zalc, Claire: Quantitative Methods in the Humanities. An Introduction, Charlottesville 2019.
 
+- Peroni, Silvio: [The CTP Book[(https://comp-think.github.io/). A book for teaching Computational Thinking and Programming skills to people with a background in the Humanities. 
+
 ## Tools für digital history (free/open source) {#sec-digitaltools}
 
 ### Allgemein; Programmiersprachen; Editoren
@@ -56,6 +58,16 @@ editor: visual
 
 - [Datasette](https://datasette.io/): interaktives Tool zur Datenexploration und -visualisierung
 
+- [Heurist](https://heuristnetwork.org/): webbasierte Forschungsumgebung zur Datenerhebung, -exploration und -visualisierung
+
+- [Nodegoat](https://nodegoat.net/): webbasierte Forschungsumgebung zur Datenerhebung, -exploration und -visualisierung
+
+### Netzwerkanalyse
+
+- [Gephi](https://gephi.org/): Programm zur Analyse und Visualisierung von Graphen und Netzwerken
+
+- [Nodegoat](https://nodegoat.net/): webbasierte Forschungsumgebung zur Datenerhebung, -exploration und -visualisierung, u.a. auch Netzwerkanalyse
+
 ### Text-/Korpusanalyse
 
 -   AntConc: [Korpusanalyse-Toolkit](http://laurenceanthony.net/software.html)
@@ -67,6 +79,14 @@ editor: visual
 -   Tokenisierung: [Tutorial von fortext zu NLTK](https://fortext.net/routinen/lerneinheiten/preprocessing-mit-nltk)
 
 -   Voyant-Tools: [Sammlung von Tools zur Textanalyse, browserbasiert oder standalone](https://voyant-tools.org)
+
+### Storytelling
+
+-   [StoryLine JS](http://storyline.knightlab.com/): Tool zur Erstellung von interaktiven Diagrammen
+
+-   [StoryMap JS](https://storymap.knightlab.com): Tool zur Erstellung von interaktiven Karten/Bildern mit verschiedenen Elementen 
+
+-   [Timeline JS](https://timeline.knightlab.com): Tool zur Erstellung von interaktiven Timelines
 
 ### Visualisierung
 
@@ -86,7 +106,7 @@ editor: visual
 
 -   Gibbs, Frederick W.: New Forms of History: Critiquing Data and Its Representations, in: The American Historian, February 2016. Online: <http://tah.oah.org/february-2016/new-forms-of-history-critiquing-data-and-its-representations/>.
 
--   Tavani, Herman; Zimmer, Michael Zimmer: Search Engines and Ethics, in: Edward N. Zalta (Hg.): The Stanford Encyclopedia of Philosophy (Fall 2020 Edition), Online: <https://plato.stanford.edu/archives/fall2020/entries/ethics-search/>, Kap. 3.1.
+-   Tavani, Herman; Zimmer, Michael: Search Engines and Ethics, in: Edward N. Zalta (Hg.): The Stanford Encyclopedia of Philosophy (Fall 2020 Edition), Online: <https://plato.stanford.edu/archives/fall2020/entries/ethics-search/>, Kap. 3.1.
 
 ## Terminal/Command Line/Shell
 
