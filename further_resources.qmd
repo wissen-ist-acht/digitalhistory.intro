@@ -64,6 +64,8 @@ editor: visual
 
 ### Karten
 
+- [Dariah GeoBrowser](https://de.dariah.eu/geobrowser): webbasiertes Tool zur Darstellung raumzeitlicher Daten
+
 - [QGis](https://qgis.org/de/site/): Software zum Erstellen, Bearbeiten, Anzeigen und Analysieren räumlicher Information
 
 - [Map in Seconds](http://mapinseconds.com/): webbasiertes Tool zur Erstellung von Karten (optimiert für Chrome Browser)
