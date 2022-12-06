@@ -20,6 +20,11 @@ Bei einem Blick in die Briefe, auf der Webseite oder in der XML-Datei, wird ersi
 
 Wenn Sie den Link zu [Kandinski](http://d-nb.info/gnd/118559737) oder zu [Berlin](https://www.geonames.org/2950159/berlin.html) anklicken, erhalten Sie auf den Seiten der GND bzw. Geonames zahlreiche zusätzliche Informationen zur Person bzw. zum Ort, unter anderem Lebensdaten bzw. Geokoordinaten.
 Wenn Sie nun beispielsweise wissen wollten, welche Orte in den Briefen Franz Marcs genannt werden, könnten Sie diese nicht nur mithilfe des Tag-Paars `<placeName>-</placeName>` extrahieren, sondern mit den dazugehörigen Geokoordinaten anreichern und sich auf einer Karte anzeigen lassen.
+
+![Orte, die im Briefkorpus von Franz Marc an Herwarth Walden genannt werden (Visualisierung erstellt mit Palladio).](images/letters_places.png){fig-align="left"}
+
+![Orte, die im Briefkorpus von Franz Marc an Herwarth Walden genannt werden, Detail (Visualisierung erstellt mit Palladio).](images/letters_places_zoom.png){fig-align="left"}
+
 Für solche Vorgänge reicht ein kurzes (aber nicht unbedingt schnell erstelltes ...) Skript, das sich auf weitere Dokumente ausweiten lässt -- ob Sie nur die Orte in den Briefen Franz Marcs oder auch in denen Jacoba van Heemskercks extrahieren und visualisieren wollen, spielt mit Blick auf die Rechenzeit des Skripts keine Rolle.
 
 Das Erstellen von Datensätzen nach bestimmten Richtlinien, einerseits formal, andererseits auch mit Blick auf die [FAIR-Prinzipien](05_FAIR_CARE.qmd), bietet also viele Vorteile für die eigene Arbeit -- so müssen beispielsweise Schemata zur Klassifizierung nicht von Neuem erfunden werden -- ebenso wie für die Arbeit anderer -- grundlegende Informationen können übernommen werden und es bleibt mehr Zeit für die inhaltliche Forschung. 
