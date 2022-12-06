@@ -2,7 +2,8 @@ library(tei2r)
 library(stringr)
 
 # set working directory (folder with files to process)
-setwd("Documents/GitHub/digital_history_intro/docs/letters_Der_Sturm/")
+# (the path might be different on your computer)
+setwd("~/docs/letters_Der_Sturm/")
 
 # create list that contains names of all xml-files in folder
 files = list.files(pattern="*.xml")
