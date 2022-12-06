@@ -28,8 +28,8 @@ Wenn Sie nun beispielsweise wissen wollten, welche Orte in den Briefen Franz Mar
 Für solche Vorgänge reicht ein kurzes (aber nicht unbedingt schnell erstelltes ...) [Skript](https://github.com/wissen-ist-acht/digitalhistory.intro/blob/4ebb709a0ec5bf00082d21b933d2b6c19b589f6d/docs/parse_tei_files.R), an das sich, je nach Ziel bzw. gewünschter Visualisierung, noch weitere Schritte zur Datenverfeinerung bzw. -anreicherung anschließen lassen.[^1]
 Diese Abfolge lässt sich recht unaufwendig auf weitere Dokumente ausweiten -- ob Sie nur die Orte in den Briefen Franz Marcs oder auch in denen Jacoba van Heemskercks extrahieren und visualisieren wollen, spielt mit Blick auf die Rechenzeit des Skripts keine Rolle.
 
-[^1]: In diesem Fall wurde die mithilfe des verlinkten Skripts erstellte csv mit OpenRefine weiter bearbeitet, um den Adressen Geokoordinaten hinzuzufügen.
-Die so angereicherte Tabelle wurde in das Onlinetool Palladio geladen, das Koordinaten auf einer Karte darstellen kann.
+[^1]: In diesem Fall wurde die mithilfe des verlinkten Skripts (in der Programmiersprache R) erstellte csv-Datei [mit OpenRefine weiter bearbeitet](https://openrefine.org/docs/manual/reconciling#reconciliation-actions), um den Adressen Geokoordinaten hinzuzufügen.
+Die so angereicherte Tabelle wurde in das Onlinetool [Palladio](https://hdlab.stanford.edu/palladio/) geladen, das Koordinaten auf einer Karte darstellen kann.
 
 Das Erstellen von Datensätzen nach bestimmten Richtlinien, einerseits formal, andererseits auch mit Blick auf die [FAIR-Prinzipien](05_FAIR_CARE.qmd), bietet also viele Vorteile für die eigene Arbeit -- so müssen beispielsweise Schemata zur Klassifizierung nicht von Neuem erfunden werden -- ebenso wie für die Arbeit anderer -- grundlegende Informationen können übernommen werden und es bleibt mehr Zeit für die inhaltliche Forschung. 
 
