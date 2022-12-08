@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.2.242">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Cheat Sheet</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1.6em;
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="cheat_sheet_files/libs/clipboard/clipboard.min.js"></script>
+<script src="cheat_sheet_files/libs/quarto-html/quarto.js"></script>
+<script src="cheat_sheet_files/libs/quarto-html/popper.min.js"></script>
+<script src="cheat_sheet_files/libs/quarto-html/tippy.umd.min.js"></script>
+<script src="cheat_sheet_files/libs/quarto-html/anchor.min.js"></script>
+<link href="cheat_sheet_files/libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="cheat_sheet_files/libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="cheat_sheet_files/libs/bootstrap/bootstrap.min.js"></script>
+<link href="cheat_sheet_files/libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="cheat_sheet_files/libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+
+
+</head>
+
+<body class="fullcontent">
+
+<div id="quarto-content" class="page-columns page-rows-contents page-layout-article">
+
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Cheat Sheet</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+</header>
+
+<p>Every programme has its own specifications as well as useful shortcuts; over time, you will become an advanced user of certain tools you use quite often. For others, it might be handy to have a cheat sheet on the side, to remember some of the basic functions as well as different possibilities to work in an environment. This cheat sheet is very far from complete and will have the greatest benefit if you edit it according to your own needs, be it now or at any later point in time. It might also just motivate you to create a version for yourself.</p>
+<section id="command-lineterminal" class="level2">
+<h2 class="anchored" data-anchor-id="command-lineterminal">Command Line/Terminal</h2>
+<p>(see for example <a href="http://mywiki.wooledge.org/BashGuide/CommandsAndArguments">Bash Guide: Commands and Arguments</a>)</p>
+<p>(the following commands work in unix-based environments; if you work on a windows machine, consider installing <a href="https://en.wikipedia.org/wiki/Cygwin">Cygwin</a> or <a href="https://en.wikipedia.org/wiki/MinGW">MinGW</a>)</p>
+<table class="table">
+<colgroup>
+<col style="width: 34%">
+<col style="width: 24%">
+<col style="width: 41%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>operation</th>
+<th>command</th>
+<th>example</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>find out where you are, i.e.&nbsp;your working directory</td>
+<td><code>pwd</code></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>list all or a subset of items in current directory</td>
+<td><code>ls</code></td>
+<td><code>ls essay_final_version_*.docx</code></td>
+</tr>
+<tr class="odd">
+<td>change directory</td>
+<td><code>cd</code></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>move to a specific folder</td>
+<td><code>cd path-to-folder</code></td>
+<td><code>cd Desktop/research/data</code></td>
+</tr>
+<tr class="odd">
+<td>move to a specific folder starting from the home directory (can be handy if you are lost or in a very remote cul-de-sac of your file system)</td>
+<td><code>cd ~/path-to-folder</code></td>
+<td><code>cd ~/Desktop/research/data</code></td>
+</tr>
+<tr class="even">
+<td>abort a process</td>
+<td><code>ctrl+c</code></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>stop a session</td>
+<td>just close the window</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>scroll through previously executed commands</td>
+<td><code>up arrow/↑</code></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>list previously executed commands</td>
+<td><code>history</code></td>
+<td><code>history | grep essay_final_version_*</code></td>
+</tr>
+<tr class="even">
+<td><strong>working with files</strong></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>rename file(s)</td>
+<td><code>mv</code></td>
+<td><code>mv oldname.pdf newname.pdf</code></td>
+</tr>
+<tr class="even">
+<td>move file(s) to a new directory</td>
+<td><code>mv</code></td>
+<td><code>mv file.pdf new_folder/</code> <code>mv essay_final_version_*.docx versions/</code></td>
+</tr>
+<tr class="odd">
+<td>remove file(s)</td>
+<td><code>rm</code></td>
+<td><code>rm essay_final_version_*.docx</code></td>
+</tr>
+<tr class="even">
+<td>copy file(s)</td>
+<td><code>cp</code></td>
+<td><code>cp essay_final_version_1.docx</code> <code>essay_final_version_final.docx</code></td>
+</tr>
+<tr class="odd">
+<td>combine two (or more) commands by piping the output of the first command into the second</td>
+<td><code>|</code></td>
+<td><code>cd ~/Desktop/research/data |</code> <code>mv essay_final_version_* new_folder/</code></td>
+</tr>
+<tr class="even">
+<td>show first ten lines of a file</td>
+<td><code>head</code></td>
+<td><code>head essay_final_version_1.docx</code></td>
+</tr>
+<tr class="odd">
+<td>word count (counts lines, words and characters of search term in a document or of a list of documents)</td>
+<td><code>wc</code></td>
+<td><code>wc *.docx</code></td>
+</tr>
+<tr class="even">
+<td>sort a file</td>
+<td><code>sort</code></td>
+<td><code>sort list_of_callers.txt</code></td>
+</tr>
+<tr class="odd">
+<td>only show unique values</td>
+<td><code>uniq</code></td>
+<td><code>sort list_of_callers.txt | uniq</code></td>
+</tr>
+<tr class="even">
+<td>search for a string (get lines in return)</td>
+<td><code>grep</code></td>
+<td><code>grep "Arthur" list_of_callers.txt</code></td>
+</tr>
+<tr class="odd">
+<td>search for a pattern, count occurrences and write them into a new file</td>
+<td><code>grep</code></td>
+<td><code>grep -E -o '(Arthur Dent|Arthur|Dent)'</code> <code>hitchhikers_guide_fulltext.txt |</code> <code>wc -l &gt; arthur.txt</code></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="regular-expressions" class="level2">
+<h2 class="anchored" data-anchor-id="regular-expressions">Regular Expressions</h2>
+<p>(see for example this <a href="https://web.mit.edu/hackl/www/lab/turkshop/slides/regex-cheatsheet.pdf">Cheat Sheet</a>)</p>
+<table class="table">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 22%">
+<col style="width: 22%">
+<col style="width: 22%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>description</th>
+<th>operator</th>
+<th>example</th>
+<th>matches</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>any single character</td>
+<td><code>.</code></td>
+<td><code>m.n</code></td>
+<td>man, men</td>
+</tr>
+<tr class="even">
+<td>a single character out of a set of characters</td>
+<td><code>[]</code></td>
+<td><code>m[abcde]n</code></td>
+<td>man, men</td>
+</tr>
+<tr class="odd">
+<td>group characters/patterns</td>
+<td><code>[]</code>, <code>()</code>, <code>{}</code></td>
+<td><code>[a-zA-Z]</code></td>
+<td>a character in the range a-z or A-Z</td>
+</tr>
+<tr class="even">
+<td>placeholder for any character(s)</td>
+<td><code>*</code></td>
+<td><code>cat*al</code></td>
+<td>categorical, cathedral, Catal, …</td>
+</tr>
+<tr class="odd">
+<td>exclude a (set of) character(s)</td>
+<td><code>^</code></td>
+<td><code>dr[^au]nk*</code></td>
+<td>drinks, drinker, drinking</td>
+</tr>
+<tr class="even">
+<td>match either or</td>
+<td><code>|</code></td>
+<td><code>dr(a|i)nk</code></td>
+<td>drank, drink</td>
+</tr>
+<tr class="odd">
+<td>placeholder for no or one character</td>
+<td><code>?</code></td>
+<td><code>Sibille?</code></td>
+<td>Sibille, Sibill</td>
+</tr>
+<tr class="even">
+<td>placeholder for one or more of a character</td>
+<td><code>+</code></td>
+<td><code>Sibil+e</code></td>
+<td>Sibile, Sibille</td>
+</tr>
+<tr class="odd">
+<td>any whitespace character</td>
+<td><code>\s</code></td>
+<td><code>drink\\sin*</code></td>
+<td>drink in the bar</td>
+</tr>
+<tr class="even">
+<td>any non-whitespace character</td>
+<td><code>\S</code></td>
+<td><code>drink\\Sin*</code></td>
+<td>drinking</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="search-and-find-in-swisscovery" class="level2">
+<h2 class="anchored" data-anchor-id="search-and-find-in-swisscovery">Search and Find in Swisscovery</h2>
+<p>(see <a href="https://swisscovery.help/de/#sea5">Swisscovery Help</a>)</p>
+<table class="table">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 22%">
+<col style="width: 22%">
+<col style="width: 22%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>operation</th>
+<th>operator</th>
+<th>example</th>
+<th>possible result(s)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>placeholder for any character(s)</td>
+<td><code>*</code></td>
+<td><code>cat*</code></td>
+<td>cat, catdog, categorical difference, …</td>
+</tr>
+<tr class="even">
+<td>placeholder for any character(s)</td>
+<td><code>*</code></td>
+<td><code>cat*al</code></td>
+<td>categorical, cathedral, Catal, …</td>
+</tr>
+<tr class="odd">
+<td>placeholder for one character</td>
+<td><code>?</code></td>
+<td><code>Sib?lle</code></td>
+<td>Sibylle, Sibille</td>
+</tr>
+<tr class="even">
+<td>search for exact match</td>
+<td><code>""</code></td>
+<td><code>"Sibylle Berg"</code></td>
+<td>results do not include matches for “Sibylle” or “Berg” only</td>
+</tr>
+<tr class="odd">
+<td><strong>Boolean search</strong></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>combine several search terms</td>
+<td><code>UND</code> or no specification</td>
+<td><code>"cat" (UND) "dog"</code></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>look for one search term</td>
+<td><code>ODER</code></td>
+<td><code>cat ODER dog</code></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>exclude search term</td>
+<td><code>NICHT</code></td>
+<td><code>cat NICHT catdog</code></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="search-and-find-with-google" class="level2">
+<h2 class="anchored" data-anchor-id="search-and-find-with-google">Search and Find with Google</h2>
+<p>(nb: Google is constantly updating/renewing search operators; some of the following might no longer be working if you try them)</p>
+<table class="table">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 22%">
+<col style="width: 22%">
+<col style="width: 22%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>operation</th>
+<th>operator</th>
+<th>example</th>
+<th>possible result(s)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>placeholder for any character(s)</td>
+<td><code>*</code></td>
+<td><code>cat*</code></td>
+<td>cat, catdog, categorical difference, …</td>
+</tr>
+<tr class="even">
+<td>search for exact match</td>
+<td><code>""</code></td>
+<td><code>"catdog"</code></td>
+<td>results refer to tv show, neither cats nor dogs</td>
+</tr>
+<tr class="odd">
+<td>restrict results to a certain filetype</td>
+<td><code>filetype</code></td>
+<td><code>catdog filetype:jpg</code></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>restrict results to a specific website</td>
+<td><code>site</code></td>
+<td><code>cat site:instagram.com</code></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td><strong>Boolean search</strong></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>combine several search terms</td>
+<td><code>AND</code> or no specification</td>
+<td><code>"cat" (AND) "dog"</code></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>look for one search term</td>
+<td><code>OR</code></td>
+<td><code>cat OR dog</code></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>exclude search term</td>
+<td><code>-</code></td>
+<td><code>animal -dog</code></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+</section>
+
+</main>
+<!-- /main column -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    target: function(trigger) {
+      return trigger.previousElementSibling;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+</body></html>
