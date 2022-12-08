@@ -128,8 +128,8 @@ curl -o Q.01.19150918.FMA.01.xml https://sturm-edition.de/api/files/Q.01.1915091
 ```
 
 `cat briefe_marc.xml` gibt den Inhalt der Datei ins Terminal; 
-`grep -o 'Q.*xml\b'` findet in diesem Inhalt alle Zeichenketten zwischen "Q" und "xml", wobei nach "xml" durch das Hinzufügen von "\b" das Zeichenende angezeigt ist;
-die 54 gefundenen Zeichenketten werden in je eine neue Zeile geschrieben, wobei mit `curl -o $_` der Befehl "curl -o" und mit `$_` als Platzhalter die Zeichenkette (also der Dateiname) geschrieben wird, gefolgt von  "https://sturm-edition.de/api/files/$_" und mit `$_` wieder die Zeichenkette (also wieder der Dateiname).
+`grep -o 'Q.*xml\b'` findet in diesem Inhalt alle Zeichenketten zwischen "Q" und "xml", wobei nach "xml" durch das Hinzufügen von `\b` das Zeichenende angezeigt ist;
+die 54 gefundenen Zeichenketten werden in je eine neue Zeile geschrieben, wobei mit `curl -o $_` der Befehl `curl -o` und mit `$_` als Platzhalter die Zeichenkette (also der Dateiname) geschrieben wird, gefolgt von  `https://sturm-edition.de/api/files/$_` und mit `$_` wieder die Zeichenkette (also wieder der Dateiname).
 Mit einem dritten Kommando, `bash`, führen wir die erstellte Datei aus, d.h. die in ihr stehenden Kommandos werden ausgeführt -- also via `curl` (**C**lient **URL**) die Briefe heruntergeladen.
 ```bash
 bash dateinamen_briefe_marc.txt
