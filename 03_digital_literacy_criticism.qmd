@@ -73,4 +73,4 @@ Zur Frage, wie sich die digitale Wende, der *digital turn*, auf die Quellenkriti
 
 </iframe>
 
-Eine Handreichung zum Umgang mit digitalisierten und digitalen Daten, das im selben Projekt erarbeitet wurde, finden Sie [hier](documents/Ranke_visual-aid.pdf).
+Eine Handreichung zum Umgang mit digitalisierten und digitalen Daten, das im selben Projekt erarbeitet wurde, finden Sie [hier](docs/Ranke_visual-aid.pdf).

@@ -40,7 +40,7 @@ die Texterkennung ist ab einer gewissen Menge Seiten allerdings kostenpflichtig,
 Programme, die über die Kommandozeile laufen, gänzlich kostenfrei sind und ebenfalls zahlreiche Funktionalitäten bieten, sind beispielsweise [Kraken](https://kraken.re/master/index.html), [OCR4all](https://www.ocr4all.org/), [OCRopus](https://github.com/ocropus/ocropy/wiki) oder [Calamari](https://github.com/Calamari-OCR/calamari).
 
 Zur **Extraktion von Daten** aus digitalen/digitalisierten Texten existieren verschiedene Möglichkeiten mithilfe kleiner Kommandozeilenprogramme (eher mühsam und schwierig zu lesen) oder mit Packages für Programmiersprachen, für die Geisteswissenschaften vor allem R oder Python (siehe dazu auch @sec-digitaletools).
-So können besipielsweise aus digitalisierten Telefonbüchern Entitäten, also Einheiten, wie Personen, Straßennamen oder Berufe oder aus alten Theaterprogrammheften gespielte Stücke, beteiligte Schauspieler:innen und verantwortliche Regisseurinnen extrahiert und als Datensätze weitergenutzt werden.[^1]
+So können beispielsweise aus digitalisierten Telefonbüchern Entitäten, also Einheiten, wie Personen, Straßennamen oder Berufe oder aus alten Theaterprogrammheften gespielte Stücke, beteiligte Schauspieler:innen und verantwortliche Regisseurinnen extrahiert und als Datensätze weitergenutzt werden.[^1]
 
 [^1]: Ein gut nachvollziehbares Tutorial zur Extraktion von Daten aus Telefonbüchern hat [Lindsey Wieck](https://lindseywieck.com/) für einen DH-Kurs an der St. Mary’s University in San Antonio erstellt: [https://lindseywieck.com/fall_2016_sf/gatheringdatatutorial.html](https://lindseywieck.com/fall_2016_sf/gatheringdatatutorial.html). 
 [Derek Miller](http://derek.visualizingbroadway.com/about.html) arbeitet zu Broadway-Vorstellungen, [Visualizing Broadway](https://visualizingbroadway.com/index.html), ein Projekt, das [hier](https://digitalhumanities.fas.harvard.edu/100-years-of-broadway-shows-at-once/) beschrieben wird; [hier](https://www.youtube.com/watch?v=KUTPX2Ohcqs) gibt es dazu ein Video in Vorlesungslänge.
@@ -76,7 +76,7 @@ Die Funktion `write.csv` speichert den Inhalt der Variable `cats` als csv-Datei[
 
 
 
-[^2]: Unter [openglam.ch](openglam.ch) finden sich Informationen zu Schweizer GLAM-Einrichtungen, die offene Daten anbieten.
+[^2]: Unter [openglam.ch](https://openglam.ch) finden sich Informationen zu Schweizer GLAM-Einrichtungen, die offene Daten anbieten.
 
 [^3]: **c**omma **s**eparated **v**alue ist ein Format, in dem einzelne Werte, *values*, über spezifische Trenner, meist *commas*, eindeutig abgrenzbar sind und somit in einem Tabellenformat angezeigt werden können, wobei jeder Wert in einer separaten Zelle steht. Tabellensoftware wie Excel, Google Sheets oder Numbers kann csv-Dateien öffnen.
 
