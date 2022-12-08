@@ -1,9 +1,19 @@
 ---
-title: "Cheat Sheet"
+title: "Cheat Sheet[^1]"
 output: pdf_document
 ---
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
 
-Every programme has its own specifications as well as useful shortcuts; over time, you will become an advanced user of certain tools you use quite often. For others, it might be handy to have a cheat sheet on the side, to remember some of the basic functions as well as different possibilities to work in an environment. This cheat sheet is very far from complete and will have the greatest benefit if you edit it according to your own needs, be it now or at any later point in time. It might also just motivate you to create a version for yourself.
+Every program has its own specifications as well as useful shortcuts; 
+over time, you will become an advanced user of certain tools you use quite often. 
+For others, it might be handy to have a cheat sheet at hand, to remember some of the basic functions as well as different possibilities to work in an environment. 
+This cheat sheet is very far from complete and is best understood as a starting point:
+It will have the greatest benefit if you edit it according to your own needs, now or at any point in the future.
+It might also just motivate you to create a version for yourself.
+
+[^1]: Accompanying the introductory guide to digital history by Ina Serif, 2022, online: [https://wissen-ist-acht.github.io/digitalhistory.intro/](https://wissen-ist-acht.github.io/digitalhistory.intro/).
 
 ## Command Line/Terminal
 
@@ -33,7 +43,7 @@ Every programme has its own specifications as well as useful shortcuts; over tim
 | sort a file                                                                                                                                  | `sort`                | `sort list_of_callers.txt`                                                                       |
 | only show unique values                                                                                                                      | `uniq`                | `sort list_of_callers.txt | uniq`                                                                |
 | search for a string (get lines in return)                                                                                                    | `grep`                | `grep "Arthur" list_of_callers.txt`                                                              |
-| search for a pattern, count occurrences and write them into a new file                                                                       | `grep`                | `grep -E -o '(Arthur Dent|Arthur|Dent)'` `hitchhikers_guide_fulltext.txt |` `wc -l > arthur.txt` |
+| search for a pattern, count occurrences and write them into a new file                                                                       | `grep`                | `grep -E -i 'Gr(u|ü)(ß|ss)' *.xml |` `wc -l > gruesse.txt` |
 
 ## Regular Expressions
 
@@ -41,16 +51,17 @@ Every programme has its own specifications as well as useful shortcuts; over tim
 
 | description                                   | operator         | example       | matches                             |
 |------------------------|----------------|----------------|----------------|
-| any single character                          | `.`              | `m.n`         | man, men                            |
+| any single character                          | `.`              | `m.n`         | man, men, min, mtn, ...                            |
 | a single character out of a set of characters | `[]`             | `m[abcde]n`   | man, men                            |
-| group characters/patterns                     | `[]`, `()`, `{}` | `[a-zA-Z]`    | a character in the range a-z or A-Z |
+| group characters/patterns                     | `[]`, `()`, `{}` | `[a-zA-Zöäüéà]`    | a character in the range a-z or A-Z and some Umlaut characters|
 | placeholder for any character(s)              | `*`              | `cat*al`      | categorical, cathedral, Catal, ...  |
 | exclude a (set of) character(s)               | `^`              | `dr[^au]nk*`  | drinks, drinker, drinking           |
 | match either or                               | `|`              | `dr(a|i)nk`   | drank, drink                        |
 | placeholder for no or one character           | `?`              | `Sibille?`    | Sibille, Sibill                     |
 | placeholder for one or more of a character    | `+`              | `Sibil+e`     | Sibile, Sibille                     |
-| any whitespace character                      | `\s`             | `drink\\sin*` | drink in the bar                    |
-| any non-whitespace character                  | `\S`             | `drink\\Sin*` | drinking                            |
+| any whitespace character                      | `\s`             | `drink\sin*` | drink in the bar                    |
+| any non-whitespace character                  | `\S`             | `drink\Sin*` | drinking                            |
+| define/escape special characters               | `\`              | `\?`, `\.`, `\n` | ?, ., line break
 
 ## Search and Find in Swisscovery
 
