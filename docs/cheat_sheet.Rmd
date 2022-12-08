@@ -1,0 +1,83 @@
+---
+title: "Cheat Sheet"
+output: pdf_document
+---
+
+Every programme has its own specifications as well as useful shortcuts; over time, you will become an advanced user of certain tools you use quite often. For others, it might be handy to have a cheat sheet on the side, to remember some of the basic functions as well as different possibilities to work in an environment. This cheat sheet is very far from complete and will have the greatest benefit if you edit it according to your own needs, be it now or at any later point in time. It might also just motivate you to create a version for yourself.
+
+## Command Line/Terminal
+
+(see for example [Bash Guide: Commands and Arguments](http://mywiki.wooledge.org/BashGuide/CommandsAndArguments))
+
+(the following commands work in unix-based environments; if you work on a windows machine, consider installing [Cygwin](https://en.wikipedia.org/wiki/Cygwin) or [MinGW](https://en.wikipedia.org/wiki/MinGW))
+
+| operation                                                                                                                                    | command               | example                                                                                          |
+|-------------------------|------------------|------------------------------|
+| find out where you are, i.e. your working directory                                                                                          | `pwd`                 |                                                                                                  |
+| list all or a subset of items in current directory                                                                                           | `ls`                  | `ls essay_final_version_*.docx`                                                                  |
+| change directory                                                                                                                             | `cd`                  |                                                                                                  |
+| move to a specific folder                                                                                                                    | `cd path-to-folder`   | `cd Desktop/research/data`                                                                       |
+| move to a specific folder starting from the home directory (can be handy if you are lost or in a very remote cul-de-sac of your file system) | `cd ~/path-to-folder` | `cd ~/Desktop/research/data`                                                                     |
+| abort a process                                                                                                                              | `ctrl+c`              |                                                                                                  |
+| stop a session                                                                                                                               | just close the window |                                                                                                  |
+| scroll through previously executed commands                                                                                                  | `up arrow/↑`          |                                                                                                  |
+| list previously executed commands                                                                                                            | `history`             | `history | grep essay_final_version_*`                                                           |
+| **working with files**                                                                                                                       |                       |                                                                                                  |
+| rename file(s)                                                                                                                               | `mv`                  | `mv oldname.pdf newname.pdf`                                                                     |
+| move file(s) to a new directory                                                                                                              | `mv`                  | `mv file.pdf new_folder/` `mv essay_final_version_*.docx versions/`                              |
+| remove file(s)                                                                                                                               | `rm`                  | `rm essay_final_version_*.docx`                                                                  |
+| copy file(s)                                                                                                                                 | `cp`                  | `cp essay_final_version_1.docx` `essay_final_version_final.docx`                                 |
+| combine two (or more) commands by piping the output of the first command into the second                                                     | `|`                   | `cd ~/Desktop/research/data |` `mv essay_final_version_* new_folder/`                            |
+| show first ten lines of a file                                                                                                               | `head`                | `head essay_final_version_1.docx`                                                                |
+| word count (counts lines, words and characters of search term in a document or of a list of documents)                                       | `wc`                  | `wc *.docx`                                                                                      |
+| sort a file                                                                                                                                  | `sort`                | `sort list_of_callers.txt`                                                                       |
+| only show unique values                                                                                                                      | `uniq`                | `sort list_of_callers.txt | uniq`                                                                |
+| search for a string (get lines in return)                                                                                                    | `grep`                | `grep "Arthur" list_of_callers.txt`                                                              |
+| search for a pattern, count occurrences and write them into a new file                                                                       | `grep`                | `grep -E -o '(Arthur Dent|Arthur|Dent)'` `hitchhikers_guide_fulltext.txt |` `wc -l > arthur.txt` |
+
+## Regular Expressions
+
+(see for example this [Cheat Sheet](https://web.mit.edu/hackl/www/lab/turkshop/slides/regex-cheatsheet.pdf))
+
+| description                                   | operator         | example       | matches                             |
+|------------------------|----------------|----------------|----------------|
+| any single character                          | `.`              | `m.n`         | man, men                            |
+| a single character out of a set of characters | `[]`             | `m[abcde]n`   | man, men                            |
+| group characters/patterns                     | `[]`, `()`, `{}` | `[a-zA-Z]`    | a character in the range a-z or A-Z |
+| placeholder for any character(s)              | `*`              | `cat*al`      | categorical, cathedral, Catal, ...  |
+| exclude a (set of) character(s)               | `^`              | `dr[^au]nk*`  | drinks, drinker, drinking           |
+| match either or                               | `|`              | `dr(a|i)nk`   | drank, drink                        |
+| placeholder for no or one character           | `?`              | `Sibille?`    | Sibille, Sibill                     |
+| placeholder for one or more of a character    | `+`              | `Sibil+e`     | Sibile, Sibille                     |
+| any whitespace character                      | `\s`             | `drink\\sin*` | drink in the bar                    |
+| any non-whitespace character                  | `\S`             | `drink\\Sin*` | drinking                            |
+
+## Search and Find in Swisscovery
+
+(see [Swisscovery Help](https://swisscovery.help/de/#sea5))
+
+| operation                        | operator                  | example             | possible result(s)                                          |
+|------------------------|----------------|----------------|----------------|
+| placeholder for any character(s) | `*`                       | `cat*`              | cat, catdog, categorical difference, ...                    |
+| placeholder for any character(s) | `*`                       | `cat*al`            | categorical, cathedral, Catal, ...                          |
+| placeholder for one character    | `?`                       | `Sib?lle`           | Sibylle, Sibille                                            |
+| search for exact match           | `""`                      | `"Sibylle Berg"`    | results do not include matches for "Sibylle" or "Berg" only |
+| **Boolean search**               |                           |                     |                                                             |
+| combine several search terms     | `UND` or no specification | `"cat" (UND) "dog"` |                                                             |
+| look for one search term         | `ODER`                    | `cat ODER dog`      |                                                             |
+| exclude search term              | `NICHT`                   | `cat NICHT catdog`  |                                                             |
+
+## Search and Find with Google
+
+(nb: Google is constantly updating/renewing search operators; some of the following might no longer be working if you try them)
+
+| operation                              | operator                  | example                  | possible result(s)                              |
+|------------------------|----------------|----------------|----------------|
+| placeholder for any character(s)       | `*`                       | `cat*`                   | cat, catdog, categorical difference, ...        |
+| search for exact match                 | `""`                      | `"catdog"`               | results refer to tv show, neither cats nor dogs |
+| restrict results to a certain filetype | `filetype`                | `catdog filetype:jpg`    |                                                 |
+| restrict results to a specific website | `site`                    | `cat site:instagram.com` |                                                 |
+| **Boolean search**                     |                           |                          |                                                 |
+| combine several search terms           | `AND` or no specification | `"cat" (AND) "dog"`      |                                                 |
+| look for one search term               | `OR`                      | `cat OR dog`             |                                                 |
+| exclude search term                    | `-`                       | `animal -dog`            |                                                 |
