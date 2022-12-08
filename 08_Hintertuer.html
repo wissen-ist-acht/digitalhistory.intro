@@ -124,7 +124,6 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
   }
 }</script>
 
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
 </head>
 
@@ -377,7 +376,7 @@ Download per Schnittstelle (für Mac/Linux)
 <span id="cb10-11"><a href="#cb10-11" aria-hidden="true" tabindex="-1"></a><span class="ex">curl</span> <span class="at">-o</span> Q.01.19151106.FMA.01.xml https://sturm-edition.de/api/files/Q.01.19151106.FMA.01.xml </span>
 <span id="cb10-12"><a href="#cb10-12" aria-hidden="true" tabindex="-1"></a><span class="ex">curl</span> <span class="at">-o</span> Q.01.19150918.FMA.01.xml https://sturm-edition.de/api/files/Q.01.19150918.FMA.01.xml</span>
 <span id="cb10-13"><a href="#cb10-13" aria-hidden="true" tabindex="-1"></a><span class="ex">...</span></span></code><button title="In die Zwischenablage kopieren" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<p><code>cat briefe_marc.xml</code> gibt den Inhalt der Datei ins Terminal; <code>grep -o 'Q.*xml\b'</code> findet in diesem Inhalt alle Zeichenketten zwischen “Q” und “xml”, wobei nach “xml” durch das Hinzufügen von “ das Zeichenende angezeigt ist; die 54 gefundenen Zeichenketten werden in je eine neue Zeile geschrieben, wobei mit <code>curl -o $_</code> der Befehl”curl -o” und mit <code>$_</code> als Platzhalter die Zeichenkette (also der Dateiname) geschrieben wird, gefolgt von “https://sturm-edition.de/api/files/<span class="math inline">\(_" und mit `\)</span>_<code>wieder die Zeichenkette (also wieder der Dateiname). Mit einem dritten Kommando,</code>bash<code>, führen wir die erstellte Datei aus, d.h. die in ihr stehenden Kommandos werden ausgeführt -- also via</code>curl` (<strong>C</strong>lient <strong>URL</strong>) die Briefe heruntergeladen.</p>
+<p><code>cat briefe_marc.xml</code> gibt den Inhalt der Datei ins Terminal; <code>grep -o 'Q.*xml\b'</code> findet in diesem Inhalt alle Zeichenketten zwischen “Q” und “xml”, wobei nach “xml” durch das Hinzufügen von <code>\b</code> das Zeichenende angezeigt ist; die 54 gefundenen Zeichenketten werden in je eine neue Zeile geschrieben, wobei mit <code>curl -o $_</code> der Befehl <code>curl -o</code> und mit <code>$_</code> als Platzhalter die Zeichenkette (also der Dateiname) geschrieben wird, gefolgt von <code>https://sturm-edition.de/api/files/$_</code> und mit <code>$_</code> wieder die Zeichenkette (also wieder der Dateiname). Mit einem dritten Kommando, <code>bash</code>, führen wir die erstellte Datei aus, d.h. die in ihr stehenden Kommandos werden ausgeführt – also via <code>curl</code> (<strong>C</strong>lient <strong>URL</strong>) die Briefe heruntergeladen.</p>
 <div class="sourceCode" id="cb11"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a><span class="fu">bash</span> dateinamen_briefe_marc.txt</span></code><button title="In die Zwischenablage kopieren" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 </div>
