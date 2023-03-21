@@ -309,3 +309,5 @@ Q.01.19140608.FMA.01.xml:<closer>
 Spätestens jetzt wäre es aber an der Zeit, das Instrumentarium zu wechseln: 
 Mit dem Terminal bzw. der Shell kann man verschiedenste Operationen durchführen, und es gibt zahlreiche kleine Programme, die man zusätzlich installieren kann -- zum Parsen, also Zerlegen von XML-Dateien, zur Bearbeitung von Bilddateien oder zum Download von YouTube-Videos.
 Die Übersichtlichkeit ist allerdings recht begrenzt, und gerade für die Analyse von Struktur- und Textdaten gibt es weitaus geeignetere Programmiersprachen wie R oder Python, wie in [@sec-digitaletools] bereits erwähnt.
+
+Um beispielsweise mit dem Volltext der Briefe weiterzuarbeiten, sei es für ein *close reading* oder für quantitative Textanalysen, können für eine bessere Lesbarkeit und einfachere Auswertungen die Auszeichnungen des TEI-XML entfernt werden.
