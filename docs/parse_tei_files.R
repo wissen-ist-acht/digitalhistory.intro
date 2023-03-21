@@ -3,7 +3,7 @@ library(stringr)
 
 # set working directory (folder with files to process)
 # (the path might be different on your computer)
-setwd("~/docs/letters_Der_Sturm/")
+setwd("docs/letters_Der_Sturm/")
 
 # create list that contains names of all xml-files in folder
 files = list.files(pattern="*.xml")
@@ -44,3 +44,13 @@ df_parsed_files_na$Address <- str_squish(df_parsed_files_na$Address)
 
 # save file as csv for further processing
 write.csv(df_parsed_files_na, "place_names_letters.csv")
+
+
+
+
+
+# test: remove tags from files
+library(xml2)
+doc <- read_xml("Documents/GitHub/digital_history_intro/docs/letters_Der_Sturm/Q.01.19151106.FMA.01.xml")
+text <- xml_text(doc)
+text <- str_remove_all(text, "<.*?>")
