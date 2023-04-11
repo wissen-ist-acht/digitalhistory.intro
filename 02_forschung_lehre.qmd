@@ -112,17 +112,19 @@ Ein Beispiel für eine kartenzentrierte Darstellung mit Einbettung verschiedener
 Ein Beispiel für die Nutzung von Volkszählungsdaten stammt vom Schweizer Bundesamt für Statistik, [Die Schweiz (er)zählen](https://www.census1850.bfs.admin.ch/de/).
 
 
-## Digitale Tools in der Hochschullehre
-
-tbd
-
-## Projekte und Ressourcen {#sec-projects}
+## Projekte und Ressourcen für Forschung und Lehre {#sec-projects}
 
 ### Alte Geschichte
 
 Projekte:
 
+- [D-Scribes](https://d-scribes.philhist.unibas.ch/en/): Projekt zur Erkennung antiker Schreiber:innen griechischer und koptischer Papyri
+
 Ressourcen/Portale:
+
+- [Papyprus Portal](https://www.papyrusportal.de/content/start.xml): digitale Papyrussammlung
+
+- [The Arabic Papyrology Database](https://www.apd.gwi.uni-muenchen.de/apd/project.jsp): Datenbank für vormoderne arabische Schriften auf Papyrus, Pergament oder Papier vom 7. bis zum 16. Jahrhundert
 
 ### Mittelalter und Frühe Neuzeit {#sec-projects-ma-fnz}
 
