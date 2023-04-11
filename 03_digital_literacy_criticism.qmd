@@ -29,7 +29,7 @@ Ein Bewusstsein hierfür und das Hinterfragen von Datensätzen gehören also mit
 
 Digitalisierte Quellen ebenso wie rein digitale erfordern eine erweiterte Art von Quellenkritik -- im Einführungskurs an der Universität Basel lernen Sie die Grundlagen klassischer Quellenkritik:\
 Woher kommt eine Quelle, wer hat sie unter welchen Umständen und zu welchem Zweck erstellt?
-Welche Absichten können darin verborgen sein, und welche Verzerrungen können sich durch sie ergeben?\
+Welche Absichten können darin verborgen sein, und welche Verzerrungen können sich durch sie ergeben?
 Welche Tendenzen könnten sich in hochmittelalterlichen Herrscherchroniken verstecken, wenn der Verfasser in direkter Abhängigkeit des Auftraggebers stand?
 Wie sind Zeug:innenaussagen in Hexenprozessen zu bewerten, die unter Anwendung körperlicher Strafe entstanden sind?
 Mit wie viel Vorsicht sind die Inhalte eines Tagebuchs zu bewerten, das allem Anschein nach mit Blick auf eine spätere Veröffentlichung verfasst wurde?
@@ -74,3 +74,50 @@ Zur Frage, wie sich die digitale Wende, der *digital turn*, auf die Quellenkriti
 </iframe>
 
 Eine Handreichung zum Umgang mit digitalisierten und digitalen Daten, das im selben Projekt erarbeitet wurde, finden Sie [hier](docs/Ranke_visual-aid.pdf).
+
+## Künstliche Intelligenz und Algorithmenkritik
+
+Mit dem Release von ChatGPT-3 der Firma OpenAI im Winter 2022 hat sich die Nutzung künstlicher Intelligenz (KI) auf einen Schlag für einen sehr großen Personenkreis geöffnet: 
+Ein Chatbot steht, nach einmaliger Registrierung, über eine [URL](https://chat.openai.com/) den unterschiedlichsten Fragen Rede und Antwort, und erklärt wahlweise Fermats letzten Satz, produziert Sonette im Stil Shakespeares über die Liebe einer Emmentalers zu einer Büroklammer oder fasst den in den 1980er-Jahren in Deutschland geführten Historiker:innenstreit über die Singularität des Holocaust zusammen.
+Technisch handelt es sich bei ChatGPT um ein generatives Sprachmodell (Generative Pre-trained Transformer), das mit einem sehr großen Datensatz trainiert wurde -- etwa 1 Billion Wörter aus sechs Millionen Wikipedia-Artikeln, Millionen Webseiten und digitalisierten Büchern --, um auf dieser Grundlage neue, der Anfrage bzw. Eingabe der Nutzer:innen entsprechende Texte zu produzieren.[^4]
+Bittet man ChatGPT selbst, das Prinzip eines generativen Sprachmodells und seines Algorithmus zu erklären, erhält man folgende Antwort:
+
+>Hallo! Gerne erkläre ich dir das Prinzip hinter einem generativen Sprachmodell und meinem Algorithmus.   
+Ein generatives Sprachmodell ist ein künstlicher Intelligenz-Algorithmus, der darauf trainiert wird, Texte zu erzeugen, die einer bestimmten Sprache oder einem bestimmten Stil entsprechen. 
+Das Modell nutzt dabei eine statistische Methode namens Wahrscheinlichkeitsverteilung, um die Wahrscheinlichkeit zu bestimmen, mit der ein bestimmtes Wort oder eine bestimmte Phrase in einem Text auftaucht.  
+Das Ziel des Algorithmus besteht darin, Texte zu generieren, die natürliche Sprachstrukturen und -muster aufweisen, sodass sie für den Menschen verständlich und lesbar sind. 
+Das generative Sprachmodell kann dabei verschiedene Ansätze verfolgen, wie zum Beispiel die Verwendung von rekurrenten neuronalen Netzen (RNN) oder Transformer-Modellen.  
+Als ChatGPT, basiere ich auf der GPT-3.5 Architektur und nutze ebenfalls ein Transformer-Modell. 
+Mein Algorithmus nutzt eine große Menge an Textdaten, um Sprachmuster und -strukturen zu erlernen und kann anschließend Texte generieren, die dieser Sprache ähnlich sind.  
+Um Texte zu erzeugen, nutzt mein Algorithmus eine sogenannte autoregressive Methode, bei der er das zuvor erzeugte Wort oder die zuvor erzeugte Phrase als Input verwendet, um das nächste Wort oder die nächste Phrase vorherzusagen. 
+Auf diese Weise wird ein Text Schritt für Schritt erzeugt, wobei jeder Schritt auf dem vorherigen basiert.  
+Durch die ständige Anpassung der Gewichtungen im Modell, je nachdem wie gut es darin ist, den nächsten Textsatz vorherzusagen, wird das generative Sprachmodell im Laufe der Zeit immer besser darin, realistische und gut klingende Texte zu erzeugen.
+>
+
+Das bedeutet, dass die Antworten besonders gut bzw. sinnvoll für Fragen zu Themen sind, für die sehr viel Trainingsmaterial vorlag. 
+Das bedeutet auch, dass alles, was nach Abschluss des Trainings im November 2021 online gestellt wurde, nicht mehr Eingang in das Modell gefunden hat; 
+hier wird zwar aktuell nachgeholt, aber Ereignisse wie der Ukraine-Krieg kennt der Chatbot (noch) nicht.
+Auch ist es schwierig, die Ausgewogenheit und Qualität der Antworten immer gut abzuschätzen -- bei der Erstellung von Programmierfunktionen lässt sich der Vorschlag des Chatbots direkt testen. 
+Bei Fragen, die etwas offener gestellt sind, bietet das Programm sehr überzeugend klingende Antworten -- die aber natürlich geprägt sind vom zugrundeliegenden Trainingsmaterial.
+Auf die Frage nach den Namen von "ten medieval philosophers" gibt das Programm zehn Männer aus, sieben davon aus West-/Zentraleuropa. 
+Erst auf den Hinweis, dass die Liste recht männerlastig und weiß sei, bekommt man eine größere Auswahl arabischer und persischer Philosphen und (westlicher) Frauen. 
+Es braucht noch eine weitere Nachfrage, um auch indische und chinesische Namen zu erhalten.
+Der Großteil der Texte, die ins Training einflossen, sind englisch und damit größtenteils aus dem angloamerikanischen Raum. 
+Ein Ungleichgewicht zugunsten Wissensproduktion und Meinungen aus diesem (Sprach-)Raum ist daher unvermeidlich und muss bei der Nutzung stets mitbedacht werden. 
+
+Mit Blick auf die obige, tadellos formulierte Antwort zum eigenen Funktionieren liegt es natürlich nahe, den Chatbot für alle Art von Schreibarbeiten zur Hilfe zu ziehen, und die Aufregung im (Hoch-)Schulbereich war mitunter groß[^5] -- auch, weil das Programm erfundene Fakten im Brustton der Überzeugung formuliert oder auf nicht existierende Referenzen verweist. 
+Bei unkritischer Übernahme der Antworten und Ausgabe des Textes als eigenes Produkt kommt es also nicht nur zur Täuschung in Bezug auf die eigenen Fähigkeiten, sondern es werden auch falsche Informationen übernommen und mitunter verbreitet, beispielsweise in Referaten. 
+Zahlreiche Hochschulleitungen haben auf die neue Technik reagiert und Codes of Conduct erstellt; 
+an der Universität Basel gibt es eine erweiterte Eigenständigkeitserklärung, in der versichert wird, mit KI erstellte Passagen als solche zu kennzeichnen --
+Software, die mithilfe KI erstellte Texte als solche identifiziert, gibt es natürlich auch.
+
+Überlegungen zum konstruktiven Einsatz generativer Sprachmodelle, als Lernassistent, Schreibcoach oder Hilfe bei der Recherche, gibt es ebenso, und gelungene Beispiele, wie ChatGPT in der Lehre eingesetzt werden kann.[^6]
+Zentral für eine gewinnbringende und informierte Nutzung ist sicher ein ungefähres Wissen über die Funktionsweise des Algorithmus und die Bereitschaft, erhaltene Antworten kritisch zu prüfen und ggf. zu verwerfen.
+
+ 
+[^4]: Eine ausführliche und anschauliche Erklärung von Helmut Linde findet sich unter [https://www.golem.de/news/kuenstliche-intelligenz-so-funktioniert-chatgpt-2302-171644.html](https://www.golem.de/news/kuenstliche-intelligenz-so-funktioniert-chatgpt-2302-171644.html). 
+Ein Einführungsvortrag mit besonderem Blick auf Konsequenzen für die Hochschullehre von Thomas Arnold findet sich unter [https://www.youtube.com/watch?v=-c8ogAwX6KI](https://www.youtube.com/watch?v=-c8ogAwX6KI). 
+
+[^5]: Siehe z.B. in (Basel jetzt, 19.01.2023)[https://www.baseljetzt.ch/ki-sensation-chatgpt-das-sagt-die-uni-basel/3774]; (NDR, 09.02.2023)[https://www.ndr.de/kultur/Verbieten-oder-nutzen-Wie-gehen-norddeutsche-Unis-mit-ChatGPT-um,chatgpt136.html]; (bajour, 20.03.2023)[https://bajour.ch/a/clfcly95919994654ixobgyzjs0/kuenstliche-intelligenz-hochschulen-chatgpt-universitaet-basel-fachhochschule-nordwestschweiz-gefahr-oder-chance];  (20 minuten, 24.03.2023)[https://www.20min.ch/story/uni-bern-student-erhaelt-verweis-fuer-gebrauch-von-chatgpt-247514161441].
+
+[^6]: U.a von (Andrea Klein)[https://hochschulforumdigitalisierung.de/de/blog/andrea-klein-KI-Hausarbeit] oder (Ethan Mollick)[https://www.oneusefulthing.org/p/how-to-use-chatgpt-to-boost-your].
