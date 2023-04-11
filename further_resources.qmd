@@ -34,25 +34,11 @@ editor: visual
 
 - Peroni, Silvio: [The CTP Book[(https://comp-think.github.io/). A book for teaching Computational Thinking and Programming skills to people with a background in the Humanities. 
 
-## Tools für digital history (free/open source) {#sec-digitaltools}
+## digital history tools (free/open source) {#sec-digitaltools}
 
-### Allgemein; Programmiersprachen; Editoren
+### Allgemein
 
 -   Programming Historian: [Tutorials zu verschiedenen Tools und Methoden für historische Forschung und Lehre](https://programminghistorian.org/)
-
-- Python:
-  - Althage, Melanie  u. a.: Python für Historiker:innen. Ein anwendungsorientierter und interaktiver Einstieg, 20.07.2022, [Jupyter Book, (v1.0)](https://digital-history-berlin.github.io/Python-fuer-Historiker-innen/home.html)
-  - Karsdorp, Folgert: [Python Programming for the Humanities. Interactive Tutorial and Introduction to Programming with Python for the Humanities.](http://www.karsdorp.io/python-course/)
-  - Mattingly, William : [PythonHumanities.com. A Free Course for the Digital Humanities.](https://pythonhumanities.com/)
-  - Editor z.B. [PyCharm](https://www.jetbrains.com/pycharm/)
-
-- R:
-  - Mullen, Lincoln A.: [Computational Historical Thinking With Applications in R](https://dh-r.lincolnmullen.com/)
-  - Phillips, Nathaniel D.: [YaRrr! The Pirate's Guide to R.](https://bookdown.org/ndphillips/YaRrr/)
-  - Wickham, Hadley; Grolemund, Garrett: [R for Data Science.](https://r4ds.had.co.nz/)
-   - Editor z.B. [RStudio](https://posit.co/downloads/)
-
-- Editoren: [Anaconda](https://www.anaconda.com/); [Sublime Text](https://www.sublimetext.com/); [Visual Studio Code](https://code.visualstudio.com/)
 
 ### Datenanalyse
 
@@ -122,6 +108,29 @@ editor: visual
 
 -   Tavani, Herman; Zimmer, Michael: Search Engines and Ethics, in: Edward N. Zalta (Hg.): The Stanford Encyclopedia of Philosophy (Fall 2020 Edition), Online: <https://plato.stanford.edu/archives/fall2020/entries/ethics-search/>, Kap. 3.1.
 
+## Programmiersprachen & Editoren
+
+- Python:
+  - Althage, Melanie  u. a.: Python für Historiker:innen. Ein anwendungsorientierter und interaktiver Einstieg, 20.07.2022, [Jupyter Book, (v1.0)](https://digital-history-berlin.github.io/Python-fuer-Historiker-innen/home.html)
+  - Karsdorp, Folgert: [Python Programming for the Humanities. Interactive Tutorial and Introduction to Programming with Python for the Humanities.](http://www.karsdorp.io/python-course/)
+  - Mattingly, William : [PythonHumanities.com. A Free Course for the Digital Humanities.](https://pythonhumanities.com/)
+  - Editor z.B. [PyCharm](https://www.jetbrains.com/pycharm/)
+
+- R:
+  - Mullen, Lincoln A.: [Computational Historical Thinking With Applications in R](https://dh-r.lincolnmullen.com/)
+  - Phillips, Nathaniel D.: [YaRrr! The Pirate's Guide to R.](https://bookdown.org/ndphillips/YaRrr/)
+  - Wickham, Hadley; Grolemund, Garrett: [R for Data Science.](https://r4ds.had.co.nz/)
+   - Editor z.B. [RStudio](https://posit.co/downloads/)
+
+- Editoren: [Anaconda](https://www.anaconda.com/); [Sublime Text](https://www.sublimetext.com/); [Visual Studio Code](https://code.visualstudio.com/)
+
+
+## Regular Expressions
+
+-   Knox, Doug: Understanding Regular Expressions, Programming Historian 2 (2013), <https://doi.org/10.46430/phen0033>. (self-learning lesson)
+
+-   RegexOne: [Learn Regular Expressions with simple, interactive exercises.](https://regexone.com/) (interactive self-learning tutorial)
+
 ## Terminal/Command Line/Shell
 
 -   Dawson, Ted: Introduction to the Windows Command Line with PowerShell, Programming Historian 5 (2016), <https://doi.org/10.46430/phen0054>. (self-learning lesson)
@@ -133,12 +142,6 @@ editor: visual
 -   datacamp course:[Introduction to Shell](https://app.datacamp.com/learn/courses/introduction-to-shell) (interactive self-learning lesson)
 
 -   Jeroen Janssens: [Data Science at the command line](https://datascienceatthecommandline.com/) (book)
-
-## Regular Expressions
-
--   Knox, Doug: Understanding Regular Expressions, Programming Historian 2 (2013), <https://doi.org/10.46430/phen0033>. (self-learning lesson)
-
--   RegexOne: [Learn Regular Expressions with simple, interactive exercises.](https://regexone.com/) (interactive self-learning tutorial)
 
 ## XML
 
