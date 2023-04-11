@@ -32,7 +32,6 @@ book:
 
 bibliography:
   - references.bib
-  - reading_list.bib
 csl: infoclio-de.csl
 format:
   html:
