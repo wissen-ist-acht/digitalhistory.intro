@@ -4,7 +4,7 @@ editor:
     wrap: sentence
 ---
 
-# Welcome {.unnumbered}
+# Welcome {-}
 
 Der vorliegende Guide, erstellt im Herbstsemester 2022, begleitet die Einführungskurse im Fach [Geschichte an der Universität Basel](https://dg.philhist.unibas.ch/de/) und soll einen ersten Einblick in den Bereich Digital History geben.
 Es ist ein *living document*, das regelmäßig aktualisiert wird und dabei auch die epochen- und areaspezifischen Inhalte der verschiedenen Einführungskurse berücksichtigt, indem Verweise auf verschiedene Digital-History-Projekte aus unterschiedlichen Bereichen mit der Zeit in den Guide einfließen.
