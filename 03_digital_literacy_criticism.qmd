@@ -10,16 +10,12 @@ editor:
 ## Digital Literacy, Data Literacy
 
 Unter Data Literacy wird die Kompetenz verstanden, Daten zu sammeln, zu managen, zu evaluieren und zu nutzen,[@ridsdale_strategies_2015, S. 8] eine Kompetenz, die jede:r für den mittlerweile unvermeidlichen Umgang mit Daten verschiedenster Art im eigenen Alltag entwickeln sollte.
-Je nach Forschungsdisziplin ergeben sich weiter gewisse Spezifika, wobei Studierenden der Geisteswissenschaften ein Thema wie Algorithmenkritik nicht als erstes in den Sinn kommt, wenn es um die im Studium zu erwerbenden Kompetenzen geht.[^1]
+Je nach Forschungsdisziplin ergeben sich weiter gewisse Spezifika, wobei Studierenden der Geisteswissenschaften ein Thema wie Algorithmenkritik nicht als erstes in den Sinn kommt, wenn es um die im Studium zu erwerbenden Kompetenzen geht.^[Verschiedene Organisationen und Interessensverbände machen sich hierzu Gedanken; die deutsche "Gesellschaft für Informatik" hat ein Grundlagenpapier erstellt, in dem es um Data Literacy und Data Science Education als digitale Kompetenzen in der Hochschulausbildung geht: <https://gi.de/fileadmin/GI/Hauptseite/Aktuelles/Aktionen/Data_Literacy/GI_DataScience_2018-04-20_FINAL.pdf>.]
 Aber auch ohne den Quellcode von *machine-learning*-Software im Detail zu verstehen, ermöglicht ein grundlegendes Verständnis von und ein Wissen über die Funktionsweisen solcher Anwendungen einen reflektierten Umgang mit diesen. 
 Eine solche Art von Digital bzw. Data Literacy ist vor allem dann relevant, wenn es um die Interpretation von Ergebnissen geht, die scheinbar objektiv sind, bzw. scheinbar objektiv entstanden.
 Ein gutes Beispiel hierfür sind die Ergebnislisten bei Suchanfragen in einer Suchmaschine.
-Je nachdem, welchen Anbieter Sie nutzen, spielen verschiedene Umstände in die Generierung von Trefferlisten hinein, beispielsweise Ihre Suchhistorie, sodass [*search neutrality*](https://en.wikipedia.org/wiki/Search_neutrality) nicht mehr gewährleistet ist.[^2]\
+Je nachdem, welchen Anbieter Sie nutzen, spielen verschiedene Umstände in die Generierung von Trefferlisten hinein, beispielsweise Ihre Suchhistorie, sodass [*search neutrality*](https://en.wikipedia.org/wiki/Search_neutrality) nicht mehr gewährleistet ist.^[Alternative Suchmaschinen sind zum Beispiel [Startpage](https://www.startpage.com/) oder [DuckDuckGo](https://duckduckgo.com/).]\
 Gehen Sie auf die [Bilder-Suche von Google](https://images.google.com/) und suchen Sie nach "historian". Was sehen Sie?
-
-[^1]: Verschiedene Organisationen und Interessensverbände machen sich hierzu Gedanken; die deutsche "Gesellschaft für Informatik" hat ein Grundlagenpapier erstellt, in dem es um Data Literacy und Data Science Education als digitale Kompetenzen in der Hochschulausbildung geht: <https://gi.de/fileadmin/GI/Hauptseite/Aktuelles/Aktionen/Data_Literacy/GI_DataScience_2018-04-20_FINAL.pdf>.
-
-[^2]: Alternative Suchmaschinen sind zum Beispiel [Startpage](https://www.startpage.com/) oder [DuckDuckGo](https://duckduckgo.com/).
 
 Wüsste ich nichts über Geschichtswissenschaftler:innen, würde ich aufgrund der Ergebnisse meiner Suche davon ausgehen, "a historian" wäre meist ein alter, weißer Mann mit Brille, Bart und einem großen Bücherregal; wenn Sie sich am Departement Geschichte der Uni Basel umsehen, dürfte ein etwas anderer Eindruck entstehen.
 Die Ergebnisse von Suchmaschinen, die für ihr Funktionieren Algorithmen anwenden, sind *biased*, verzerrt: Sie beruhen auf vorangegangenen Suchen, Vorlieben, geographischem Standort -- und auf von Menschen eingegebenen Metadaten, also Daten mit Informationen über andere Daten.
@@ -65,9 +61,7 @@ Um bei Daten, die Sie nachnutzen, eventuell vorhandene Verzerrungen nicht weiter
 
 Zur Tatsache, dass Daten eben nicht "gegeben" sind (lat. dare, datum: geben, gegeben), sondern gemacht, und daher entsprechend interpretiert werden müssen, finden Sie ein gutes Interview von Roopika Risam (2020);[@risam_its_2020] zur Zementierung von Klischees durch Übersetzungsalgorithmen gibt es einen Artikel in der Republik von Marie-José Kolly und Simon Schmid (2021);[@kolly_sie_2021] und über die Macht von Data Science und dem Änderungspotential von Data Feminism haben Catherine D'Ignazio und Lauren F. Klein 2020 ein ganzes Buch veröffentlich.[@dignazio_data_2020]
 
-Zur Frage, wie sich die digitale Wende, der *digital turn*, auf die Quellenkritik auswirkt, sehen Sie sich dieses kurze Video des Projekts [Ranke.2 -- Quellenkritik im digitalen Zeitalter](https://ranke2.uni.lu) an:[^3]
-
-[^3]: Eine Selbstlerneinheit zum Thema finden Sie hier: [https://ranke2.uni.lu/u/archival-digital-turn/](https://ranke2.uni.lu/u/archival-digital-turn/).
+Zur Frage, wie sich die digitale Wende, der *digital turn*, auf die Quellenkritik auswirkt, sehen Sie sich dieses kurze Video des Projekts [Ranke.2 -- Quellenkritik im digitalen Zeitalter](https://ranke2.uni.lu) an:^[Eine Selbstlerneinheit zum Thema finden Sie hier: [https://ranke2.uni.lu/u/archival-digital-turn/](https://ranke2.uni.lu/u/archival-digital-turn/).]
 
 <iframe title="vimeo-player" src="https://player.vimeo.com/video/303237473?h=efca80c2ca" width="640" height="360" frameborder="0" allowfullscreen>
 
@@ -79,7 +73,7 @@ Eine Handreichung zum Umgang mit digitalisierten und digitalen Daten, das im sel
 
 Mit dem Release von ChatGPT-3 der Firma OpenAI im Winter 2022 hat sich die Nutzung künstlicher Intelligenz (KI) auf einen Schlag für einen sehr großen Personenkreis geöffnet: 
 Ein Chatbot steht, nach einmaliger Registrierung, über eine [URL](https://chat.openai.com/) den unterschiedlichsten Fragen Rede und Antwort, und erklärt wahlweise Fermats letzten Satz, produziert Sonette im Stil Shakespeares über die Liebe einer Emmentalers zu einer Büroklammer oder fasst den in den 1980er-Jahren in Deutschland geführten Historiker:innenstreit über die Singularität des Holocaust zusammen.
-Technisch handelt es sich bei ChatGPT um ein generatives Sprachmodell (Generative Pre-trained Transformer), das mit einem sehr großen Datensatz trainiert wurde -- etwa 1 Billion Wörter aus sechs Millionen Wikipedia-Artikeln, Millionen Webseiten und digitalisierten Büchern --, um auf dieser Grundlage neue, der Anfrage bzw. Eingabe der Nutzer:innen entsprechende Texte zu produzieren.[^4]
+Technisch handelt es sich bei ChatGPT um ein generatives Sprachmodell (Generative Pre-trained Transformer), das mit einem sehr großen Datensatz trainiert wurde -- etwa 1 Billion Wörter aus sechs Millionen Wikipedia-Artikeln, Millionen Webseiten und digitalisierten Büchern --, um auf dieser Grundlage neue, der Anfrage bzw. Eingabe der Nutzer:innen entsprechende Texte zu produzieren.^[Eine ausführliche und anschauliche Erklärung von Helmut Linde findet sich unter [https://www.golem.de/news/kuenstliche-intelligenz-so-funktioniert-chatgpt-2302-171644.html](https://www.golem.de/news/kuenstliche-intelligenz-so-funktioniert-chatgpt-2302-171644.html), ein Einführungsvortrag mit besonderem Blick auf Konsequenzen für die Hochschullehre von Thomas Arnold unter [https://www.youtube.com/watch?v=-c8ogAwX6KI](https://www.youtube.com/watch?v=-c8ogAwX6KI).]
 Bittet man ChatGPT selbst, das Prinzip eines generativen Sprachmodells und seines Algorithmus zu erklären, erhält man folgende Antwort:
 
 >Hallo! Gerne erkläre ich dir das Prinzip hinter einem generativen Sprachmodell und meinem Algorithmus.   
@@ -105,19 +99,12 @@ Es braucht noch eine weitere Nachfrage, um auch indische und chinesische Namen z
 Der Großteil der Texte, die ins Training einflossen, sind englisch und damit größtenteils aus dem angloamerikanischen Raum. 
 Ein Ungleichgewicht zugunsten Wissensproduktion und Meinungen aus diesem (Sprach-)Raum ist daher unvermeidlich und muss bei der Nutzung stets mitbedacht werden. 
 
-Mit Blick auf die obige, tadellos formulierte Antwort zum eigenen Funktionieren liegt es natürlich nahe, den Chatbot für alle Art von Schreibarbeiten zur Hilfe zu ziehen, und die Aufregung im (Hoch-)Schulbereich war mitunter groß[^5] -- auch, weil das Programm erfundene Fakten im Brustton der Überzeugung formuliert oder auf nicht existierende Referenzen verweist. 
+Mit Blick auf die obige, tadellos formulierte Antwort zum eigenen Funktionieren liegt es natürlich nahe, den Chatbot für alle Art von Schreibarbeiten zur Hilfe zu ziehen, und die Aufregung im (Hoch-)Schulbereich war mitunter groß^[Siehe z.B. in [Basel jetzt, 19.01.2023](https://www.baseljetzt.ch/ki-sensation-chatgpt-das-sagt-die-uni-basel/3774); [NDR, 09.02.2023](https://www.ndr.de/kultur/Verbieten-oder-nutzen-Wie-gehen-norddeutsche-Unis-mit-ChatGPT-um,chatgpt136.html); [bajour, 20.03.2023](https://bajour.ch/a/clfcly95919994654ixobgyzjs0/kuenstliche-intelligenz-hochschulen-chatgpt-universitaet-basel-fachhochschule-nordwestschweiz-gefahr-oder-chance);  [20 minuten, 24.03.2023](https://www.20min.ch/story/uni-bern-student-erhaelt-verweis-fuer-gebrauch-von-chatgpt-247514161441).] -- auch, weil das Programm erfundene Fakten im Brustton der Überzeugung formuliert oder auf nicht existierende Referenzen verweist. 
 Bei unkritischer Übernahme der Antworten und Ausgabe des Textes als eigenes Produkt kommt es also nicht nur zur Täuschung in Bezug auf die eigenen Fähigkeiten, sondern es werden auch falsche Informationen übernommen und mitunter verbreitet, beispielsweise in Referaten. 
 Zahlreiche Hochschulleitungen haben auf die neue Technik reagiert und Codes of Conduct erstellt; 
 an der Universität Basel gibt es eine erweiterte Eigenständigkeitserklärung, in der versichert wird, mit KI erstellte Passagen als solche zu kennzeichnen --
 Software, die mithilfe KI erstellte Texte als solche identifiziert, gibt es natürlich auch.
 
-Überlegungen zum konstruktiven Einsatz generativer Sprachmodelle, als Lernassistent, Schreibcoach oder Hilfe bei der Recherche, gibt es ebenso, und gelungene Beispiele, wie ChatGPT in der Lehre eingesetzt werden kann.[^6]
+Überlegungen zum konstruktiven Einsatz generativer Sprachmodelle, als Lernassistent,^[Siehe z.B. [Pedagogical Educational Tutor (PET)](https://www.uni-hohenheim.de/projekt-dellfi-mp-5), entwickelt an der Universität Hohenheim, mit [Einführungsvideo](https://www.youtube.com/watch?v=B7Z6021yMSo).
+] Schreibcoach oder Hilfe bei der Recherche, gibt es ebenso, und gelungene Beispiele, wie ChatGPT in der Lehre eingesetzt werden kann.^[U.a von [Andrea Klein](https://hochschulforumdigitalisierung.de/de/blog/andrea-klein-KI-Hausarbeit) oder [Ethan Mollick](https://www.oneusefulthing.org/p/how-to-use-chatgpt-to-boost-your).]
 Zentral für eine gewinnbringende und informierte Nutzung ist sicher ein ungefähres Wissen über die Funktionsweise des Algorithmus und die Bereitschaft, erhaltene Antworten kritisch zu prüfen und ggf. zu verwerfen.
-
- 
-[^4]: Eine ausführliche und anschauliche Erklärung von Helmut Linde findet sich unter [https://www.golem.de/news/kuenstliche-intelligenz-so-funktioniert-chatgpt-2302-171644.html](https://www.golem.de/news/kuenstliche-intelligenz-so-funktioniert-chatgpt-2302-171644.html). 
-Ein Einführungsvortrag mit besonderem Blick auf Konsequenzen für die Hochschullehre von Thomas Arnold findet sich unter [https://www.youtube.com/watch?v=-c8ogAwX6KI](https://www.youtube.com/watch?v=-c8ogAwX6KI). 
-
-[^5]: Siehe z.B. in (Basel jetzt, 19.01.2023)[https://www.baseljetzt.ch/ki-sensation-chatgpt-das-sagt-die-uni-basel/3774]; (NDR, 09.02.2023)[https://www.ndr.de/kultur/Verbieten-oder-nutzen-Wie-gehen-norddeutsche-Unis-mit-ChatGPT-um,chatgpt136.html]; (bajour, 20.03.2023)[https://bajour.ch/a/clfcly95919994654ixobgyzjs0/kuenstliche-intelligenz-hochschulen-chatgpt-universitaet-basel-fachhochschule-nordwestschweiz-gefahr-oder-chance];  (20 minuten, 24.03.2023)[https://www.20min.ch/story/uni-bern-student-erhaelt-verweis-fuer-gebrauch-von-chatgpt-247514161441].
-
-[^6]: U.a von (Andrea Klein)[https://hochschulforumdigitalisierung.de/de/blog/andrea-klein-KI-Hausarbeit] oder (Ethan Mollick)[https://www.oneusefulthing.org/p/how-to-use-chatgpt-to-boost-your].
