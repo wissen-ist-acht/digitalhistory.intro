@@ -34,6 +34,8 @@ Die beiden Vorgehensweisen unterscheiden sich dabei in drei Punkten:
 
 Bevor wir den zweiten -- und für unsere Arbeit hilfreichsten -- Unterschied genauer anschauen, kurz zur Kommandozeile. 
 
+## ~
+
 ## Shell 101
 
 In einem Terminal/einer Shell -- zur Unterscheidung siehe Fußnote 1 -- können Kommandos bzw. Programme ausgeführt werden, die auf der Datenstrukturebene stattfinden -- wie beispielsweise das Löschen einer Datei, `rm Dateiname.xyz` (`rm` für *remove*), oder das Erstellen eines Ordners, `mkdir NeuerOrdner` (`mkdir` für *make directory*). Ebenso möglich sind Operationen auf Dateninhaltsebene -- wie beispielsweise das Suchen eines bestimmten Begriffs in einer Textdatei, `grep 'Begriff' Textdatei.txt` (Mac/Linux) bzw. `Select-String -Path Textdatei.txt -Pattern 'Begriff'` (Windows), oder das Auszählen mehrerer Begriffe und das Speichern des Ergebnisses in einer neuen Datei, `grep -Ec '(Begriff1|Begriff2)' Textdatei.txt | wc -l > Ergebnisse.txt` (Mac/Linux) bzw. `(Select-String -Path Textdatei.txt -Pattern '(Begriff1|Begriff2)'.Matches.Count > Ergebnisse.txt` (Windows) -- die Kommandos werden weiter unten nochmals einzeln erklärt.
@@ -165,7 +167,7 @@ Q.01.19140512.FMA.01.xml	Q.01.19150911.FMA.01.xml
 ...
 ```
 
-### Erste Schritte
+## Erste Schritte
 
 Wenn Sie in den Ordner navigiert sind, in dem die Briefdateien liegen, können Sie mit einem einzeiligen Kommando die Suchvorgänge, die Sie nacheinander mit `Strg-F` mit jeder einzelnen Datei in einem Texteditor ausführen würden, mit dem Programm `grep` (Global Regular Expression Print, Mac/Linux) bzw. `Select.String` (Windows) für alle Briefe in diesem Ordner vornehmen, indem Sie alle Dateien, die auf ".xml" enden, in die Suche aufnehmen.  Die Ergebnisse -- bei dieser Suche nach "Mit herzlichem Gruß" oder "Mit herzlichen Grüßen" ein Treffer in einem Brief -- können Sie sich im Terminal anschauen:
 
