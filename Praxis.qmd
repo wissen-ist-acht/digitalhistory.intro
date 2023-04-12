@@ -1,12 +1,11 @@
 ---
-title: "Praxis"
+title: Praxis
 lang: de
 suppress-bibliography: true
 editor: 
   markdown: 
     wrap: sentence
 ---
-
 Im Praxisteil sollen verschiedene Schritte rund um die **Datenerhebung** -- wie komme ich von Quellen zu (strukturierten) Daten, und was ist das überhaupt?
 --, die **Datenaufbereitung** -- wie kann bzw.
 muss ich die Daten für meine Zwecke bearbeiten -- und die **Datenanalyse** -- wozu sind die strukturierten Daten da, und was mache ich damit?
