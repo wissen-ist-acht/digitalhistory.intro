@@ -22,10 +22,10 @@ book:
     - 05_FAIR_CARE.qmd
     - part: Praxis.qmd
       chapters: 
-        - 06_Briefedition_Sturm.qmd
-        - 07_Vordereingang.qmd
-        - 08_Hintertuer.qmd
-        - 09_Ausblick.qmd
+      - 06_Briefedition_Sturm.qmd
+      - 07_Vordereingang.qmd
+      - 08_Hintertuer.qmd
+      - 09_Ausblick.qmd
   appendices:
     - terms.qmd
     - further_resources.qmd
