@@ -41,21 +41,17 @@ Würde man dasselbe per Hand tun, wäre man analog zum Anwachsen der Dokumente m
 Digitale Werkzeuge ermöglichen es also unter anderem, Untersuchungen auf größere Mengen von Dokumenten auszuweiten. 
 Sie ermöglichen es auch, an ein so erweitertes Korpus andere Fragen zu stellen, als dies mit einer kleineren Quellen-/Datengrundlage möglich wäre.
 Die vorherrschende Überlieferung historischer Quellen besteht aus Text, handgeschrieben, gemeißelt oder gedruckt -- und durch die Möglichkeit, diesen mittels Texterkennung in computerlesbare Daten umzuwandeln, ergeben sich neue Perspektiven für die Arbeit von Historiker:innen:
-Wenn Texte als Daten verstanden werden, lassen sich aus Textquellen Datenbestände erstellen, die mithilfe quantitativer Methoden untersucht und ausgewertet werden können.[^1] 
-
-[^1]: In der Zeitgeschichte ist dies einfacher möglich, weil viele Texte hier schon digital vorliegen; für Epochen bzw. Forschungsbereiche, die eher eine Quellenarmut zu beklagen haben, ist eine Generierung von Daten aus Texten umso interessanter.
+Wenn Texte als Daten verstanden werden, lassen sich aus Textquellen Datenbestände erstellen, die mithilfe quantitativer Methoden untersucht und ausgewertet werden können.^[In der Zeitgeschichte ist dies einfacher möglich, weil viele Texte hier schon digital vorliegen; für Epochen bzw. Forschungsbereiche, die eher eine Quellenarmut zu beklagen haben, ist eine Generierung von Daten aus Texten umso interessanter.]
 
 Für die Literaturwissenschaften beispielsweise ist ein wichtiges Anwendungsfeld die Überprüfung von Autor:innenschaft:
 Ob ein anonym überliefertes Werk einem:r namentlich bekannten Autor:in zugeschrieben werden kann, lässt sich entweder durch *close reading* von Literaturwissenschaftler:innen überprüfen, oder durch die Suche nach *patterns*, Mustern, nach quantifizierbare Eigenschaften eines Textes, wie beispielsweise die Häufigkeit von Funktionswörtern, Partikeln, Satzzeichen usw.
 Der unter dem Pseudonym Robert Galbraith veröffentlichte Kriminalroman *The Cuckoo’s Calling* konnte mit entsprechender Software Joanne K. Rowling zugeschrieben werden -- damit dauerte die Untersuchung dreißig Minuten, was etwa dem Lesen von zwanzig Romanseiten entspricht.
 Zu einem Artikel, der diesen Fall thematisiert und in das Feld der linguistischen Forensik einbettet, die Straftäter:innen mithilfe quantitativer Textanalyse ermittelt, geht es [hier](https://www.smithsonianmag.com/science-nature/how-did-computers-uncover-jk-rowlings-pseudonym-180949824/). 
 Ein Video zur Entwicklung und Anwendung von Software zur Zuschreibung von Autor:innenschaft finden Sie [hier](https://cmu-lib.github.io/dhlg/project-videos/juola/).
-Die genutzte Software, JGGAP,[^2] lässt sich offensichtlich auch für historische Analysen nutzen -- man denke nur an Herrschaftssysteme, in denen strenge Zensur geübt wird/wurde und viele Autor:innen daher nicht unter ihrem Klarnamen publizier(t)en.
+Die genutzte Software, JGGAP,^[Java Graphical Authorship Attribution Program, [http://evllabs.github.io/JGAAP/](http://evllabs.github.io/JGAAP/).] lässt sich offensichtlich auch für historische Analysen nutzen -- man denke nur an Herrschaftssysteme, in denen strenge Zensur geübt wird/wurde und viele Autor:innen daher nicht unter ihrem Klarnamen publizier(t)en.
 Durch eine Identifikation anonymer Schreiber:innen lassen sich weitere Aspekte rund um die Thematik Zensur untersuchen -- welche Akteur:innen waren öffentlich bekannt, wer publizierte gleichzeitig anonym und unter Klarnamen, welche Autor:innen schrieben aus dem Exil, welche Netzwerke lassen sich rekonstruieren usw.
 Dadurch, dass ein Programm durch quantitative Auswertungen die Kärrnerarbeit der Identifikation abnehmen *kann* -- um einen  reflektierten Umgang mit Daten und Algorithmen geht es in [Kapitel 3](03_digital_literacy_criticism.qmd) --, bleibt mehr Zeit für die qualitative Arbeit; 
 gleichzeitig fußt die Analyse auf einem aussagekräftigen Datensatz, anstatt nur Einzelbeispiele beleuchten zu können.
-
-[^2]: Java Graphical Authorship Attribution Program, [http://evllabs.github.io/JGAAP/](http://evllabs.github.io/JGAAP/).
 
 Quantitative und qualitative Methoden sollen hier keinesfalls gegeneinander ausgespielt werden; 
 vielmehr soll verdeutlicht werden, dass beide Herangehensweisen Vor- und Nachteile haben, und dass sie im besten Fall gewinnbringend miteinander kombiniert werden können -- quantitative Auswertungen nur um ihrer selbst willen und ohne eine spezifische historische Fragestellung generieren kaum je einen Mehrwert.
