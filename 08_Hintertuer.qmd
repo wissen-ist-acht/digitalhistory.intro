@@ -107,14 +107,14 @@ Wenn Sie die Datei mit einem Editor öffnen, der XML-Dateien lesen kann, sehen S
 ```
 
 Denn eigentlich brauchen wir nur die Dateinamen, um die Dateien mit einem entsprechenden Befehl herunterladen zu können.
-Mit dem zweiten Kommando erstellen wir eine deswegen eine neue Datei, in der die einzelnen extrahierten Dateinamen mit dem Download-Kommando `curl` kombiniert und um die entsprechende URL zum Download ergänzt werden:
+Auch sehen wir, dass nicht nur Briefe mit dem Kürzel "FMA" für Franz Marc gelistet sind, sondern auch neun mit "JVH", Jacoba van Heemskerck. 
+Beim Blick in die betreffenden Dateien zeigt sich, dass in diesen Franz Marc jeweils erwähnt und im TEI-XML mit `persName key="P.0000003"` getaggt wurde, daher Teil des Abfrageergebnisses ist.
+Mit dem zweiten Kommando erstellen wir eine neue Datei, in der die einzelnen extrahierten Dateinamen ohne diejenigen von Jacoba van Heemskerck mit dem Download-Kommando `curl` kombiniert und um die entsprechende URL zum Download ergänzt werden:
 ``` bash
-cat briefe_marc.xml | grep -o 'Q.*xml\b' | perl -nle 'print "curl -o $_ https://sturm-edition.de/api/files/$_ "' > dateinamen_briefe_marc.txt
+cat briefe_marc.xml | grep -o 'Q.*FMA.*.xml\b' | perl -nle 'print "curl -o $_ https://sturm-edition.de/api/files/$_ "' > dateinamen_briefe_marc.txt
 ```
 Die Datei "dateinamen_briefe_marc.txt" sieht so aus:
 ```bash
-curl -o Q.01.19191212.JVH.01.xml https://sturm-edition.de/api/files/Q.01.19191212.JVH.01.xml 
-curl -o Q.01.19200114.JVH.01.xml https://sturm-edition.de/api/files/Q.01.19200114.JVH.01.xml 
 curl -o Q.01.19160128.FMA.01.xml https://sturm-edition.de/api/files/Q.01.19160128.FMA.01.xml 
 curl -o Q.01.19160205.FMA.01.xml https://sturm-edition.de/api/files/Q.01.19160205.FMA.01.xml 
 curl -o Q.01.19160302.FMA.01.xml https://sturm-edition.de/api/files/Q.01.19160302.FMA.01.xml 
@@ -124,20 +124,22 @@ curl -o Q.01.19160115.FMA.01.xml https://sturm-edition.de/api/files/Q.01.1916011
 curl -o Q.01.19150703.FMA.01.xml https://sturm-edition.de/api/files/Q.01.19150703.FMA.01.xml 
 curl -o Q.01.19150417.FMA.01.xml https://sturm-edition.de/api/files/Q.01.19150417.FMA.01.xml 
 curl -o Q.01.19151106.FMA.01.xml https://sturm-edition.de/api/files/Q.01.19151106.FMA.01.xml 
-curl -o Q.01.19150918.FMA.01.xml https://sturm-edition.de/api/files/Q.01.19150918.FMA.01.xml
+curl -o Q.01.19150918.FMA.01.xml https://sturm-edition.de/api/files/Q.01.19150918.FMA.01.xml 
+curl -o Q.01.19150827.FMA.01.xml https://sturm-edition.de/api/files/Q.01.19150827.FMA.01.xml 
+curl -o Q.01.19150303.FMA.01.xml https://sturm-edition.de/api/files/Q.01.19150303.FMA.01.xml 
 ...
 ```
 
 `cat briefe_marc.xml` gibt den Inhalt der Datei ins Terminal; 
-`grep -o 'Q.*xml\b'` findet in diesem Inhalt alle Zeichenketten zwischen "Q" und "xml", wobei nach "xml" durch das Hinzufügen von `\b` das Zeichenende angezeigt ist;
-die 54 gefundenen Zeichenketten werden in je eine neue Zeile geschrieben, wobei mit `curl -o $_` der Befehl `curl -o` und mit `$_` als Platzhalter die Zeichenkette (also der Dateiname) geschrieben wird, gefolgt von  `https://sturm-edition.de/api/files/$_` und mit `$_` wieder die Zeichenkette (also wieder der Dateiname).
+`grep -o 'Q.*FMA.01.xml\b'` findet in diesem Inhalt alle Zeichenketten zwischen "Q" und "FMA.01.xml", wobei nach "xml" durch das Hinzufügen von `\b` das Zeichenende angezeigt ist;
+die 45 gefundenen Zeichenketten werden in je eine neue Zeile geschrieben, wobei mit `curl -o $_` der Befehl `curl -o` und mit `$_` als Platzhalter die Zeichenkette (also der Dateiname) geschrieben wird, gefolgt von  `https://sturm-edition.de/api/files/$_` und mit `$_` wieder die Zeichenkette (also wieder der Dateiname).
 Mit einem dritten Kommando, `bash`, führen wir die erstellte Datei aus, d.h. die in ihr stehenden Kommandos werden ausgeführt -- also via `curl` (**C**lient **URL**) die Briefe heruntergeladen.
 ```bash
 bash dateinamen_briefe_marc.txt
 ```
 :::
 
-Egal, wie Sie die Dateien heruntergeladen haben, sollten Sie 54 Briefe im xml-Format vorfinden.
+Egal, wie Sie die Dateien heruntergeladen haben, sollten Sie 45 Briefe im xml-Format vorfinden.
 Öffnen Sie dann das Terminal (Mac/Linux) bzw. die PowerShell (Windows) und bewegen sich mit `cd`, also `change directory`, in den Ordner (directory), in dem Ihre Textdateien liegen.\
 In meinem Fall ist das unter Documents/GitHub/digital_history_intro/docs/letters_Der_Sturm.
 
@@ -160,10 +162,8 @@ Q.01.19140124.FMA.01.xml	Q.01.19150501.FMA.01.xml
 Q.01.19140125.FMA.01.xml	Q.01.19150615.FMA.01.xml
 Q.01.19140125.FMA.02.xml	Q.01.19150703.FMA.01.xml
 Q.01.19140409.FMA.01.xml	Q.01.19150710.FMA.01.xml
-Q.01.19140414.FMA.01.xml	Q.01.19150818.JVH.01.xml
-Q.01.19140421.FMA.01.xml	Q.01.19150827.FMA.01.xml
-Q.01.19140507.FMA.01.xml	Q.01.19150906.FMA.01.xml
-Q.01.19140512.FMA.01.xml	Q.01.19150911.FMA.01.xml
+Q.01.19140414.FMA.01.xml  Q.01.19140421.FMA.01.xml
+Q.01.19150827.FMA.01.xml  Q.01.19140507.FMA.01.xml
 ...
 ```
 
@@ -242,15 +242,11 @@ Q.01.19140119.FMA.01.xml:                    <salute>Hrzl. Gruß</salute> <signe
 Q.01.19140125.FMA.02.xml:                    <salute>Hrzl. Gruß</salute>
 Q.01.19140421.FMA.01.xml:                        <closer>Gute Besserung <persName key="P.0000002" ref="http://d-nb.info/gnd/118891456">Ihrer Frau</persName> u. <salute>viel Grüße von mir</salute> <signed>Ihr <persName key="P.0000003" ref="http://d-nb.info/gnd/11857745X">Fz Marc</persName>
 Q.01.19140507.FMA.01.xml:                    <salute>besten Gruß</salute>
-Q.01.19140730.JVH.01.xml:            herzlichsten Grüssen für Sie beiden</salute> <signed>Ihre <persName key="P.0000004" ref="http://d-nb.info/gnd/11854764X">Jacoba van<hi rend="underline">Heemskerck</hi>
 Q.01.19140831.FMA.01.xml:                    <salute>Hrzl. Gruß von Eurem Freund in Waffen</salute> <signed>
-Q.01.19140908.JVH.01.xml:                    <salute>Viele herzlichsten Grussen für Sie beiden</salute> auch von Frl
 Q.01.19141113.FMA.01.xml:                    <salute>Hrzl. Gruß 1 x 2</salute> <signed>Ihr <persName key="P.0000003" ref="http://d-nb.info/gnd/11857745X">Fz. Marc</persName>
-Q.01.19141129.JVH.01.xml:                    <salute>Viele herzliche Grüssen für Sie beiden</salute>
 Q.01.19150112.FMA.01.xml:                    <salute>Hrzl. Gruß Ihnen beiden</salute>
 Q.01.19150116.FMA.01.xml:                    <salute>Mit herzl. Gruß Ihnen beiden</salute> <signed>Ihr <persName key="P.0000003" ref="http://d-nb.info/gnd/11857745X">FrM</persName>.</signed>
 Q.01.19150121.FMA.01.xml:                    <salute>Herzl. Gruß</salute> <signed>Ihr <persName key="P.0000003" ref="http://d-nb.info/gnd/11857745X">Fz. Marc</persName>
-Q.01.19150131.JVH.01.xml:                    <salute>Viele herzliche Grüssen für Sie beiden</salute>
 ...
 ```
 Mit diesem Kommando durchsuchen wir also den Text nach dem Muster `Gr(u|ü)(ß|ss)`, also Beginn mit `Gr` oder `gr`, dann folgt entweder ein `u` oder ein `ü`, dann entweder ein `ß` oder `ss`. Weil wir kein Wortende markiert haben (das ginge mit `\b`), werden auch "Grüße" oder  "Grüssen" gefunden.
