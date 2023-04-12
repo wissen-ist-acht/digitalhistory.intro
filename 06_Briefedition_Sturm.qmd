@@ -22,9 +22,8 @@ Beispielsweise werden Quellen, die ein:e Verfasser:in für bestimmte Textpassage
 Entitäten wie Personen, Orte, Werke usw. werden erklärt oder kommentiert.
 Der Text selbst wird so quellengetreu wie möglich dargestellt, orthographische oder grammatikalische Fehler werden nicht korrigiert, und meist werden auch extratextuelle Elemente wie Durchstreichungen oder Hervorhebungen im Lesetext dargestellt. 
 
-![Brief Nr. 8 von Franz Marc an Herwarth Walden.[^1] Rote Einfärbung kennzeichnet eine Verlinkung, meist auf Entitäten wie Personen oder Orte.](images/letter_8_Franz_Marc.png){fig-align="left"}
+![Brief Nr. 8 von Franz Marc an Herwarth Walden.^[Online unter [https://sturm-edition.de/quellen/briefe/fma/Q.01.19140414.FMA.01.html](https://sturm-edition.de/quellen/briefe/fma/Q.01.19140414.FMA.01.html)] Rote Einfärbung kennzeichnet eine Verlinkung, meist auf Entitäten wie Personen oder Orte.](images/letter_8_Franz_Marc.png){fig-align="left"}
 
-[^1]: Online unter [https://sturm-edition.de/quellen/briefe/fma/Q.01.19140414.FMA.01.html](https://sturm-edition.de/quellen/briefe/fma/Q.01.19140414.FMA.01.html)
 
 Wie genau die Editor:innen jeweils vorgegangen sind -- dies unterscheidet sich von Edition zu Edition --, wird in den jeweiligen Editionsrichtlinien vermerkt.
 Für die Quellen des STURM-Projekts gibt es verschiedene Richtlinien, je nach Quellenart.
