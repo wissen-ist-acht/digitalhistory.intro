@@ -34,7 +34,7 @@ editor: visual
 
 - Peroni, Silvio: [The CTP Book[(https://comp-think.github.io/). A book for teaching Computational Thinking and Programming skills to people with a background in the Humanities. 
 
-## digital history tools (free/open source) {#sec-digitaltools}
+## Digital history tools (free/open source) {#sec-digitaltools}
 
 ### Allgemein
 
