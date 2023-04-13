@@ -12,8 +12,8 @@ files = list.files(pattern="*.xml")
 parsed_files <- vector(mode = "list", length = length(files))
 
 # create a loop that does the following exactly n times, where "n" is the length of
-# files to process; in the current example, this is "54", so for all files from
-# file 1 to file 54, do:
+# files to process; in the current example, this is "45", so for all files from
+# file 1 to file 45, do:
 for (i in 1:length(files)){
 # create a list within every list entry (i.e. for every file)
 # and fill it with the content of the node "placeName",
@@ -22,7 +22,7 @@ for (i in 1:length(files)){
 }
 
 # as nested lists are not so handy, unlist it: 
-# instead of 54 list entries that contain a list each, 
+# instead of 45 list entries that contain a list each, 
 # flatten the list format and write the entries of the sublists
 # one after the other, creating one long list with the name "parsed_files_unlisted"
 parsed_files_unlisted <- unlist(parsed_files)
