@@ -32,7 +32,7 @@ editor: visual
 
 -   Lemercier, Claire; Zalc, Claire: Quantitative Methods in the Humanities. An Introduction, Charlottesville 2019.
 
-- Peroni, Silvio: [The CTP Book[(https://comp-think.github.io/). A book for teaching Computational Thinking and Programming skills to people with a background in the Humanities. 
+- Peroni, Silvio: [The CTP Book](https://comp-think.github.io/). A book for teaching Computational Thinking and Programming skills to people with a background in the Humanities. 
 
 ## Digital history tools (free/open source) {#sec-digitaltools}
 
