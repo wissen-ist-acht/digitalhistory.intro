@@ -32,7 +32,7 @@ editor: visual
 
 -   Lemercier, Claire; Zalc, Claire: Quantitative Methods in the Humanities. An Introduction, Charlottesville 2019.
 
-- Peroni, Silvio: [The CTP Book](https://comp-think.github.io/). A book for teaching Computational Thinking and Programming skills to people with a background in the Humanities. 
+-   Peroni, Silvio: [The CTP Book](https://comp-think.github.io/). A book for teaching Computational Thinking and Programming skills to people with a background in the Humanities.
 
 ## Digital history tools (free/open source) {#sec-digitaltools}
 
@@ -42,29 +42,29 @@ editor: visual
 
 ### Datenanalyse
 
-- [Datasette](https://datasette.io/): interaktives Tool zur Datenexploration und -visualisierung
+-   [Datasette](https://datasette.io/): interaktives Tool zur Datenexploration und -visualisierung
 
-- [Heurist](https://heuristnetwork.org/): webbasierte Forschungsumgebung zur Datenerhebung, -exploration und -visualisierung
+-   [Heurist](https://heuristnetwork.org/): webbasierte Forschungsumgebung zur Datenerhebung, -exploration und -visualisierung
 
-- [Nodegoat](https://nodegoat.net/): webbasierte Forschungsumgebung zur Datenerhebung, -exploration und -visualisierung
+-   [Nodegoat](https://nodegoat.net/): webbasierte Forschungsumgebung zur Datenerhebung, -exploration und -visualisierung
 
 ### Karten
 
-- [Dariah GeoBrowser](https://de.dariah.eu/geobrowser): webbasiertes Tool zur Darstellung raumzeitlicher Daten
+-   [Dariah GeoBrowser](https://de.dariah.eu/geobrowser): webbasiertes Tool zur Darstellung raumzeitlicher Daten
 
-- [QGis](https://qgis.org/de/site/): Software zum Erstellen, Bearbeiten, Anzeigen und Analysieren räumlicher Information
+-   [QGis](https://qgis.org/de/site/): Software zum Erstellen, Bearbeiten, Anzeigen und Analysieren räumlicher Information
 
-- [Map in Seconds](http://mapinseconds.com/): webbasiertes Tool zur Erstellung von Karten (optimiert für Chrome Browser)
+-   [Map in Seconds](http://mapinseconds.com/): webbasiertes Tool zur Erstellung von Karten (optimiert für Chrome Browser)
 
-- [Palladio](http://hdlab.stanford.edu/palladio/): webbasiertes Tool zur Visualisierung strukturierter Daten, u.a. Geodaten
+-   [Palladio](http://hdlab.stanford.edu/palladio/): webbasiertes Tool zur Visualisierung strukturierter Daten, u.a. Geodaten
 
 ### Netzwerkanalyse
 
-- [Gephi](https://gephi.org/): Programm zur Analyse und Visualisierung von Graphen und Netzwerken
+-   [Gephi](https://gephi.org/): Programm zur Analyse und Visualisierung von Graphen und Netzwerken
 
-- [Nodegoat](https://nodegoat.net/): webbasierte Forschungsumgebung zur Datenerhebung, -exploration und -visualisierung, u.a. auch Netzwerkanalyse
+-   [Nodegoat](https://nodegoat.net/): webbasierte Forschungsumgebung zur Datenerhebung, -exploration und -visualisierung, u.a. auch Netzwerkanalyse
 
-- [Palladio](http://hdlab.stanford.edu/palladio/): webbasiertes Tool zur Visualisierung strukturierter Daten, u.a. auch Netzwerkanalyse
+-   [Palladio](http://hdlab.stanford.edu/palladio/): webbasiertes Tool zur Visualisierung strukturierter Daten, u.a. auch Netzwerkanalyse
 
 ### Text-/Korpusanalyse
 
@@ -80,9 +80,11 @@ editor: visual
 
 ### Storytelling
 
+-   [Omeka](https://omeka.org): webbasierte Plattform zur Kuration digitaler Sammlungen, für die Veröffentlichung und Ausstellung von Bildern/Objekten
+
 -   [StoryLine JS](http://storyline.knightlab.com/): Tool zur Erstellung von interaktiven Diagrammen
 
--   [StoryMap JS](https://storymap.knightlab.com): Tool zur Erstellung von interaktiven Karten/Bildern mit verschiedenen Elementen 
+-   [StoryMap JS](https://storymap.knightlab.com): Tool zur Erstellung von interaktiven Karten/Bildern mit verschiedenen Elementen
 
 -   [Timeline JS](https://timeline.knightlab.com): Tool zur Erstellung von interaktiven Timelines
 
@@ -92,11 +94,11 @@ editor: visual
 
 -   [Data Visualisation Catalogue](https://datavizcatalogue.com/search.html): Guide zur Auswahl von Visualisierungsformen
 
-- [Datasette](https://datasette.io/): interaktives Tool zur Datenexploration und -visualisierung
+-   [Datasette](https://datasette.io/): interaktives Tool zur Datenexploration und -visualisierung
 
 -   FID Romanistik: [Sammlung von Tools zur Datenvisualisierung](https://fid-romanistik.de/forschungsdaten/suche-nach-forschungsdaten/fid-internetressourcen/tools/werkzeuge-fuer-die-visualisierung-von-daten)
 
-- [Palladio](http://hdlab.stanford.edu/palladio/): webbasiertes Tool zur Visualisierung strukturierter Daten
+-   [Palladio](http://hdlab.stanford.edu/palladio/): webbasiertes Tool zur Visualisierung strukturierter Daten
 
 -   [RAWGraphs](https://www.rawgraphs.io/): Tool zur Datenvisualisierung von tabularen Daten (.tsv-, .csv-, .dsv- oder .json-Dateien)
 
@@ -110,20 +112,17 @@ editor: visual
 
 ## Programmiersprachen & Editoren
 
-- Python:
-  - Althage, Melanie  u. a.: Python für Historiker:innen. Ein anwendungsorientierter und interaktiver Einstieg, 20.07.2022, [Jupyter Book, (v1.0)](https://digital-history-berlin.github.io/Python-fuer-Historiker-innen/home.html)
-  - Karsdorp, Folgert: [Python Programming for the Humanities. Interactive Tutorial and Introduction to Programming with Python for the Humanities.](http://www.karsdorp.io/python-course/)
-  - Mattingly, William : [PythonHumanities.com. A Free Course for the Digital Humanities.](https://pythonhumanities.com/)
-  - Editor z.B. [PyCharm](https://www.jetbrains.com/pycharm/)
-
-- R:
-  - Mullen, Lincoln A.: [Computational Historical Thinking With Applications in R](https://dh-r.lincolnmullen.com/)
-  - Phillips, Nathaniel D.: [YaRrr! The Pirate's Guide to R.](https://bookdown.org/ndphillips/YaRrr/)
-  - Wickham, Hadley; Grolemund, Garrett: [R for Data Science.](https://r4ds.had.co.nz/)
-   - Editor z.B. [RStudio](https://posit.co/downloads/)
-
-- Editoren: [Anaconda](https://www.anaconda.com/); [Sublime Text](https://www.sublimetext.com/); [Visual Studio Code](https://code.visualstudio.com/)
-
+-   Python:
+    -   Althage, Melanie u. a.: Python für Historiker:innen. Ein anwendungsorientierter und interaktiver Einstieg, 20.07.2022, [Jupyter Book, (v1.0)](https://digital-history-berlin.github.io/Python-fuer-Historiker-innen/home.html)
+    -   Karsdorp, Folgert: [Python Programming for the Humanities. Interactive Tutorial and Introduction to Programming with Python for the Humanities.](http://www.karsdorp.io/python-course/)
+    -   Mattingly, William : [PythonHumanities.com. A Free Course for the Digital Humanities.](https://pythonhumanities.com/)
+    -   Editor z.B. [PyCharm](https://www.jetbrains.com/pycharm/)
+-   R:
+    -   Mullen, Lincoln A.: [Computational Historical Thinking With Applications in R](https://dh-r.lincolnmullen.com/)
+    -   Phillips, Nathaniel D.: [YaRrr! The Pirate's Guide to R.](https://bookdown.org/ndphillips/YaRrr/)
+    -   Wickham, Hadley; Grolemund, Garrett: [R for Data Science.](https://r4ds.had.co.nz/)
+    -   Editor z.B. [RStudio](https://posit.co/downloads/)
+-   Editoren: [Anaconda](https://www.anaconda.com/); [Sublime Text](https://www.sublimetext.com/); [Visual Studio Code](https://code.visualstudio.com/)
 
 ## Regular Expressions
 
@@ -145,4 +144,4 @@ editor: visual
 
 ## XML
 
-- Latex Ninja Blog: [A shamelessly short intro to XML for DH beginners (includes TEI)](https://latex-ninja.com/2022/02/02/a-shamelessly-short-intro-to-xml-for-dh-beginners-includes-tei/) (blog post)
+-   Latex Ninja Blog: [A shamelessly short intro to XML for DH beginners (includes TEI)](https://latex-ninja.com/2022/02/02/a-shamelessly-short-intro-to-xml-for-dh-beginners-includes-tei/) (blog post)
