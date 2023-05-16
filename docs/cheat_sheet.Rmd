@@ -1,6 +1,8 @@
 ---
 title: "Cheat Sheet[^1]"
-output: pdf_document
+output:
+  word_document: default
+  pdf_document: default
 ---
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
