@@ -34,8 +34,6 @@ Die beiden Vorgehensweisen unterscheiden sich dabei in drei Punkten:
 
 Bevor wir den zweiten -- und für unsere Arbeit hilfreichsten -- Unterschied genauer anschauen, kurz zur Kommandozeile. 
 
-## ~
-
 ## Shell 101
 
 In einem Terminal/einer Shell -- zur Unterscheidung siehe Fußnote 1 -- können Kommandos bzw. Programme ausgeführt werden, die auf der Datenstrukturebene stattfinden -- wie beispielsweise das Löschen einer Datei, `rm Dateiname.xyz` (`rm` für *remove*), oder das Erstellen eines Ordners, `mkdir NeuerOrdner` (`mkdir` für *make directory*). Ebenso möglich sind Operationen auf Dateninhaltsebene -- wie beispielsweise das Suchen eines bestimmten Begriffs in einer Textdatei, `grep 'Begriff' Textdatei.txt` (Mac/Linux) bzw. `Select-String -Path Textdatei.txt -Pattern 'Begriff'` (Windows), oder das Auszählen mehrerer Begriffe und das Speichern des Ergebnisses in einer neuen Datei, `grep -Ec '(Begriff1|Begriff2)' Textdatei.txt | wc -l > Ergebnisse.txt` (Mac/Linux) bzw. `(Select-String -Path Textdatei.txt -Pattern '(Begriff1|Begriff2)'.Matches.Count > Ergebnisse.txt` (Windows) -- die Kommandos werden weiter unten nochmals einzeln erklärt.
