@@ -28,7 +28,7 @@ Ob Sie den Brief hierfür ausdrucken und Strukturelemente mit  einem Stift marki
 3. Nehmen Sie denselben Brief wie aus Aufgabe 2a bzw. 2b, je nach Nachname, und markieren Sie Entitäten, also Einheiten wie Personen, Orte, etc. 
 Erstellen Sie hierfür ein Tabellendokument (mit Excel, Google Sheets, Open Office o.Ä.), in das Sie die Entitäten aufnehmen.
 
-Nachdem Sie die Aufgaben erledigt haben, lesen Sie "The Ten Commandments of Inputting Data" in Kapitel 3 im Buch "Quantitative Data in the Humanities".[@lemercier_quantitative_2019, S. 57--60] Das Kapitel finden Sie im ADAM-Workspace Ihres Einführungskurses -- es lohnt sich als Ganzes, aber die "Ten Commandments" reichen auch.
+Nachdem Sie die Aufgaben erledigt haben, lesen Sie "The Ten Commandments of Inputting Data" in Kapitel 3 im Buch "Quantitative Methods in the Humanities".[@lemercier_quantitative_2019, S. 57--60] Das Kapitel finden Sie im ADAM-Workspace Ihres Einführungskurses -- es lohnt sich als Ganzes, aber die "Ten Commandments" reichen auch.
 Eine eher praxisorientierte Onlinefassung finden Sie [hier](https://quanthum.hypotheses.org/239) im das Buch begleitenden Blog.
 
 Würden Sie nach der Lektüre bei Aufgabe 3 anders vorgehen?
