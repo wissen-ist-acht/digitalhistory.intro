@@ -73,7 +73,7 @@ Sie können dazu entweder das vollständige [GitHub-Repository zu diesem Guide](
 
 Sie können das Repositorium auch über die Kommandozeile klonen 
 ``` bash
-(base) serina00@dg-19-mac-02 ~ % git clone https://github.com/wissen-ist-acht/digitalhistory.intro.git
+git clone https://github.com/wissen-ist-acht/digitalhistory.intro.git
 ```
 oder als bequeme Variante diesen [Direktlink](https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/wissen-ist-acht/digitalhistory.intro/tree/main/docs/letters_Der_Sturm) nutzen.
 
@@ -150,7 +150,7 @@ Bei den meisten von Ihnen ist das vermutlich unter "Downloads" -- probieren Sie 
 (Um zu prüfen, was in einem Ordner liegt, können Sie im Terminal `ls` (für `list`) eingeben, bzw. in der PowerShell `dir` (für `directory`):
 
 ``` bash
-% ls
+ls
 ```
 ``` bash
 Q.01.19140115.FMA.01.xml	Q.01.19150315.FMA.02.xml
@@ -171,12 +171,12 @@ Wenn Sie in den Ordner navigiert sind, in dem die Briefdateien liegen, können S
 
 Mac/Linux:
 ``` bash
-% grep -E -i '(Mit herzlichem Gruß|Mit herzlichen Grüßen)' *.xml 
+grep -E -i '(Mit herzlichem Gruß|Mit herzlichen Grüßen)' *.xml 
 ```
 
 Windows:
 ``` bash
-% Select-String -Path *.xml -Pattern "(Mit herzlichem Gruß|Mit herzlichen Grüßen)"
+Select-String -Path *.xml -Pattern "(Mit herzlichem Gruß|Mit herzlichen Grüßen)"
 ```
 Output:
 ``` bash
@@ -188,12 +188,12 @@ Sie können auch mit `wc -l` (Mac/Linux) den **W**ord**c**ount, die Anzahl der g
 
 Mac/Linux:
 ``` bash
-% grep -E -i '(Mit herzlichem Gruß|Mit herzlichen Grüßen)' *.xml | wc -l > count_greetings.txt
+grep -E -i '(Mit herzlichem Gruß|Mit herzlichen Grüßen)' *.xml | wc -l > count_greetings.txt
 ```
 
 Windows:
 ``` bash
-% (Select-String -Path *.xml -Pattern "(Mit herzlichem Gruß|Mit herzlichen Grüßen)").Matches.Count > count_greetings.txt
+(Select-String -Path *.xml -Pattern "(Mit herzlichem Gruß|Mit herzlichen Grüßen)").Matches.Count > count_greetings.txt
 ```
 
 Wenn Sie die neu erstellte Datei count_greetings.txt öffnen, die sich im selben Ordner wie die Briefe befindet, sollte dort "1" stehen, weil unsere Suche einen Treffer ergeben hat.
@@ -212,12 +212,12 @@ Solche Feinheiten sind bei der Arbeit mit Regular Expressions wichtig zu wissen,
 
 Mac/Linux:
 ``` bash
-% grep -E -i '(Mit herzlichem Gru(ß|ss)|Mit herzlichen Grü(ß|ss)en|H(e|.?)rzl. Gru(ß|ss))' *.xml | wc -l
+grep -E -i '(Mit herzlichem Gru(ß|ss)|Mit herzlichen Grü(ß|ss)en|H(e|.?)rzl. Gru(ß|ss))' *.xml | wc -l
 ```
 
 Windows:
 ``` bash
-% (Select-String -Path *.xml -Pattern "(Mit herzlichem Gru(ß|ss)|Mit herzlichen Grü(ß|ss)en|H(e|.?)rzl. Gru(ß|ss))").Matches.Count > count_greetings.txt
+(Select-String -Path *.xml -Pattern "(Mit herzlichem Gru(ß|ss)|Mit herzlichen Grü(ß|ss)en|H(e|.?)rzl. Gru(ß|ss))").Matches.Count > count_greetings.txt
 ```
 
 So formuliert finden wir 17 Treffer für eine Grußformel, mit den möglichen Schreibweisen "Mit herzlichem Gruß", "Mit herzlichem Gruss", "Mit herzlichen Grüßen", "Mit herzlichen Grüssen", "Herzl. Gruß", "Herzl. Gruss", "Hrzl. Gruß", "Hrzl. Gruss".
@@ -226,12 +226,12 @@ Wenn wir herausfinden möchten, ob Grüße mal *herzlich*, mal *hrzl.* oder *fre
 
 Mac/Linux:
 ``` bash
-% grep -E -i 'Gr(u|ü)(ß|ss)' *.xml
+grep -E -i 'Gr(u|ü)(ß|ss)' *.xml
 ```
 
 Windows:
 ``` bash
-% Select-String -Path *.xml -Pattern "Gr(u|ü)(ß|ss)"
+Select-String -Path *.xml -Pattern "Gr(u|ü)(ß|ss)"
 ```
 Output:
 ``` bash
@@ -266,7 +266,7 @@ Damit werden die verschiedenen Fälle in den Briefen abgedeckt, dass zwischen `<
 
 Mac/Linux:
 ```bash
-% grep -E -zo '<closer>[[:cntrl:]].*<salute>.*[[:cntrl:]].*<'  *.xml
+grep -E -zo '<closer>[[:cntrl:]].*<salute>.*[[:cntrl:]].*<'  *.xml
 ```
 
 Output:
@@ -298,7 +298,7 @@ Q.01.19140608.FMA.01.xml:<closer>
  
  Mac/Linux:
 ```bash
-% grep -E -zo '<closer>[[:cntrl:]].*<salute>.*[[:cntrl:]].*<'  *.xml > Grussformeln.txt
+grep -E -zo '<closer>[[:cntrl:]].*<salute>.*[[:cntrl:]].*<'  *.xml > Grussformeln.txt
 ```
 
 Spätestens jetzt wäre es aber an der Zeit, das Instrumentarium zu wechseln: 
