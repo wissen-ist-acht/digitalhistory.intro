@@ -1,0 +1,31 @@
+{
+    "id": "DBCC9085",
+    "path": "~/Documents/GitHub/digital_history_intro/further_ressources.qmd",
+    "project_path": "further_ressources.qmd",
+    "type": "quarto_markdown",
+    "hash": "1754961364",
+    "contents": "",
+    "dirty": false,
+    "created": 1666712130671.0,
+    "source_on_save": false,
+    "relative_order": 3,
+    "properties": {
+        "rmdVisualMode": "true",
+        "rmdVisualWrapConfigured": "true",
+        "source_window_id": "",
+        "Source": "Source",
+        "docOutlineVisible": "1",
+        "rmdVisualCollapsedChunks": "",
+        "cursorPosition": "16,104",
+        "scrollLine": "0",
+        "rmdVisualModeLocation": "451:112.7272720336914"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1666712699,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1666712699731,
+    "read_only": false,
+    "read_only_alternatives": []
+}

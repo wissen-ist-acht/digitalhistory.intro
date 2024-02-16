@@ -1,0 +1,74 @@
+{
+  "index.qmd": {
+    "index.html": "38cc9d55"
+  },
+  "intro.qmd": {
+    "intro.html": "fcdb43ed"
+  },
+  "Shell.qmd": {
+    "Shell.html": "b8c8c337"
+  },
+  "Appendix.qmd": {
+    "Appendix.html": "243f7b28"
+  },
+  "terms.qmd": {
+    "terms.html": "a3e8cb97"
+  },
+  "further_ressources.qmd": {
+    "further_ressources.html": "6e1b0a73"
+  },
+  "01_intro.qmd": {
+    "01_intro.html": "27cd7b8d"
+  },
+  "02_Lehre_Forschung.qmd": {
+    "02_Lehre_Forschung.html": "0dd5c650"
+  },
+  "02_lehre_forschung.qmd": {
+    "02_lehre_forschung.html": "a0f1459f"
+  },
+  "02_forschung_lehre.qmd": {
+    "02_forschung_lehre.html": "86b4988d"
+  },
+  "03_digital_literacy_criticism.qmd": {
+    "03_digital_literacy_criticism.html": "909f5430"
+  },
+  "04_FAIR_CARE.qmd": {
+    "04_FAIR_CARE.html": "950c6d75"
+  },
+  "05_datenerhebung_analyse.qmd": {
+    "05_datenerhebung_analyse.html": "37256723"
+  },
+  "04_datenerhebung_analyse.qmd": {
+    "04_datenerhebung_analyse.html": "afcdd792"
+  },
+  "05_FAIR_CARE.qmd": {
+    "05_FAIR_CARE.html": "5952f704"
+  },
+  "Praxis.qmd": {
+    "Praxis.html": "cc7ac584"
+  },
+  "further_resources.qmd": {
+    "further_resources.html": "9b13f676"
+  },
+  "06_Briefedition_Sturm.qmd": {
+    "06_Briefedition_Sturm.html": "873190de"
+  },
+  "07_Vordereingang.qmd": {
+    "07_Vordereingang.html": "86fbb4a3"
+  },
+  "08_Hintertür.qmd": {
+    "08_Hintertür.html": "a9ddd45f"
+  },
+  "09_Analyse.qmd": {
+    "09_Analyse.html": "374863a7"
+  },
+  "08_Zwei.qmd": {
+    "08_Zwei.html": "d7611d8e"
+  },
+  "08_Hintertuer.qmd": {
+    "08_Hintertuer.html": "5766e312"
+  },
+  "09_Ausblick.qmd": {
+    "09_Ausblick.html": "556fcfd2"
+  }
+}
