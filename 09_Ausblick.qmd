@@ -13,7 +13,7 @@ So können Sie beispielsweise die im vorherigen Kapitel gezeigten Abfragen nach 
 Und wenn Sie sich während der Forschungsarbeit dafür entscheiden würden, anstatt Grußformeln besser die Anrede zu untersuchen, oder aber das Korpus auf die Briefe von [Jacoba van Heemskerck](https://de.wikipedia.org/wiki/Jacoba_van_Heemskerck) auszuweiten, könnten wir dies mit wenigen Änderungen in unseren Abfragen machen, weil auch die Anrede mit einem einheitlichen Tag codiert ist; 
 würden wir die Quellen nur über die Webseite lesen und unsere Auszählungen von Hand machen, würde unsere Arbeit mit dem Hinzufügen neuer Dokumente von vorne beginnen.
 
-Das Erstellen von standardisierten Daten mithilfe eines Schemas bzw. bestimmter Richtlinien ermöglicht es auch, verschiedenen Datensätze miteinander zu kombinieren oder mit weiteren Daten anzureichern.
+Das Erstellen von standardisierten Daten mithilfe eines Schemas bzw. bestimmter Richtlinien ermöglicht es auch, verschiedene Datensätze miteinander zu kombinieren oder mit weiteren Daten anzureichern.
 Bei einem Blick in die Briefe, auf der Webseite oder in der XML-Datei, wird ersichtlich, dass Entitäten wie Personen oder Orte nicht nur als solche markiert und projektintern verlinkt, sondern auch mit weiteren Normdaten verbunden wurden, beispielsweise mit dem dazugehörigen Eintrag in der [GND](https://de.wikipedia.org/wiki/Gemeinsame_Normdatei), der Gemeinsamen Normdatei der Deutschen Nationalbibliothek, oder in [Geonames](https://de.wikipedia.org/wiki/GeoNames), einer Datenbank für geographische Daten.
 
 ![Ausschnitt aus Brief Nr. 1 von Franz Marc an Herwarth Walden, Normdaten gelb hervorgehoben.](images/letter_1_Franz_Marc_gnd.png){fig-align="left"}
