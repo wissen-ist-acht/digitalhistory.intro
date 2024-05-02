@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="de" xml:lang="de"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-99.9.9">
+<meta name="generator" content="quarto-1.4.551">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -47,7 +47,13 @@ ul.task-list li input[type="checkbox"] {
   "collapse-after": 3,
   "panel-placement": "start",
   "type": "textbox",
-  "limit": 20,
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
   "language": {
     "search-no-results-text": "Keine Treffer",
     "search-matching-documents-text": "Treffer",
@@ -56,8 +62,10 @@ ul.task-list li input[type="checkbox"] {
     "search-more-match-text": "weitere Treffer in diesem Dokument",
     "search-more-matches-text": "weitere Treffer in diesem Dokument",
     "search-clear-button-title": "Zurücksetzen",
+    "search-text-placeholder": "",
     "search-detached-cancel-button-title": "Abbrechen",
-    "search-submit-button-title": "Abschicken"
+    "search-submit-button-title": "Abschicken",
+    "search-label": "Suchen"
   }
 }</script>
 
@@ -70,13 +78,13 @@ ul.task-list li input[type="checkbox"] {
   <header id="quarto-header" class="headroom fixed-top">
   <nav class="quarto-secondary-nav">
     <div class="container-fluid d-flex">
-      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Seitenleiste umschalten" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Seitenleiste umschalten" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./index.html">Welcome</a></li><li class="breadcrumb-item"><a href="./03_digital_literacy_criticism.html"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Digital Literacy, Digital Criticism</span></a></li></ol></nav>
-      <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Seitenleiste umschalten" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
-      </a>
-      <button type="button" class="btn quarto-search-button" aria-label="Suchen" onclick="window.quartoOpenSearch();">
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./index.html">Welcome</a></li><li class="breadcrumb-item"><a href="./03_digital_literacy_criticism.html"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Digital Literacy, Digital Criticism</span></a></li></ol></nav>
+        <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Seitenleiste umschalten" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+      <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
         <i class="bi bi-search"></i>
       </button>
     </div>
@@ -85,7 +93,7 @@ ul.task-list li input[type="checkbox"] {
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal sidebar-navigation floating overflow-auto">
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
     <div class="pt-lg-2 mt-2 text-left sidebar-header">
     <div class="sidebar-title mb-0 py-0">
       <a href="./">Introduction to Digital History</a> 
@@ -204,7 +212,7 @@ ul.task-list li input[type="checkbox"] {
     </ul>
     </div>
 </nav>
-<div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         <nav id="TOC" role="doc-toc" class="toc-active">
@@ -215,12 +223,12 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#digital-criticism-data-criticism" id="toc-digital-criticism-data-criticism" class="nav-link" data-scroll-target="#digital-criticism-data-criticism"><span class="header-section-number">3.2</span> Digital Criticism, Data Criticism</a></li>
   <li><a href="#künstliche-intelligenz-und-algorithmenkritik" id="toc-künstliche-intelligenz-und-algorithmenkritik" class="nav-link" data-scroll-target="#künstliche-intelligenz-und-algorithmenkritik"><span class="header-section-number">3.3</span> Künstliche Intelligenz und Algorithmenkritik</a></li>
   </ul>
-<div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/wissen-ist-acht/digital_history_intro/edit/main/03_digital_literacy_criticism.qmd" class="toc-action">Seite editieren</a></p></div></div></nav>
+<div class="toc-actions"><ul><li><a href="https://github.com/wissen-ist-acht/digital_history_intro/edit/main/03_digital_literacy_criticism.qmd" class="toc-action"><i class="bi bi-github"></i>Seite editieren</a></li></ul></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default">
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./index.html">Welcome</a></li><li class="breadcrumb-item"><a href="./03_digital_literacy_criticism.html"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Digital Literacy, Digital Criticism</span></a></li></ol></nav>
 <div class="quarto-title">
 <h1 class="title"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Digital Literacy, Digital Criticism</span></h1>
 </div>
@@ -235,7 +243,9 @@ ul.task-list li input[type="checkbox"] {
   </div>
   
 
+
 </header>
+
 
 <section id="digital-literacy-data-literacy" class="level2" data-number="3.1">
 <h2 data-number="3.1" class="anchored" data-anchor-id="digital-literacy-data-literacy"><span class="header-section-number">3.1</span> Digital Literacy, Data Literacy</h2>
@@ -248,22 +258,27 @@ Gehen Sie auf die <a href="https://images.google.com/">Bilder-Suche von Google</
 <p>Digitalisierte Quellen ebenso wie rein digitale erfordern eine erweiterte Art von Quellenkritik – im Einführungskurs an der Universität Basel lernen Sie die Grundlagen klassischer Quellenkritik:<br>
 Woher kommt eine Quelle, wer hat sie unter welchen Umständen und zu welchem Zweck erstellt? Welche Absichten können darin verborgen sein, und welche Verzerrungen können sich durch sie ergeben? Welche Tendenzen könnten sich in hochmittelalterlichen Herrscherchroniken verstecken, wenn der Verfasser in direkter Abhängigkeit des Auftraggebers stand? Wie sind Zeug:innenaussagen in Hexenprozessen zu bewerten, die unter Anwendung körperlicher Strafe entstanden sind? Mit wie viel Vorsicht sind die Inhalte eines Tagebuchs zu bewerten, das allem Anschein nach mit Blick auf eine spätere Veröffentlichung verfasst wurde?</p>
 <p>Neben der inneren Kritik geht es bei der Arbeit mit Quellen immer auch um Fragen der Korpusbildung: Wie kann eine Quellengrundlage erstellt werden, die für Beantwortung einer spezifischen historischen Fragestellung belastbar und aussagekräftig genug ist und gleichzeitig in angemessener Zeit bearbeitet werden kann? Hinzu kommen Spezifika bei der Arbeit mit unterschiedlichen Quellenformen bzw. -formaten: Bei analogen Quellen, die auch in digitaler Form zur Verfügung stehen, besteht die Gefahr, dass ein Thema, ein Bereich, ein Aspekt vernachlässigt wird, wenn nur die unmittelbar verfügbaren, digitalisierten Bestände zur Korpusbidlung genutzt werden. Wenn Sie sich beispielsweise für die Schweizer Historikerin und Frauenrechtlerin <a href="https://de.wikipedia.org/wiki/Meta_von_Salis">Meta von Salis</a> (1855–1929) und deren briefliche Korrespondenz – Friedrich Nietzsche war einer ihrer Brieffreunde – interessieren und über die Suchplattform für historische Schweizer Bestände, <a href="https://swisscollections.ch/Search/Advanced">swisscollections</a>, in nationalen Bibliotheken und Archiven nach entsprechenden Dokumenten suchen, erhalten Sie 361 Treffer:</p>
-<div class="quarto-layout-panel">
-<div class="quarto-layout-row quarto-layout-valign-top">
-<div class="quarto-figure quarto-figure-center" style="flex-basis: 49.0%;justify-content: center;">
+<div>
+
+</div>
+<div class="quarto-layout-panel" data-layout="[49,-2,49]">
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell" style="flex-basis: 49.0%;justify-content: flex-start;">
+<div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="_book"><img src="images/suche_meta_von_salis.png" class="img-fluid figure-img"></a></p>
-<figcaption class="figure-caption">Erweiterte Suchmaske von swisscollections</figcaption>
+<p><a href="_book"><img src="images/suche_meta_von_salis.png" class="img-fluid figure-img" alt="Erweiterte Suchmaske von swisscollections"></a></p>
+<figcaption>Erweiterte Suchmaske von swisscollections</figcaption>
 </figure>
 </div>
-<div class="quarto-figure-spacer quarto-layout-cell" style="flex-basis: 2.0%;justify-content: center;">
+</div>
+<div class="quarto-figure-spacer quarto-layout-cell" style="flex-basis: 2.0%;justify-content: flex-start;">
 <p>&nbsp;</p>
 </div>
-<div class="quarto-layout-cell" style="flex-basis: 49.0%;justify-content: center;">
+<div class="quarto-layout-cell" style="flex-basis: 49.0%;justify-content: flex-start;">
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="images/suchergebnisse_1.png" class="img-fluid figure-img"></p>
-<figcaption class="figure-caption">Suchergebnisse für “Meta von Salis” + “Brief”</figcaption>
+<figcaption>Suchergebnisse für “Meta von Salis” + “Brief”</figcaption>
 </figure>
 </div>
 </div>
@@ -273,7 +288,7 @@ Woher kommt eine Quelle, wer hat sie unter welchen Umständen und zu welchem Zwe
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="images/suchergebnisse_2.png" class="img-fluid figure-img"></p>
-<figcaption class="figure-caption">Suchergebnisse für “Meta von Salis” + “Brief” + “Digitalisat verfügbar”</figcaption>
+<figcaption>Suchergebnisse für “Meta von Salis” + “Brief” + “Digitalisat verfügbar”</figcaption>
 </figure>
 </div>
 <p>Ihnen würde bei einer Korpuserstellung vom Schreibtisch aus, also nur mit den angezeigten Digitalisaten, also der Großteil der Überlieferung fehlen, und Ihre Untersuchungsergebnisse wären wohl sehr verzerrt, würden Sie statistische Aussagen treffen wollen: Meta von Salis unterhielt brieflichen Kontakt zu einem Mann und einer Frau, das Geschlechterverhältnis wäre also ausgeglichen; und Frauen schreiben im Schnitt mehr Briefe an Meta von Salis als Männer. Beim Blick auf alle Suchergebnisse würden sich Ihre Aussagen aber sehr ändern, und es würde sich lohnen, diese Verzerrung, diesen Bias aus Ihrer Datengrundlage zu entfernen.</p>
@@ -308,12 +323,12 @@ Auf die Frage nach den Namen von “ten medieval philosophers” gibt das Progra
 <section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes">
 <hr>
 <ol>
-<li id="fn1"><p><a href="#ref-ridsdale_strategies_2015" role="doc-biblioref">Ridsdale, Chantel; Rothwell, James; Smit, Mike u.&nbsp;a.: Strategies and <span>Best</span> <span>Practices</span> for <span>Data</span> <span>Literacy</span> <span>Education</span> <span>Knowledge</span> <span>Synthesis</span> <span>Report</span>, 2015, S.&nbsp;8. Online: &lt;<span role="doc-biblioref">https://doi.org/10.13140/RG.2.1.1922.5044</span>&gt;</a>.<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn1"><p>Ridsdale, Chantel; Rothwell, James; Smit, Mike u.&nbsp;a.: Strategies and <span>Best</span> <span>Practices</span> for <span>Data</span> <span>Literacy</span> <span>Education</span> <span>Knowledge</span> <span>Synthesis</span> <span>Report</span>, 2015, S.&nbsp;8. Online: &lt;<a href="https://doi.org/10.13140/RG.2.1.1922.5044" role="doc-biblioref">https://doi.org/10.13140/RG.2.1.1922.5044</a>&gt;.<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
 <li id="fn2"><p>Verschiedene Organisationen und Interessensverbände machen sich hierzu Gedanken; die deutsche “Gesellschaft für Informatik” hat ein Grundlagenpapier erstellt, in dem es um Data Literacy und Data Science Education als digitale Kompetenzen in der Hochschulausbildung geht: <a href="https://gi.de/fileadmin/GI/Hauptseite/Aktuelles/Aktionen/Data_Literacy/GI_DataScience_2018-04-20_FINAL.pdf" class="uri">https://gi.de/fileadmin/GI/Hauptseite/Aktuelles/Aktionen/Data_Literacy/GI_DataScience_2018-04-20_FINAL.pdf</a>.<a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
 <li id="fn3"><p>Alternative Suchmaschinen sind zum Beispiel <a href="https://www.startpage.com/">Startpage</a> oder <a href="https://duckduckgo.com/">DuckDuckGo</a>.<a href="#fnref3" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn4"><p><a href="#ref-risam_its_2020" role="doc-biblioref">Risam, Roopika: <span>“</span><span>It</span><span>’</span>s <span>Data</span>, <span>Not</span> <span>Reality</span><span>”</span>: <span>On</span> <span>Situated</span> <span>Data</span> <span>With</span> <span>Jill</span> <span>Walker</span> <span>Rettberg</span>, 06.2020. Online: &lt;<span role="doc-biblioref">https://medium.com/nightingale/its-data-not-reality-on-situated-data-with-jill-walker-rettberg-d27c71b0b451</span>&gt;, Stand: 16.08.2022</a>.<a href="#fnref4" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn5"><p><a href="#ref-kolly_sie_2021" role="doc-biblioref">Kolly, Marie-José; Schmid, Simon: Sie ist h<span>ü</span>bsch. <span>Er</span> ist stark. <span>Er</span> ist <span>Lehrer</span>. <span>Sie</span> ist <span>Kinderg<span>ä</span>rtnerin</span>, in: Republik, 04.2021. Online: &lt;<span role="doc-biblioref">https://www.republik.ch/2021/04/19/sie-ist-huebsch-er-ist-stark-er-ist-lehrer-sie-ist-kindergaertnerin</span>&gt;, Stand: 23.08.2022</a>.<a href="#fnref5" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn6"><p><a href="#ref-dignazio_data_2020" role="doc-biblioref">D’Ignazio, Catherine; Klein, Lauren F.: Data feminism, 2020. Online: &lt;<span role="doc-biblioref">https://direct.mit.edu/books/book/4660/Data-Feminism</span>&gt;</a>.<a href="#fnref6" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn4"><p>Risam, Roopika: <span>“</span><span>It</span><span>’</span>s <span>Data</span>, <span>Not</span> <span>Reality</span><span>”</span>: <span>On</span> <span>Situated</span> <span>Data</span> <span>With</span> <span>Jill</span> <span>Walker</span> <span>Rettberg</span>, 06.2020. Online: &lt;<a href="https://medium.com/nightingale/its-data-not-reality-on-situated-data-with-jill-walker-rettberg-d27c71b0b451" role="doc-biblioref">https://medium.com/nightingale/its-data-not-reality-on-situated-data-with-jill-walker-rettberg-d27c71b0b451</a>&gt;, Stand: 16.08.2022.<a href="#fnref4" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn5"><p>Kolly, Marie-José; Schmid, Simon: Sie ist h<span>ü</span>bsch. <span>Er</span> ist stark. <span>Er</span> ist <span>Lehrer</span>. <span>Sie</span> ist <span>Kinderg<span>ä</span>rtnerin</span>, in: Republik, 04.2021. Online: &lt;<a href="https://www.republik.ch/2021/04/19/sie-ist-huebsch-er-ist-stark-er-ist-lehrer-sie-ist-kindergaertnerin" role="doc-biblioref">https://www.republik.ch/2021/04/19/sie-ist-huebsch-er-ist-stark-er-ist-lehrer-sie-ist-kindergaertnerin</a>&gt;, Stand: 23.08.2022.<a href="#fnref5" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn6"><p>D’Ignazio, Catherine; Klein, Lauren F.: Data feminism, 2020. Online: &lt;<a href="https://direct.mit.edu/books/book/4660/Data-Feminism" role="doc-biblioref">https://direct.mit.edu/books/book/4660/Data-Feminism</a>&gt;.<a href="#fnref6" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
 <li id="fn7"><p>Eine Selbstlerneinheit zum Thema finden Sie hier: <a href="https://ranke2.uni.lu/u/archival-digital-turn/">https://ranke2.uni.lu/u/archival-digital-turn/</a>.<a href="#fnref7" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
 <li id="fn8"><p>Eine ausführliche und anschauliche Erklärung von Helmut Linde findet sich unter <a href="https://www.golem.de/news/kuenstliche-intelligenz-so-funktioniert-chatgpt-2302-171644.html">https://www.golem.de/news/kuenstliche-intelligenz-so-funktioniert-chatgpt-2302-171644.html</a>, ein Einführungsvortrag mit besonderem Blick auf Konsequenzen für die Hochschullehre von Thomas Arnold unter <a href="https://www.youtube.com/watch?v=-c8ogAwX6KI">https://www.youtube.com/watch?v=-c8ogAwX6KI</a>.<a href="#fnref8" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
 <li id="fn9"><p>Das “Open” im Firmennamen ist also nicht Programm. Der vollständige technische Report, der viele grundlegende Parameter auslässt, ist <a href="https://arxiv.org/pdf/2303.08774.pdf">hier</a> abrufbar. Zur Kritik am Vorgehen von OpenAI siehe u.a. einen <a href="https://www.siliconrepublic.com/machines/openai-gpt4-transparency-ai-concerns-stripe-chatgpt">Artikel von Leigh Mc Gowran</a>. Eine Open-source-Alternative mit offenem Trainingsset und Modell ist z.B. <a href="https://huggingface.co/databricks/dolly-v1-6b">dolly</a>.<a href="#fnref9" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
@@ -403,10 +418,27 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     // clear code selection
     e.clearSelection();
   });
-  function tippyHover(el, contentFn) {
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp('/' + window.location.host + '/');
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
     const config = {
       allowHTML: true,
-      content: contentFn,
       maxWidth: 500,
       delay: 100,
       arrow: false,
@@ -416,8 +448,17 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       interactive: true,
       interactiveBorder: 10,
       theme: 'quarto',
-      placement: 'bottom-start'
+      placement: 'bottom-start',
     };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
     window.tippy(el, config); 
   }
   const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
@@ -429,7 +470,130 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       try { href = new URL(href).hash; } catch {}
       const id = href.replace(/^#\/?/, "");
       const note = window.document.getElementById(id);
-      return note.innerHTML;
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
     });
   }
       let selectedAnnoteEl;
@@ -473,6 +637,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
             }
             div.style.top = top - 2 + "px";
             div.style.height = height + 4 + "px";
+            div.style.left = 0;
             let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
             if (gutterDiv === null) {
               gutterDiv = window.document.createElement("div");
@@ -498,6 +663,32 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
         });
         selectedAnnoteEl = undefined;
       };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
       // Attach click handler to the DT
       const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
       for (const annoteDlNode of annoteDls) {
@@ -559,12 +750,12 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="./02_forschung_lehre.html" class="pagination-link">
+      <a href="./02_forschung_lehre.html" class="pagination-link" aria-label="Forschung und Lehre">
         <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Forschung und Lehre</span></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./04_datenerhebung_analyse.html" class="pagination-link">
+      <a href="./04_datenerhebung_analyse.html" class="pagination-link" aria-label="Datenerhebung, -aufbereitung und -analyse">
         <span class="nav-page-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Datenerhebung, -aufbereitung und -analyse</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
@@ -572,13 +763,18 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </div> <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">
-    <div class="nav-footer-left">This work is licensed under <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC-NC-SA 4.0</a>.</div>   
+    <div class="nav-footer-left">
+<p>This work is licensed under <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC-NC-SA 4.0</a>.</p>
+</div>   
     <div class="nav-footer-center">
       &nbsp;
-    </div>
-    <div class="nav-footer-right">This book was built with <a href="https://quarto.org/">Quarto</a>.</div>
+    <div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/wissen-ist-acht/digital_history_intro/edit/main/03_digital_literacy_criticism.qmd" class="toc-action"><i class="bi bi-github"></i>Seite editieren</a></li></ul></div></div>
+    <div class="nav-footer-right">
+<p>This book was built with <a href="https://quarto.org/">Quarto</a>.</p>
+</div>
   </div>
 </footer>
+
 
 
 
