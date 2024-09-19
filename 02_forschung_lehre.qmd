@@ -44,7 +44,7 @@ Die vorherrschende Überlieferung historischer Quellen besteht aus Text, handges
 Wenn Texte als Daten verstanden werden, lassen sich aus Textquellen Datenbestände erstellen, die mithilfe quantitativer Methoden untersucht und ausgewertet werden können.^[In der Zeitgeschichte ist dies einfacher möglich, weil viele Texte hier schon digital vorliegen; für Epochen bzw. Forschungsbereiche, die eher eine Quellenarmut zu beklagen haben, ist eine Generierung von Daten aus Texten umso interessanter.]
 
 Für die Literaturwissenschaften beispielsweise ist ein wichtiges Anwendungsfeld die Überprüfung von Autor:innenschaft:
-Ob ein anonym überliefertes Werk einem:r namentlich bekannten Autor:in zugeschrieben werden kann, lässt sich entweder durch *close reading* von Literaturwissenschaftler:innen überprüfen, oder durch die Suche nach *patterns*, Mustern, nach quantifizierbare Eigenschaften eines Textes, wie beispielsweise die Häufigkeit von Funktionswörtern, Partikeln, Satzzeichen usw.
+Ob ein anonym überliefertes Werk einem:r namentlich bekannten Autor:in zugeschrieben werden kann, lässt sich entweder durch *close reading* von Literaturwissenschaftler:innen überprüfen, oder durch die Suche nach *patterns*, Mustern, nach quantifizierbaren Eigenschaften eines Textes, wie beispielsweise die Häufigkeit von Funktionswörtern, Partikeln, Satzzeichen usw.
 Der unter dem Pseudonym Robert Galbraith veröffentlichte Kriminalroman *The Cuckoo’s Calling* konnte mit entsprechender Software Joanne K. Rowling zugeschrieben werden -- damit dauerte die Untersuchung dreißig Minuten, was etwa dem Lesen von zwanzig Romanseiten entspricht.
 Zu einem Artikel, der diesen Fall thematisiert und in das Feld der linguistischen Forensik einbettet, die Straftäter:innen mithilfe quantitativer Textanalyse ermittelt, geht es [hier](https://www.smithsonianmag.com/science-nature/how-did-computers-uncover-jk-rowlings-pseudonym-180949824/). 
 Ein Video zur Entwicklung und Anwendung von Software zur Zuschreibung von Autor:innenschaft finden Sie [hier](https://cmu-lib.github.io/dhlg/project-videos/juola/).
@@ -83,10 +83,10 @@ Speziell an Historiker:innen ohne Programmier-Vorkenntnisse richtet sich das Pro
 Auch ohne quantitative/computergestützte Analysen bei der historischen Arbeit selbst bieten sich mithilfe digitaler Unterstützung verschiedene Möglichkeiten an, um Forschungsergebnisse zu kommunizieren.
 Dies betrifft zum einen unterschiedliche Formen der digitalen Publikation, zum anderen die Nutzung digitaler Tools zur Visualisierung von Ergebnissen.
 Gedruckte wissenschaftliche Zeitschriften und Buchverlage haben gewisse Kriterien bei der Annahme eines Textes zur Publikation -- inhaltliche Qualität ist bei jeder wissenschaftlichen Arbeit wichtig; 
-aber Formalia wie Länge/Umfang/Bebilderung sind für Onlineformat weniger zentral.
-So können erste Resultate aus einem neuen Forschungsprojekt oder auch Ergebnisse aus einer Seminararbeit einem interessierten Publikum in Form eines Blogbeitrags ohne viel organisatoriscchen Vorlauf und Rücksicht auf die Auslastung von Druckerpressen  präsentiert werden.\
+aber Formalia wie Länge/Umfang/Bebilderung sind für Onlineformate weniger zentral.
+So können erste Resultate aus einem neuen Forschungsprojekt oder auch Ergebnisse aus einer Seminararbeit einem interessierten Publikum in Form eines Blogbeitrags ohne viel organisatorischen Vorlauf und Rücksicht auf die Auslastung von Druckerpressen  präsentiert werden.\
 Die Zahl der wissenschaftlichen Blogs ist im letzten Jahrzehnt kontinuierlich gestiegen, sodass für verschiedenste Fächer und Themengebiete eine Auswahl an passenden Publikationsorten besteht.
-Sie verfügen über eine Redaktion, also verantworlich zeichnende Wissenschaftler:innen, die eine Qualitätssicherung der Beiträge leisten.
+Sie verfügen über eine Redaktion, also verantwortlich zeichnende Wissenschaftler:innen, die eine Qualitätssicherung der Beiträge leistet.
 Auch viele Promotionsprojekte werden von Blogs begleitet -- das liefert Sichtbarkeit für die Forschung der Doktorand:innen und bietet eine Plattform für Themen, die in der Dissertation keinen Platz finden, aber doch erwähnenswert sind.\
 [Hypothèses](https://hypotheses.org/about-hypotheses) hat sich als eine wichtige Plattform etabliert, die zahlreiche Wissenschaftsblogs hostet; 
 ein Katalog aller Blogs, filterbar nach Themen und Epochen, findet sich [hier](https://www.openedition.org/catalogue-notebooks?page=catalogue&pubtype=carnet&lang=en). \
@@ -96,7 +96,7 @@ Aus Lehrveranstaltungen und Forschungsprojekten am Departement Geschichte der Un
   - [Global Health Africa](https://www.globalhealthafrica.ch/). Circulating Knowledge and Innovations, 2019--\
   - [Materialized Histories](https://mhistories.hypotheses.org/). Materielle Kultur und digitale Forschung, 2021--\
   - [Materialized Identities](https://www.materializedidentities.com/blog). Objects, Affects and Effects in Early Modern Culture (1450--1750), 2016--2021.\
-  - [Stadt.Geschichte.Basel](https://www.stadtgeschichtebasel.ch/index/geschichten.html). Blog zum Forschungsprojekt, 2019--\
+  - [Stadt.Geschichte.Basel](https://www.stadtgeschichtebasel.ch/blog). Blog zum Forschungsprojekt, 2019--\
   - [The Color Line](https://colorline.hypotheses.org). Race Relations in Schlüsseltexten amerikanischer Autor:innen (1881--1953), 2022--
 
 Als relativ junges Format haben sich Data Stories etabliert -- Narrative, die auf der Basis von (quantitativen oder qualitativen) Daten und Analysen einen Sachverhalt darstellen.
@@ -126,7 +126,12 @@ Ressourcen/Portale:
 
 Projekte:
 
+- [Burchards Dekret Digital](https://burchards-dekret-digital.de/): Digitale Edition, die die handschriftliche Überlieferung des Decretum Burchardi erschließt.
+
+- [Printed Markets](https://avisblatt.philhist.unibas.ch/): Projekt zur Digitalisierung und Anreicherung der frühneuzeitlichen Basler Anzeigenzeitung "Avisblatt" (1729--1844)
+
 - [Repertorium Academicum](https://repac.ch/): Projekt zur Erfassung europäischer Gelehrter zwischen 1250 und 1550
+
 
 Ressourcen/Portale:
 
