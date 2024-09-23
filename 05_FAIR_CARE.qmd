@@ -7,12 +7,12 @@ editor:
     wrap: sentence
 ---
 
-Bereits beim Beginn eines Projekts, sei es eine Proseminararbeit oder ein kollaboratives Großprojekt, sollten Fragen nach Sicherung, Austauschbarkeit und Nachnutzbarkeit von Forschungdaten gestellt werden.
+Bereits beim Beginn eines Projekts, sei es eine Proseminararbeit oder ein kollaboratives Großprojekt, sollten Fragen nach Sicherung, Austauschbarkeit und Nachnutzbarkeit von Forschungsdaten gestellt werden.
 Denn oftmals enden Projekte, ohne dass erstellte Daten für anschließende Forschungen verfügbar gemacht werden, sei es, weil nicht rechtzeitig nach Lösungen zur langfristigen Speicherung gesucht wurde, sei es, weil Daten in einer Form erhoben und gespeichert wurden, die eine Nachnutzung erschwert oder auch unmöglich macht.
 Spätestens beim ersten Gang ins Archiv -- sei es analog oder digital --, bei dem Sie Quellen transkribieren, werden Sie sich vermutlich fragen, ob das nicht entweder schon von einer anderen Person erledigt wurde und Sie sich die Arbeit sparen könnten, oder aber ob Sie in Zukunft anderen die von Ihnen erstellten Transkriptionen zur Verfügung stellen wollen. 
 Die Frage ist nur, wo und wie.
 
-Zu Beginn des Studiums sind solche Überlegungen wohl noch nicht zentral;  
+Zu Beginn des Studiums sind solche Überlegungen wohl noch nicht zentral;
 dennoch sollen einige Fragen rund um Speicherung, Aufbewahrung und Nachnutzbarkeit von Daten/Datenformaten hier kurz thematisiert werden, um dafür zu sensibilisieren;
 auch, weil sie den Prozess der [Datenerhebung](04_datenerhebung_analyse.qmd) beeinflussen.
 
@@ -28,7 +28,7 @@ Niemand weiß, dass Sie die Daten erhoben haben, sie sind über gängige Suchmet
 und wenn Ihr:e Dozent:in Ihre Ergebnisse anderen Studierenden zur Verfügung stellen will, um weitere Forschung anzuregen, geht dies nur in Form von Kopien Ihrer gedruckten Arbeit;
 Papierkopien sind dabei weder interoperabel noch sind Ihre Daten vernünftig wiederverwendbar -- sie müssten via Abtippen erst wieder maschinenlesebar gemacht werden, um damit weiterarbeiten zu können.
 Wenn Sie Ihre transkribierten Texte und die identifzierten Objekte in Standardformaten und mit offener Lizenz auf einem Repositorium veröffentlichen, machen Sie nicht nur wichtige Teile Ihrer eigenen Arbeit sichtbar, sondern erleichtern so auch anschließende Forschungen.^[Zu verschiedenen Repositorien, also digitalen Speicherorten für Daten, vgl. das Unterkapitel @sec-sicherung.] 
-Zudem kann so vermieden werden, dass geleistete Arbeit wie beispielsweise Transkriptionen nicht doppelt gemacht wird.
+Zudem kann so vermieden werden, dass geleistete Arbeit wie beispielsweise Transkriptionen doppelt gemacht wird.^[Die Plattform [transcriptiones](https://transcriptiones.ch/) ermöglicht niederschwelliges Teilen von Transkriptionen historischer Dokumente.]
 
 ## CARE-Prinzipien
 
@@ -37,7 +37,7 @@ Anschließend an die FAIR-Prinzipien wurden 2019 von der Global Indigenous Data 
 
 Das Augenmerk liegt dabei darauf, nicht einfach offene Daten und Datenaustausch zu propagieren, sondern auch die Menschen und den Zweck zu berücksichtigen, um bestehende Machtunterschiede zwischen verschiedenen Akteur:innen nicht zu verstärken.
 Inidgene Daten sollen dem **kollektiven Nutzen** dienen, ein **Recht auf Kontrolle** soll gegeben sein, **Verantwortung** für die Datennutzung übernommmen und **Ethische Prinzipien** beachtet werden.[^2]
-Auch wenn diese Richtlinien speziell für die Arbeit mit indigenen Daten ausgearbeitet wurden, ergänzen sie den datenzentrierten Ansatz der FAIR-Prinzipien um eine Dimension, die den Entstehungskontext der Daten mitberücksichtigt und zur Reflexion über Die (Weiter-)Arbeit mit Daten anregt.
+Auch wenn diese Richtlinien speziell für die Arbeit mit indigenen Daten ausgearbeitet wurden, ergänzen sie den datenzentrierten Ansatz der FAIR-Prinzipien um eine Dimension, die den Entstehungskontext der Daten mitberücksichtigt und zur Reflexion über die (Weiter-)Arbeit mit Daten anregt.
 
 [^2]: Eine auf deutsch übersetzte Fassung der CARE-Prinzipien findet sich [hier](https://static1.squarespace.com/static/5d3799de845604000199cd24/t/637acb53881a0973324d18bf/1668991830292/Die+CARE-Prinzipien+für+indigene+Data+Governance.pdf-).
 
