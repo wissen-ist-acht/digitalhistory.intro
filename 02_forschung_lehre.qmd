@@ -128,6 +128,8 @@ Projekte:
 
 - [Burchards Dekret Digital](https://burchards-dekret-digital.de/): Digitale Edition, die die handschriftliche Überlieferung des Decretum Burchardi erschließt.
 
+- [hallerNet](https://hallernet.org/): Editions- und Forschungsplattform mit mehreren Textsammlungen von Gelehrten aus der Übergangszeit zwischen 1700 und 1850, mit Strukturdaten verknüpft
+
 - [Printed Markets](https://avisblatt.philhist.unibas.ch/): Projekt zur Digitalisierung und Anreicherung der frühneuzeitlichen Basler Anzeigenzeitung "Avisblatt" (1729--1844)
 
 - [Repertorium Academicum](https://repac.ch/): Projekt zur Erfassung europäischer Gelehrter zwischen 1250 und 1550
@@ -143,11 +145,15 @@ Ressourcen/Portale:
 
 -   [Handschriftenportal](https://handschriftenportal.de/): Zentraler nationaler Nachweis für Buchhandschriften in deutschen Bibliotheken und in deutscher Sprache (Entwicklungsstadium)
 
+- [Innovating Knowledge](https://innovatingknowledge.nl/): Datenbank und digitale Edition zu Isidors von Sevilla "Etymologiae"
+
 -   [e-manuscripta](https://www.e-manuscripta.ch/?lang=de): Digitalisierte handschriftliche Quellen aus Schweizer Bibliotheken und Archiven
 
 -   [e-rara](https://www.e-rara.ch/?lang=de): Plattform für digitalisierte Drucke aus Schweizer Institutionen
 
 - [Gallica](https://gallica.bnf.fr/): Digitalisierte Quellen aus französischen Biblioteken
+
+- [Stapfer Enqête](https://www.stapferenquete.ch/): Edition der Helvetischen Schulumfrage von 1799
 
 - [swisscollections](https://swisscollections.ch): Suchplattform für historische Schweizer Bestände
 
@@ -156,6 +162,8 @@ Ressourcen/Portale:
 ### Moderne und Zeitgeschichte
 
 Projekte:
+
+- [impresso. Media Monitoring of the Past](https://impresso-project.ch/project/): Projekt zur Aufbereitung, semantischen Anreicherung, Repräsentation, Exploration und Recherche in historischen Medien (Zeitungen und Radio) über Zeit, Sprachen und Nationalgrenzen hinweg
 
 - [Refugee History](http://refugeehistory.org/): Wissenschaftliches Blog und interaktives Netzwerk zu aktuellen Debatten um das Thema "Flüchtlinge"
 
@@ -167,11 +175,11 @@ Ressourcen/Portale:
 
 - [e-newspaperarchives.ch](https://www.e-newspaperarchives.ch/): Schweizer Zeitungen online
 
-- [e-periodica](e-periodica.ch): Schweizer Zeitschriften online
+- [e-periodica](https://www.e-periodica.ch/): Schweizer Zeitschriften online
 
 - [Historische Statistik der Schweiz](https://hsso.ch/) (HSSO)
 
-- [histat](https://histat.gesis.org/histat/): Zeitreihen zur Historischen Statistik
+- [histat](https://histat.safe-frankfurt.de/): Zeitreihen zur Historischen Statistik
 
 ### Jüdische Geschichte
 
@@ -211,11 +219,13 @@ Projekte:
 
 - [Seventeen Moments in Soviet History](https://soviethistory.msu.edu/): Multimediales Online-Archiv mit ausgewählten Quellen zu Ereignissen in der sowjetischen Geschichte anhand 17  verschiedener Jahre zwischen 1917 und 1991
 
+- [The Imperiia Project](https://scalar.fas.harvard.edu/imperiia/index): Eine räumliche Geschichte des Russischen Reichs
+
 Ressourcen/Portale:
 
 - [Blavatnik Archive](https://www.blavatnikarchive.org/): Archiv zur Erhaltung und Verfügbarmachung von Material zur (jüdischen) Geschichte des 20. Jahrhunderts mit Fokus auf die zwei Weltkriege und Sowietrussland. 
 
-- [The Other Side](https://tastorona.su): Webarchiv von Interviews ehemaliger *Ostarbeiter:innenr*, Kriegsgefangener und Insassen deutscher Lager; Publikationsplattform
+- [The Other Side](http://tastorona.su/): Webarchiv von Interviews ehemaliger Ostarbeiter:innen, Kriegsgefangener und Insassen deutscher Lager; Publikationsplattform
 
 ### Epochen-/Areaübergreifend:
 
