@@ -11,20 +11,20 @@ Stellen Sie sich vor, Sie würden für ein Forschungsprojekt unter anderem die B
 Sie wären bei Ihrer Untersuchung daran interessiert, welche Grußformeln Marc in seinen Briefen an Walden benutzte, um aus eventuellen Änderungen Rückschlüsse auf das Verhältnis der beiden ziehen zu können.
 Wie würden Sie vorgehen, um sich eine Übersicht zu verschaffen?
 Würden Sie eine Downloadmöglichkeit der Webseite nutzen oder die Briefe online lesen?
-Welche Schritte würden Sie durchführen, um die Texte aller Briefe von Marc and Walden auf Ihrem Computer zu speichern? 
-Notieren Sie Ihr Vorgehen zu den Fragen in einem Dokument.
+Welche Schritte würden Sie durchführen, um die Texte aller Briefe von Marc und Walden auf Ihrem Computer zu speichern? 
+> Notieren Sie Ihr Vorgehen zu den Fragen in einem Dokument.
 
 Es gibt zahlreiche Wege, die zum Ziel führen, und keiner ist dabei besser oder schlechter;
 aber manche sind möglicherweise effizienter als andere -- das heißt, Sie sparen Zeit, die Sie für andere Dinge verwenden können, sei es fürs Studium oder in der Badi.
 
-Egal, wie Sie vorgegangen sind, erledigen Sie folgende Aufgaben:\
+> Egal, wie Sie vorgegangen sind, erledigen Sie folgende Aufgaben:\
 1. Erstellen Sie eine Übersicht über alle Grußformeln in den 45 Briefen von Franz Marc an Herwarth Walden. 
 Welches Format -- analog oder digital -- bzw. welchen Dateityp Sie wählen, bleibt Ihnen überlassen.\
 2.a) Wenn Ihr Nachname mit einem Buchstaben zwischen A und L beginnt:\
 Nehmen Sie Brief Nr. 8 von Marc an Walden und unterteilen Sie ihn in strukturelle Elemente. \
 2.b) Wenn  Ihr Nachname mit einem Buchstaben zwischen M und Z beginnt:\
 Nehmen Sie Brief Nr. 9 von Marc an Walden und unterteilen Sie ihn in strukturelle Elemente.\
-Ob Sie den Brief hierfür ausdrucken und Strukturelemente mit  einem Stift markieren oder ob Sie am Computer arbeiten, können Sie wählen.\
+Ob Sie den Brief hierfür ausdrucken und Strukturelemente mit  einem Stift markieren oder ob Sie am Computer arbeiten, können Sie wählen. Was Sie als Strukturelement verstehen, ist Teil der Aufgabe. Bei einem Gedicht wären mögliche Strukturelemente etwa Titel und Strophe.\
 3. Nehmen Sie denselben Brief wie aus Aufgabe 2a bzw. 2b, je nach Nachname, und markieren Sie Entitäten, also Einheiten wie Personen, Orte, etc. 
 Erstellen Sie hierfür ein Tabellendokument (mit Excel, Google Sheets, Open Office o.Ä.), in das Sie die Entitäten aufnehmen.
 
@@ -32,5 +32,5 @@ Nachdem Sie die Aufgaben erledigt haben, lesen Sie "The Ten Commandments of Inpu
 Eine eher praxisorientierte Onlinefassung finden Sie [hier](https://quanthum.hypotheses.org/239) im das Buch begleitenden Blog.
 
 Würden Sie nach der Lektüre bei Aufgabe 3 anders vorgehen?
-Notieren Sie sich etwaige Änderungen bzw. Erkenntnisse und bringen Sie Ihre Resultate zur begleitenden Sitzung mit, in analoger oder digitaler Form.
+> Notieren Sie sich etwaige Änderungen bzw. Erkenntnisse und bringen Sie Ihre Resultate zur begleitenden Sitzung mit, in analoger oder digitaler Form.
 
