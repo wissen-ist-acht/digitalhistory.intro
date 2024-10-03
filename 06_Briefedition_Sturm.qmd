@@ -7,7 +7,7 @@ editor:
 ---
 
 Die Webseite [https://sturm-edition.de/](https://sturm-edition.de/) dient als Portal für die Arbeit mit Quellen zum avantgardistischen STURM-Unternehmen, das mit der Gründung der gleichnamigen Zeitschrift in Berlin im Jahr 1910 durch [Herwarth Walden](https://de.wikipedia.org/wiki/Herwarth_Walden) begann und mit den nachfolgenden Gründungen einer Galerie, einer Bühne und eines Verlags internationale Bedeutung erlangte. 
-Neben Walden waren weitere Akteur:innen an diesem Unternehmen beteiligt, und bisher (Stand November 2022) sind 179 Briefe von drei Künstler:innen an Walden im Portal verfügbar.
+Neben Walden waren weitere Akteur:innen an diesem Unternehmen beteiligt, und bisher (Stand Herbst 2024) sind 179 Briefe von drei Künstler:innen an Walden im Portal verfügbar.
 Zudem wurden die Zeitschrift, Ausstellungskataloge, Jahrbücher, Verlagsschriften und weitere Materialien wie Plakate, Fotografien oder Einladungskarten digitalisiert.
 
 Gehen Sie auf die [Startseite](https://sturm-edition.de/) und lesen Sie die Kurzbeschreibung zu den Briefen, Personen, Orten und Werken, um eine erste Idee vom Material zu bekommen. 
@@ -33,9 +33,9 @@ Eine Codierung in XML bedeutet, dass eine Textdatei mit der [E**x**tensible **M*
 Etwas geläufiger ist Ihnen vermutlich HTML, [**H**yper**t**ext **M**arkup **L**anguage](https://de.wikipedia.org/wiki/Hypertext_Markup_Language), eine Sprache zur Auszeichnung elektronischer Dokumente. 
 Die Prinzipien  sind dabei ähnlich: 
 Festgelegte Elemente werden durch einen öffnenden und einen schließenden Tag ausgezeichnet, z.B.\
-`<salute>Hrzl. Gruß</salute>`,\
-um die Grußformel in einem Brief als solche zu markieren.
-Das hat den Vorteil, dass bei der Suche nach Grußformeln nicht  konkrete Begriffe formuliert werden müssen, sondern nach dem entsprechenden Element <salute> gesucht werden kann, und zwar sowohl vom Menschen als auch von der Maschine.
+`<salute>Hrzl.</salute>`,\
+um die Grußformel in einem Brief (wie in Brief Nummer 8, siehe oben) als solche zu markieren.
+Das hat den Vorteil, dass bei der Suche nach Grußformeln nicht  konkrete Begriffe formuliert werden müssen, sondern nach dem entsprechenden Element `<salute>` gesucht werden kann, und zwar sowohl vom Menschen als auch von der Maschine.
 Darauf kommen wir nochmals zurück.
 Zunächst betrachten wir die Briefe auf der Webseite.
 
