@@ -46,6 +46,6 @@ Dabei gibt es mittlerweile zahlreiche Programme, die über eine graphische Oberf
 Manche Analysen hingegen erfordern sehr spezifische Schritte oder viel Rechenkapazitäten, für die sich das Erlernen einer Programmiersprache lohnen kann.
 Gemeinsam ist beidem, dass es sowohl für das Formulieren einer interessanten Fragestellung, für die Auswahl der Datenbasis als auch für die Interpretation der Ergebnisse, die die Maschine liefert, informierte Expertise braucht -- ein Programm zur Bestimmung der Autor:innenschaft eines unbekannten Textes rechnet unendlich lange, wenn es alle existierenden Texte mit einem unbekannten vergleichen muss;
 hier braucht es eine Eingrenzung auf eine Auswahl durch Literaturwissenschaftler:innen.
-Historische Forschung ist immer auch Analyse des Einzelfalls, das Partikularen, eines *close readings*; 
+Historische Forschung ist immer auch Analyse des Einzelfalls, des Partikularen, eines *close readings*; 
 die Möglichkeit, den Blick mithilfe des Computers auszuweiten, kann in den meisten Fällen gewinnbringend in Betracht gezogen werden.
 
