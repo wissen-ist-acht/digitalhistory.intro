@@ -151,7 +151,7 @@ Ressourcen/Portale:
 
 -   [e-rara](https://www.e-rara.ch/?lang=de): Plattform für digitalisierte Drucke aus Schweizer Institutionen
 
-- [Gallica](https://gallica.bnf.fr/): Digitalisierte Quellen aus französischen Biblioteken
+- [Gallica](https://gallica.bnf.fr/): Digitalisierte Quellen aus französischen Bibliotheken
 
 - [Stapfer Enquête](https://www.stapferenquete.ch/): Edition der Helvetischen Schulumfrage von 1799
 
@@ -165,6 +165,8 @@ Projekte:
 
 - [impresso. Media Monitoring of the Past](https://impresso-project.ch/project/): Projekt zur Aufbereitung, semantischen Anreicherung, Repräsentation, Exploration und Recherche in historischen Medien (Zeitungen und Radio) über Zeit, Sprachen und Nationalgrenzen hinweg
 
+- [Living with Machines](https://livingwithmachines.ac.uk/about/): Forschungsprojekt über die Auswirkungen der Mechanisierung der Arbeit während der Industrialisierung
+
 - [Refugee History](http://refugeehistory.org/): Wissenschaftliches Blog und interaktives Netzwerk zu aktuellen Debatten um das Thema "Flüchtlinge"
 
 Ressourcen/Portale:
@@ -172,6 +174,8 @@ Ressourcen/Portale:
 - [Datenbank Bild + Ton](https://www.bild-video-ton.ch/) zur Geschichte (Schweizer) sozialer Bewegungen
 
 - [Dodis](https://www.dodis.ch/de): Wissenschaftliche Edition von Dokumenten zur Schweizer Außenpolitik
+
+- [Gallica](https://gallica.bnf.fr/): Digitalisierte Quellen aus französischen Bibliotheken
 
 - [e-newspaperarchives.ch](https://www.e-newspaperarchives.ch/): Schweizer Zeitungen online
 
