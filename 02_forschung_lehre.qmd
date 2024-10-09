@@ -153,7 +153,7 @@ Ressourcen/Portale:
 
 - [Gallica](https://gallica.bnf.fr/): Digitalisierte Quellen aus französischen Biblioteken
 
-- [Stapfer Enqête](https://www.stapferenquete.ch/): Edition der Helvetischen Schulumfrage von 1799
+- [Stapfer Enquête](https://www.stapferenquete.ch/): Edition der Helvetischen Schulumfrage von 1799
 
 - [swisscollections](https://swisscollections.ch): Suchplattform für historische Schweizer Bestände
 
