@@ -1,1 +1,1 @@
-{"options":{"chapters":true},"entries":[{"order":{"number":1,"section":[4,4,0,0,0,0,0]},"key":"sec-sicherung","caption":"4.4 Datensicherung"}],"headings":["datenerhebung","datenaufbereitung","datenanalyse","sec-sicherung"]}
+{"options":{"chapters":true},"entries":[{"caption":"4.4 Datensicherung","order":{"section":[4,4,0,0,0,0,0],"number":1},"key":"sec-sicherung"}],"headings":["datenerhebung","datenaufbereitung","datenanalyse","sec-sicherung"]}
