@@ -62,7 +62,7 @@ Eine Auswahl an Tools -- alle kostenfrei/*open source* -- für spezifische Analy
 Für gewisse Analysen bietet es sich an, Programmierkenntnisse zu erwerben -- das Erstellen eigener Skripts, also kleiner Programme, beinhaltet die umfassende Kontrolle darüber, wie Daten eingelesen, aufbereitet, angereichert, analysiert und visualisiert werden;
 bei wiederkehrenden Prozessen, die händisch einige Arbeitszeit in Anspruch nehmen würden, lässt sich so zusätzlich Zeit sparen.
 
-Für geisteswissenschafliche Projekte werden zurzeit vor allem zwei Programmiersprachen genutzt, [R](https://cran.r-project.org/index.html) und [Python](https://www.python.org/). 
+Für geisteswissenschaftliche Projekte werden zurzeit vor allem zwei Programmiersprachen genutzt, [R](https://cran.r-project.org/index.html) und [Python](https://www.python.org/). 
 Da sich beide großer Beliebtheit in den Humanities erfreuen, existieren mittlerweile zahlreiche Packages, die Data und Text Mining, also groß angelegte Daten- und Textanalysen, sehr einfach machen. 
 Solche Packages für Programmiersprachen kann man sich wie Plug-Ins für Programme vorstellen, beispielsweise ein AdBlocker für den Browser.
 So etwas war von den Entwickler:innen ursprünglich nicht vorgesehen, aber jemand hatte Bedarf, Werbeanzeigen zu blockieren, hat hierzu ein Programm geschrieben und es der Allgemeinheit zur Verfügung gestellt.
@@ -189,7 +189,7 @@ Projekte:
 
 Ressourcen/Portale:
 
-- [Blavatnik Archive](https://www.blavatnikarchive.org/): Archiv zur Erhaltung und Verfügbarmachung von Material zur (jüdischen) Geschichte des 20. Jahrhunderts mit Fokus auf die zwei Weltkriege und Sowietrussland. 
+- [Blavatnik Archive](https://www.blavatnikarchive.org/): Archiv zur Erhaltung und Verfügbarmachung von Material zur (jüdischen) Geschichte des 20. Jahrhunderts mit Fokus auf die zwei Weltkriege und Sowjetrussland. 
 
 -   Menny, Anna; Rürup, Miriam; Siegel, Björn: Jüdische Geschichte im deutschsprachigen Raum, in: Busse, Laura u. a. (Hg.): Clio-Guide. Ein Handbuch zu digitalen Ressourcen für die Geschichtswissenschaften, Berlin 2018, S. E.2-1--E.2-56. Online: <https://doi.org/10.18452/19244>.
 
@@ -223,7 +223,7 @@ Projekte:
 
 Ressourcen/Portale:
 
-- [Blavatnik Archive](https://www.blavatnikarchive.org/): Archiv zur Erhaltung und Verfügbarmachung von Material zur (jüdischen) Geschichte des 20. Jahrhunderts mit Fokus auf die zwei Weltkriege und Sowietrussland. 
+- [Blavatnik Archive](https://www.blavatnikarchive.org/): Archiv zur Erhaltung und Verfügbarmachung von Material zur (jüdischen) Geschichte des 20. Jahrhunderts mit Fokus auf die zwei Weltkriege und Sowjetrussland. 
 
 - [The Other Side](http://tastorona.su/): Webarchiv von Interviews ehemaliger Ostarbeiter:innen, Kriegsgefangener und Insassen deutscher Lager; Publikationsplattform
 

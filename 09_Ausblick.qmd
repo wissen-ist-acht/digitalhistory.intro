@@ -31,8 +31,8 @@ Diese Abfolge lässt sich recht unaufwendig auf weitere Dokumente ausweiten -- o
 
 Das Erstellen von Datensätzen nach bestimmten Richtlinien, einerseits formal, andererseits auch mit Blick auf die [FAIR-Prinzipien](05_FAIR_CARE.qmd), bietet also viele Vorteile für die eigene Arbeit -- so müssen beispielsweise Schemata zur Klassifizierung nicht von Neuem erfunden werden -- ebenso wie für die Arbeit anderer -- grundlegende Informationen können übernommen werden und es bleibt mehr Zeit für die inhaltliche Forschung. 
 
-Ein anschauliches Beispiel für die Weiternutzung von Daten  ist das von Studierenden erstellte Projekt [quoteSalute](https://correspsearch.net/de/quotesalute/suche-salutes.html), eine Webseite, auf der Sie historische Grußformeln generieren lassen können, falls Ihnen beim Briefeschreiben der Standardgruß zu langweilig geworden ist. 
-Das Projekt hat hierfür mehrere XML-codierte Briefkorpora,  die alle als offen nutzbare Daten online verfügbar sind, kombiniert, die Grußformeln extrahiert und angereichert. 
+Ein anschauliches Beispiel für die Weiternutzung von Daten ist das von Studierenden erstellte Projekt [quoteSalute](https://correspsearch.net/de/quotesalute/suche-salutes.html), eine Webseite, auf der Sie historische Grußformeln generieren lassen können, falls Ihnen beim Briefeschreiben der Standardgruß zu langweilig geworden ist. 
+Das Projekt hat hierfür mehrere XML-codierte Briefkorpora, die alle als offen nutzbare Daten online verfügbar sind, kombiniert, die Grußformeln extrahiert und angereichert. 
 Die genaue Projektbeschreibung finden Sie [hier](https://correspsearch.net/de/quotesalute/dokumentation.html). 
 
 ![Startseite von quoteSalute](images/screenshot_quotesalute.png){fig-align="left"}
