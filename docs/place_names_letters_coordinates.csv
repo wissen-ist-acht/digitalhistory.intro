@@ -1,178 +1,178 @@
-Column,Address,Latitude,Longitude,Coordinates
-1,Sindelsdorf,47.72458,11.33295,"47.72458, 11.33295"
-2,"Potsdamerstrasse 134a, Berlin W.9. ",52.4977,13.362,"52.4977, 13.362"
-3,Barmen,51.27737,7.19802,"51.27737, 7.19802"
-4,Dresden,51.05089,13.73832,"51.05089, 13.73832"
-5,Barmen,51.27737,7.19802,"51.27737, 7.19802"
-6,Berlin,52.52437,13.41053,"52.52437, 13.41053"
-7,Sindelsdorf,47.72458,11.33295,"47.72458, 11.33295"
-8,"Potsdamerstrasse 134a, Berlin W.9. ",52.4977,13.362,"52.4977, 13.362"
-9,Sindelsdorf,47.72458,11.33295,"47.72458, 11.33295"
-10,"Potsdamerstrasse 134a, Berlin W.9. ",52.4977,13.362,"52.4977, 13.362"
-11,Dresden,51.05089,13.73832,"51.05089, 13.73832"
-12,Gie√üen,48.22301,12.51685,"48.22301, 12.51685"
-13,Tokio,35.683889,139.774444,"35.683889, 139.774444"
-14,Dresden,51.05089,13.73832,"51.05089, 13.73832"
-15,Berlin,52.52437,13.41053,"52.52437, 13.41053"
-16,Dresden,51.05089,13.73832,"51.05089, 13.73832"
-17,M√ºnchen,48.69668,13.46314,"48.69668, 13.46314"
-18,"Potsdamerstrasse 134a, Berlin W.9. ",52.4977,13.362,"52.4977, 13.362"
-19,Breslau,51.1089776,17.0326689,"51.1089776, 17.0326689"
-20,Berlin,52.52437,13.41053,"52.52437, 13.41053"
-21,Bichl,47.71473,11.95996,"47.71473, 11.95996"
-22,"Potsdamerstrasse 134a, Berlin W.9. ",52.4977,13.362,"52.4977, 13.362"
-23,Sindelsdorf,47.72458,11.33295,"47.72458, 11.33295"
-24,"Potsdamerstrasse 134a, Berlin W.9. ",52.4977,13.362,"52.4977, 13.362"
-25,Seefeld,48.69361,16.10611,"48.69361, 16.10611"
-26,Sindelsdorf,47.72458,11.33295,"47.72458, 11.33295"
-27,Sindelsdorf,47.72458,11.33295,"47.72458, 11.33295"
-28,"Potsdamerstrasse 134a, Berlin W.9. ",52.4977,13.362,"52.4977, 13.362"
-29,Ried,48.23889,16.51417,"48.23889, 16.51417"
-30,Benediktbeuern ,47.7,11.4,"47.7, 11.4"
-31,Sindelsdorf,47.72458,11.33295,"47.72458, 11.33295"
-32,"Potsdamerstrasse 134a, Berlin W.9. ",52.4977,13.362,"52.4977, 13.362"
-33,Breslau,51.1089776,17.0326689,"51.1089776, 17.0326689"
-34,Tunis,36.81897,10.16579,"36.81897, 10.16579"
-35,Sindelsdorf,47.72458,11.33295,"47.72458, 11.33295"
-36,"Potsdamerstrasse 134a, Berlin W.9. ",52.4977,13.362,"52.4977, 13.362"
-37,Benediktbeuern ,47.7,11.4,"47.7, 11.4"
-38,"Potsdamerstrasse 134a, Berlin W.9. ",52.4977,13.362,"52.4977, 13.362"
-39,Benediktbeuern ,47.7,11.4,"47.7, 11.4"
-40,"Potsdamerstrasse 134a, Berlin W.9. ",52.4977,13.362,"52.4977, 13.362"
-41,M√ºnchen,48.69668,13.46314,"48.69668, 13.46314"
-42,Ried,48.23889,16.51417,"48.23889, 16.51417"
-43,Ried,48.23889,16.51417,"48.23889, 16.51417"
-44,Ried,48.23889,16.51417,"48.23889, 16.51417"
-45,M√ºnchen,48.69668,13.46314,"48.69668, 13.46314"
-46,Benediktbeuern ,47.7,11.4,"47.7, 11.4"
-47,"Potsdamerstrasse 134a, Berlin W.9. ",52.4977,13.362,"52.4977, 13.362"
-48,Benediktbeuern ,47.7,11.4,"47.7, 11.4"
-49,"Potsdamerstrasse 134a, Berlin W.9. ",52.4977,13.362,"52.4977, 13.362"
-50,Amsterdam,52.37403,4.88969,"52.37403, 4.88969"
-51,Amsterdam,52.37403,4.88969,"52.37403, 4.88969"
-52,Benediktbeuern ,47.7,11.4,"47.7, 11.4"
-53,Benediktbeuern ,47.7,11.4,"47.7, 11.4"
-54,"Potsdamerstrasse 134a, Berlin W.9. ",52.4977,13.362,"52.4977, 13.362"
-55,Benediktbeuern ,47.7,11.4,"47.7, 11.4"
-56,"Potsdamerstrasse 134a, Berlin W.9. ",52.4977,13.362,"52.4977, 13.362"
-57,Berlin,52.52437,13.41053,"52.52437, 13.41053"
-58,Wilmersdorf,52.48333,13.31667,"52.48333, 13.31667"
-59,"Loverendale, Domburg ",51.5648401,3.4983116,"51.5648401, 3.4983116"
-60,"Potsdamerstrasse 134a, Berlin W.9. ",52.4977,13.362,"52.4977, 13.362"
-61,Holland,52.2434979,5.6343227,"52.2434979, 5.6343227"
-62,Domburg,51.563333,3.499833,"51.563333, 3.499833"
-63,Stra√üburg,49.55239,8.85112,"49.55239, 8.85112"
-64,"Potsdamerstrasse 134a, Berlin W.9. ",52.4977,13.362,"52.4977, 13.362"
-65,Stra√üburg,49.55239,8.85112,"49.55239, 8.85112"
-66,Belfort,47.64218,6.85385,"47.64218, 6.85385"
-67,Belfort,47.64218,6.85385,"47.64218, 6.85385"
-68,"Loverendale, Domburg ",51.5648401,3.4983116,"51.5648401, 3.4983116"
-69,"Potsdamerstrasse 134a, Berlin W.9. ",52.4977,13.362,"52.4977, 13.362"
-70,Leuven,50.87959,4.70093,"50.87959, 4.70093"
-71,Domburg,51.563333,3.499833,"51.563333, 3.499833"
-73,"Potsdamerstrasse 134a, Berlin W.9. ",52.4977,13.362,"52.4977, 13.362"
-74,Ried,48.23889,16.51417,"48.23889, 16.51417"
-75,M√ºnchen,48.69668,13.46314,"48.69668, 13.46314"
-76,"35, Nassau Zuilensteinstraat, Den Haag ",52.0891278,4.3118933,"52.0891278, 4.3118933"
-77,"Potsdamerstrasse 134a, Berlin W.9. ",52.4977,13.362,"52.4977, 13.362"
-78,Feldpoststation A.A. Falkenhausen ,49.1277088,10.7016021,"49.1277088, 10.7016021"
-79,"Potsdamerstrasse 134a, Berlin W.9. ",52.4977,13.362,"52.4977, 13.362"
-80,Feldpoststation A.A. Falkenhausen ,49.1277088,10.7016021,"49.1277088, 10.7016021"
-81,"Potsdamerstrasse 134a, Berlin W.9. ",52.4977,13.362,"52.4977, 13.362"
-82,Deutschland,51.1638175,10.4478313,"51.1638175,10.4478313"
-83,Feldpoststation A.A. Falkenhausen ,49.1277088,10.7016021,"49.1277088, 10.7016021"
-84,"Potsdamerstrasse 134a, Berlin W.9. ",52.4977,13.362,"52.4977, 13.362"
-85,"35, Nassau Zuilensteinstraat, Den Haag ",52.0891278,4.3118933,"52.0891278, 4.3118933"
-86,"Potsdamerstrasse 134a, Berlin W.9. ",52.4977,13.362,"52.4977, 13.362"
-87,Rotterdam,51.9225,4.47917,"51.9225, 4.47917"
-88,Rotterdam,51.9225,4.47917,"51.9225, 4.47917"
-89,Zeeland,51.41667,3.75,"51.41667, 3.75"
-90,Holland,52.2434979,5.6343227,"52.2434979, 5.6343227"
-91,Holland,52.2434979,5.6343227,"52.2434979, 5.6343227"
-92,Holland,52.2434979,5.6343227,"52.2434979, 5.6343227"
-93,Paris,48.85341,2.3488,"48.85341, 2.3488"
-94,Rotterdam,51.9225,4.47917,"51.9225, 4.47917"
-95,Rotterdam,51.9225,4.47917,"51.9225, 4.47917"
-96,Domburg,51.563333,3.499833,"51.563333, 3.499833"
-97,Amsterdam,52.37403,4.88969,"52.37403, 4.88969"
-98,Berlin,52.52437,13.41053,"52.52437, 13.41053"
-99,"35, Nassau Zuilensteinstraat, Den Haag ",52.0891278,4.3118933,"52.0891278, 4.3118933"
-100,"Potsdamerstrasse 134a, Berlin W.9. ",52.4977,13.362,"52.4977, 13.362"
-101,Berlin,52.52437,13.41053,"52.52437, 13.41053"
-102,Rotterdam,51.9225,4.47917,"51.9225, 4.47917"
-103,Domburg,51.563333,3.499833,"51.563333, 3.499833"
-104,Middelburg,51.5,3.61389,"51.5, 3.61389"
-105,Zeeland,51.41667,3.75,"51.41667, 3.75"
-106,Den Haag,52.084167,4.3175,"52.084167, 4.3175"
-107,Amsterdam,52.37403,4.88969,"52.37403, 4.88969"
-108,Rotterdam,51.9225,4.47917,"51.9225, 4.47917"
-109,Scheveningen,52.10461,4.27557,"52.10461, 4.27557"
-110,Zwolle,52.5125,6.09444,"52.5125, 6.09444"
-111,Holland,52.2434979,5.6343227,"52.2434979, 5.6343227"
-112,Domburg,51.563333,3.499833,"51.563333, 3.499833"
-113,Ensisheim,47.86584,7.35052,"47.86584, 7.35052"
-114,"Potsdamerstrasse 134a, Berlin W.9. ",52.4977,13.362,"52.4977, 13.362"
-116,"Potsdamerstrasse 134a, Berlin W.9. ",52.4977,13.362,"52.4977, 13.362"
-117,Dresden,51.05089,13.73832,"51.05089, 13.73832"
-118,Berlin,52.52437,13.41053,"52.52437, 13.41053"
-119,Ried,48.23889,16.51417,"48.23889, 16.51417"
-120,Hamburg,53.55073,9.99302,"53.55073, 9.99302"
-122,"Potsdamerstrasse 134a, Berlin W.9. ",52.4977,13.362,"52.4977, 13.362"
-123,Berlin,52.52437,13.41053,"52.52437, 13.41053"
-124,Ried,48.23889,16.51417,"48.23889, 16.51417"
-125,Hamburg,53.55073,9.99302,"53.55073, 9.99302"
-127,"Potsdamerstrasse 134a, Berlin W.9. ",52.4977,13.362,"52.4977, 13.362"
-129,"Potsdamerstrasse 134a, Berlin W.9. ",52.4977,13.362,"52.4977, 13.362"
-131,"Potsdamerstrasse 134a, Berlin W.9. ",52.4977,13.362,"52.4977, 13.362"
-133,"Potsdamerstrasse 134a, Berlin W.9. ",52.4977,13.362,"52.4977, 13.362"
-134,Kopenhagen,55.67594,12.56553,"55.67594, 12.56553"
-136,"Potsdamerstrasse 134a, Berlin W.9. ",52.4977,13.362,"52.4977, 13.362"
-137,Ried,48.23889,16.51417,"48.23889, 16.51417"
-138,Ried,48.23889,16.51417,"48.23889, 16.51417"
-139,Ried,48.23889,16.51417,"48.23889, 16.51417"
-140,"Potsdamerstrasse 134a, Berlin W.9. ",52.4977,13.362,"52.4977, 13.362"
-141,Ried,48.23889,16.51417,"48.23889, 16.51417"
-142,"Loverendale, Domburg ",51.5648401,3.4983116,"51.5648401, 3.4983116"
-143,"Potsdamerstrasse 134a, Berlin W.9. ",52.4977,13.362,"52.4977, 13.362"
-144,Kofno ,54.8900919,23.7871804,"54.8900919, 23.7871804"
-145,Russland ,64.6863136,97.7453061,"64.6863136, 97.7453061"
-146,Stockholm,59.32938,18.06871,"59.32938, 18.06871"
-147,Russland,67.79601,15.31151,"67.79601, 15.31151"
-149,"Potsdamerstrasse 134a, Berlin W.9. ",52.4977,13.362,"52.4977, 13.362"
-151,"Potsdamerstrasse 134a, Berlin W.9. ",52.4977,13.362,"52.4977, 13.362"
-153,"Potsdamerstrasse 134a, Berlin W.9. ",52.4977,13.362,"52.4977, 13.362"
-155,"Potsdamerstrasse 134a, Berlin W.9. ",52.4977,13.362,"52.4977, 13.362"
-157,"Potsdamerstrasse 134a, Berlin W.9. ",52.4977,13.362,"52.4977, 13.362"
-159,"Potsdamerstrasse 134a, Berlin W.9. ",52.4977,13.362,"52.4977, 13.362"
-160,"Loverendale, Domburg ",51.5648401,3.4983116,"51.5648401, 3.4983116"
-161,"Potsdamerstrasse 134a, Berlin W.9. ",52.4977,13.362,"52.4977, 13.362"
-162,Berlin,52.52437,13.41053,"52.52437, 13.41053"
-163,Den Haag,52.084167,4.3175,"52.084167, 4.3175"
-164,Den Haag,52.084167,4.3175,"52.084167, 4.3176"
-165,Den Haag,52.084167,4.3175,"52.084167, 4.3177"
-166,Balkan,44,23,"44, 23"
-167,Konstantinopel,41.009167,28.975833,"41.009167, 28.975833"
-168,Aegypten,52.45222,7.85247,"52.45222, 7.85247"
-169,England,53,-2,"53, -2"
-171,"Potsdamerstrasse 134a, Berlin W.9. ",52.4977,13.362,"52.4977, 13.362"
-172,Stockholm,59.32938,18.06871,"59.32938, 18.06871"
-173,Hartmannsweiler Kopf ,47.8605691,7.1518008,"47.8605691, 7.1518008"
-175,"Potsdamerstrasse 134a, Berlin W.9. ",52.4977,13.362,"52.4977, 13.362"
-176,M√ºnchen,48.69668,13.46314,"48.69668, 13.46314"
-177,"Potsdamerstrasse 134a, Berlin W.9. ",52.4977,13.362,"52.4977, 13.362"
-178,Ried,48.23889,16.51417,"48.23889, 16.51417"
-179,M√ºnchen,48.69668,13.46314,"48.69668, 13.46314"
-181,"Potsdamerstrasse 134a, Berlin W.9. ",52.4977,13.362,"52.4977, 13.362"
-183,"Potsdamerstrasse 134a, Berlin W.9. ",52.4977,13.362,"52.4977, 13.362"
-185,"Potsdamerstrasse 134a, Berlin W.9. ",52.4977,13.362,"52.4977, 13.362"
-186,Berlin,52.52437,13.41053,"52.52437, 13.41053"
-188,"Potsdamerstrasse 134a, Berlin W.9. ",52.4977,13.362,"52.4977, 13.362"
-189,Schweiz,50.7,12.51667,"50.7, 12.51667"
-191,"Potsdamerstrasse 134a, Berlin W.9. ",52.4977,13.362,"52.4977, 13.362"
-193,"Potsdamerstrasse 134a, Berlin W.9. ",52.4977,13.362,"52.4977, 13.362"
-195,"Potsdamerstrasse 134a, Berlin W.9. ",52.4977,13.362,"52.4977, 13.362"
-196,Den Haag,52.084167,4.3175,"52.084167, 4.3175"
-197,Den Haag,52.084167,4.3175,"52.084167, 4.3175"
-198,Den Haag,52.084167,4.3175,"52.084167, 4.3175"
-199,Den Haag,52.084167,4.3175,"52.084167, 4.3175"
-200,Berlin,52.52437,13.41053,"52.52437, 13.41053"
+letter ID,Address,Latitude,Longitude,Coordinates,date,sender,receiver
+1,Sindelsdorf,47.72458,11.33295,"47.72458, 11.33295",19.04.1921,Franz Marc,Herwarth Walden
+2,"Potsdamerstrasse 134a, Berlin W.9. ",52.4977,13.362,"52.4977, 13.362",20.04.1921,Franz Marc,Herwarth Walden
+3,Barmen,51.27737,7.19802,"51.27737, 7.19802",21.04.1921,Franz Marc,Herwarth Walden
+4,Dresden,51.05089,13.73832,"51.05089, 13.73832",22.04.1921,Franz Marc,Herwarth Walden
+5,Barmen,51.27737,7.19802,"51.27737, 7.19802",23.04.1921,Franz Marc,Herwarth Walden
+6,Berlin,52.52437,13.41053,"52.52437, 13.41053",24.04.1921,Franz Marc,Herwarth Walden
+7,Sindelsdorf,47.72458,11.33295,"47.72458, 11.33295",25.04.1921,Franz Marc,Herwarth Walden
+8,"Potsdamerstrasse 134a, Berlin W.9. ",52.4977,13.362,"52.4977, 13.362",26.04.1921,Jacoba van Hemskeerk,Herwarth Walden
+9,Sindelsdorf,47.72458,11.33295,"47.72458, 11.33295",27.04.1921,Jacoba van Hemskeerk,Herwarth Walden
+10,"Potsdamerstrasse 134a, Berlin W.9. ",52.4977,13.362,"52.4977, 13.362",28.04.1921,Jacoba van Hemskeerk,Herwarth Walden
+11,Dresden,51.05089,13.73832,"51.05089, 13.73832",29.04.1921,Jacoba van Hemskeerk,Herwarth Walden
+12,Gie√üen,48.22301,12.51685,"48.22301, 12.51685",30.04.1921,Jacoba van Hemskeerk,Herwarth Walden
+13,Tokio,35.683889,139.774444,"35.683889, 139.774444",01.05.1921,Jacoba van Hemskeerk,Herwarth Walden
+14,Dresden,51.05089,13.73832,"51.05089, 13.73832",02.05.1921,Jacoba van Hemskeerk,Herwarth Walden
+15,Berlin,52.52437,13.41053,"52.52437, 13.41053",03.05.1921,Jacoba van Hemskeerk,Herwarth Walden
+16,Dresden,51.05089,13.73832,"51.05089, 13.73832",04.05.1921,Jacoba van Hemskeerk,Herwarth Walden
+17,M√ºnchen,48.69668,13.46314,"48.69668, 13.46314",05.05.1921,Jacoba van Hemskeerk,Herwarth Walden
+18,"Potsdamerstrasse 134a, Berlin W.9. ",52.4977,13.362,"52.4977, 13.362",06.05.1921,Käthe Kollwitz,Herwarth Walden
+19,Breslau,51.1089776,17.0326689,"51.1089776, 17.0326689",07.05.1921,Käthe Kollwitz,Herwarth Walden
+20,Berlin,52.52437,13.41053,"52.52437, 13.41053",08.05.1921,Käthe Kollwitz,Herwarth Walden
+21,Bichl,47.71473,11.95996,"47.71473, 11.95996",09.05.1921,Käthe Kollwitz,Herwarth Walden
+22,"Potsdamerstrasse 134a, Berlin W.9. ",52.4977,13.362,"52.4977, 13.362",10.05.1921,Käthe Kollwitz,Herwarth Walden
+23,Sindelsdorf,47.72458,11.33295,"47.72458, 11.33295",11.05.1921,Käthe Kollwitz,Herwarth Walden
+24,"Potsdamerstrasse 134a, Berlin W.9. ",52.4977,13.362,"52.4977, 13.362",12.05.1921,Käthe Kollwitz,Herwarth Walden
+25,Seefeld,48.69361,16.10611,"48.69361, 16.10611",13.05.1921,Käthe Kollwitz,Herwarth Walden
+26,Sindelsdorf,47.72458,11.33295,"47.72458, 11.33295",14.05.1921,Käthe Kollwitz,Herwarth Walden
+27,Sindelsdorf,47.72458,11.33295,"47.72458, 11.33295",15.05.1921,Käthe Kollwitz,Herwarth Walden
+28,"Potsdamerstrasse 134a, Berlin W.9. ",52.4977,13.362,"52.4977, 13.362",16.05.1921,Käthe Kollwitz,Herwarth Walden
+29,Ried,48.23889,16.51417,"48.23889, 16.51417",17.05.1921,Käthe Kollwitz,Herwarth Walden
+30,Benediktbeuern ,47.7,11.4,"47.7, 11.4",18.05.1921,Herwarth Walden,Franz Marc
+31,Sindelsdorf,47.72458,11.33295,"47.72458, 11.33295",19.05.1921,Herwarth Walden,Franz Marc
+32,"Potsdamerstrasse 134a, Berlin W.9. ",52.4977,13.362,"52.4977, 13.362",20.05.1921,Herwarth Walden,Franz Marc
+33,Breslau,51.1089776,17.0326689,"51.1089776, 17.0326689",21.05.1921,Herwarth Walden,Franz Marc
+34,Tunis,36.81897,10.16579,"36.81897, 10.16579",22.05.1921,Herwarth Walden,Franz Marc
+35,Sindelsdorf,47.72458,11.33295,"47.72458, 11.33295",23.05.1921,Herwarth Walden,Franz Marc
+36,"Potsdamerstrasse 134a, Berlin W.9. ",52.4977,13.362,"52.4977, 13.362",24.05.1921,Herwarth Walden,Franz Marc
+37,Benediktbeuern ,47.7,11.4,"47.7, 11.4",25.05.1921,Herwarth Walden,Jacoba van Hemskeerk
+38,"Potsdamerstrasse 134a, Berlin W.9. ",52.4977,13.362,"52.4977, 13.362",26.05.1921,Herwarth Walden,Jacoba van Hemskeerk
+39,Benediktbeuern ,47.7,11.4,"47.7, 11.4",27.05.1921,Herwarth Walden,Jacoba van Hemskeerk
+40,"Potsdamerstrasse 134a, Berlin W.9. ",52.4977,13.362,"52.4977, 13.362",28.05.1921,Herwarth Walden,Jacoba van Hemskeerk
+41,M√ºnchen,48.69668,13.46314,"48.69668, 13.46314",29.05.1921,Herwarth Walden,Jacoba van Hemskeerk
+42,Ried,48.23889,16.51417,"48.23889, 16.51417",30.05.1921,Herwarth Walden,Jacoba van Hemskeerk
+43,Ried,48.23889,16.51417,"48.23889, 16.51417",31.05.1921,Herwarth Walden,Jacoba van Hemskeerk
+44,Ried,48.23889,16.51417,"48.23889, 16.51417",01.06.1921,Herwarth Walden,Jacoba van Hemskeerk
+45,M√ºnchen,48.69668,13.46314,"48.69668, 13.46314",02.06.1921,Jacoba van Hemskeerk,Franz Marc
+46,Benediktbeuern ,47.7,11.4,"47.7, 11.4",03.06.1921,Jacoba van Hemskeerk,Franz Marc
+47,"Potsdamerstrasse 134a, Berlin W.9. ",52.4977,13.362,"52.4977, 13.362",04.06.1921,Jacoba van Hemskeerk,Franz Marc
+48,Benediktbeuern ,47.7,11.4,"47.7, 11.4",05.06.1921,Jacoba van Hemskeerk,Franz Marc
+49,"Potsdamerstrasse 134a, Berlin W.9. ",52.4977,13.362,"52.4977, 13.362",06.06.1921,Jacoba van Hemskeerk,Franz Marc
+50,Amsterdam,52.37403,4.88969,"52.37403, 4.88969",07.06.1921,Jacoba van Hemskeerk,Franz Marc
+51,Amsterdam,52.37403,4.88969,"52.37403, 4.88969",08.06.1921,Jacoba van Hemskeerk,Franz Marc
+52,Benediktbeuern ,47.7,11.4,"47.7, 11.4",09.06.1921,Jacoba van Hemskeerk,Franz Marc
+53,Benediktbeuern ,47.7,11.4,"47.7, 11.4",10.06.1921,Jacoba van Hemskeerk,Franz Marc
+54,"Potsdamerstrasse 134a, Berlin W.9. ",52.4977,13.362,"52.4977, 13.362",11.06.1921,Jacoba van Hemskeerk,Franz Marc
+55,Benediktbeuern ,47.7,11.4,"47.7, 11.4",12.06.1921,Jacoba van Hemskeerk,Franz Marc
+56,"Potsdamerstrasse 134a, Berlin W.9. ",52.4977,13.362,"52.4977, 13.362",13.06.1921,Jacoba van Hemskeerk,Franz Marc
+57,Berlin,52.52437,13.41053,"52.52437, 13.41053",14.06.1921,Jacoba van Hemskeerk,Franz Marc
+58,Wilmersdorf,52.48333,13.31667,"52.48333, 13.31667",15.06.1921,Jacoba van Hemskeerk,Franz Marc
+59,"Loverendale, Domburg ",51.5648401,3.4983116,"51.5648401, 3.4983116",16.06.1921,Jacoba van Hemskeerk,Franz Marc
+60,"Potsdamerstrasse 134a, Berlin W.9. ",52.4977,13.362,"52.4977, 13.362",17.06.1921,Jacoba van Hemskeerk,Franz Marc
+61,Holland,52.2434979,5.6343227,"52.2434979, 5.6343227",18.06.1921,Jacoba van Hemskeerk,Franz Marc
+62,Domburg,51.563333,3.499833,"51.563333, 3.499833",19.06.1921,Jacoba van Hemskeerk,Franz Marc
+63,Stra√üburg,49.55239,8.85112,"49.55239, 8.85112",20.06.1921,Jacoba van Hemskeerk,Franz Marc
+64,"Potsdamerstrasse 134a, Berlin W.9. ",52.4977,13.362,"52.4977, 13.362",21.06.1921,Jacoba van Hemskeerk,Franz Marc
+65,Stra√üburg,49.55239,8.85112,"49.55239, 8.85112",22.06.1921,Käthe Kollwitz,Franz Marc
+66,Belfort,47.64218,6.85385,"47.64218, 6.85385",23.06.1921,Käthe Kollwitz,Franz Marc
+67,Belfort,47.64218,6.85385,"47.64218, 6.85385",24.06.1921,Käthe Kollwitz,Franz Marc
+68,"Loverendale, Domburg ",51.5648401,3.4983116,"51.5648401, 3.4983116",25.06.1921,Käthe Kollwitz,Franz Marc
+69,"Potsdamerstrasse 134a, Berlin W.9. ",52.4977,13.362,"52.4977, 13.362",26.06.1921,Käthe Kollwitz,Franz Marc
+70,Leuven,50.87959,4.70093,"50.87959, 4.70093",27.06.1921,Käthe Kollwitz,Franz Marc
+71,Domburg,51.563333,3.499833,"51.563333, 3.499833",28.06.1921,Käthe Kollwitz,Franz Marc
+73,"Potsdamerstrasse 134a, Berlin W.9. ",52.4977,13.362,"52.4977, 13.362",29.06.1921,Käthe Kollwitz,Franz Marc
+74,Ried,48.23889,16.51417,"48.23889, 16.51417",30.06.1921,Käthe Kollwitz,Franz Marc
+75,M√ºnchen,48.69668,13.46314,"48.69668, 13.46314",01.07.1921,Käthe Kollwitz,Franz Marc
+76,"35, Nassau Zuilensteinstraat, Den Haag ",52.0891278,4.3118933,"52.0891278, 4.3118933",02.07.1921,Käthe Kollwitz,Franz Marc
+77,"Potsdamerstrasse 134a, Berlin W.9. ",52.4977,13.362,"52.4977, 13.362",03.07.1921,Franz Marc,Herwarth Walden
+78,Feldpoststation A.A. Falkenhausen ,49.1277088,10.7016021,"49.1277088, 10.7016021",04.07.1921,Franz Marc,Herwarth Walden
+79,"Potsdamerstrasse 134a, Berlin W.9. ",52.4977,13.362,"52.4977, 13.362",05.07.1921,Franz Marc,Herwarth Walden
+80,Feldpoststation A.A. Falkenhausen ,49.1277088,10.7016021,"49.1277088, 10.7016021",06.07.1921,Franz Marc,Herwarth Walden
+81,"Potsdamerstrasse 134a, Berlin W.9. ",52.4977,13.362,"52.4977, 13.362",07.07.1921,Franz Marc,Herwarth Walden
+82,Deutschland,51.1638175,10.4478313,"51.1638175,10.4478313",08.07.1921,Franz Marc,Herwarth Walden
+83,Feldpoststation A.A. Falkenhausen ,49.1277088,10.7016021,"49.1277088, 10.7016021",09.07.1921,Franz Marc,Herwarth Walden
+84,"Potsdamerstrasse 134a, Berlin W.9. ",52.4977,13.362,"52.4977, 13.362",10.07.1921,Franz Marc,Herwarth Walden
+85,"35, Nassau Zuilensteinstraat, Den Haag ",52.0891278,4.3118933,"52.0891278, 4.3118933",11.07.1921,Franz Marc,Herwarth Walden
+86,"Potsdamerstrasse 134a, Berlin W.9. ",52.4977,13.362,"52.4977, 13.362",12.07.1921,Franz Marc,Herwarth Walden
+87,Rotterdam,51.9225,4.47917,"51.9225, 4.47917",13.07.1921,Franz Marc,Herwarth Walden
+88,Rotterdam,51.9225,4.47917,"51.9225, 4.47917",14.07.1921,Franz Marc,Herwarth Walden
+89,Zeeland,51.41667,3.75,"51.41667, 3.75",15.07.1921,Franz Marc,Herwarth Walden
+90,Holland,52.2434979,5.6343227,"52.2434979, 5.6343227",16.07.1921,Franz Marc,Herwarth Walden
+91,Holland,52.2434979,5.6343227,"52.2434979, 5.6343227",17.07.1921,Franz Marc,Herwarth Walden
+92,Holland,52.2434979,5.6343227,"52.2434979, 5.6343227",18.07.1921,Franz Marc,Herwarth Walden
+93,Paris,48.85341,2.3488,"48.85341, 2.3488",19.07.1921,Franz Marc,Herwarth Walden
+94,Rotterdam,51.9225,4.47917,"51.9225, 4.47917",20.07.1921,Franz Marc,Herwarth Walden
+95,Rotterdam,51.9225,4.47917,"51.9225, 4.47917",21.07.1921,Franz Marc,Herwarth Walden
+96,Domburg,51.563333,3.499833,"51.563333, 3.499833",22.07.1921,Franz Marc,Herwarth Walden
+97,Amsterdam,52.37403,4.88969,"52.37403, 4.88969",23.07.1921,Franz Marc,Herwarth Walden
+98,Berlin,52.52437,13.41053,"52.52437, 13.41053",24.07.1921,Franz Marc,Herwarth Walden
+99,"35, Nassau Zuilensteinstraat, Den Haag ",52.0891278,4.3118933,"52.0891278, 4.3118933",25.07.1921,Franz Marc,Herwarth Walden
+100,"Potsdamerstrasse 134a, Berlin W.9. ",52.4977,13.362,"52.4977, 13.362",26.07.1921,Franz Marc,Herwarth Walden
+101,Berlin,52.52437,13.41053,"52.52437, 13.41053",27.07.1921,Franz Marc,Herwarth Walden
+102,Rotterdam,51.9225,4.47917,"51.9225, 4.47917",28.07.1921,Franz Marc,Herwarth Walden
+103,Domburg,51.563333,3.499833,"51.563333, 3.499833",29.07.1921,Franz Marc,Herwarth Walden
+104,Middelburg,51.5,3.61389,"51.5, 3.61389",30.07.1921,Franz Marc,Herwarth Walden
+105,Zeeland,51.41667,3.75,"51.41667, 3.75",31.07.1921,Franz Marc,Herwarth Walden
+106,Den Haag,52.084167,4.3175,"52.084167, 4.3175",01.08.1921,Franz Marc,Herwarth Walden
+107,Amsterdam,52.37403,4.88969,"52.37403, 4.88969",02.08.1921,Franz Marc,Herwarth Walden
+108,Rotterdam,51.9225,4.47917,"51.9225, 4.47917",03.08.1921,Franz Marc,Herwarth Walden
+109,Scheveningen,52.10461,4.27557,"52.10461, 4.27557",04.08.1921,Franz Marc,Herwarth Walden
+110,Zwolle,52.5125,6.09444,"52.5125, 6.09444",05.08.1921,Franz Marc,Herwarth Walden
+111,Holland,52.2434979,5.6343227,"52.2434979, 5.6343227",06.08.1921,Franz Marc,Herwarth Walden
+112,Domburg,51.563333,3.499833,"51.563333, 3.499833",07.08.1921,Franz Marc,Herwarth Walden
+113,Ensisheim,47.86584,7.35052,"47.86584, 7.35052",08.08.1921,Franz Marc,Herwarth Walden
+114,"Potsdamerstrasse 134a, Berlin W.9. ",52.4977,13.362,"52.4977, 13.362",09.08.1921,Franz Marc,Herwarth Walden
+116,"Potsdamerstrasse 134a, Berlin W.9. ",52.4977,13.362,"52.4977, 13.362",10.08.1921,Franz Marc,Herwarth Walden
+117,Dresden,51.05089,13.73832,"51.05089, 13.73832",11.08.1921,Franz Marc,Herwarth Walden
+118,Berlin,52.52437,13.41053,"52.52437, 13.41053",12.08.1921,Franz Marc,Herwarth Walden
+119,Ried,48.23889,16.51417,"48.23889, 16.51417",13.08.1921,Franz Marc,Herwarth Walden
+120,Hamburg,53.55073,9.99302,"53.55073, 9.99302",14.08.1921,Franz Marc,Herwarth Walden
+122,"Potsdamerstrasse 134a, Berlin W.9. ",52.4977,13.362,"52.4977, 13.362",15.08.1921,Franz Marc,Herwarth Walden
+123,Berlin,52.52437,13.41053,"52.52437, 13.41053",16.08.1921,Franz Marc,Herwarth Walden
+124,Ried,48.23889,16.51417,"48.23889, 16.51417",17.08.1921,Franz Marc,Herwarth Walden
+125,Hamburg,53.55073,9.99302,"53.55073, 9.99302",18.08.1921,Franz Marc,Herwarth Walden
+127,"Potsdamerstrasse 134a, Berlin W.9. ",52.4977,13.362,"52.4977, 13.362",19.08.1921,Franz Marc,Herwarth Walden
+129,"Potsdamerstrasse 134a, Berlin W.9. ",52.4977,13.362,"52.4977, 13.362",20.08.1921,Franz Marc,Herwarth Walden
+131,"Potsdamerstrasse 134a, Berlin W.9. ",52.4977,13.362,"52.4977, 13.362",21.08.1921,Franz Marc,Herwarth Walden
+133,"Potsdamerstrasse 134a, Berlin W.9. ",52.4977,13.362,"52.4977, 13.362",22.08.1921,Franz Marc,Herwarth Walden
+134,Kopenhagen,55.67594,12.56553,"55.67594, 12.56553",23.08.1921,Franz Marc,Herwarth Walden
+136,"Potsdamerstrasse 134a, Berlin W.9. ",52.4977,13.362,"52.4977, 13.362",24.08.1921,Franz Marc,Herwarth Walden
+137,Ried,48.23889,16.51417,"48.23889, 16.51417",25.08.1921,Franz Marc,Herwarth Walden
+138,Ried,48.23889,16.51417,"48.23889, 16.51417",26.08.1921,Franz Marc,Herwarth Walden
+139,Ried,48.23889,16.51417,"48.23889, 16.51417",27.08.1921,Franz Marc,Herwarth Walden
+140,"Potsdamerstrasse 134a, Berlin W.9. ",52.4977,13.362,"52.4977, 13.362",28.08.1921,Franz Marc,Herwarth Walden
+141,Ried,48.23889,16.51417,"48.23889, 16.51417",29.08.1921,Franz Marc,Herwarth Walden
+142,"Loverendale, Domburg ",51.5648401,3.4983116,"51.5648401, 3.4983116",30.08.1921,Franz Marc,Herwarth Walden
+143,"Potsdamerstrasse 134a, Berlin W.9. ",52.4977,13.362,"52.4977, 13.362",31.08.1921,Franz Marc,Herwarth Walden
+144,Kofno ,54.8900919,23.7871804,"54.8900919, 23.7871804",01.09.1921,Franz Marc,Herwarth Walden
+145,Russland ,64.6863136,97.7453061,"64.6863136, 97.7453061",02.09.1921,Franz Marc,Herwarth Walden
+146,Stockholm,59.32938,18.06871,"59.32938, 18.06871",03.09.1921,Franz Marc,Herwarth Walden
+147,Russland,67.79601,15.31151,"67.79601, 15.31151",04.09.1921,Franz Marc,Herwarth Walden
+149,"Potsdamerstrasse 134a, Berlin W.9. ",52.4977,13.362,"52.4977, 13.362",05.09.1921,Franz Marc,Herwarth Walden
+151,"Potsdamerstrasse 134a, Berlin W.9. ",52.4977,13.362,"52.4977, 13.362",06.09.1921,Franz Marc,Herwarth Walden
+153,"Potsdamerstrasse 134a, Berlin W.9. ",52.4977,13.362,"52.4977, 13.362",07.09.1921,Franz Marc,Herwarth Walden
+155,"Potsdamerstrasse 134a, Berlin W.9. ",52.4977,13.362,"52.4977, 13.362",08.09.1921,Franz Marc,Herwarth Walden
+157,"Potsdamerstrasse 134a, Berlin W.9. ",52.4977,13.362,"52.4977, 13.362",09.09.1921,Franz Marc,Herwarth Walden
+159,"Potsdamerstrasse 134a, Berlin W.9. ",52.4977,13.362,"52.4977, 13.362",10.09.1921,Franz Marc,Herwarth Walden
+160,"Loverendale, Domburg ",51.5648401,3.4983116,"51.5648401, 3.4983116",11.09.1921,Franz Marc,Herwarth Walden
+161,"Potsdamerstrasse 134a, Berlin W.9. ",52.4977,13.362,"52.4977, 13.362",12.09.1921,Franz Marc,Herwarth Walden
+162,Berlin,52.52437,13.41053,"52.52437, 13.41053",13.09.1921,Franz Marc,Herwarth Walden
+163,Den Haag,52.084167,4.3175,"52.084167, 4.3175",14.09.1921,Franz Marc,Herwarth Walden
+164,Den Haag,52.084167,4.3175,"52.084167, 4.3176",15.09.1921,Franz Marc,Herwarth Walden
+165,Den Haag,52.084167,4.3175,"52.084167, 4.3177",16.09.1921,Franz Marc,Herwarth Walden
+166,Balkan,44,23,"44, 23",17.09.1921,Franz Marc,Herwarth Walden
+167,Konstantinopel,41.009167,28.975833,"41.009167, 28.975833",18.09.1921,Franz Marc,Herwarth Walden
+168,Aegypten,52.45222,7.85247,"52.45222, 7.85247",19.09.1921,Franz Marc,Herwarth Walden
+169,England,53,-2,"53, -2",20.09.1921,Franz Marc,Herwarth Walden
+171,"Potsdamerstrasse 134a, Berlin W.9. ",52.4977,13.362,"52.4977, 13.362",21.09.1921,Franz Marc,Herwarth Walden
+172,Stockholm,59.32938,18.06871,"59.32938, 18.06871",22.09.1921,Franz Marc,Herwarth Walden
+173,Hartmannsweiler Kopf ,47.8605691,7.1518008,"47.8605691, 7.1518008",23.09.1921,Franz Marc,Herwarth Walden
+175,"Potsdamerstrasse 134a, Berlin W.9. ",52.4977,13.362,"52.4977, 13.362",24.09.1921,Franz Marc,Herwarth Walden
+176,M√ºnchen,48.69668,13.46314,"48.69668, 13.46314",25.09.1921,Franz Marc,Herwarth Walden
+177,"Potsdamerstrasse 134a, Berlin W.9. ",52.4977,13.362,"52.4977, 13.362",26.09.1921,Franz Marc,Herwarth Walden
+178,Ried,48.23889,16.51417,"48.23889, 16.51417",27.09.1921,Franz Marc,Herwarth Walden
+179,M√ºnchen,48.69668,13.46314,"48.69668, 13.46314",28.09.1921,Franz Marc,Herwarth Walden
+181,"Potsdamerstrasse 134a, Berlin W.9. ",52.4977,13.362,"52.4977, 13.362",29.09.1921,Franz Marc,Herwarth Walden
+183,"Potsdamerstrasse 134a, Berlin W.9. ",52.4977,13.362,"52.4977, 13.362",30.09.1921,Franz Marc,Herwarth Walden
+185,"Potsdamerstrasse 134a, Berlin W.9. ",52.4977,13.362,"52.4977, 13.362",01.10.1921,Franz Marc,Herwarth Walden
+186,Berlin,52.52437,13.41053,"52.52437, 13.41053",02.10.1921,Franz Marc,Herwarth Walden
+188,"Potsdamerstrasse 134a, Berlin W.9. ",52.4977,13.362,"52.4977, 13.362",03.10.1921,Franz Marc,Herwarth Walden
+189,Schweiz,50.7,12.51667,"50.7, 12.51667",04.10.1921,Franz Marc,Herwarth Walden
+191,"Potsdamerstrasse 134a, Berlin W.9. ",52.4977,13.362,"52.4977, 13.362",05.10.1921,Franz Marc,Herwarth Walden
+193,"Potsdamerstrasse 134a, Berlin W.9. ",52.4977,13.362,"52.4977, 13.362",06.10.1921,Franz Marc,Herwarth Walden
+195,"Potsdamerstrasse 134a, Berlin W.9. ",52.4977,13.362,"52.4977, 13.362",07.10.1921,Franz Marc,Herwarth Walden
+196,Den Haag,52.084167,4.3175,"52.084167, 4.3175",08.10.1921,Franz Marc,Herwarth Walden
+197,Den Haag,52.084167,4.3175,"52.084167, 4.3175",09.10.1921,Franz Marc,Herwarth Walden
+198,Den Haag,52.084167,4.3175,"52.084167, 4.3175",10.10.1921,Franz Marc,Herwarth Walden
+199,Den Haag,52.084167,4.3175,"52.084167, 4.3175",11.10.1921,Franz Marc,Herwarth Walden
+200,Berlin,52.52437,13.41053,"52.52437, 13.41053",12.10.1921,Franz Marc,Herwarth Walden
