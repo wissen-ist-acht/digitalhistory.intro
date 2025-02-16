@@ -19,13 +19,10 @@ aber manche sind möglicherweise effizienter als andere -- das heißt, Sie spare
 Egal, wie Sie vorgegangen sind, erledigen Sie folgende Aufgaben:\
 1. Erstellen Sie eine Übersicht über alle Grußformeln in den 45 Briefen von Franz Marc an Herwarth Walden. 
 Welches Format -- analog oder digital -- bzw. welchen Dateityp Sie wählen, bleibt Ihnen überlassen.\
-2.a) Wenn Ihr Nachname mit einem Buchstaben zwischen A und L beginnt:\
-Nehmen Sie Brief Nr. 8 von Marc an Walden und unterteilen Sie ihn in strukturelle Elemente. \
-2.b) Wenn  Ihr Nachname mit einem Buchstaben zwischen M und Z beginnt:\
-Nehmen Sie Brief Nr. 9 von Marc an Walden und unterteilen Sie ihn in strukturelle Elemente.\
+2. Nehmen Sie Brief Nr. 8 von Marc an Walden und unterteilen Sie ihn in strukturelle Elemente. \
 Ob Sie den Brief hierfür ausdrucken und Strukturelemente mit  einem Stift markieren oder ob Sie am Computer arbeiten, können Sie wählen. Was Sie als Strukturelement verstehen, ist Teil der Aufgabe.\
-Bei einem Gedicht wären mögliche Strukturelemente etwa Titel und Strophe.\
-3. Nehmen Sie denselben Brief wie aus Aufgabe 2a bzw. 2b, je nach Nachname, und markieren Sie Entitäten, also Einheiten wie Personen, Orte, etc. 
+(Bei einem Gedicht wären mögliche Strukturelemente etwa Titel und Strophe.)\
+3. Nehmen Sie denselben Brief und markieren Sie Entitäten, also Einheiten wie Personen, Orte, etc. 
 Erstellen Sie hierfür ein Tabellendokument (mit Excel, Google Sheets, Open Office o.Ä.), in das Sie die Entitäten aufnehmen.
 
 Nachdem Sie die Aufgaben erledigt haben, lesen Sie "The Ten Commandments of Inputting Data" in Kapitel 3 im Buch "Quantitative Methods in the Humanities".[@lemercier_quantitative_2019, S. 57--60] 
