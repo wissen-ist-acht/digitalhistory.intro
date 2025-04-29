@@ -80,12 +80,17 @@ oder als bequeme Variante diesen [Direktlink](https://download-directory.github.
 Wenn Sie die [Schnittstelle der Webseite](https://sturm-edition.de/ressourcen/schnittstellen.html) ausprobieren wollen, kommen Sie mit wenigen Kommandos an die Dateien.
 
 ::: {.callout-caution collapse="true"}
-## Download per Schnittstelle (für Mac/Linux)
+## Download per Schnittstelle 
 Mit dem ersten Kommando erstellen wir eine Datei "briefe_marc.xml" mit den Dateinamen aller Briefe, die von Franz Marc geschrieben wurden -- über das Register auf der Webseite wissen wir, dass er die Personen-ID P.0000003 hat; 
 die URL zur Abfrage der Schnittstelle können wir der [Dokumentation](https://sturm-edition.de/ressourcen/schnittstellen.html) entnehmen:
+Mac/Linux:
 ```bash
 curl https://sturm-edition.de/api/persons/P.0000003 --output briefe_marc.xml
-````
+```
+Windows:
+```bash
+Invoke-WebRequest -Uri "https://sturm-edition.de/api/persons/P.0000003" -OutFile "briefe_marc.xml"
+```
 Wenn Sie die Datei mit einem Editor öffnen, der XML-Dateien lesen kann, sehen Sie, dass neben den Dateinamen, die nach "target=" stehen, noch viel Beifang ist, den wir loswerden möchten:
 ```xml
 <person xmlns="http://www.tei-c.org/ns/1.0" source="http://d-nb.info/gnd/11857745X" xml:id="P.0000003">
@@ -108,9 +113,18 @@ Denn eigentlich brauchen wir nur die Dateinamen, um die Dateien mit einem entspr
 Auch sehen wir, dass nicht nur Briefe mit dem Kürzel "FMA" für Franz Marc gelistet sind, sondern auch neun mit "JVH", Jacoba van Heemskerck. 
 Beim Blick in die betreffenden Dateien zeigt sich, dass in diesen Franz Marc jeweils erwähnt und im TEI-XML mit `persName key="P.0000003"` getaggt wurde, daher Teil des Abfrageergebnisses ist.
 Mit dem zweiten Kommando erstellen wir eine neue Datei, in der die einzelnen extrahierten Dateinamen ohne diejenigen von Jacoba van Heemskerck mit dem Download-Kommando `curl` kombiniert und um die entsprechende URL zum Download ergänzt werden:
+Mac/Linux:
 ``` bash
 cat briefe_marc.xml | grep -o 'Q.*FMA.*.xml\b' | perl -nle 'print "curl -o $_ https://sturm-edition.de/api/files/$_ "' > dateinamen_briefe_marc.txt
 ```
+Windows:
+```bash
+Select-String -Path "briefe_marc.xml" -Pattern 'Q.*FMA.*\.xml\b' | ForEach-Object {
+    $match = $_.Matches[0].Value
+    "curl -o $match https://sturm-edition.de/api/files/$match"
+} > dateinamen_briefe_marc.txt
+```
+
 Die Datei "dateinamen_briefe_marc.txt" sieht so aus:
 ```bash
 curl -o Q.01.19160128.FMA.01.xml https://sturm-edition.de/api/files/Q.01.19160128.FMA.01.xml 
@@ -128,9 +142,9 @@ curl -o Q.01.19150303.FMA.01.xml https://sturm-edition.de/api/files/Q.01.1915030
 ...
 ```
 
-`cat briefe_marc.xml` gibt den Inhalt der Datei ins Terminal; 
-`grep -o 'Q.*FMA.01.xml\b'` findet in diesem Inhalt alle Zeichenketten zwischen "Q" und "FMA.01.xml", wobei nach "xml" durch das Hinzufügen von `\b` das Zeichenende angezeigt ist;
-die 45 gefundenen Zeichenketten werden in je eine neue Zeile geschrieben, wobei mit `curl -o $_` der Befehl `curl -o` und mit `$_` als Platzhalter die Zeichenkette (also der Dateiname) geschrieben wird, gefolgt von  `https://sturm-edition.de/api/files/$_` und mit `$_` wieder die Zeichenkette (also wieder der Dateiname).
+`cat briefe_marc.xml` (Mac/Linux)/`-Path "briefe_marc.xml"` (Windows) gibt den Inhalt der Datei ins Terminal; 
+`grep -o 'Q.*FMA.01.xml\b'` (Mac/Linux)/`Select-String -Pattern 'Q.*FMA.*\.xml\b'` (Windows) findet in diesem Inhalt alle Zeichenketten zwischen "Q" und "FMA.01.xml", wobei nach "xml" durch das Hinzufügen von `\b` das Zeichenende angezeigt ist;
+die 45 gefundenen Zeichenketten werden in je eine neue Zeile geschrieben, wobei mit `curl -o $_` der Befehl `curl -o` und mit `$_` (Mac/Linux)/`$match` (Windows) als Platzhalter die Zeichenkette (also der Dateiname) geschrieben wird, gefolgt von  `https://sturm-edition.de/api/files/$_` (Mac/Linux)/`https://sturm-edition.de/api/files/$match` und mit `$_`/`$match` wieder die Zeichenkette (also wieder der Dateiname).
 Mit einem dritten Kommando, `bash`, führen wir die erstellte Datei aus, d.h. die in ihr stehenden Kommandos werden ausgeführt -- also via `curl` (**C**lient **URL**) die Briefe heruntergeladen.
 ```bash
 bash dateinamen_briefe_marc.txt
