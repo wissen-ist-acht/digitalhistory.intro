@@ -112,7 +112,7 @@ Wenn Sie die Datei mit einem Editor öffnen, der XML-Dateien lesen kann, sehen S
 Denn eigentlich brauchen wir nur die Dateinamen, um die Dateien mit einem entsprechenden Befehl herunterladen zu können.
 Auch sehen wir, dass nicht nur Briefe mit dem Kürzel "FMA" für Franz Marc gelistet sind, sondern auch neun mit "JVH", Jacoba van Heemskerck. 
 Beim Blick in die betreffenden Dateien zeigt sich, dass in diesen Franz Marc jeweils erwähnt und im TEI-XML mit `persName key="P.0000003"` getaggt wurde, daher Teil des Abfrageergebnisses ist.
-Mit dem zweiten Kommando erstellen wir eine neue Datei, in der die einzelnen extrahierten Dateinamen ohne diejenigen von Jacoba van Heemskerck mit dem Download-Kommando `curl` kombiniert und um die entsprechende URL zum Download ergänzt werden:
+Mit dem zweiten Kommando erstellen wir eine neue Datei, in der die einzelnen extrahierten Dateinamen ohne diejenigen von Jacoba van Heemskerck mit dem Download-Kommando `curl` kombiniert und um die entsprechende URL zum Download ergänzt werden:\
 Mac/Linux:
 ``` bash
 cat briefe_marc.xml | grep -o 'Q.*FMA.*.xml\b' | perl -nle 'print "curl -o $_ https://sturm-edition.de/api/files/$_ "' > dateinamen_briefe_marc.txt
@@ -143,8 +143,8 @@ curl -o Q.01.19150303.FMA.01.xml https://sturm-edition.de/api/files/Q.01.1915030
 ```
 
 `cat briefe_marc.xml` (Mac/Linux)/`-Path "briefe_marc.xml"` (Windows) gibt den Inhalt der Datei ins Terminal; 
-`grep -o 'Q.*FMA.01.xml\b'` (Mac/Linux)/`Select-String -Pattern 'Q.*FMA.*\.xml\b'` (Windows) findet in diesem Inhalt alle Zeichenketten zwischen "Q" und "FMA.01.xml", wobei nach "xml" durch das Hinzufügen von `\b` das Zeichenende angezeigt ist;
-die 45 gefundenen Zeichenketten werden in je eine neue Zeile geschrieben, wobei mit `curl -o $_` der Befehl `curl -o` und mit `$_` (Mac/Linux)/`$match` (Windows) als Platzhalter die Zeichenkette (also der Dateiname) geschrieben wird, gefolgt von  `https://sturm-edition.de/api/files/$_` (Mac/Linux)/`https://sturm-edition.de/api/files/$match` und mit `$_`/`$match` wieder die Zeichenkette (also wieder der Dateiname).
+`grep -o 'Q.*FMA.01.xml\b'` (Mac/Linux) bzw. `Select-String -Pattern 'Q.*FMA.*\.xml\b'` (Windows) findet in diesem Inhalt alle Zeichenketten zwischen "Q" und "FMA.01.xml", wobei nach "xml" durch das Hinzufügen von `\b` das Zeichenende angezeigt ist;
+die 45 gefundenen Zeichenketten werden in je eine neue Zeile geschrieben, wobei mit `curl -o $_` der Befehl `curl -o` und mit `$_` (Mac/Linux) bzw. `$match` (Windows) als Platzhalter die Zeichenkette (also der Dateiname) geschrieben wird, gefolgt von  `https://sturm-edition.de/api/files/$_` (Mac/Linux) bzw. `https://sturm-edition.de/api/files/$match` und mit `$_` bzw. `$match` wieder die Zeichenkette (also wieder der Dateiname).
 Mit einem dritten Kommando, `bash`, führen wir die erstellte Datei aus, d.h. die in ihr stehenden Kommandos werden ausgeführt -- also via `curl` (**C**lient **URL**) die Briefe heruntergeladen.
 ```bash
 bash dateinamen_briefe_marc.txt
