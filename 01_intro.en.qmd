@@ -1,0 +1,28 @@
+---
+title: What is Digital History?
+suppress-bibliography: true
+editor: 
+  markdown: 
+    wrap: sentence
+---
+
+There is endless possibility for discussing what the right answer to the question of what the term Digital History can encompass is. 
+Since it is a part of the Digital Humanities, the current pragmatic definition by Blaney et. al (2021) can be useful:
+
+> Digital humanities, in our view, is a question of approach: if you are actively and critically using digital tools to aid your work in researching, teaching or learning, you are probably doing digital humanities.
+> We would encourage anyone to learn to program if they are interested in doing so, but we do not see it as a defining characteristic of work in digital humanities.
+> [@blaney_doing_2021, S. 6]
+
+"Digital tools" can mean a whole lot of different things, and you will hardly be able to find anyone who completely abstains from using any of these in their studies, in research or in teaching. 
+We are all as historians living in a digital age and as such need to develop new competencies. 
+We use word processing programmes as a matter of course for our seminar papers or essays, research via search engines and online catalogues or lexica are part of the daily business of historians. 
+But in addition to that we can decide to use methods and techniques for a research project that go beyond the tradition tools of the historians -- the analysis and interpretation of sources through [close reading](https://de.wikipedia.org/wiki/Close_Reading) -- and let ourselves be helped by the computer. 
+Whether we do this with the help of existing software or write our own programmes, understanding ourselves not only as historians of a digital age but also as digital historians may for some be a matter of principle; 
+an inclusionary attitude towards this question however seems to me to be only beneficiary.[Quite opposed to a frequently cited opinion of Emmanuel Le Roy Ladurie's (\*1929) the historian of tomorrow shall either be a programmer or not be at all:
+"l'historien de demain sera un programmeur ou il ne sera pas." @le_roy_ladurie_fin_1968]
+
+For a first idea of how one can answer historiographical questions with the help of digital methods and how diverse digitally assisted research projects can look like, take a look at the article "[State of the Field: Digital History](https://onlinelibrary.wiley.com/doi/10.1111/1468-229X.12969)".[@romein_state_2020]  
+A growing list of examples from different epochs and thematic fields can be found in chapter two under [Projects and Resources](02_forschung_lehre.en.qmd##Projects and Resources for Teaching and Research).
+
+This guide is about an active, critical and reflected use of digital methods in teaching and research, with a focus on the uses for historians. 
+Further reading on the question of what Digital History is as a whole can be found under [Literature, Tools, Tutorials](further_resources.en.qmd##What is digital history?)
