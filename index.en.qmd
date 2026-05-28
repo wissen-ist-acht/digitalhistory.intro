@@ -1,0 +1,24 @@
+---
+editor: 
+  markdown: 
+    wrap: sentence
+---
+
+# Welcome {-}
+
+The following guide, created during the autumn semester of 2022, is intended for first-year students of [History at the University of Basel](https://dg.philhist.unibas.ch/en/) and gives first insights into the subject of Digital History. 
+It is a living document that will be regularly updated and it means to take into account the different epochal and areal foci of the different introductory courses by adding more and more Digital History projects from throughout the field over time.
+For the participants of the introductory course, the guide will be accompanied by an in-person meeting, but it can hopefully also be used independently. 
+I am happy to receive [comments, suggestions or complaints](mailto:ina.serif@unibas.ch).
+
+The guide is made up of two parts: 
+Chapters one to five give an initial overview of Digital History and the changes that digital methods have brought to the field of historical studies. 
+The ensuing practical part uses a concrete example in order to show the application of different techniques that can be used by (not only) historians working with source material. 
+This part has two aims. 
+Firstly it is intended to reduce people's shyness when using the computer as something other than simply an electronic typewriter. 
+Secondly it wants to create a basic understanding of what possibilities computer assisted analyses have to offer and how to implement these in historical research.
+
+The overview is as brief as possible -- there are numerous detailed handbooks, for which reason many themes are only touched upon briefly and I give references to further literature. 
+The same goes for the practical part: 
+links are given to tutorials, online courses and further instructions when applicable. 
+These references are by no means complete and I am happy to include your suggestions for further online resources.
