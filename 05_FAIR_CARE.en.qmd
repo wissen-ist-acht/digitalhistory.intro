@@ -1,0 +1,63 @@
+---
+title: FAIR, CARE and LOUD
+suppress-bibliography: true
+lang: en
+editor: 
+  markdown: 
+    wrap: sentence
+---
+
+Already at the beginning of a project, be it a seminar paper or a large collaborative project, you should ask yourself questions about storage, compatibility and reusability of research data. 
+Too often projects end without the data that has been produced being made usable for later research, either because nobody thought of looking for options for permanent storage, or because the data was collected and saved in a form that makes future reuse difficult or even impossible. 
+At the latest when you visit the archives -- be it analogue or digitally -- and are going to transcribe a document, you will probably ask yourself whether that has not already been done by somebody else, and you could save yourself the job, or if you will want to offer your own transcriptions to other people. 
+The question is simply where, and how.
+
+At the beginning of your studies, such questions are presumably not yet central; 
+but still some questions surrounding securing, storing, and reusing data and data formats shall be looked at briefly here, in order to create awareness, but also because they influence the [data gathering](04_datenerhebung_analyse.en.qmd).
+
+
+## FAIR Data
+
+The principles of FAIR data were defined in 2016 by a consortium of academics and organisations as follows:[@wilkinson_fair_2016] 
+**F**indability, **A**ccessibility, **I**nteroperability, **R**euse of digital assets.
+
+Data should be **findable** and **accessible**, **interoperable** (usable with different systems) and **reusable**.
+If you take photographs of ten wills from the 18th century in the Basel State Archives for a seminar paper and subsequently transcribe them, identify the objects mentioned, compare the testators and hand in your results on paper to your tutor, your data is the exact opposite. 
+Nobody knows that you have collected the data, it cannot be found via general search tools but only via personal contacts, and if your tutor would like to put it at the disposal of other students in order to encourage further research, they need to do it by copying your printed paper. 
+Paper copies are neither interoperable nor sensibly reusable -- you need to type them into a computer in order to make them readable by a machine and to be able to work with them. 
+If, however, you publish your transcribed texts and identified objects -- in a standardised format and with an open licence -- on a repository, you are not only making important parts of your work visible, but also making further research easier.^[For different repositories see  @sec-sicherung-en.] 
+You can also ensure that the work does not have to be done twice.^[The platform [transcriptiones](https://transcriptiones.ch/) allows transcriptions to be shared easily.]
+
+## CARE Principles
+
+Following the FAIR principles, the Global Indigenous Data Alliance formulated the CARE principles for dealing with indigenous data in 2019:[@carroll_care_2020]
+**C**ollective Benefit, **A**uthority to Control, **R**esponsibility, **E**thics.
+
+The focus is not just on propagating open data and sharing of data, but also to consider the people involved and the goals in order not to reinforce existing power imbalance between different actors. 
+Indigenous data should serve **collective use**, there should be a **right to control**, **responsibility** should be taken for the use of the data, and **ethical principles** taken into account. 
+Even though these guidelines are specially worked out for the use of indigenous data, they are an addition to the data centered approach formulated in the FAIR principles that takes into account the origin of the data and urges a reflective use.
+
+
+## LO(U)D
+
+Tim Berners-Lee, the inventor of the World Wide Web, early on promoted standardised digital data could be linked, and thus the development of a  [Semantic Web](https://en.wikipedia.org/wiki/Semantic_Web), in which data is human and machine readable: 
+
+>The Semantic Web isn't just about putting data on the web. It is about making links, so that a person or machine can explore the web of data. With linked data, when you have some of it, you can find other, related, data.[^3]
+
+In order not simply to be able to find data but to be able to reuse and combine it, principles have also been formulated for **L**inked **O**pen **D**ata, which should be adhered to when creating or publishing data; 
+well-known examples for LOD data sets are [Wikibase](https://wikiba.se/), [Wikidata](https://www.wikidata.org/wiki/Wikidata:Main_Page) or [GeoNames](http://www.geonames.org/).
+
+Berners-Lee suggested a five-star system to classify open data sets, wherein five stars is the equivalent of Linked Open Data.
+
+1 Star: A data set is openly accessible, in a random format, for instance as a pdf.\
+2 stars: a data set is openly accessible in a structured format, for instance Microsoft Excel (.xls).\
+3 stars: a data set is openly accessible  in a non-proprietary format, for instance as comma separated values (.csv).\
+4 stars: a data set follows the standards of the World Wide Web Consortium  ([W3C](https://en.wikipedia.org/wiki/World_Wide_Web_Consortium)), such as using Resource Description Frameworks ([RDF](https://en.wikipedia.org/wiki/Resource_Description_Framework)) and adopting Uniform Resource Identifiers  ([URI](https://en.wikipedia.org/wiki/Uniform_Resource_Identifier)s).\
+5 stars: a data set fulfills all the above criteria and in addition it contains links to other Linked Open Data.
+
+[^3]: Tim Berners-Lee: Linked Data, 2009. Online: [https://www.w3.org/DesignIssues/LinkedData.html](https://www.w3.org/DesignIssues/LinkedData.html).
+
+Going even further, **L**inked **O**pen **U**sable **D**ata principles aim at not only providing data in open and linked form, but also to structure them in a comprehensible way and to document them in order to secure their reusability.
+
+It is unlikely that you will have to think about things such as the W3C, RDF and URIs during your studies, but be aware that your research data is more visible and reusable if you choose a file format that does not only work on one operating system or needs a programme that is not freely available.
+
