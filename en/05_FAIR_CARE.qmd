@@ -1,0 +1,67 @@
+---
+title: FAIR, CARE und LOUD
+suppress-bibliography: true
+lang: de
+editor: 
+  markdown: 
+    wrap: sentence
+---
+
+Bereits beim Beginn eines Projekts, sei es eine Proseminararbeit oder ein kollaboratives Großprojekt, sollten Fragen nach Sicherung, Austauschbarkeit und Nachnutzbarkeit von Forschungsdaten gestellt werden.
+Denn oftmals enden Projekte, ohne dass erstellte Daten für anschließende Forschungen verfügbar gemacht werden, sei es, weil nicht rechtzeitig nach Lösungen zur langfristigen Speicherung gesucht wurde, sei es, weil Daten in einer Form erhoben und gespeichert wurden, die eine Nachnutzung erschwert oder auch unmöglich macht.
+Spätestens beim ersten Gang ins Archiv -- sei es analog oder digital --, bei dem Sie Quellen transkribieren, werden Sie sich vermutlich fragen, ob das nicht entweder schon von einer anderen Person erledigt wurde und Sie sich die Arbeit sparen könnten, oder aber ob Sie in Zukunft anderen die von Ihnen erstellten Transkriptionen zur Verfügung stellen wollen. 
+Die Frage ist nur, wo und wie.
+
+Zu Beginn des Studiums sind solche Überlegungen wohl noch nicht zentral;
+dennoch sollen einige Fragen rund um Speicherung, Aufbewahrung und Nachnutzbarkeit von Daten/Datenformaten hier kurz thematisiert werden, um dafür zu sensibilisieren;
+auch, weil sie den Prozess der [Datenerhebung](04_datenerhebung_analyse.qmd) beeinflussen.
+
+
+## FAIRe Daten
+
+Die Prinzipien FAIRer Daten wurden 2016 von einem Konsortium aus Wissenschaftler:innen und Organisationen wie folgt definiert:[@wilkinson_fair_2016] 
+**F**indability, **A**ccessibility, **I**nteroperability, **R**euse of digital assets.
+
+Daten sollen also **auffindbar** und **zugänglich** sein, zudem **interoperabel**, also mit verschiedenen Systemen nutzbar, und **wiederverwendbar**.
+Wenn Sie für eine Proseminararbeit zehn Testamente aus dem 18. Jahrhundert im Staatsarchiv Basel fotografieren, anschließend transkribieren, die vererbten Gegenstände identifizieren, zwischen den Erblasser:innen vergleichen und Ihre Ergebnisse ausgedruckt bei dem:r Dozierenden einreichen, sind Ihre Daten das genaue Gegenteil:
+Niemand weiß, dass Sie die Daten erhoben haben, sie sind über gängige Suchmethoden nicht auffindbar und nur über persönliche Kontakte zugänglich; 
+und wenn Ihr:e Dozent:in Ihre Ergebnisse anderen Studierenden zur Verfügung stellen will, um weitere Forschung anzuregen, geht dies nur in Form von Kopien Ihrer gedruckten Arbeit;
+Papierkopien sind dabei weder interoperabel noch sind Ihre Daten vernünftig wiederverwendbar -- sie müssten via Abtippen erst wieder maschinenlesebar gemacht werden, um damit weiterarbeiten zu können.
+Wenn Sie Ihre transkribierten Texte und die identifizierten Objekte in Standardformaten und mit offener Lizenz auf einem Repositorium veröffentlichen, machen Sie nicht nur wichtige Teile Ihrer eigenen Arbeit sichtbar, sondern erleichtern so auch anschließende Forschungen.^[Zu verschiedenen Repositorien, also digitalen Speicherorten für Daten, vgl. das Unterkapitel @sec-sicherung.] 
+Zudem kann so vermieden werden, dass geleistete Arbeit wie beispielsweise Transkriptionen doppelt gemacht wird.^[Die Plattform [transcriptiones](https://transcriptiones.ch/) ermöglicht niederschwelliges Teilen von Transkriptionen historischer Dokumente.]
+
+## CARE-Prinzipien
+
+Anschließend an die FAIR-Prinzipien wurden 2019 von der Global Indigenous Data Alliance die CARE-Prinzipien für den Umgang mit indigenen Daten formuliert:[@carroll_care_2020]
+**C**ollective Benefit, **A**uthority to Control, **R**esponsibility, **E**thics.
+
+Das Augenmerk liegt dabei darauf, nicht einfach offene Daten und Datenaustausch zu propagieren, sondern auch die Menschen und den Zweck zu berücksichtigen, um bestehende Machtunterschiede zwischen verschiedenen Akteur:innen nicht zu verstärken.
+Indigene Daten sollen dem **kollektiven Nutzen** dienen, ein **Recht auf Kontrolle** soll gegeben sein, **Verantwortung** für die Datennutzung übernommen und **Ethische Prinzipien** beachtet werden.[^2]
+Auch wenn diese Richtlinien speziell für die Arbeit mit indigenen Daten ausgearbeitet wurden, ergänzen sie den datenzentrierten Ansatz der FAIR-Prinzipien um eine Dimension, die den Entstehungskontext der Daten mitberücksichtigt und zur Reflexion über die (Weiter-)Arbeit mit Daten anregt.
+
+[^2]: Eine auf deutsch übersetzte Fassung der CARE-Prinzipien findet sich [hier](https://static1.squarespace.com/static/5d3799de845604000199cd24/t/637acb53881a0973324d18bf/1668991830292/Die+CARE-Prinzipien+für+indigene+Data+Governance.pdf-).
+
+## LO(U)D
+
+Tim Berners-Lee, der Erfinder des World Wide Web, propagierte früh die Verlinkbarkeit von standardisierten digitalen Daten und dadurch die Entstehung eines [Semantic Web](https://en.wikipedia.org/wiki/Semantic_Web), in dem Daten mensch- und maschinenlesbar austauschbar sind:
+
+>The Semantic Web isn't just about putting data on the web. It is about making links, so that a person or machine can explore the web of data. With linked data, when you have some of it, you can find other, related, data.[^3]
+
+Um andere Daten nicht nur finden, sondern auch weiternutzen und kombinieren zu können, wurden auch für **L**inked **O**pen **D**ata Prinzipien formuliert, die bei der Erstellung bzw. Veröffentlichung von Daten beachtet werden sollten; 
+bekannte Beispiele für LOD-Datensätze sind [Wikibase](https://wikiba.se/), [Wikidata](https://www.wikidata.org/wiki/Wikidata:Main_Page) oder [GeoNames](http://www.geonames.org/).
+
+Berners-Lee hat ein Fünf-Sterne-System zur Klassifizierung offener Datensätze vorgeschlagen, wobei 5 Sterne Linked Open Data entspricht:
+
+1 Stern: Ein Datensatz ist offen verfügbar, in einem beliebigen  Format, etwa als PDF-Datei.\
+2 Sterne: Ein Datensatz ist offen verfügbar in einem strukturierten Format, etwa im Dateiformat von Microsoft Excel (.xls).\
+3 Sterne: Ein Datensatz ist offen verfügbar in einem nicht-proprietären strukturierten Format, etwa als Comma-separated values (.csv).\
+4 Sterne: Ein Datensatz folgt Standards des World Wide Web Konsortiums ([W3C](https://de.wikipedia.org/wiki/World_Wide_Web_Consortium)), wie die Nutzung des Resource Description Frameworks ([RDF](https://de.wikipedia.org/wiki/Resource_Description_Framework)) und die  Vergabe von Uniform Resource Identifiern  ([URI](https://de.wikipedia.org/wiki/Uniform_Resource_Identifier)s).\
+5 Sterne: Ein Datensatz erfüllt alle obigen Bedingungen und enthält zudem Links zu anderer Linked Open Data.
+
+[^3]: Tim Berners-Lee: Linked Data, 2009. Online: [https://www.w3.org/DesignIssues/LinkedData.html](https://www.w3.org/DesignIssues/LinkedData.html).
+
+Über das Fünf-Sterne-System hinaus wurden Grundsätze für **L**inked **O**pen **U**sable **D**ata entwickelt, die darauf abzielen, Daten nicht nur in offener und verlinkter Form zur Verfügung zu stellen, sondern sie auch verständlich zu strukturieren und zu dokumentieren, um ihre Nutzbarkeit zu verbessern.
+
+Über Dinge wie das W3C, RDF und URIs müssen Sie sich im Verlauf Ihres Studiums vermutlich keine Gedanken machen, aber behalten Sie im Auge, dass Ihre Forschung(sdaten) sichtbarer und nachhaltig nachnutzbarer sind, wenn Sie nicht bereits bei der Erstellung einer Datei ein Format wählen, das nur auf einem bestimmten Betriebssystem läuft oder den Erwerb eines kostenpflichtigen Programms erfordert.
+
+
