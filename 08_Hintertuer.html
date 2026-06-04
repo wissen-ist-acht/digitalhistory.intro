@@ -337,7 +337,8 @@ Download per Schnittstelle
 </div>
 <div id="callout-2" class="callout-2-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
-<p>Mit dem ersten Kommando erstellen wir eine Datei “briefe_marc.xml” mit den Dateinamen aller Briefe, die von Franz Marc geschrieben wurden – über das Register auf der Webseite wissen wir, dass er die Personen-ID P.0000003 hat; die URL zur Abfrage der Schnittstelle können wir der <a href="https://sturm-edition.de/ressourcen/schnittstellen.html">Dokumentation</a> entnehmen: Mac/Linux:</p>
+<p>Mit dem ersten Kommando erstellen wir eine Datei “briefe_marc.xml” mit den Dateinamen aller Briefe, die von Franz Marc geschrieben wurden – über das Register auf der Webseite wissen wir, dass er die Personen-ID P.0000003 hat; die URL zur Abfrage der Schnittstelle können wir der <a href="https://sturm-edition.de/ressourcen/schnittstellen.html">Dokumentation</a> entnehmen:<br>
+Mac/Linux:</p>
 <div class="sourceCode" id="cb7"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="ex">curl</span> https://sturm-edition.de/api/persons/P.0000003 <span class="at">--output</span> briefe_marc.xml</span></code><button title="In die Zwischenablage kopieren" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <p>Windows:</p>
 <div class="sourceCode" id="cb8"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="ex">Invoke-WebRequest</span> <span class="at">-Uri</span> <span class="st">"https://sturm-edition.de/api/persons/P.0000003"</span> <span class="at">-OutFile</span> <span class="st">"briefe_marc.xml"</span></span></code><button title="In die Zwischenablage kopieren" class="code-copy-button"><i class="bi"></i></button></pre></div>
