@@ -7,9 +7,11 @@ editor:
     wrap: sentence
 ---
 
-Bevor wir uns näher mit dem Beispielkorpus der Briefedition befassen, werfen wir einen kurzen Blick auf die Interaktionsmöglichkeiten mit dem Computer und wie wir diese für unsere Arbeit als Historiker:innen nutzen können, sei es für die Erhebung, die Aufbereitung oder die Analyse von Daten.
+Before we take a closer look at the corpus of the letter edition, we’ll take a quick look at the possibilities of interacting with the computer, and how this can be useful for our work as historians, either for collecting, editing or analysing data.
 
-Es gibt zwei Arten, um mit einem Computer zu interagieren bzw. ihn zu nutzen: über ein **G**raphical **U**ser **I**nterface (GUI), also vor allem mit der Maus und durch das Anklicken von Objekten, oder, etwas direkter, über die [Kommandozeile](https://de.wikipedia.org/wiki/Kommandozeile).^[Kommandozeile/Command Line, Bash, Shell oder Prompt finden sich oft als synonym genutzte Begriffe für Command Line Interfaces. Auf UNIX-basierten Betriebssystemen wie Mac OS und Linux ist das Terminal als Interface weit verbreitet; für Details: https://en.wikipedia.org/wiki/Command-line_interface#History. Windowsnutzer:innen kommen mit der PowerShell ganz gut zurecht, es empfiehlt sich eventuell die Installation von [Cygwin](https://en.wikipedia.org/wiki/Cygwin) oder [MinGW](https://en.wikipedia.org/wiki/MinGW), um mit einem UNIX-basierten Interface arbeiten zu können.] Um via GUI eine Datei "Brief1.txt" im Ordner "Briefe" zu löschen, öffnet man den Finder (Mac), den Explorer (Windows) oder den Filebrowser der Wahl (Linux), klickt sich zum Ordner "Briefe", macht einen Rechtsklick auf die zu löschende Datei "Brief1.txt", klickt "In den Papierkorb legen" oder zieht die Datei mit der Maus direkt dorthin. Dieselbe Aktion kann man als Kommando schreiben: Man öffnet das Terminal (Linux oder Mac; den Finder öffnen und im Suchfenster "Terminal" eingeben und Programm öffnen) oder eine PowerShell (Windows; mit der rechten Maustaste auf das Startsymbol klicken, dann "Windows PowerShell" auswählen), navigiert im sich öffnenden Fenster mit Texteingabe zum entsprechenden Ordner, bspw. `cd Documents/Briefe` + 'Enter' (Mac und Linux) bzw. `cd ./Documents/Briefe` (Windows) und gibt dort das Kommando `rm Brief1.txt` ein, das mit der Entertaste ausgeführt wird.
+There are two ways of interacting with (or using) a computer: via a **G**raphical **U**ser **I**nterface (GUI), so by using the mouse and clicking on objects, or, somewhat more directly, via the [command line](https://en.wikipedia.org/wiki/Command-line_interface).^[Command Line, Bash, Shell or Prompt are often found as synonymously used terms for command line interfaces. On UNIX-based operating systems like Mac OS and Linux the terminal is common as interface; details on:  https://en.wikipedia.org/wiki/Command-line_interface#History. Windows users should be able to work quite well using the PowerShell, but might want to install  [Cygwin](https://en.wikipedia.org/wiki/Cygwin) or [MinGW](https://en.wikipedia.org/wiki/MinGW), in order to be able to work with a UNIX-based interface.] If you want to delete the file “letter1.txt” in the folder “letters” via GUI, you open the Finder (Mac), the Explorer (Windows) or the file browser of your choice (Linux), and click your way to the folder “letters”, click right on the file you want to delete (“letter1.txt), click “move to bin”, or drag it there directly with the mouse. 
+The same action can be written as a command: 
+You open the Terminal (Linux or Mac; open the Finder and enter “terminal” in the search window, then open the programme) or a Power Shell (Windows; click right on the start symbol, then choose “Windows Power Shell”), navigate to the relevant folder by entering a command, for instance `cd Documents/letters` + 'Enter' (Mac und Linux) or `cd ./Documents/letters` (Windows) and enter the command `rm letter1.txt`, which is executed by pressing 'Enter'. 
 
 
 ``` bash
@@ -23,28 +25,33 @@ Es gibt zwei Arten, um mit einem Computer zu interagieren bzw. ihn zu nutzen: ü
 
 <iframe width="560" height="315" src="images/terminal_file_system.mov"></iframe>
 
-Vorgehen in der Kommandozeile bzw. im Terminal auf MacOS
+How to proceed in the command line/in the terminal using MacOS
 :::
 
-Die beiden Vorgehensweisen unterscheiden sich dabei in drei Punkten:
+The two methods differ in three points:
 
-1.  Das Kommando `rm` ist endgültig, die Datei ist ohne Übergangszeit im Papierkorb gelöscht.
-2.  Das Kommando lässt sich relativ simpel auf eine Vielzahl von Dokumenten anwenden, wobei ganz unterschiedliche Bedingungen beachtet werden können, und es lässt sich mit anderen Kommandos verbinden.
-3.  Terminal sieht k3wl aus.
+1.  The command `rm` is final, the file is deleted without grace period in the bin.
+2.  The command is relatively simple to use for a number of documents at once, whereby quite different conditions can be taken into account, and it can be combined with other commands.
+3.  Terminal looks k3wl.
 
-Bevor wir den zweiten -- und für unsere Arbeit hilfreichsten -- Unterschied genauer anschauen, kurz zur Kommandozeile. 
+Before we take a look at the second and for us most helpful difference, a brief note on the command line.
 
 ## Shell 101
 
-In einem Terminal/einer Shell -- zur Unterscheidung siehe Fußnote 1 -- können Kommandos bzw. Programme ausgeführt werden, die auf der *Struktur*ebene stattfinden -- wie beispielsweise das Löschen einer Datei, `rm Dateiname.xyz` (`rm` für *remove*), oder das Erstellen eines Ordners, `mkdir NeuerOrdner` (`mkdir` für *make directory*). Ebenso möglich sind Operationen auf der *Inhalts*ebene -- wie beispielsweise das Suchen eines bestimmten Begriffs in einer Textdatei, `grep 'Begriff' Textdatei.txt` (Mac/Linux) bzw. `Select-String -Path Textdatei.txt -Pattern 'Begriff'` (Windows), oder das Auszählen mehrerer Begriffe und das Speichern des Ergebnisses in einer neuen Datei, `grep -Ec '(Begriff1|Begriff2)' Textdatei.txt | wc -l > Ergebnisse.txt` (Mac/Linux) bzw. `(Select-String -Path Textdatei.txt -Pattern '(Begriff1|Begriff2)'.Matches.Count > Ergebnisse.txt` (Windows) -- die Kommandos werden weiter unten nochmals einzeln erklärt.
+In a terminal/shell (see footnote for differentiation) commands or programmes can be executed that occur on the *structural* level -- for instance deleting a file,  `rm Dateiname.xyz` (`rm` for *remove*), or creating a folder, `mkdir NewFolder` (`mkdir` for *make directory*). Equally possible are operations on a *content* level -- such as searching for a certain term in a text file, `grep 'term' textfile.txt` (Mac/Linux) or `Select-String -Path textfile.txt -Pattern 'term'` (Windows), or counting terms and saving the results in a new file, `grep -Ec '(term1|term2)' textfile.txt | wc -l > results.txt` (Mac/Linux) or `(Select-String -Path textfile.txt -Pattern '(term1|term2)'.Matches.Count > results.txt` (Windows) -- the commands will explained more fully below.
 
-Woher weiss Ihre Shell aber, was sie ausführen soll, wenn Sie `rm` oder `grep`/`String-Select` eintippen? Es gibt zahlreiche Shell-Programme, die bereits auf Ihrem System vorinstalliert sind, und mit denen Sie vieles tun können -- öffnen Sie Ihre Shell, tippen Sie `date` ein und drücken 'Enter': Das aktuelle Datum mit Uhrzeit erscheint. (Ihre Shell sucht nach dem ersten Argument, dem Befehl `date`, im Filesystem des Computers, und wenn sie fündig wird, führt sie eine Aktion mit den entsprechenden Parametern aus.)
+But how does your Shell know what it is supposed to do when you type `rm` or `grep`/`String-Select`? 
+There are all sorts of Shell programmes that are already installed on your system and with which you can do a lot. 
+Open your Shell, type in  `date` and press 'Enter': 
+You will see the current date and time appear. 
+(Your Shell looks for the first argument, the command  `date`, in the filesystem of your computer, and if it is successful, implements the action according to the given parameters.)
 
 ::: {.callout-note}
-tmi: Wenn Sie `echo $PATH` im Terminal (Mac/Linux) bzw. `$env:PATH` (Windows) eingeben, sehen Sie eine Auflistung der Orte, an denen nach Befehlen gesucht wird. Tippen Sie `which date` ein und drücken Sie 'Enter', um zu sehen, wo das Programm "date" in Ihrem Computer liegt.
+tmi: If you type in  `echo $PATH` into the Terminal (Mac/Linux) or `$env:PATH` (Windows), you will see a list of the places in which a command is searched for.
+Type `which date`  and press ‘Enter’ to see where the programme ‘date’ is on your computer. 
 :::
 
-Falls Sie einen Befehl eintippen, den es nicht gibt bzw. für den kein installiertes Programm auf Ihrem Computer existiert, bekommen Sie eine simple Fehlermeldung -- kaputtgehen kann dabei nichts:
+If you type a command that does not exist, or for which there is no programme installed on your computer, you will get an error notification -- you can’t do any damage.
 
 ``` bash
 (base) serina00@dg-19-mac-02 ~ % nonsense
@@ -52,46 +59,51 @@ Falls Sie einen Befehl eintippen, den es nicht gibt bzw. für den kein installie
 ``` bash
 command not found: nonsense
 ```
-Der Output auf Windows ist etwas ausführlicher:
+The windows output is a bit more extensive: 
 
 ``` bash
 nonsense: The term 'nonsense' is not recognized as a name of a cmdlet, function, script file, or executable program.
 Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
 ```
 
-Das aktuelle Datum wird Ihnen wahrscheinlich auch in Ihrer Toolbar angezeigt, und einen neuen Ordner können Sie per Rechtsklick erstellen, dazu brauchen Sie das Terminal nicht unbedingt. Um einen Begriff in einem Textdokument zu finden und alle Vorkommen zu zählen, können Sie das Dokument öffnen, `Strg-F` drücken, den Begriff eingeben und das Ergebnis sehen. Wenn Sie nach mehreren Begriffen suchen wollen, müssen Sie dieselbe Aktion zweimal ausführen: `Strg-F`, Begriff 2. Und wenn Sie mehrere Dateien durchsuchen möchten, beispielsweise um herauszufinden, wie oft die Grußformel "Mit herzlichem Gruß" in einer Briefsammlung vorkommt, müssen Sie die Suche in jeder Datei einzeln ausführen. Wenn Sie dann noch nach der Variante "Mit herzlichen Grüßen" oder gar "Herzl. Gruß" suchen wollen, vervielfacht sich Ihre Arbeit.
+The current date is probably also shown in your toolbar, and you can create a new folder with a right click -- you don’t really need the Terminal for that. 
+To find a term in a text file you can open the document, press `Ctrl-F`, type in the term and see the result. 
+If you want to search for more terms, you need to repeat the same action with `Ctrl-F`, term2. 
+And if you want to search more than one file, perhaps to find out how often the salutation “Mit herzlichem Gruss” appears in a letter collection, you have to repeat the search in every file. 
+If you then need to look for the variant “Mit herzlichen Grüssen” or even “Herzl. Gruss”, your work will be multiplied.
 
-Sie können dasselbe auch mit dem Terminal machen und einige der Built-in-Programme nutzen, um sich Zeit und Arbeit zu sparen.
+You can also do the same in the Terminal and use some of the built-in programmes to save yourself time and work.
+
 
 ## `Ctrl-F` 2.0
 
-Wir arbeiten wie im vorangegangenen Kapitel mit einem Teilkorpus der Quellenedition "Der Sturm", nämlich mit allen Briefen, die von [Franz Marc](https://sturm-edition.de/register/personen/P.0000003.html) verfasst wurden. 
-Um die folgenden Schritte nachzuvollziehen, laden Sie sich den Ordner "letters_Der_Sturm" herunter. 
-Sie können dazu entweder das vollständige [GitHub-Repository zu diesem Guide](https://github.com/wissen-ist-acht/digitalhistory.intro) als Zip-Datei herunterladen und entpacken, und im Ordner "docs" befindet sich der Ordner "letters_Der_Sturm".
+As in the previous chapter, we are working with a part of the source corpus of the edition “Der Sturm”, with those letters written by [Franz Marc](https://sturm-edition.de/register/personen/P.0000003.html).
 
-![GitHub-Repositorium mit Quellcode, Download via "Code" und "Download ZIP".](images/screenshot_download_repo.png){fig-align="left"}
+To fully understand the following steps, please download the folder “letters_Der_Sturm”. 
+You can either download the complete [GitHub repository of this guide](https://github.com/wissen-ist-acht/digitalhistory.intro) as a zip file, and find the folder “letters_Der_Sturm” in the folder “docs”.
 
-Sie können das Repositorium auch über die Kommandozeile klonen 
+![GitHub repository with source code, download via "Code" and "Download ZIP".](images/screenshot_download_repo.png){fig-align="left"}
+
+You can clone the repository via the command line
 ``` bash
 git clone https://github.com/wissen-ist-acht/digitalhistory.intro.git
 ```
-oder als bequeme Variante diesen [Direktlink](https://download-directory.github.io/?url=https://github.com/wissen-ist-acht/digitalhistory.intro/tree/main/docs/letters_Der_Sturm) nutzen.
+Or for a lazy option use this direct  [link](https://download-directory.github.io/?url=https://github.com/wissen-ist-acht/digitalhistory.intro/tree/main/docs/letters_Der_Sturm).
 
-Wenn Sie die [Schnittstelle der Webseite](https://sturm-edition.de/ressourcen/schnittstellen.html) ausprobieren wollen, kommen Sie mit wenigen Kommandos an die Dateien.
+If you want to use the [website’s API](https://sturm-edition.de/ressourcen/schnittstellen.html) you only need a few commands to get at the files.
 
 ::: {.callout-caution collapse="true"}
-## Download per Schnittstelle 
-Mit dem ersten Kommando erstellen wir eine Datei "briefe_marc.xml" mit den Dateinamen aller Briefe, die von Franz Marc geschrieben wurden -- über das Register auf der Webseite wissen wir, dass er die Personen-ID P.0000003 hat; 
-die URL zur Abfrage der Schnittstelle können wir der [Dokumentation](https://sturm-edition.de/ressourcen/schnittstellen.html) entnehmen:
+## Download using the API 
+With the first command we create a file, “letters_marc.xml”,  with the file names of all the letters written by Franz Marc -- from the register on the website we know that he has the person ID P.0000003; the URL of the API is in the  [documentation](https://sturm-edition.de/ressourcen/schnittstellen.html):\
 Mac/Linux:
 ```bash
-curl https://sturm-edition.de/api/persons/P.0000003 --output briefe_marc.xml
+curl https://sturm-edition.de/api/persons/P.0000003 --output letters_marc.xml
 ```
 Windows:
 ```bash
-Invoke-WebRequest -Uri "https://sturm-edition.de/api/persons/P.0000003" -OutFile "briefe_marc.xml"
+Invoke-WebRequest -Uri "https://sturm-edition.de/api/persons/P.0000003" -OutFile "letters_marc.xml"
 ```
-Wenn Sie die Datei mit einem Editor öffnen, der XML-Dateien lesen kann, sehen Sie, dass neben den Dateinamen, die nach "target=" stehen, noch viel Beifang ist, den wir loswerden möchten:
+If you open the file with an editor that can read XML files, you can see that next to the file names following “target=”, there are lots of things we do not need:
 ```xml
 <person xmlns="http://www.tei-c.org/ns/1.0" source="http://d-nb.info/gnd/11857745X" xml:id="P.0000003">
     <persName type="pref">Marc, Franz</persName>
@@ -109,23 +121,23 @@ Wenn Sie die Datei mit einem Editor öffnen, der XML-Dateien lesen kann, sehen S
         ...
 ```
 
-Denn eigentlich brauchen wir nur die Dateinamen, um die Dateien mit einem entsprechenden Befehl herunterladen zu können.
-Auch sehen wir, dass nicht nur Briefe mit dem Kürzel "FMA" für Franz Marc gelistet sind, sondern auch neun mit "JVH", Jacoba van Heemskerck. 
-Beim Blick in die betreffenden Dateien zeigt sich, dass in diesen Franz Marc jeweils erwähnt und im TEI-XML mit `persName key="P.0000003"` getaggt wurde, daher Teil des Abfrageergebnisses ist.
-Mit dem zweiten Kommando erstellen wir eine neue Datei, in der die einzelnen extrahierten Dateinamen ohne diejenigen von Jacoba van Heemskerck mit dem Download-Kommando `curl` kombiniert und um die entsprechende URL zum Download ergänzt werden:\
+We only really need the file names to download the files with the relevant command.
+We can also see that it is not only letters with the abbreviation “FMA” for Franz Marc that are listed, but also nine with “JVH”, Jacoba van Heemskerck.  
+If you open the relevant files, you can see that they are ones in which Franz Marc is mentioned and is tagged in TEI-XML with  `persName key="P.0000003"` which is why they are part of the results listed. 
+With a second command we then create a new file, in which the individual extracted file names are listed without those letters of Jacoba van Heemskerck, combined with the download command `curl` and supplemented with the relevant  URL for the download:\
 Mac/Linux:
 ``` bash
-cat briefe_marc.xml | grep -o 'Q.*FMA.*.xml\b' | perl -nle 'print "curl -o $_ https://sturm-edition.de/api/files/$_ "' > dateinamen_briefe_marc.txt
+cat letters_marc.xml | grep -o 'Q.*FMA.*.xml\b' | perl -nle 'print "curl -o $_ https://sturm-edition.de/api/files/$_ "' > filenames_letters_marc.txt
 ```
 Windows:
 ```bash
-Select-String -Path "briefe_marc.xml" -Pattern 'Q.*FMA.*\.xml\b' | ForEach-Object {
+Select-String -Path "letters_marc.xml" -Pattern 'Q.*FMA.*\.xml\b' | ForEach-Object {
     $match = $_.Matches[0].Value
     "curl -o $match https://sturm-edition.de/api/files/$match"
-} > dateinamen_briefe_marc.txt
+} > filenames_letters_marc.txt
 ```
 
-Die Datei "dateinamen_briefe_marc.txt" sieht so aus:
+The file "filenames_letters_marc.txt" looks like this:
 ```bash
 curl -o Q.01.19160128.FMA.01.xml https://sturm-edition.de/api/files/Q.01.19160128.FMA.01.xml 
 curl -o Q.01.19160205.FMA.01.xml https://sturm-edition.de/api/files/Q.01.19160205.FMA.01.xml 
@@ -142,26 +154,26 @@ curl -o Q.01.19150303.FMA.01.xml https://sturm-edition.de/api/files/Q.01.1915030
 ...
 ```
 
-`cat briefe_marc.xml` (Mac/Linux)/`-Path "briefe_marc.xml"` (Windows) gibt den Inhalt der Datei ins Terminal; 
-`grep -o 'Q.*FMA.01.xml\b'` (Mac/Linux) bzw. `Select-String -Pattern 'Q.*FMA.*\.xml\b'` (Windows) findet in diesem Inhalt alle Zeichenketten zwischen "Q" und "FMA.01.xml", wobei nach "xml" durch das Hinzufügen von `\b` das Zeichenende angezeigt ist;
-die 45 gefundenen Zeichenketten werden in je eine neue Zeile geschrieben, wobei mit `curl -o $_` der Befehl `curl -o` und mit `$_` (Mac/Linux) bzw. `$match` (Windows) als Platzhalter die Zeichenkette (also der Dateiname) geschrieben wird, gefolgt von  `https://sturm-edition.de/api/files/$_` (Mac/Linux) bzw. `https://sturm-edition.de/api/files/$match` und mit `$_` bzw. `$match` wieder die Zeichenkette (also wieder der Dateiname).
-Mit einem dritten Kommando, `bash`, führen wir die erstellte Datei aus, d.h. die in ihr stehenden Kommandos werden ausgeführt -- also via `curl` (**C**lient **URL**) die Briefe heruntergeladen.
+`cat letters_marc.xml` (Mac/Linux)/`-Path "letters_marc.xml"` (Windows) passes the content of the file to the Terminal; 
+`grep -o 'Q.*FMA.01.xml\b'` (Mac/Linux) or `Select-String -Pattern 'Q.*FMA.*\.xml\b'` (Windows) finds all character strings between “Q” and “FMA.01.xml” in the list, with `\b` after "xml" marking the end of the pattern; 
+the 45 discovered strings are then each written in a new line, with `curl -o $_` giving the command `curl -o` and with `$_` (Mac/Linux) or `$match` (Windows) as placeholder for the character string (i.e. the file name), followed by  `https://sturm-edition.de/api/files/$_` (Mac/Linux) or `https://sturm-edition.de/api/files/$match`(Windows) and again with `$_` or `$match` the character string (again the file name).
+With a third command, `bash`, you execute the created file, meaning that the commands in the file will be executed and the letters downloaded via the command  `curl` (**C**lient **URL**).
 ```bash
-bash dateinamen_briefe_marc.txt
+bash filenames_letters_marc.txt
 ```
 :::
 
-Egal, wie Sie die Dateien heruntergeladen haben, sollten Sie 45 Briefe im xml-Format vorfinden.
-Öffnen Sie dann das Terminal (Mac/Linux) bzw. die PowerShell (Windows) und bewegen sich mit `cd`, also `change directory`, in den Ordner (directory), in dem Ihre Textdateien liegen.\
-In meinem Fall ist das unter Documents/GitHub/digital_history_intro/docs/letters_Der_Sturm.
+However you have decided to download the files, you should now have 45 letters in XML format on your computer. 
+Now open the Terminal (Mac/Linux) or the PowerShell (Windows) and with  `cd`, `change directory`, navigate to the folder in which your text files are saved. \
+In my case this is in Documents/GitHub/digital_history_intro/docs/letters_Der_Sturm.
 
 ``` bash
 (base) serina00@dg-19-mac-02 ~ % cd Documents/GitHub/digital_history_intro/docs/letters_Der_Sturm`
 ```
 
-Bei den meisten von Ihnen ist das vermutlich unter "Downloads" -- probieren Sie es aus.
+For most of you, it will probably be in  "Downloads" -- give it a try.
 
-(Um zu prüfen, was in einem Ordner liegt, können Sie im Terminal `ls` (für `list`) eingeben, bzw. in der PowerShell `dir` (für `directory`)):
+(In order to check what is in a folder, you can enter  `ls` (for `list`) in the Terminal, or `dir` (for `directory`) in the PowerShell):
 
 ``` bash
 ls
@@ -181,7 +193,9 @@ Q.01.19150827.FMA.01.xml  Q.01.19140507.FMA.01.xml
 
 ## First Steps
 
-Wenn Sie in den Ordner navigiert sind, in dem die Briefdateien liegen, können Sie mit einem einzeiligen Kommando die Suchvorgänge nach einer Grußformel, die Sie  in einem Texteditor nacheinander mit `Strg-F` mit jeder einzelnen Datei ausführen würden, im Terminal/in der PowerShell mit dem Programm `grep` (Global Regular Expression Print, Mac/Linux) bzw. `Select.String` (Windows) für alle Briefe in diesem Ordner auf einmal vornehmen, indem Sie alle Dateien, die auf ".xml" enden, in die Suche aufnehmen.  Die Ergebnisse -- bei dieser Suche nach den Grußformeln "Mit herzlichem Gruß" oder "Mit herzlichen Grüßen" ein Treffer in einem Brief -- können Sie sich im Terminal/in der PowerShell anschauen:
+Once you have navigated to the folder that has your letter files in them, instead of opening every single file as you would in a text editor, and searching with  `Ctrl-F`, you can search for salutations with one single command. 
+In the Terminal/in the PowerShell, with the programme  `grep` (Global Regular Expression Print, Mac/Linux) or `Select.String` (Windows), you can search all the letters in the folder by including all files ending on “.xml” in the search. 
+You can see the results -- in this search for the salutations “Mit herzlichem Gruss” or “Mit herzlichen Grüssen” one hit per file -- in your Terminal/PowerShell.
 
 Mac/Linux:
 ``` bash
@@ -196,9 +210,9 @@ Output:
 ``` bash
 Q.01.19160115.FMA.01.xml:               <salute>Mit herzlichen Grüßen für Sie beide</salute> <signed>Ihr <persName key="P.0000003" ref="http://d-nb.info/gnd/11857745X">F.Marc</persName>
 ```
-Die Formulierung "Mit herzlichen Grüßen" kommt also einmal im Korpus vor, und zwar im Dokument Q.01.19160115.FMA.01.xml.
+So the formulation “Mit herzlichen Grüßen” appears once in your corpus, in the document Q.01.19160115.FMA.01.xml.
 
-Sie können auch mit `wc -l` (Mac/Linux) den **W**ord**c**ount, die Anzahl der gefundenen Treffer auf Zeilenebene, `-l` zählen, bzw. mit `Matches.Count` (Windows), und mit `>` in eine neue Datei schreiben (die während der Ausführung des Kommandos erstellt wird):
+You can also get the **w**ord **c**ount of the number of hits found on line level, `-l`, with `wc-l` (Mac/Linux), or `Matches.Count` (Windows) and write them into a new file with `>` (that will be created when you execute your command).
 
 Mac/Linux:
 ``` bash
@@ -210,18 +224,18 @@ Windows:
 (Select-String -Path *.xml -Pattern "(Mit herzlichem Gruß|Mit herzlichen Grüßen)").Matches.Count > count_greetings.txt
 ```
 
-Wenn Sie die neu erstellte Datei count_greetings.txt öffnen, die sich im selben Ordner wie die Briefe befindet, sollte dort "1" stehen, weil unsere Suche einen Treffer ergeben hat.
+When you open the newly created file count_greetings.txt, which will be in the same folder as the letters, you should find that it says “1”, since our search gave us one hit.
 
-Das Kommando `grep` (Mac/Linux) hat im obigen Befehl den Zusatzparameter `E` bekommen, das Kommando `Select.String` (Windows) den Parameter `-Pattern`, d.h. wir suchen nicht eine exakte Zeichenkette, sondern nutzen Möglichkeiten zur Mustersuche, zur Suche nach Patterns. 
-Diese werden formuliert als sog. **E**xtended Regular Expressions (von hier kommt das `E`), als [reguläre Ausdrücke](https://de.wikipedia.org/wiki/Regul%C3%A4rer_Ausdruck).
-Wir haben in unserer Suchabfrage nämlich nicht nur nach "Mit herzlichem Gruß" gesucht, sondern auch nach "Mit herzlichen Grüßen", formuliert mit dem Zeichen "|", hier als "oder" zu lesen.
-Mithilfe Regular Expressions können wir unsere Suche weiter ausbauen und nach verschiedenen Varianten/Schreibweisen auf einmal suchen.
+The command `grep` (Mac/Linux) was given the additional parameter `E` in the above command, and the command `Select.String` (Windows) the parameter `-Pattern`, meaning that we are not looking for an exact string, but are using the option of pattern searches. 
+These are formulated as so-called **E**xtended [Regular Expressions](https://en.wikipedia.org/wiki/Regular_expression) (that is where you get the  `E`).
+We have not only searched for "Mit herzlichem Gruß", but also for "Mit herzlichen Grüßen", which we formulated with the symbol "|", which here means "or".
+With the help of regular expressions we can extend our search further and search for different variants at once.
 
 ::: {.callout-note}
-Regular Expressions haben verschiedene *flavours* -- je nach Programmiersprache werden Dinge etwas anders formuliert, und manche Defaulteinstellungen unterscheiden sich. 
-In unserem Fall benötigt `grep` noch den Parameter `-i`, um Groß- und Kleinschreibung zu ignorieren.
-`Select.String` ignoriert dies by default und braucht keinen zusätzlichen Parameter.
-Solche Feinheiten sind bei der Arbeit mit Regular Expressions wichtig zu wissen, aber das lernt man on the go.
+Regular expressions have different *flavours* -- depending on the programming language things are formulated in different ways, and some default settings differ. 
+In our case,  `grep` needs the parameter  `-i`, in order to ignore upper/lower case.
+`Select.String` ignores it by default and does not need additional parameters.
+These details are important to know about when working with regular expressions, but is something you will learn on the go.   
 :::
 
 Mac/Linux:
@@ -234,9 +248,9 @@ Windows:
 (Select-String -Path *.xml -Pattern "(Mit herzlichem Gru(ß|ss)|Mit herzlichen Grü(ß|ss)en|H(e|.?)rzl. Gru(ß|ss))").Matches.Count > count_greetings.txt
 ```
 
-So formuliert finden wir 17 Treffer für eine Grußformel, mit den möglichen Schreibweisen "Mit herzlichem Gruß", "Mit herzlichem Gruss", "Mit herzlichen Grüßen", "Mit herzlichen Grüssen", "Herzl. Gruß", "Herzl. Gruss", "Hrzl. Gruß", "Hrzl. Gruss".
+With this formulation you will find 17 hits for a salutation, with the possible variants of "Mit herzlichem Gruß", "Mit herzlichem Gruss", "Mit herzlichen Grüßen", "Mit herzlichen Grüssen", "Herzl. Gruß", "Herzl. Gruss", "Hrzl. Gruß", "Hrzl. Gruss".
 
-Wenn wir herausfinden möchten, ob Grüße mal *herzlich*, mal *hrzl.* oder *freundlich* verschickt wurden, können wir die Suche und die Art der Ausgabe modifizieren:
+If you would like to find out whether greetings were sent  *herzlich*, *hrzl.* or *freundlich* you can modify the search and form of output:
 
 Mac/Linux:
 ``` bash
@@ -261,22 +275,25 @@ Q.01.19150116.FMA.01.xml:                    <salute>Mit herzl. Gruß Ihnen beid
 Q.01.19150121.FMA.01.xml:                    <salute>Herzl. Gruß</salute> <signed>Ihr <persName key="P.0000003" ref="http://d-nb.info/gnd/11857745X">Fz. Marc</persName>
 ...
 ```
-Mit diesem Kommando durchsuchen wir also den Text nach dem Muster `Gr(u|ü)(ß|ss)`, also Beginn mit `Gr` oder `gr`, dann folgt entweder ein `u` oder ein `ü`, dann entweder ein `ß` oder `ss`. Weil wir kein Wortende markiert haben (das ginge mit `\b`), werden auch "Grüße" oder  "Grüssen" gefunden.
+With this command you are searching the text for the pattern  `Gr(u|ü)(ß|ss)`, so a phrase that starts with  `Gr` or `gr`, followed by either a  `u` or a `ü`, then followed by either a  `ß` or `ss`. 
+As we have not marked a word-end (you would do that with `\b`), you will also find “Grüße” or “Grüssen”.
 
-Wenn Sie sich während der Lektüre des vorangegangenen Kapitels auf der Webseite durch die Briefe geklickt haben, werden Sie festgestellt haben, dass ein Brief nicht immer mit "Gruß" oder "Grüßen" endet.
-Beim Output der Suchanfragen im Terminal sehen Sie, dass alle Grußformeln von einem Tag-Paar umgeben sind:  `<salute>` kennzeichnet den Beginn des Grußes, `</salute>` das Ende. 
-Öffnen Sie eine der Briefdateien und suchen Sie nach "salute".
-(Wenn Sie keinen XML-fähigen Editor auf dem Computer haben, öffnen Sie die Datei einfach mit einem Browser.)
+If you have clicked your way through the letters while reading the previous chapter, you will have noticed that not all letters end on “Gruss” or “Grüssen”. 
+In the output of the queries in the Terminal you can see that all salutations are surrounded by a tag-pair:  
+`<salute>` marks the beginning of the salutation, `</salute>` the end.
+Open one of the letter files and search for “salute”. 
+(If you do not have an XML capable editor on your computer, just open the file in your browser.)
 
 
-![Ausschnitt aus Brief Nr. 1 von Franz Marc an Herwarth Walden](images/letter_1_Franz_Marc.png){fig-align="left"}
+![Extract from letter no 1 from Franz Marc to Herwarth Walden](images/letter_1_Franz_Marc.png){fig-align="left"}
 
 
-Wie Sie sehen, gibt es das Tag-Paar `<salute>-</salute>` zweimal, einmal umrahmt vom Tag-Paar `<opener>-</opener>`, einmal von `<closer>-</closer>`.
-Die Anrede ist mit dem ersten, die Grußformel mit dem zweiten Tag-Paar markiert.
-Wir können also, wenn wir mit Dokumenten arbeiten, die nach festgelegten Richtlinien ausgezeichnet wurden, nach dem Element Grußformel suchen, ohne erst einen Blick in die Texte werfen zu müssen, um verschiedene Suchabfragen zu formulieren. 
-Wir formulieren unsere Suchabfrage um und suchen nun nach einer Abfolge von Zeichen mit dem Beginn `<closer>`, gefolgt von keinem bis zu beliebig vielen (`.*`) Zeichen der Klasse `cntrl`, also nicht sichtbare Zeichen wie Tabs, Seiten- oder Zeilenumbruch. Danach folgt `<salute>`, wiederum gefolgt von keinem bis zu beliebig vielen (`.*`) Zeichen, keinem bis zu beliebig vielen (`.*`) Zeichen der Klasse `cntrl` und nochmal keinem bis zu beliebig vielen (`.*`) Zeichen, bis der Beginn des Schlusstags zu `</salute>` kommt.
-Damit werden die verschiedenen Fälle in den Briefen abgedeckt, dass zwischen `<closer>` und `<salute>` Text oder ein Zeilenumbruch stehen kann oder auch nicht, und dass zwischen `<salute>` und `</salute>` Text, kein Text oder ein Zeilenumbruch kommen kann.
+As you can see, you twice have the tag-pair `<salute>-</salute>`, once framed by the tag-pair `<opener>-</opener>`, once by `<closer>-</closer>`.
+The address is marked with the first, the salutation with the second tag-pair. 
+So when we are working with files that have been marked up according to fixed rules, we can search for the element of the salutation without first having to look at the texts and formulate various queries. 
+Now we change the formulation of our query and search for a string of characters beginning with `<closer>`, followed by from zero to however many (`.*`) characters of the class `cntrl`, so invisible characters such as tabs, page breaks, or line breaks. 
+Then follows  `<salute>`, again followed by from zero to however many (`.*`) characters, followed by from zero to however many (`.*`) characters of class  `cntrl` and again followed by from zero to however many (`.*`) characters, until you get to the beginning of the closing tag `</salute>`.
+Like this, you can cover all possible cases in the letters in which you find text or line breaks between  `<closer>` and `<salute>` or not, and in which there is text, no text or a line break between  `<salute>` and `</salute>`.
 
 Mac/Linux:
 ```bash
@@ -308,15 +325,17 @@ Q.01.19140608.FMA.01.xml:<closer>
 ...
 
 ```
- Wenn wir die Ergebnisse direkt in eine Datei schreiben wollen, können wir das natürlich auch tun:
+If you want to write the results directly into a file you can of course also do that:
  
  Mac/Linux:
 ```bash
-grep -E -zo '<closer>[[:cntrl:]].*<salute>.*[[:cntrl:]].*<'  *.xml > Grussformeln.txt
+grep -E -zo '<closer>[[:cntrl:]].*<salute>.*[[:cntrl:]].*<'  *.xml > salutations.txt
 ```
 
-Spätestens jetzt wäre es aber an der Zeit, das Instrumentarium zu wechseln: 
-Mit dem Terminal bzw. der Shell kann man verschiedenste Operationen durchführen, und es gibt zahlreiche kleine Programme, die man zusätzlich installieren kann -- zum Parsen, also Zerlegen von XML-Dateien, zur Bearbeitung von Bilddateien oder zum Download von YouTube-Videos.
-Die Übersichtlichkeit ist allerdings recht begrenzt, und gerade für die Analyse von Struktur- und Textdaten gibt es weitaus geeignetere Programmiersprachen wie R oder Python, wie in [@sec-digitaletools] bereits erwähnt.
+But this is the moment, at the latest, to change your tools. 
+You can do all sorts of things with the Terminal/Shell and there are any number of programmes you can install in addition -- to parse XML files, to work on image files or to download Youtube videos. 
+But it starts getting less and less neat and for the analysis of structural and textual data you can use programming languages like R or Python (as mentioned in  [@sec-digitaletoolsen] which are more practical.
 
-Um beispielsweise mit dem Volltext der Briefe weiterzuarbeiten, sei es für ein *close reading* oder für quantitative Textanalysen, können für eine bessere Lesbarkeit und einfachere Auswertungen die Auszeichnungen des TEI-XML entfernt werden.
+
+To continue working with the full text of the letters, be it for close reading or quantitative text analysis, you could, for example, strip the XML tags to achieve a better reading experience and to facilitate further analysis.
+
