@@ -82,7 +82,7 @@ Wenn Sie die [Schnittstelle der Webseite](https://sturm-edition.de/ressourcen/sc
 ::: {.callout-caution collapse="true"}
 ## Download per Schnittstelle 
 Mit dem ersten Kommando erstellen wir eine Datei "briefe_marc.xml" mit den Dateinamen aller Briefe, die von Franz Marc geschrieben wurden -- über das Register auf der Webseite wissen wir, dass er die Personen-ID P.0000003 hat; 
-die URL zur Abfrage der Schnittstelle können wir der [Dokumentation](https://sturm-edition.de/ressourcen/schnittstellen.html) entnehmen:
+die URL zur Abfrage der Schnittstelle können wir der [Dokumentation](https://sturm-edition.de/ressourcen/schnittstellen.html) entnehmen:\
 Mac/Linux:
 ```bash
 curl https://sturm-edition.de/api/persons/P.0000003 --output briefe_marc.xml
