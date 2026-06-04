@@ -8,17 +8,16 @@ editor:
 
 # Hands on {.unnumbered}
 
-Im Praxisteil sollen verschiedene Schritte rund um die **Datenerhebung** -- wie komme ich von Quellen zu (strukturierten) Daten, und was ist das überhaupt?
---, die **Datenaufbereitung** -- wie kann bzw.
-muss ich die Daten für meine Zwecke bearbeiten -- und die **Datenanalyse** -- wozu sind die strukturierten Daten da, und was mache ich damit?
--- an einem kleinen Beispiel durchgeführt werden.
-Dabei werden viele Praktiken und Konzepte nur angeschnitten, die bei Interesse mithilfe weiterführender [Literatur und Tutorials](further_resources.qmd##Tools%20für%20digital%20history) vertieft werden können.
-Manch eine:r wird Inhalte vermissen -- Lücken sind unvermeidbar, aber Anregungen sind herzlich willkommen. 
+In this part different steps surrounding the **collection of data**  -- how do I get from sources to (structured) data and what is that anyway? --, the **preprocessing of data** -- how can or must I edit the data for my own use? -- and the **analysis of data** -- what is the structured data good for and what do I do with it? -- will be exemplified.
+We will only touch many of the practices and concepts that can be delved into deeper with further  [Literature and Tutorials](further_resources.en.qmd##sec-digitaltoolsen).
+You might miss some contents -- that is unavoidable, but comments are always welcome.
 
-Als Quellenbeispiel dient eine Briefsammlung, die im Rahmen der digitalen Edition "Der Sturm" an der Akademie der Wissenschaften in Mainz erstellt wurde.^[DER STURM. Digitale Quellenedition zur Geschichte der internationalen Avantgarde, erarbeitet und herausgegeben von Marjam Trautmann und Torsten Schrade. Mainz, Akademie der Wissenschaften und der Literatur, 2018. Online: <https://sturm-edition.de/>, Lizenz: [CC-BY-4.0](https://creativecommons.org/licenses/by/4.0/).] Das Projekt, das Briefe von Personen der internationalen Avantgarde rund um die Zeitschrift "Der Sturm" aufbereitet, hatte dabei unterschiedliche Nutzer:innengruppen im Blick und stellt die Quellen bzw. die erstellten Daten auf verschiedene Weise zur Verfügung: 
-Auf der Webseite des Projekts können die [bisher edierten Briefe](https://sturm-edition.de/quellen/briefe.html) am Bildschirm gelesen werden, und es gibt ein Register der in den Texten genannten Entitäten, also Einheiten, hier der [Personen](https://sturm-edition.de/register/personen.html), [Orte](https://sturm-edition.de/register/orte.html) und [Werke](https://sturm-edition.de/register/werke.html);
-darüberhinaus gibt es die Möglichkeit, über eine [Schnittstelle](https://sturm-edition.de/ressourcen/schnittstellen.html) die Quellen oder die Registerdaten herunterzuladen. 
-Wir können uns den Briefen also über den Vordereingang, die Webseite, oder durch die Hintertür, mittels Kommandozeile, nähern, und beide Herangehensweisen vergleichen.
-Grundlegende Konzepte für die Arbeit mit Daten, bzw. für die Schritte von der Quelle zum Datensatz, werden angesprochen.
+As source we are using a correspondence that has been compiled as part of the digital edition “Der Sturm” at the Akademie der Wissenschaften in Mainz.^[DER STURM. Digitale Quellenedition zur Geschichte der internationalen Avantgarde, erarbeitet und herausgegeben von Marjam Trautmann und Torsten Schrade. Mainz, Akademie der Wissenschaften und der Literatur, 2018. Online: <https://sturm-edition.de/>, licence: [CC-BY-4.0](https://creativecommons.org/licenses/by/4.0/).] The project which edits letters from individuals belonging to the international Avantgarde surrounding the Journal “Der Sturm”, had different users in view and offers the data in different formats: 
 
-Briefe sind eine gängige Quellengattung in den verschiedenen Epochen/Areas, und sie können sowohl für Textanalysen als auch zur Gewinnung von Strukturdaten genutzt werden. Das Beispiel zielt also auch auf eine größtmögliche Nähe zur tatsächlichen historischen Arbeit.
+On the Website of the project those [letters already edited](https://sturm-edition.de/quellen/briefe.html) can be read, and there is an index of the named entities in the text, such as  [persons](https://sturm-edition.de/register/personen.html), [places](https://sturm-edition.de/register/orte.html) and [works](https://sturm-edition.de/register/werke.html);
+in addition to that there is the possibility of downloading the sources or index data via an[API](https://sturm-edition.de/ressourcen/schnittstellen.html).
+This means we can approach the letters via the front door, the website, or the back door, the command line, and compare the two approaches. 
+Basic concepts for working with data, the necessary steps to get from a source to a data set, will be touched on.
+
+Letters are a common source genre in many different epochs and areas and they can be used both for textual analysis and for the gathering of structural data. 
+The example is therefore aimed at showing processes that can be very useful for actual historical research.
