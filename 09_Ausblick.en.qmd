@@ -7,45 +7,45 @@ editor:
     wrap: sentence
 ---
 
-Wenn Sie die von Ihnen erstellten Strukturierungen von Brief Nr. 8 von Franz Marc an Herwarth Walden und die identifizierten Entitäten mit denjenigen in den XML-Dateien der STURM-Editor:innen vergleichen, ergeben sich vermutlich einige Unterschiede.
-Ein zentraler ist sicher,  dass sich die Herausgeber:innen bei ihrer Strukturierung an ein Schema gehalten haben, das im Bereich der Texteditionen Standard ist, [TEI](https://de.wikipedia.org/wiki/Text_Encoding_Initiative) XML, und das kann zahlreiche Vorteile haben.
-So können Sie beispielsweise die im vorherigen Kapitel gezeigten Abfragen nach der Grußformel durchführen, ohne sich Gedanken darüber machen zu müssen, ob sich die Benennung des Tags auf halber Strecke ändert.
-Und wenn Sie sich während der Forschungsarbeit dafür entscheiden würden, anstatt Grußformeln besser die Anrede zu untersuchen, oder aber das Korpus auf die Briefe von [Jacoba van Heemskerck](https://de.wikipedia.org/wiki/Jacoba_van_Heemskerck) auszuweiten, könnten wir dies mit wenigen Änderungen in unseren Abfragen machen, weil auch die Anrede mit einem einheitlichen Tag codiert ist; 
-würden wir die Quellen nur über die Webseite lesen und unsere Auszählungen von Hand machen, würde unsere Arbeit mit dem Hinzufügen neuer Dokumente von vorne beginnen.
+If you now compare the way you structured letter no 8 from Franz Marc to Herwarth Walden and the way in which you identified entities with the way in which it is done in the XML files of the STURM editors, you will probably find some differences. 
+One difference will most certainly be that the editors followed a model in their structuring, which is the standard for text editions. 
+It is called  [TEI](https://en.wikipedia.org/wiki/Text_Encoding_Initiative), and using it can have a number of benefits. 
+It means for instance, that you can follow through with the queries shown in the previous chapter without wondering whether the tag name is going to change halfway through. 
+And if you decide during your research to concentrate on the address rather than the salutation, or to include the corpus of letters by [Jacoba van Heemskerck](https://en.wikipedia.org/wiki/Jacoba_van_Heemskerck), you can do this with only very few changes to your queries, as these too are encoded with a unified tag. 
+If you only read the texts via the browser and counted things out by hand, you would have to start all over again with the addition of new documents.
 
-Das Erstellen von standardisierten Daten mithilfe eines Schemas bzw. bestimmter Richtlinien ermöglicht es auch, verschiedene Datensätze miteinander zu kombinieren oder mit weiteren Daten anzureichern.
-Bei einem Blick in die Briefe, auf der Webseite oder in der XML-Datei, wird ersichtlich, dass Entitäten wie Personen oder Orte nicht nur als solche markiert und projektintern verlinkt, sondern auch mit weiteren Normdaten verbunden wurden, beispielsweise mit dem dazugehörigen Eintrag in der [GND](https://de.wikipedia.org/wiki/Gemeinsame_Normdatei), der Gemeinsamen Normdatei der Deutschen Nationalbibliothek, oder in [Geonames](https://de.wikipedia.org/wiki/GeoNames), einer Datenbank für geographische Daten.
+The creation of standardised data according to a model or fixed guidelines also means that you can compare different data sets with each other or enrich them with additional data. 
+Looking at the letters, on the website or in the XML file, you can see that entities such as persons or places are not only marked as such and linked internally within the project, but are also linked to other authoritative data, for instance with the relevant entry in the  [GND](https://en.wikipedia.org/wiki/Integrated_Authority_File), the Gemeinsame Normdatei der Deutschen Nationalbibliothek, or in  [Geonames](https://en.wikipedia.org/wiki/GeoNames), a data base for geographical data.
 
-![Ausschnitt aus Brief Nr. 1 von Franz Marc an Herwarth Walden, Normdaten gelb hervorgehoben.](images/letter_1_Franz_Marc_gnd.png){fig-align="left"}
+![Extract from letter no 1 from Franz Marc to Herwarth Walden, authoritative data offset in yellow.](images/letter_1_Franz_Marc_gnd.png){fig-align="left"}
 
-Wenn Sie den Link zu [Kandinski](http://d-nb.info/gnd/118559737) oder zu [Berlin](https://www.geonames.org/2950159/berlin.html) anklicken, erhalten Sie auf den Seiten der GND bzw. Geonames zahlreiche zusätzliche Informationen zur Person bzw. zum Ort, unter anderem Lebensdaten bzw. Geokoordinaten.
-Wenn Sie nun beispielsweise wissen wollten, welche Orte in den Briefen Franz Marcs genannt werden, könnten Sie diese nicht nur mithilfe des Tag-Paars `<placeName>-</placeName>` extrahieren, sondern mit den dazugehörigen Geokoordinaten anreichern und sich auf einer Karte anzeigen lassen.
+If you click on the link to [Kandinski](http://d-nb.info/gnd/118559737) or [Berlin](https://www.geonames.org/2950159/berlin.html), you will find additional information for the person or place on the website of GND or Geonames, such as dates and geocoordinates. 
+If you now for example would like to know which places are named in the letters of Franz Marc, you can extract these not only with the tag pair `<placeName>-</placeName>`, but also with the added geocoordinates, and you can then visualise them on a map.
 
-![Orte, die im Briefkorpus von Franz Marc an Herwarth Walden genannt werden (Visualisierung erstellt mit Palladio).](images/letters_places.png){fig-align="left"}
+![Places mentioned in the corpus of letters by Franz Marc to Herwarth Walden (created with Palladio).](images/letters_places.png){fig-align="left"}
 
-![Orte, die im Briefkorpus von Franz Marc an Herwarth Walden genannt werden, Detail (Visualisierung erstellt mit Palladio).](images/letters_places_zoom.png){fig-align="left"}
+![places mentioned in the corpus of letters by Franz Marc to Herwarth Walden, detail (created with Palladio).](images/letters_places_zoom.png){fig-align="left"}
 
-Für solche Vorgänge reicht ein kurzes (aber nicht unbedingt schnell erstelltes ...) [Skript](https://github.com/wissen-ist-acht/digitalhistory.intro/blob/main/docs/parse_tei_files.R), an das sich, je nach Ziel bzw. gewünschter Visualisierung, noch weitere Schritte zur Datenverfeinerung bzw. -anreicherung anschließen lassen.^[In diesem Fall wurde die mithilfe des verlinkten Skripts (in der Programmiersprache R) erstellte [csv-Datei](https://github.com/wissen-ist-acht/digitalhistory.intro/blob/main/docs/place_names_letters.csv) mit OpenRefine [weiter bearbeitet](https://openrefine.org/docs/manual/reconciling#reconciliation-actions), um den Adressen Geokoordinaten hinzuzufügen. Die so [angereicherte Tabelle](https://github.com/wissen-ist-acht/digitalhistory.intro/blob/main/docs/place_names_letters_coordinates.csv) wurde in das Onlinetool [Palladio](https://hdlab.stanford.edu/palladio/) geladen, das Koordinaten auf einer Karte darstellen kann.]
-Diese Abfolge lässt sich recht unaufwendig auf weitere Dokumente ausweiten -- ob Sie nur die Orte in den Briefen Franz Marcs oder auch in denen Jacoba van Heemskercks extrahieren und visualisieren wollen, spielt mit Blick auf die Rechenzeit des Skripts keine Rolle.
+For such processes you need a brief (though not necessarily briefly created) [script](https://github.com/wissen-ist-acht/digitalhistory.intro/blob/main/docs/parse_tei_files.R), that you can change according to your aim or desired style of visualisation.^[In this case the [csv file](https://github.com/wissen-ist-acht/digitalhistory.intro/blob/main/docs/place_names_letters.csv) was created with the help of the script in the link (written in the programming language R), and was [refined](https://openrefine.org/docs/manual/reconciling#reconciliation-actions), with OpenRefine in order to add geocoordinates to the addresses. 
+This [enriched spreadsheet](https://github.com/wissen-ist-acht/digitalhistory.intro/blob/main/docs/place_names_letters_coordinates.csv) was uploaded into the online tool [Palladio](https://hdlab.stanford.edu/palladio/) gwhich can place coordinates on a map.]
+This can then be used with relatively little additional work for other documents -- whether you are only interested in extracting and visualising places from the letters of Franz Marc or also those of Jacoba van Heemskerck, has no impact on the script’s computation time.
 
+So, creating data sets according to specific principles, formal ones but also with a view to the [FAIR principles](05_FAIR_CARE.en.qmd), has many benefits for both your own work -- you need not formulate new data models by yourself -- and for that of others -- important basic information can be transferred, leaving more time for actual research.
 
-Das Erstellen von Datensätzen nach bestimmten Richtlinien, einerseits formal, andererseits auch mit Blick auf die [FAIR-Prinzipien](05_FAIR_CARE.qmd), bietet also viele Vorteile für die eigene Arbeit -- so müssen beispielsweise Schemata zur Klassifizierung nicht von Neuem erfunden werden -- ebenso wie für die Arbeit anderer -- grundlegende Informationen können übernommen werden und es bleibt mehr Zeit für die inhaltliche Forschung. 
+A nice example for the reuse of data is the project  [quoteSalute](https://correspsearch.net/de/quotesalute/suche-salutes.html), created by students, a website on which you can generate historical salutations, in case you are getting bored with current standard forms. 
+The project uses a number of XML encoded letter corpora, that are all online as openly usable data, for which they extracted and enriched the salutations. 
+You can find the exact description  [here](https://correspsearch.net/en/quotesalute/documentation.html). 
 
-Ein anschauliches Beispiel für die Weiternutzung von Daten ist das von Studierenden erstellte Projekt [quoteSalute](https://correspsearch.net/de/quotesalute/suche-salutes.html), eine Webseite, auf der Sie historische Grußformeln generieren lassen können, falls Ihnen beim Briefeschreiben der Standardgruß zu langweilig geworden ist. 
-Das Projekt hat hierfür mehrere XML-codierte Briefkorpora, die alle als offen nutzbare Daten online verfügbar sind, kombiniert, die Grußformeln extrahiert und angereichert. 
-Die genaue Projektbeschreibung finden Sie [hier](https://correspsearch.net/de/quotesalute/dokumentation.html). 
+![Homepage of quoteSalute](images/screenshot_quotesalute.en.png){fig-align="left"}
 
-![Startseite von quoteSalute](images/screenshot_quotesalute.png){fig-align="left"}
+As you can see, you can not only generate salutations, but also filter the search, for instance according to the gender of the sender or according to language. 
+This is possible because the existing annotation of the text files has been extended in the project, for example with information on the gender of a person, if apparent. 
+The code used is openly accessible on a  [GitHub repository](https://github.com/telota/quoteSalute), and new corpora are welcome.
 
-Wie Sie sehen, können Sie sich Grüße nicht nur generieren lassen, sondern auch filtern, beispielsweise nach Geschlecht der Absender:innen bzw. der Adressat:innen oder nach Sprache.
-Sie können dies deswegen, weil die vorhandenen Codierungen der Textdateien im Projekt ausgeweitet und zum Beispiel um das Geschlecht der beteiligten Personen, sofern ersichtlich, ergänzt wurden.
-Der Code für das Projekt ist dabei offen auf einem [GitHub-Repositorium](https://github.com/telota/quoteSalute) zugänglich, und neue Korpora werden gerne aufgenommen.
-
-Computergestütztes und computerbasiertes Arbeiten, das sollte dieser Guide vermitteln, vereinfacht, beschleunigt oder ermöglicht gar Prozesse, die wir für unsere historische Forschung nutzen können.
-Dabei gibt es mittlerweile zahlreiche Programme, die über eine graphische Oberfläche bedient werden können und die meisten Anforderungen aus geisteswissenschaftlicher Sicht erfüllen.
-Manche Analysen hingegen erfordern sehr spezifische Schritte oder viel Rechenkapazitäten, für die sich das Erlernen einer Programmiersprache lohnen kann.
-Gemeinsam ist beidem, dass es sowohl für das Formulieren einer interessanten Fragestellung, für die Auswahl der Datenbasis als auch für die Interpretation der Ergebnisse, die die Maschine liefert, informierte Expertise braucht -- ein Programm zur Bestimmung der Autor:innenschaft eines unbekannten Textes rechnet unendlich lange, wenn es alle existierenden Texte mit einem unbekannten vergleichen muss;
-hier braucht es eine Eingrenzung auf eine Auswahl durch Literaturwissenschaftler:innen.
-Historische Forschung ist immer auch Analyse des Einzelfalls, des Partikularen, eines *close readings*; 
-die Möglichkeit, den Blick mithilfe des Computers auszuweiten, kann in den meisten Fällen gewinnbringend in Betracht gezogen werden.
-
+What this guide wanted to show is that computer-assisted and computer-based work can make the processes we can use for our historical research easier, quicker, sometimes even at all possible. 
+There are nowadays countless programmes you can use via a graphic interface that are perfectly adequate for most requirements we have in the humanities. 
+But some analyses require very specific steps or a lot of computing capacity for which it can be worth learning a programming language. 
+Both for formulating an interesting research question and for the choice of data, as well as for the interpretation of the results given by the machine, you need informed expertise -- a programme that should identify the author of an unknown text needs an incredibly long time if it wants to compare all existing texts with the unknown one. 
+You need an expert, a literary scholar, to choose the relevant corpus it should refer to. 
+Historical research is always also the analysis of the individual case, the particular, it is a close reading; 
+the possibility of widening one's gaze with the assistance of the computer can in most cases be an interesting option.
