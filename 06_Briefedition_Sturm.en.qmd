@@ -1,5 +1,5 @@
 ---
-title: "'Der Sturm' – Edited Correspondence"
+title: "'Der Sturm' -- Edited Correspondence"
 suppress-bibliography: true
 lang: en
 editor: 
@@ -7,38 +7,39 @@ editor:
     wrap: sentence
 ---
 
-Die Webseite [https://sturm-edition.de/](https://sturm-edition.de/) dient als Portal für die Arbeit mit Quellen zum avantgardistischen STURM-Unternehmen, das mit der Gründung der gleichnamigen Zeitschrift in Berlin im Jahr 1910 durch [Herwarth Walden](https://de.wikipedia.org/wiki/Herwarth_Walden) begann und mit den nachfolgenden Gründungen einer Galerie, einer Bühne und eines Verlags internationale Bedeutung erlangte. 
-Neben Walden waren weitere Akteur:innen an diesem Unternehmen beteiligt, und bisher (Stand Herbst 2024) sind 179 Briefe von drei Künstler:innen an Walden im Portal verfügbar.
-Zudem wurden die Zeitschrift, Ausstellungskataloge, Jahrbücher, Verlagsschriften und weitere Materialien wie Plakate, Fotografien oder Einladungskarten digitalisiert.
+The website [https://sturm-edition.de/](https://sturm-edition.de/) serves as a portal for the work with sources concerning the avantgardist “STURM” enterprise that began with the founding of the journal of the same name in Berlin in 1910, by [Herwarth Walden](https://en.wikipedia.org/wiki/Herwarth_Walden), and the subsequent founding of an art gallery, a theatre, and a publishing company that achieved international importance. 
+Besides Walden other actors were a part of the enterprise and by summer 2026 179 letters by three different artists written to Walden were available in the portal.
+In addition to that, the journal, exhibition catalogues, yearbooks, publisher’s documents and further sources such as posters, photographs and invitations have been digitised.
 
-Gehen Sie auf die [Startseite](https://sturm-edition.de/) und lesen Sie die Kurzbeschreibung zu den Briefen, Personen, Orten und Werken, um eine erste Idee vom Material zu bekommen. 
-Klicken Sie dann die Briefabteilung an und schauen sich Brief Nummer 8 von [Franz Marc](https://de.wikipedia.org/wiki/Franz_Marc) an Herwarth Walden an.
+Go to the  [homepage](https://sturm-edition.de/) and read the brief description of the letters, people and places, to get a first impression of the material. 
+Then click on the letter section and look at letter number 8, from [Franz Marc](https://en.wikipedia.org/wiki/Franz_Marc) to Herwarth Walden.
 
-Wie Sie sehen können, wurde der Brief nicht nur digitalisiert, also in ein digitales Bild umgewandelt, das Sie über einen externen Viewer betrachten können, sondern auch historisch-kritisch ediert und nach den Richtlinien der TEI P5 in XML codiert.
+As you can see, the letter has not only been digitised, i.e. transformed into a digital image which you can look at via an external viewer, but also edited in historical-critical mode and encoded in XML following the TEI P5 guidelines.
 
-Was bedeutet das genau, und wieso ist es wichtig für unsere Arbeit als Historiker:innen?
+What does that mean and why is it important for our work as historians?
 
-Bei einer historisch-kritischen Edition wird keine reine Leseversion eines Textes erstellt, wie man es beispielsweise von der Textdarstellung in einem Roman kennt, sondern zusätzliches Material zum besseren Verständnis des Texts herangezogen und als Information in einem sog. kritischen Apparat zur Verfügung gestellt.
-Beispielsweise werden Quellen, die ein:e Verfasser:in für bestimmte Textpassagen als Vorlage genutzt hat, genannt, oder auf Ereignisse während der Entstehungszeit, die Einfluss auf den Text hatten, verwiesen.
-Entitäten wie Personen, Orte, Werke usw. werden erklärt oder kommentiert.
-Der Text selbst wird so quellengetreu wie möglich dargestellt, orthographische oder grammatikalische Fehler werden nicht korrigiert, und meist werden auch extratextuelle Elemente wie Durchstreichungen oder Hervorhebungen im Lesetext dargestellt. 
+In an historical-critical edition you do not produce a simple rendition for accessible reading as you are used to, for instance, from the way text is presented in a novel. 
+Additional material, relevant for better understanding the text, is consulted and given as information in a so-called critical apparatus. 
+For example, sources that the author has used as templates for certain passages are mentioned, or events that influenced the text are referenced. 
+Named entities such as persons, places, works etc. are explained and commented on.
+The text itself is reproduced as close to the original as possible, orthographical or grammatical mistakes are not corrected, and usually extratextual elements such as crossed-out or underlined text is marked in some way.
 
-![Brief Nr. 8 von Franz Marc an Herwarth Walden.^[Online unter [https://sturm-edition.de/quellen/briefe/fma/Q.01.19140414.FMA.01.html](https://sturm-edition.de/quellen/briefe/fma/Q.01.19140414.FMA.01.html)] Rote Einfärbung kennzeichnet eine Verlinkung, meist auf Entitäten wie Personen oder Orte.](images/letter_8_Franz_Marc.png){fig-align="left"}
+![Letter no 8 from Franz Marc to Herwarth Walden.^[Online unter [https://sturm-edition.de/quellen/briefe/fma/Q.01.19140414.FMA.01.html](https://sturm-edition.de/quellen/briefe/fma/Q.01.19140414.FMA.01.html)] Red text contains a link, usually to entities such as persons or places.](images/letter_8_Franz_Marc.png){fig-align="left"}
 
 
-Wie genau die Editor:innen jeweils vorgegangen sind -- dies unterscheidet sich von Edition zu Edition --, wird in den jeweiligen Editionsrichtlinien vermerkt.
-Für die Quellen des STURM-Projekts gibt es verschiedene Richtlinien, je nach Quellenart.
-Die der Briefedition finden Sie [hier](https://sturm-edition.de/edition/briefe.html).
+The precise way in which the editors proceeded -- this is different from edition to edition -- is laid out in the editorial principles. 
+For the sources in the STURM project there are different principles for the different genres of sources. 
+Those for the letter edition can be found  [here](https://sturm-edition.de/edition/briefe.html).
 
-Eine Codierung in XML bedeutet, dass eine Textdatei mit der [E**x**tensible **M**arkup **L**anguage](https://de.wikipedia.org/wiki/Extensible_Markup_Language) ausgezeichnet wurde, d.h. Strukturen im Text werden durch festgelegte Zeichen so markiert, dass sie sowohl von Menschen als auch von Computern interpretiert werden können.
-Etwas geläufiger ist Ihnen vermutlich HTML, [**H**yper**t**ext **M**arkup **L**anguage](https://de.wikipedia.org/wiki/Hypertext_Markup_Language), eine Sprache zur Auszeichnung elektronischer Dokumente. 
-Die Prinzipien  sind dabei ähnlich: 
-Festgelegte Elemente werden durch einen öffnenden und einen schließenden Tag ausgezeichnet, z.B.\
+An encoding in XML means that a text file has been encoded with  [E**x**tensible **M**arkup **L**anguage](https://en.wikipedia.org/wiki/XML), meaning that structures within the text have been marked with previously defined signs, so that they can be interpreted by both humans and machines. 
+Somewhat commoner is HTML, [**H**yper**t**ext **M**arkup **L**anguage](https://en.wikipedia.org/wiki/HTML), a language for the tagging of electronic documents. 
+The principles are similar. 
+Textual elements are marked with an opening and a closing tag, for instance \
 `<salute>Hrzl.</salute>`,\
-um die Grußformel in einem Brief (wie in Brief Nummer 8, siehe oben) als solche zu markieren.
-Das hat den Vorteil, dass bei der Suche nach Grußformeln nicht  konkrete Begriffe formuliert werden müssen, sondern nach dem entsprechenden Element `<salute>` gesucht werden kann, und zwar sowohl vom Menschen als auch von der Maschine.
-Darauf kommen wir nochmals zurück.
-Zunächst betrachten wir die Briefe auf der Webseite.
+in order to signalise that the salutation in a letter (as in letter 8, see above) is exactly that, a salutation. 
+That has the benefit, that you do not have to search for specific terms if you are interested in different forms of salutations, but can search for the appropriate element  `<salute>`, and not only you, but the machine too. 
+We will come back to that. 
+First we’ll look at the letters on the website.
 
 
 
