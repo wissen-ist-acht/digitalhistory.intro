@@ -15,7 +15,7 @@ You might miss some contents -- that is unavoidable, but comments are always wel
 As source we are using a correspondence that has been compiled as part of the digital edition “Der Sturm” at the Akademie der Wissenschaften in Mainz.^[DER STURM. Digitale Quellenedition zur Geschichte der internationalen Avantgarde, erarbeitet und herausgegeben von Marjam Trautmann und Torsten Schrade. Mainz, Akademie der Wissenschaften und der Literatur, 2018. Online: <https://sturm-edition.de/>, licence: [CC-BY-4.0](https://creativecommons.org/licenses/by/4.0/).] The project which edits letters from individuals belonging to the international Avantgarde surrounding the Journal “Der Sturm”, had different users in view and offers the data in different formats: 
 
 On the Website of the project those [letters already edited](https://sturm-edition.de/quellen/briefe.html) can be read, and there is an index of the named entities in the text, such as  [persons](https://sturm-edition.de/register/personen.html), [places](https://sturm-edition.de/register/orte.html) and [works](https://sturm-edition.de/register/werke.html);
-in addition to that there is the possibility of downloading the sources or index data via an[API](https://sturm-edition.de/ressourcen/schnittstellen.html).
+in addition to that there is the possibility of downloading the sources or index data via an [API](https://sturm-edition.de/ressourcen/schnittstellen.html).
 This means we can approach the letters via the front door, the website, or the back door, the command line, and compare the two approaches. 
 Basic concepts for working with data, the necessary steps to get from a source to a data set, will be touched on.
 
