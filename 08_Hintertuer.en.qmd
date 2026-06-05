@@ -15,10 +15,10 @@ You open the Terminal (Linux or Mac; open the Finder and enter “terminal” in
 
 
 ``` bash
-(base) serina00@dg-19-mac-02 ~ % cd Documents/Briefe
+(base) serina00@dg-19-mac-02 ~ % cd Documents/letters
 ```
 ``` bash
-(base) serina00@dg-19-mac-02 Bilder % rm Brief1.txt
+(base) serina00@dg-19-mac-02 letters % rm letter1.txt
 ```
 
 ::: {#movie}
@@ -38,7 +38,7 @@ Before we take a look at the second and for us most helpful difference, a brief 
 
 ## Shell 101
 
-In a terminal/shell (see footnote for differentiation) commands or programmes can be executed that occur on the *structural* level -- for instance deleting a file,  `rm Dateiname.xyz` (`rm` for *remove*), or creating a folder, `mkdir NewFolder` (`mkdir` for *make directory*). Equally possible are operations on a *content* level -- such as searching for a certain term in a text file, `grep 'term' textfile.txt` (Mac/Linux) or `Select-String -Path textfile.txt -Pattern 'term'` (Windows), or counting terms and saving the results in a new file, `grep -Ec '(term1|term2)' textfile.txt | wc -l > results.txt` (Mac/Linux) or `(Select-String -Path textfile.txt -Pattern '(term1|term2)'.Matches.Count > results.txt` (Windows) -- the commands will explained more fully below.
+In a terminal/shell (see footnote for differentiation) commands or programmes can be executed that occur on the *structural* level -- for instance deleting a file,  `rm filename.xyz` (`rm` for *remove*), or creating a folder, `mkdir NewFolder` (`mkdir` for *make directory*). Equally possible are operations on a *content* level -- such as searching for a certain term in a text file, `grep 'term' textfile.txt` (Mac/Linux) or `Select-String -Path textfile.txt -Pattern 'term'` (Windows), or counting terms and saving the results in a new file, `grep -Ec '(term1|term2)' textfile.txt | wc -l > results.txt` (Mac/Linux) or `(Select-String -Path textfile.txt -Pattern '(term1|term2)'.Matches.Count > results.txt` (Windows) -- the commands will explained more fully below.
 
 But how does your Shell know what it is supposed to do when you type `rm` or `grep`/`String-Select`? 
 There are all sorts of Shell programmes that are already installed on your system and with which you can do a lot. 
@@ -69,8 +69,8 @@ Check the spelling of the name, or if a path was included, verify that the path 
 The current date is probably also shown in your toolbar, and you can create a new folder with a right click -- you don’t really need the Terminal for that. 
 To find a term in a text file you can open the document, press `Ctrl-F`, type in the term and see the result. 
 If you want to search for more terms, you need to repeat the same action with `Ctrl-F`, term2. 
-And if you want to search more than one file, perhaps to find out how often the salutation “Mit herzlichem Gruss” appears in a letter collection, you have to repeat the search in every file. 
-If you then need to look for the variant “Mit herzlichen Grüssen” or even “Herzl. Gruss”, your work will be multiplied.
+And if you want to search more than one file, perhaps to find out how often the salutation “Mit herzlichem Gruß” appears in a letter collection, you have to repeat the search in every file. 
+If you then need to look for the variant “Mit herzlichen Grüßen” or even “Herzl. Gruß”, your work will be multiplied.
 
 You can also do the same in the Terminal and use some of the built-in programmes to save yourself time and work.
 
@@ -334,7 +334,7 @@ grep -E -zo '<closer>[[:cntrl:]].*<salute>.*[[:cntrl:]].*<'  *.xml > salutations
 
 But this is the moment, at the latest, to change your tools. 
 You can do all sorts of things with the Terminal/Shell and there are any number of programmes you can install in addition -- to parse XML files, to work on image files or to download Youtube videos. 
-But it starts getting less and less neat and for the analysis of structural and textual data you can use programming languages like R or Python (as mentioned in  [@sec-digitaletoolsen] which are more practical.
+But it starts getting less and less neat and for the analysis of structural and textual data you can use programming languages like R or Python (as mentioned in  [@sec-digitaletools] which are more practical.
 
 
 To continue working with the full text of the letters, be it for close reading or quantitative text analysis, you could, for example, strip the XML tags to achieve a better reading experience and to facilitate further analysis.
