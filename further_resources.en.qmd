@@ -11,27 +11,27 @@ editor: visual
 
 - Brennan, Sheila A.: Digital History, in: The Inclusive Historian's Handbook, <https://inclusivehistorian.com/digital-history/>, 04.06.2019.
 
-- Hohls, Rüdiger: Digital Humanities und digitale Geschichtswissenschaften, in: Busse, Laura u. a. (Hg.): Clio-Guide. Ein Handbuch zu digitalen Ressourcen für die Geschichtswissenschaften, Berlin 2018, pp. A.1-1--B.1-34. Online: <https://doi.org/10.18452/19244>.
+- Hohls, Rüdiger: Digital Humanities und digitale Geschichtswissenschaften, in: Busse, Laura et al. (ed.): Clio-Guide. Ein Handbuch zu digitalen Ressourcen für die Geschichtswissenschaften, Berlin 2018, pp. A.1-1--B.1-34. Online: <https://doi.org/10.18452/19244>.
 
-- Romein, C. Annemieke u. a.: State of the Field: Digital History, in: History 105 (365), 04.2020, pp. 291---312. Online: <https://doi.org/10.1111/1468-229X.12969>.
+- Romein, C. Annemieke et al.: State of the Field: Digital History, in: History 105 (365), 04.2020, pp. 291---312. Online: <https://doi.org/10.1111/1468-229X.12969>.
 
 - Winters, Jane: Digital History, in: Tamm, Marek; Burke, Peter (Hg.): Debating New Approaches to History, London 2019, pp. 277--300.
 
-- Art. "Digital history", in: Wikipedia, 07.09.2022. Online: <https://en.wikipedia.org/w/index.php?title=Digital_history&oldid=1220662831>, Stand: 25.04.2024.
+- Art. "Digital history", in: Wikipedia, 07.09.2022. Online: <https://en.wikipedia.org/w/index.php?title=Digital_history&oldid=1220662831>, last updated: 25.04.2024.
 
 ## Introductions and Guides
 
-- Battershill, Claire; Ross, Shawna: Using Digital Humanities in the Classroom. A Practical Introduction for Teachers, Lecturers, and Students, London u.a. 2022.
+- Battershill, Claire; Ross, Shawna: Using Digital Humanities in the Classroom. A Practical Introduction for Teachers, Lecturers, and Students, London et al. 2022.
 
-- Blaney, Jonathan u. a.: Doing Digital History. A Beginner's Guide to Working with Text as Data, Manchester 2021.
+- Blaney, Jonathan et al..: Doing Digital History. A Beginner's Guide to Working with Text as Data, Manchester 2021.
 
 - Cohen, Daniel J.; Rosenzweig, Roy: Digital History. A Guide to Gathering, Preserving, and Presenting the Past on the Web, Philadelphia 2006. Online: <https://chnm.gmu.edu/digitalhistory/>.
 
-- Döring, Karoline u. a. (Hg.): Digital History. Konzepte, Methoden und Kritiken Digitaler Geschichtswissenschaft, Boston 2022, Online: <https://doi.org/10.1515/9783110757101>.
+- Döring, Karoline et al. (ed.): Digital History. Konzepte, Methoden und Kritiken Digitaler Geschichtswissenschaft, Boston 2022, Online: <https://doi.org/10.1515/9783110757101>.
 
 - Dougherty, Jack; Nawrotzki, Kristen (Hg.): Writing History in the Digital Age, 2013. Online: <https://doi.org/10.3998/dh.12230987.0001.001>.
 
-- Graham, Shawn u. a.: Exploring Big Historical Data. The Historian's Macroscope, 2022. Online: <https://doi.org/10.1142/12435>.
+- Graham, Shawn et al.: Exploring Big Historical Data. The Historian's Macroscope, 2022. Online: <https://doi.org/10.1142/12435>.
 
 - Lemercier, Claire; Zalc, Claire: Quantitative Methods in the Humanities. An Introduction, Charlottesville 2019.
 
@@ -116,7 +116,7 @@ editor: visual
 ## Programming Languages & Editors
 
 - Python:
-  - Althage, Melanie u. a.: Python für Historiker:innen. Ein anwendungsorientierter und interaktiver Einstieg, 20.07.2022, [Jupyter Book, (v1.0)](https://digital-history-berlin.github.io/Python-fuer-Historiker-innen/home.html)
+  - Althage, Melanie et al.: Python für Historiker:innen. Ein anwendungsorientierter und interaktiver Einstieg, 20.07.2022, [Jupyter Book, (v1.0)](https://digital-history-berlin.github.io/Python-fuer-Historiker-innen/home.html)
   - Karsdorp, Folgert: [Python Programming for the Humanities. Interactive Tutorial and Introduction to Programming with Python for the Humanities.](http://www.karsdorp.io/python-course/)
   - Mattingly, William : [PythonHumanities.com. A Free Course for the Digital Humanities.](https://pythonhumanities.com/)
   - Editor e.g. [PyCharm](https://www.jetbrains.com/pycharm/)
