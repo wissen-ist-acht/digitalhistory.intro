@@ -16,7 +16,7 @@ Es gibt zwei Arten, um mit einem Computer zu interagieren bzw. ihn zu nutzen: ü
 (base) serina00@dg-19-mac-02 ~ % cd Documents/Briefe
 ```
 ``` bash
-(base) serina00@dg-19-mac-02 Bilder % rm Brief1.txt
+(base) serina00@dg-19-mac-02 Briefe % rm Brief1.txt
 ```
 
 ::: {#movie}
