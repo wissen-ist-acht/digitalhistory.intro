@@ -24,7 +24,7 @@ For example, sources that the author has used as templates for certain passages 
 Named entities such as persons, places, works etc. are explained and commented on.
 The text itself is reproduced as close to the original as possible, orthographical or grammatical mistakes are not corrected, and usually extratextual elements such as crossed-out or underlined text is marked in some way.
 
-![Letter no 8 from Franz Marc to Herwarth Walden.^[Online unter [https://sturm-edition.de/quellen/briefe/fma/Q.01.19140414.FMA.01.html](https://sturm-edition.de/quellen/briefe/fma/Q.01.19140414.FMA.01.html)] Red text contains a link, usually to entities such as persons or places.](images/letter_8_Franz_Marc.png){fig-align="left"}
+![Letter no 8 from Franz Marc to Herwarth Walden.^[Online unter [https://sturm-edition.de/quellen/briefe/fma/Q.01.19140414.FMA.01.html](https://sturm-edition.de/quellen/briefe/fma/Q.01.19140414.FMA.01.html)] Red text contains a link, usually to entities such as persons or places.](images/letter_8_Franz_Marc.en.png){fig-align="left"}
 
 
 The precise way in which the editors proceeded -- this is different from edition to edition -- is laid out in the editorial principles. 
